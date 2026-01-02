@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-12-25T12:58:53.178415",
+  "error_classification": {
+    "accuracy": 83.54234169366774,
+    "multi_accuracy": 87.09,
+    "incorrect_count": 16457
+  },
+  "hardware_recommendation": {
+    "accuracy": 38.1,
+    "incorrect_count": 6190
+  }
+}

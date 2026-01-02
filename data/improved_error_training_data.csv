@@ -1,0 +1,897 @@
+user_text,error_type,component_label,source,text
+android phone not connecting to computer,Phone Connection Issue,,,android phone not connecting to computer
+can not connect phone to pc,Phone Connection Issue,,,can not connect phone to pc
+device not connecting to pc,Phone Connection Issue,,,device not connecting to pc
+iphone not connecting to pc,Phone Connection Issue,,,iphone not connecting to pc
+mobile phone not connecting to pc,Phone Connection Issue,,,mobile phone not connecting to pc
+phone doesn't connect to pc,Phone Connection Issue,,,phone doesn't connect to pc
+phone is not connecting to to the pc,Phone Connection Issue,,,phone is not connecting to to the pc
+phone not connecting to computer,Phone Connection Issue,,,phone not connecting to computer
+phone not connecting to pc,Phone Connection Issue,,,phone not connecting to pc
+phone not detected by computer,Phone Connection Issue,,,phone not detected by computer
+phone not recognized by pc,Phone Connection Issue,,,phone not recognized by pc
+phone not showing on computer,Phone Connection Issue,,,phone not showing on computer
+phone won't connect to pc,Phone Connection Issue,,,phone won't connect to pc
+Applications stop responding,RAM Upgrade,,,applications stop responding
+Apps freeze when switching desktops.,RAM Upgrade,,,apps freeze when switching desktops.
+Blue screen when RAM reaches max usage,RAM Upgrade,,,blue screen when ram reaches max usage
+Boot failure due to faulty RAM,RAM Upgrade,,,boot failure due to faulty ram
+browser tabs closing automatically,RAM Upgrade,,,browser tabs closing automatically
+Computer hang when multitask,RAM Upgrade,RAM Upgrade,real_world,computer hang when multitask
+Computer not boot after RAM change,RAM Upgrade,RAM Upgrade,real_world,computer not boot after ram change
+Excel or Photoshop crashes,RAM Upgrade,,,excel or photoshop crashes
+Games crash randomly,RAM Upgrade,,,games crash randomly
+Heavy lag when switching apps,RAM Upgrade,,,heavy lag when switching apps
+Laptop blink screen no start,RAM Upgrade,RAM Upgrade,real_world_solutions,laptop blink screen no start
+Laptop boot fail RAM,RAM Upgrade,RAM Upgrade,real_world,laptop boot fail ram
+Laptop crash RAM issue,RAM Upgrade,RAM Upgrade,real_world,laptop crash ram issue
+Laptop freeze multitask,RAM Upgrade,RAM Upgrade,real_world,laptop freeze multitask
+Laptop lag RAM,RAM Upgrade,RAM Upgrade,real_world,laptop lag ram
+Laptop RAM heating,RAM Upgrade,RAM Upgrade,real_world,laptop ram heating
+Laptop RAM not detected,RAM Upgrade,,,laptop ram not detected
+Laptop RAM not showing,RAM Upgrade,RAM Upgrade,real_world,laptop ram not showing
+Laptop RAM upgrade fail,RAM Upgrade,RAM Upgrade,real_world,laptop ram upgrade fail
+Laptop restart RAM,RAM Upgrade,RAM Upgrade,real_world,laptop restart ram
+Laptop slow browsing,RAM Upgrade,RAM Upgrade,real_world,laptop slow browsing
+Laptop slow multitask,RAM Upgrade,RAM Upgrade,real_world_solutions,laptop slow multitask
+Memory corrupted,RAM Upgrade,RAM Upgrade,real_world,memory corrupted
+Memory error message,RAM Upgrade,RAM Upgrade,real_world,memory error message
+Memory error popup,RAM Upgrade,RAM Upgrade,real_world,memory error popup
+Memory issue windows,RAM Upgrade,RAM Upgrade,real_world,memory issue windows
+Memory leak in background processes,RAM Upgrade,,,memory leak in background processes
+Memory slot not working,RAM Upgrade,RAM Upgrade,real_world,memory slot not working
+Memory usage high,RAM Upgrade,RAM Upgrade,real_world,memory usage high
+Memory usage reaches 90% on idle,RAM Upgrade,,,memory usage reaches 90% on idle
+Multiple apps freeze when I try to multitask.,RAM Upgrade,,,multiple apps freeze when i try to multitask.
+My PC freezes when I open multiple Chrome tabs.,RAM Upgrade,,,my pc freezes when i open multiple chrome tabs.
+need more ram for chrome tabs and multitasking,RAM Upgrade,,,need more ram for chrome tabs and multitasking
+Only half RAM usable,RAM Upgrade,,,only half ram usable
+PC beep continuous,RAM Upgrade,RAM Upgrade,real_world,pc beep continuous
+PC beep sound,RAM Upgrade,RAM Upgrade,real_world,pc beep sound
+PC boot fail RAM,RAM Upgrade,RAM Upgrade,real_world,pc boot fail ram
+PC boot fail random,RAM Upgrade,RAM Upgrade,real_world_solutions,pc boot fail random
+PC cannot detect RAM sticks after cleaning.,RAM Upgrade,,,pc cannot detect ram sticks after cleaning.
+PC crash gaming RAM,RAM Upgrade,RAM Upgrade,real_world,pc crash gaming ram
+PC crashes with memory management BSOD,RAM Upgrade,,,pc crashes with memory management bsod
+PC freeze after some time,RAM Upgrade,RAM Upgrade,real_world,pc freeze after some time
+PC freeze heavy apps,RAM Upgrade,RAM Upgrade,real_world,pc freeze heavy apps
+PC freeze multitask,RAM Upgrade,RAM Upgrade,real_world_solutions,pc freeze multitask
+PC freeze open browser,RAM Upgrade,RAM Upgrade,real_world,pc freeze open browser
+PC hang after boot,RAM Upgrade,RAM Upgrade,real_world,pc hang after boot
+PC hang after install RAM,RAM Upgrade,RAM Upgrade,real_world,pc hang after install ram
+PC hang multitask,RAM Upgrade,RAM Upgrade,real_world_solutions,pc hang multitask
+PC hang open software,RAM Upgrade,RAM Upgrade,real_world,pc hang open software
+PC lag background apps,RAM Upgrade,RAM Upgrade,real_world,pc lag background apps
+PC lag memory,RAM Upgrade,RAM Upgrade,real_world,pc lag memory
+PC lag memory leak,RAM Upgrade,RAM Upgrade,real_world,pc lag memory leak
+PC lag multitask,RAM Upgrade,RAM Upgrade,real_world_solutions,pc lag multitask
+PC memory spike,RAM Upgrade,RAM Upgrade,real_world,pc memory spike
+PC no boot after RAM,RAM Upgrade,RAM Upgrade,real_world_solutions,pc no boot after ram
+PC no boot beep,RAM Upgrade,RAM Upgrade,real_world_solutions,pc no boot beep
+PC no display RAM,RAM Upgrade,RAM Upgrade,real_world,pc no display ram
+PC not start RAM,RAM Upgrade,RAM Upgrade,real_world,pc not start ram
+PC restart after RAM touch,RAM Upgrade,RAM Upgrade,real_world,pc restart after ram touch
+PC restart again and again,RAM Upgrade,RAM Upgrade,real_world_solutions,pc restart again and again
+PC restart randomly,RAM Upgrade,RAM Upgrade,real_world,pc restart randomly
+PC restart under load,RAM Upgrade,RAM Upgrade,real_world,pc restart under load
+PC restart when open apps,RAM Upgrade,RAM Upgrade,real_world,pc restart when open apps
+PC restarts when using too many apps,RAM Upgrade,,,pc restarts when using too many apps
+PC slow after adding RAM,RAM Upgrade,RAM Upgrade,real_world,pc slow after adding ram
+PC slow after sleep,RAM Upgrade,RAM Upgrade,real_world,pc slow after sleep
+PC slow memory issue,RAM Upgrade,RAM Upgrade,real_world,pc slow memory issue
+PC stuck after RAM upgrade,RAM Upgrade,RAM Upgrade,real_world,pc stuck after ram upgrade
+PC stutter memory,RAM Upgrade,RAM Upgrade,real_world,pc stutter memory
+RAM conflict problem,RAM Upgrade,RAM Upgrade,real_world,ram conflict problem
+RAM error blue screen,RAM Upgrade,RAM Upgrade,comprehensive_test,ram error blue screen
+RAM error on startup,RAM Upgrade,RAM Upgrade,real_world,ram error on startup
+RAM fail boot,RAM Upgrade,RAM Upgrade,real_world,ram fail boot
+RAM issue maybe,RAM Upgrade,RAM Upgrade,real_world,ram issue maybe
+RAM loose problem,RAM Upgrade,RAM Upgrade,real_world,ram loose problem
+RAM mismatch problem,RAM Upgrade,RAM Upgrade,real_world,ram mismatch problem
+RAM not compatible,RAM Upgrade,RAM Upgrade,real_world,ram not compatible
+RAM not detected,RAM Upgrade,RAM Upgrade,real_world,ram not detected
+RAM overuse problem,RAM Upgrade,RAM Upgrade,real_world,ram overuse problem
+RAM problem after clean,RAM Upgrade,RAM Upgrade,real_world,ram problem after clean
+RAM slot dead,RAM Upgrade,RAM Upgrade,real_world,ram slot dead
+RAM slot not working,RAM Upgrade,,,ram slot not working
+RAM slot problem,RAM Upgrade,RAM Upgrade,real_world,ram slot problem
+RAM speed issue,RAM Upgrade,RAM Upgrade,real_world,ram speed issue
+Random reboots with no error,RAM Upgrade,,,random reboots with no error
+System beeps indicating memory error,RAM Upgrade,,,system beeps indicating memory error
+System crash heavy use,RAM Upgrade,RAM Upgrade,real_world,system crash heavy use
+System crash when multitask,RAM Upgrade,RAM Upgrade,real_world,system crash when multitask
+System memory low,RAM Upgrade,RAM Upgrade,real_world,system memory low
+System not stable RAM,RAM Upgrade,RAM Upgrade,real_world,system not stable ram
+System unstable RAM,RAM Upgrade,RAM Upgrade,real_world,system unstable ram
+Virtual memory warning,RAM Upgrade,,,virtual memory warning
+Apps open very slowly on startup.,SSD Upgrade,,,apps open very slowly on startup.
+Clicking noise is coming from inside the computer.,SSD Upgrade,,,clicking noise is coming from inside the computer.
+Clicking on apps takes too long to respond.,SSD Upgrade,,,clicking on apps takes too long to respond.
+Computer cannot detect secondary hard drive.,SSD Upgrade,,,computer cannot detect secondary hard drive.
+Computer takes too long to start Windows.,SSD Upgrade,,,computer takes too long to start windows.
+Disk bad sector,SSD Upgrade,SSD Upgrade,real_world,disk bad sector
+Disk drive missing,SSD Upgrade,SSD Upgrade,real_world,disk drive missing
+Disk error blue screen,SSD Upgrade,SSD Upgrade,real_world,disk error blue screen
+Disk error message,SSD Upgrade,SSD Upgrade,real_world,disk error message
+Disk error startup,SSD Upgrade,SSD Upgrade,real_world,disk error startup
+Disk full always,SSD Upgrade,SSD Upgrade,real_world,disk full always
+Disk not accessible,SSD Upgrade,SSD Upgrade,real_world,disk not accessible
+Disk not formatted,SSD Upgrade,SSD Upgrade,real_world,disk not formatted
+Disk not mounting,SSD Upgrade,SSD Upgrade,real_world,disk not mounting
+Disk partition missing,SSD Upgrade,SSD Upgrade,real_world,disk partition missing
+Disk read error,SSD Upgrade,SSD Upgrade,real_world,disk read error
+Disk repair loop,SSD Upgrade,SSD Upgrade,real_world,disk repair loop
+Disk usage 100%,SSD Upgrade,SSD Upgrade,real_world,disk usage 100%
+Disk usage stays at 100%,SSD Upgrade,,,disk usage stays at 100%
+File transfer freezes randomly,SSD Upgrade,,,file transfer freezes randomly
+File transfers are extremely slow.,SSD Upgrade,,,file transfers are extremely slow.
+Files take too long to copy,SSD Upgrade,,,files take too long to copy
+Game installed on HDD loads very slowly,SSD Upgrade,,,game installed on hdd loads very slowly
+Games take forever to load.,SSD Upgrade,,,games take forever to load.
+Hard disk error,SSD Upgrade,SSD Upgrade,real_world,hard disk error
+Hard disk noise,SSD Upgrade,SSD Upgrade,real_world,hard disk noise
+Hard drive fail maybe,SSD Upgrade,SSD Upgrade,real_world,hard drive fail maybe
+HDD click sound,SSD Upgrade,SSD Upgrade,real_world,hdd click sound
+HDD extremely noisy,SSD Upgrade,,,hdd extremely noisy
+HDD making sound,SSD Upgrade,SSD Upgrade,real_world,hdd making sound
+HDD very slow,SSD Upgrade,SSD Upgrade,real_world,hdd very slow
+Laptop disk overheating,SSD Upgrade,SSD Upgrade,real_world,laptop disk overheating
+Laptop disk slow,SSD Upgrade,SSD Upgrade,real_world,laptop disk slow
+Laptop freeze disk,SSD Upgrade,SSD Upgrade,real_world,laptop freeze disk
+Laptop lag boot,SSD Upgrade,SSD Upgrade,real_world_solutions,laptop lag boot
+Laptop not boot SSD,SSD Upgrade,SSD Upgrade,real_world,laptop not boot ssd
+Laptop slow boot,SSD Upgrade,SSD Upgrade,real_world_solutions,laptop slow boot
+Not enough storage to install apps,SSD Upgrade,,,not enough storage to install apps
+Partition missing after restart,SSD Upgrade,,,partition missing after restart
+PC crash disk use,SSD Upgrade,SSD Upgrade,real_world,pc crash disk use
+PC crash file move,SSD Upgrade,SSD Upgrade,real_world,pc crash file move
+PC delay click,SSD Upgrade,SSD Upgrade,real_world_solutions,pc delay click
+PC disk corrupted,SSD Upgrade,SSD Upgrade,real_world,pc disk corrupted
+PC disk fail,SSD Upgrade,SSD Upgrade,real_world,pc disk fail
+PC freeze boot,SSD Upgrade,SSD Upgrade,real_world_solutions,pc freeze boot
+PC freeze disk access,SSD Upgrade,SSD Upgrade,real_world,pc freeze disk access
+PC freeze disk scan,SSD Upgrade,SSD Upgrade,real_world,pc freeze disk scan
+PC freeze file copy,SSD Upgrade,SSD Upgrade,real_world,pc freeze file copy
+PC freeze while install,SSD Upgrade,SSD Upgrade,real_world,pc freeze while install
+PC freezes when accessing folders,SSD Upgrade,,,pc freezes when accessing folders
+PC freezes when downloading games.,SSD Upgrade,,,pc freezes when downloading games.
+PC hang file open,SSD Upgrade,SSD Upgrade,real_world,pc hang file open
+PC lag on boot,SSD Upgrade,SSD Upgrade,real_world_solutions,pc lag on boot
+PC lag opening folders,SSD Upgrade,SSD Upgrade,real_world,pc lag opening folders
+PC lag when start,SSD Upgrade,SSD Upgrade,real_world,pc lag when start
+PC not boot after SSD,SSD Upgrade,SSD Upgrade,real_world,pc not boot after ssd
+PC restart disk error,SSD Upgrade,SSD Upgrade,real_world,pc restart disk error
+PC slow boot,SSD Upgrade,SSD Upgrade,real_world,pc slow boot
+PC slow boot disk,SSD Upgrade,SSD Upgrade,real_world,pc slow boot disk
+PC slow boot HDD,SSD Upgrade,SSD Upgrade,real_world_solutions,pc slow boot hdd
+PC slow copy paste,SSD Upgrade,SSD Upgrade,real_world,pc slow copy paste
+PC slow disk usage,SSD Upgrade,SSD Upgrade,real_world,pc slow disk usage
+PC slow loading programs,SSD Upgrade,SSD Upgrade,real_world,pc slow loading programs
+PC slow with HDD,SSD Upgrade,SSD Upgrade,real_world,pc slow with hdd
+PC stuck disk check,SSD Upgrade,SSD Upgrade,real_world,pc stuck disk check
+PC stuck loading windows,SSD Upgrade,SSD Upgrade,real_world,pc stuck loading windows
+Random file corruption issues,SSD Upgrade,,,random file corruption issues
+SSD boot fail,SSD Upgrade,SSD Upgrade,real_world,ssd boot fail
+SSD not boot,SSD Upgrade,SSD Upgrade,real_world,ssd not boot
+SSD not detected,SSD Upgrade,SSD Upgrade,real_world,ssd not detected
+SSD not recognized,SSD Upgrade,SSD Upgrade,real_world,ssd not recognized
+SSD read/write speeds are very slow.,SSD Upgrade,,,ssd read/write speeds are very slow.
+SSD slow issue,SSD Upgrade,SSD Upgrade,real_world,ssd slow issue
+Storage corrupted,SSD Upgrade,SSD Upgrade,real_world,storage corrupted
+Storage disappear suddenly,SSD Upgrade,SSD Upgrade,real_world,storage disappear suddenly
+Storage error windows,SSD Upgrade,SSD Upgrade,real_world,storage error windows
+Storage fail message,SSD Upgrade,SSD Upgrade,real_world,storage fail message
+Storage failure,SSD Upgrade,SSD Upgrade,real_world,storage failure
+Storage lag issue,SSD Upgrade,SSD Upgrade,real_world,storage lag issue
+Storage not readable,SSD Upgrade,SSD Upgrade,real_world,storage not readable
+Storage not recognized after BIOS update,SSD Upgrade,,,storage not recognized after bios update
+Storage not showing,SSD Upgrade,SSD Upgrade,real_world,storage not showing
+System freezes on Windows logo,SSD Upgrade,,,system freezes on windows logo
+System takes too long to open File Explorer.,SSD Upgrade,,,system takes too long to open file explorer.
+The computer cannot detect the SSD sometimes.,SSD Upgrade,,,the computer cannot detect the ssd sometimes.
+The computer lags heavily after Windows update.,SSD Upgrade,,,the computer lags heavily after windows update.
+The SSD disappears from BIOS sometimes.,SSD Upgrade,,,the ssd disappears from bios sometimes.
+The system hangs when copying large files.,SSD Upgrade,,,the system hangs when copying large files.
+want to upgrade to 1tb ssd,SSD Upgrade,,,want to upgrade to 1tb ssd
+Windows disk error,SSD Upgrade,SSD Upgrade,real_world,windows disk error
+Windows disk problem,SSD Upgrade,SSD Upgrade,real_world,windows disk problem
+Windows storage error,SSD Upgrade,SSD Upgrade,real_world,windows storage error
+Windows stuck loading disk,SSD Upgrade,SSD Upgrade,real_world,windows stuck loading disk
+windows takes 5 minutes to start,SSD Upgrade,,,windows takes 5 minutes to start
+Windows update fails due to low disk,SSD Upgrade,,,windows update fails due to low disk
+Audio keeps crackling during calls.,General Repair,,,audio keeps crackling during calls.
+Backlight bleed visible at corners,General Repair,,,backlight bleed visible at corners
+BIOS not detecting new CPU,General Repair,,,bios not detecting new cpu
+Bluetooth doesn't work,General Repair,,,bluetooth doesn't work
+Bluetooth headphones keep disconnecting.,General Repair,,,bluetooth headphones keep disconnecting.
+Bluetooth no working,General Repair,,,bluetooth no working
+Bluetooth not connecting,General Repair,,,bluetooth not connecting
+Bluetooth not working,General Repair,,,bluetooth not working
+Bluetooth won't connect,General Repair,,,bluetooth won't connect
+Can't connect to 5GHz network,General Repair,,,can't connect to 5ghz network
+CPU fails stress test,General Repair,,,cpu fails stress test
+Dead pixels appearing,General Repair,,,dead pixels appearing
+Display showing artifacts,General Repair,,,display showing artifacts
+Display turns black during use,General Repair,,,display turns black during use
+Dual monitor not detected,General Repair,,,dual monitor not detected
+Error code show,General Repair,General Repair,real_world,error code show
+Error message pop,General Repair,General Repair,real_world,error message pop
+Ethernet not detecting cable,General Repair,,,ethernet not detecting cable
+Flickering only during games,General Repair,,,flickering only during games
+Ghosting while scrolling,General Repair,,,ghosting while scrolling
+Heavy stuttering when CPU boosts,General Repair,,,heavy stuttering when cpu boosts
+High ping despite fast internet,General Repair,,,high ping despite fast internet
+High ping in online games,General Repair,,,high ping in online games
+Hotspot not working,General Repair,,,hotspot not working
+Keyboard keys respond with delay.,General Repair,,,keyboard keys respond with delay.
+Keyboard RGB lights stop working.,General Repair,,,keyboard rgb lights stop working.
+Keyboard stops working after waking from sleep.,General Repair,,,keyboard stops working after waking from sleep.
+Laptop battery drains very quickly.,General Repair,,,laptop battery drains very quickly.
+Laptop CPU underclocked permanently,General Repair,,,laptop cpu underclocked permanently
+Laptop doesn't charge unless I hold the charger tightly.,General Repair,,,laptop doesn't charge unless i hold the charger tightly.
+Laptop hinge is very tight and makes noise.,General Repair,,,laptop hinge is very tight and makes noise.
+Laptop keyboard types on its own sometimes.,General Repair,,,laptop keyboard types on its own sometimes.
+Laptop makes popping noise from speakers.,General Repair,,,laptop makes popping noise from speakers.
+Laptop not start after sleep,General Repair,General Repair,real_world_solutions,laptop not start after sleep
+Laptop shuts down at 50% battery.,General Repair,,,laptop shuts down at 50% battery.
+Laptop system crash,General Repair,General Repair,real_world,laptop system crash
+Laptop system fail,General Repair,General Repair,real_world,laptop system fail
+Laptop system issue,General Repair,General Repair,real_world,laptop system issue
+Laptop touchpad is unresponsive sometimes.,General Repair,,,laptop touchpad is unresponsive sometimes.
+Limited connectivity error,General Repair,,,limited connectivity error
+Lines appearing on the display,General Repair,,,lines appearing on the display
+Monitor loses signal during gaming,General Repair,,,monitor loses signal during gaming
+Monitor stuck at 60hz,General Repair,,,monitor stuck at 60hz
+Monitor turns off by itself,General Repair,,,monitor turns off by itself
+My PC not working properly,General Repair,General Repair,real_world,my pc not working properly
+Network drops during video call,General Repair,,,network drops during video call
+PC always crash,General Repair,General Repair,real_world,pc always crash
+PC always error,General Repair,General Repair,real_world,pc always error
+PC broken software,General Repair,General Repair,real_world,pc broken software
+PC cannot encode videos smoothly,General Repair,,,pc cannot encode videos smoothly
+PC crash error,General Repair,General Repair,real_world,pc crash error
+PC error detected,General Repair,General Repair,real_world,pc error detected
+PC error popup,General Repair,General Repair,real_world,pc error popup
+PC fail POST,General Repair,General Repair,real_world_solutions,pc fail post
+PC fail system,General Repair,General Repair,real_world,pc fail system
+PC failure detected,General Repair,General Repair,real_world,pc failure detected
+PC fault detected,General Repair,General Repair,real_world,pc fault detected
+PC issue always,General Repair,General Repair,real_world,pc issue always
+PC issue startup,General Repair,General Repair,comprehensive_test,pc issue startup
+PC malfunction,General Repair,General Repair,real_world,pc malfunction
+PC need fixing,General Repair,General Repair,real_world,pc need fixing
+PC no response,General Repair,General Repair,real_world_solutions,pc no response
+PC not normal,General Repair,General Repair,real_world,pc not normal
+PC not start after clean,General Repair,General Repair,real_world_solutions,pc not start after clean
+PC not working,General Repair,General Repair,real_world,pc not working
+PC problem detected,General Repair,General Repair,real_world,pc problem detected
+PC problem startup,General Repair,General Repair,comprehensive_test,pc problem startup
+PC problem sudden,General Repair,General Repair,real_world,pc problem sudden
+PC restart after update,General Repair,General Repair,real_world_solutions,pc restart after update
+PC restart pressing power,General Repair,General Repair,real_world_solutions,pc restart pressing power
+PC system failure,General Repair,General Repair,real_world,pc system failure
+PC unknown error,General Repair,General Repair,real_world,pc unknown error
+Random internet dropouts,General Repair,,,random internet dropouts
+Router works but PC won't connect,General Repair,,,router works but pc won't connect
+Screen goes dim on battery,General Repair,,,screen goes dim on battery
+Something wrong PC,General Repair,General Repair,real_world,something wrong pc
+System broken maybe,General Repair,General Repair,real_world,system broken maybe
+System error always,General Repair,General Repair,real_world,system error always
+System error detected,General Repair,General Repair,real_world,system error detected
+System error message,General Repair,General Repair,real_world,system error message
+System error occur,General Repair,General Repair,real_world,system error occur
+System fault message,General Repair,General Repair,real_world,system fault message
+System issue message,General Repair,General Repair,real_world,system issue message
+System unstable after overclock,General Repair,,,system unstable after overclock
+The audio works but microphone does not.,General Repair,,,the audio works but microphone does not.
+The computer cannot connect to any Bluetooth device.,General Repair,,,the computer cannot connect to any bluetooth device.
+The PC won't connect to Bluetooth devices.,General Repair,,,the pc won't connect to bluetooth devices.
+Websites take too long to load,General Repair,,,websites take too long to load
+Wi-Fi adapter missing from device manager,General Repair,,,wi-fi adapter missing from device manager
+Wi-Fi not showing any networks,General Repair,,,wi-fi not showing any networks
+Windows error popup,General Repair,General Repair,real_world,windows error popup
+Windows problem detected,General Repair,General Repair,real_world,windows problem detected
+BIOS open only,PSU / Power Issue,PSU / Power Issue,comprehensive_test,bios open only
+Boot problem error,PSU / Power Issue,PSU / Power Issue,comprehensive_test,boot problem error
+Computer emits burning smell occasionally.,PSU / Power Issue,,,computer emits burning smell occasionally.
+Computer no power,PSU / Power Issue,PSU / Power Issue,real_world,computer no power
+Computer not wake up,PSU / Power Issue,PSU / Power Issue,comprehensive_test,computer not wake up
+Computer power issue,PSU / Power Issue,PSU / Power Issue,real_world,computer power issue
+Computer randomly loses power.,PSU / Power Issue,,,computer randomly loses power.
+Computer restart again again,PSU / Power Issue,PSU / Power Issue,real_world,computer restart again again
+Computer restart again and again,PSU / Power Issue,PSU / Power Issue,comprehensive_test,computer restart again and again
+Computer restart when plug charger,PSU / Power Issue,PSU / Power Issue,real_world,computer restart when plug charger
+Computer restarts when launching a game.,PSU / Power Issue,,,computer restarts when launching a game.
+Computer start randomly,PSU / Power Issue,PSU / Power Issue,real_world,computer start randomly
+Computer stuck at logo,PSU / Power Issue,PSU / Power Issue,comprehensive_test,computer stuck at logo
+Computer stuck in boot loop,PSU / Power Issue,,,computer stuck in boot loop
+Fans spin but no POST,PSU / Power Issue,,,fans spin but no post
+Laptop auto shutdown,PSU / Power Issue,PSU / Power Issue,real_world,laptop auto shutdown
+Laptop battery not charging,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop battery not charging
+Laptop battery not detect,PSU / Power Issue,PSU / Power Issue,real_world,laptop battery not detect
+Laptop charging light blink,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop charging light blink
+Laptop dead battery,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop dead battery
+Laptop dead no charging,PSU / Power Issue,PSU / Power Issue,real_world,laptop dead no charging
+Laptop hangs when unplugging charger.,PSU / Power Issue,,,laptop hangs when unplugging charger.
+Laptop no power,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop no power
+Laptop no power response,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop no power response
+Laptop not charging,PSU / Power Issue,PSU / Power Issue,real_world,laptop not charging
+Laptop not charging even when plugged in,PSU / Power Issue,,,laptop not charging even when plugged in
+Laptop not detect charger,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop not detect charger
+Laptop not power on,PSU / Power Issue,PSU / Power Issue,real_world,laptop not power on
+Laptop not start,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop not start
+Laptop not turn on,PSU / Power Issue,PSU / Power Issue,real_world_solutions,laptop not turn on
+Laptop power drain fast,PSU / Power Issue,PSU / Power Issue,real_world,laptop power drain fast
+Laptop power light blink,PSU / Power Issue,PSU / Power Issue,real_world,laptop power light blink
+Laptop restarts when moved slightly.,PSU / Power Issue,,,laptop restarts when moved slightly.
+monitor is not power on,PSU / Power Issue,,,monitor is not power on
+Monitor on but PC not,PSU / Power Issue,PSU / Power Issue,real_world,monitor on but pc not
+Motherboard LED glows but PC won't boot,PSU / Power Issue,,,motherboard led glows but pc won't boot
+My laptop doesn't boot unless I remove the battery.,PSU / Power Issue,,,my laptop doesn't boot unless i remove the battery.
+My PC not turning on,PSU / Power Issue,PSU / Power Issue,real_world,my pc not turning on
+My PC shuts down randomly when I open a game.,PSU / Power Issue,,,my pc shuts down randomly when i open a game.
+My PC smells like burning after running for a few minutes.,PSU / Power Issue,,,my pc smells like burning after running for a few minutes.
+My PC won't turn on unless I remove and reconnect the cables.,PSU / Power Issue,,,my pc won't turn on unless i remove and reconnect the cables.
+No power at all,PSU / Power Issue,PSU / Power Issue,real_world_solutions,no power at all
+PC beeps continuously and won't boot,PSU / Power Issue,,,pc beeps continuously and won't boot
+PC dead after power cut,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc dead after power cut
+PC dead after rain,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc dead after rain
+PC dead after voltage drop,PSU / Power Issue,PSU / Power Issue,real_world,pc dead after voltage drop
+PC dead suddenly,PSU / Power Issue,PSU / Power Issue,real_world,pc dead suddenly
+PC fail to start,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc fail to start
+PC keeps restarting without any warning.,PSU / Power Issue,,,pc keeps restarting without any warning.
+PC light on but screen black,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc light on but screen black
+PC no power after move,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc no power after move
+PC no power button light,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc no power button light
+PC no power LED,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc no power led
+PC no power sometimes,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc no power sometimes
+PC no signal,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc no signal
+PC not start after power cut,PSU / Power Issue,PSU / Power Issue,real_world,pc not start after power cut
+PC not start after update,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc not start after update
+PC not start cold,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc not start cold
+PC not turn off properly,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc not turn off properly
+PC not turning on,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc not turning on
+PC off when press power,PSU / Power Issue,PSU / Power Issue,real_world,pc off when press power
+PC on but keyboard dead,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc on but keyboard dead
+PC on but keyboard light off,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc on but keyboard light off
+PC power click sound,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power click sound
+PC power delay,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power delay
+PC power drain fast,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power drain fast
+PC power flicker,PSU / Power Issue,PSU / Power Issue,real_world,pc power flicker
+PC power noise,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power noise
+PC power off idle,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power off idle
+PC power on delay,PSU / Power Issue,PSU / Power Issue,real_world,pc power on delay
+PC power surge damage,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power surge damage
+PC power unstable,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc power unstable
+PC powers on only when cables are adjusted,PSU / Power Issue,,,pc powers on only when cables are adjusted
+pc randomly shuts down when I play games,PSU / Power Issue,,,pc randomly shuts down when i play games
+PC requires multiple attempts to turn on,PSU / Power Issue,,,pc requires multiple attempts to turn on
+PC restart while boot,PSU / Power Issue,PSU / Power Issue,real_world_solutions,pc restart while boot
+PC shutdown suddenly,PSU / Power Issue,PSU / Power Issue,real_world,pc shutdown suddenly
+PC shuts down after GPU reaches high usage.,PSU / Power Issue,,,pc shuts down after gpu reaches high usage.
+PC shuts down instantly under load.,PSU / Power Issue,,,pc shuts down instantly under load.
+PC shuts down when plugging in more USB devices.,PSU / Power Issue,,,pc shuts down when plugging in more usb devices.
+PC start beep sound,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc start beep sound
+PC start but freeze,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc start but freeze
+PC start but nothing works,PSU / Power Issue,PSU / Power Issue,comprehensive_test,pc start but nothing works
+PC start noise then off,PSU / Power Issue,PSU / Power Issue,real_world,pc start noise then off
+PC start only sometimes,PSU / Power Issue,PSU / Power Issue,real_world,pc start only sometimes
+PC start slow then off,PSU / Power Issue,PSU / Power Issue,real_world,pc start slow then off
+PC start then off,PSU / Power Issue,PSU / Power Issue,real_world,pc start then off
+PC turn on late,PSU / Power Issue,PSU / Power Issue,real_world,pc turn on late
+Power button not working,PSU / Power Issue,PSU / Power Issue,real_world,power button not working
+Power issue after rain,PSU / Power Issue,PSU / Power Issue,real_world,power issue after rain
+Power supply problem maybe,PSU / Power Issue,PSU / Power Issue,real_world,power supply problem maybe
+System not starting,PSU / Power Issue,PSU / Power Issue,comprehensive_test,system not starting
+The computer shuts down when I plug in my phone.,PSU / Power Issue,,,the computer shuts down when i plug in my phone.
+The pc makes a whistling noise when running.,PSU / Power Issue,,,the pc makes a whistling noise when running.
+The PC vibrates or makes buzzing sounds.,PSU / Power Issue,,,the pc vibrates or makes buzzing sounds.
+BIOS screen keeps appearing every startup,Windows Boot Failure,,,bios screen keeps appearing every startup
+Boot device not found,Windows Boot Failure,Windows Boot Failure,real_world,boot device not found
+Computer not boot after clean,Windows Boot Failure,Windows Boot Failure,real_world,computer not boot after clean
+Computer stuck booting,Windows Boot Failure,Windows Boot Failure,real_world,computer stuck booting
+Error when start,Windows Boot Failure,Windows Boot Failure,real_world,error when start
+Laptop error boot,Windows Boot Failure,Windows Boot Failure,real_world,laptop error boot
+Laptop fail boot,Windows Boot Failure,Windows Boot Failure,real_world,laptop fail boot
+Laptop not waking,Windows Boot Failure,Windows Boot Failure,real_world_solutions,laptop not waking
+Laptop startup error,Windows Boot Failure,Windows Boot Failure,real_world,laptop startup error
+My PC freezes on the login screen.,Windows Boot Failure,,,my pc freezes on the login screen.
+My PC is stuck on the manufacturer logo while booting.,Windows Boot Failure,,,my pc is stuck on the manufacturer logo while booting.
+no bootable device found,Windows Boot Failure,,,no bootable device found
+PC boot error,Windows Boot Failure,Windows Boot Failure,real_world,pc boot error
+PC boot loop,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc boot loop
+PC crash boot,Windows Boot Failure,Windows Boot Failure,real_world,pc crash boot
+PC crash on startup,Windows Boot Failure,Windows Boot Failure,real_world,pc crash on startup
+PC crash startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc crash startup
+PC does not wake from sleep mode.,Windows Boot Failure,,,pc does not wake from sleep mode.
+PC error loop,Windows Boot Failure,Windows Boot Failure,real_world,pc error loop
+PC fail start,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc fail start
+PC fail update,Windows Boot Failure,Windows Boot Failure,real_world,pc fail update
+PC freeze boot logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc freeze boot logo
+PC freeze logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc freeze logo
+PC freeze startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc freeze startup
+PC no boot after upgrade,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc no boot after upgrade
+PC no boot device,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc no boot device
+PC no startup sound,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc no startup sound
+PC not boot,Windows Boot Failure,Windows Boot Failure,real_world,pc not boot
+PC not boot after update,Windows Boot Failure,Windows Boot Failure,comprehensive_test,pc not boot after update
+PC not boot SSD,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc not boot ssd
+PC not boot USB,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc not boot usb
+PC not respond startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc not respond startup
+PC not shutdown,Windows Boot Failure,Windows Boot Failure,real_world,pc not shutdown
+PC restart loop,Windows Boot Failure,Windows Boot Failure,real_world,pc restart loop
+PC restart when login,Windows Boot Failure,Windows Boot Failure,real_world,pc restart when login
+PC slow startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc slow startup
+PC start with error,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc start with error
+PC stuck at BIOS,Windows Boot Failure,Windows Boot Failure,real_world,pc stuck at bios
+PC stuck auto repair,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck auto repair
+PC stuck BIOS,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck bios
+PC stuck BIOS logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck bios logo
+PC stuck black screen,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck black screen
+PC stuck error screen,Windows Boot Failure,Windows Boot Failure,real_world,pc stuck error screen
+PC stuck loading,Windows Boot Failure,Windows Boot Failure,real_world,pc stuck loading
+PC stuck loading bar,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck loading bar
+PC stuck logo,Windows Boot Failure,Windows Boot Failure,real_world,pc stuck logo
+PC stuck on logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck on logo
+PC stuck preparing repair,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck preparing repair
+PC stuck repair loop,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck repair loop
+PC stuck restart,Windows Boot Failure,Windows Boot Failure,real_world,pc stuck restart
+PC stuck safe mode,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck safe mode
+PC stuck spinning dots,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck spinning dots
+PC stuck startup repair,Windows Boot Failure,Windows Boot Failure,real_world,pc stuck startup repair
+PC stuck welcome screen,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stuck welcome screen
+PC stutter startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions,pc stutter startup
+System error boot,Windows Boot Failure,Windows Boot Failure,real_world,system error boot
+System fail boot,Windows Boot Failure,Windows Boot Failure,real_world,system fail boot
+System not booting,Windows Boot Failure,Windows Boot Failure,real_world,system not booting
+System not responding on start,Windows Boot Failure,Windows Boot Failure,real_world,system not responding on start
+The computer gets stuck on black screen after boot.,Windows Boot Failure,,,the computer gets stuck on black screen after boot.
+Windows crashes when installing updates.,Windows Boot Failure,,,windows crashes when installing updates.
+Windows fail again,Windows Boot Failure,Windows Boot Failure,real_world,windows fail again
+Windows fail load,Windows Boot Failure,Windows Boot Failure,real_world,windows fail load
+Windows fail system,Windows Boot Failure,Windows Boot Failure,real_world,windows fail system
+Windows not loading,Windows Boot Failure,Windows Boot Failure,real_world,windows not loading
+Windows stuck problem,Windows Boot Failure,Windows Boot Failure,real_world,windows stuck problem
+Windows system fail,Windows Boot Failure,Windows Boot Failure,real_world,windows system fail
+Windows update fail,Windows Boot Failure,Windows Boot Failure,real_world,windows update fail
+Black screen when GPU under load,GPU Upgrade,,,black screen when gpu under load
+DirectX error during game startup,GPU Upgrade,,,directx error during game startup
+Display lag problem,GPU Upgrade,GPU Upgrade,real_world,display lag problem
+Fans spin at 100% at random,GPU Upgrade,,,fans spin at 100% at random
+FPS drops after few minutes of gameplay,GPU Upgrade,,,fps drops after few minutes of gameplay
+Game closes without error,GPU Upgrade,,,game closes without error
+Game crashes after loading screen,GPU Upgrade,,,game crashes after loading screen
+Game lag graphics,GPU Upgrade,GPU Upgrade,real_world,game lag graphics
+Games have extremely low FPS even on low graphics.,GPU Upgrade,,,games have extremely low fps even on low graphics.
+GPU artifacts on screen,GPU Upgrade,,,gpu artifacts on screen
+GPU fans do not spin.,GPU Upgrade,,,gpu fans do not spin.
+GPU not giving display but fans spin,GPU Upgrade,,,gpu not giving display but fans spin
+GPU overheating even on idle,GPU Upgrade,,,gpu overheating even on idle
+GPU overheats after cleaning,GPU Upgrade,,,gpu overheats after cleaning
+GPU power spikes,GPU Upgrade,,,gpu power spikes
+GPU shuts PC down when fan ramps,GPU Upgrade,,,gpu shuts pc down when fan ramps
+Graphics card shows error in Device Manager.,GPU Upgrade,,,graphics card shows error in device manager.
+Laptop boot black,GPU Upgrade,GPU Upgrade,real_world_solutions,laptop boot black
+Laptop lag on video,GPU Upgrade,GPU Upgrade,real_world,laptop lag on video
+Memory overclock unstable,GPU Upgrade,,,memory overclock unstable
+Mouse lag only in games,GPU Upgrade,,,mouse lag only in games
+My PC won't detect the graphics card.,GPU Upgrade,,,my pc won't detect the graphics card.
+PC crashes when GPU driver updates.,GPU Upgrade,,,pc crashes when gpu driver updates.
+PC crashes when using video editing software.,GPU Upgrade,,,pc crashes when using video editing software.
+PC display lag,GPU Upgrade,GPU Upgrade,real_world,pc display lag
+PC freeze gaming,GPU Upgrade,GPU Upgrade,real_world_solutions,pc freeze gaming
+PC slow gaming,GPU Upgrade,GPU Upgrade,real_world_solutions,pc slow gaming
+PC slow with games,GPU Upgrade,GPU Upgrade,real_world,pc slow with games
+PC start then blank,GPU Upgrade,GPU Upgrade,real_world_solutions,pc start then blank
+PC stutter gaming low FPS,GPU Upgrade,GPU Upgrade,real_world_solutions,pc stutter gaming low fps
+Screen tearing during gameplay,GPU Upgrade,,,screen tearing during gameplay
+Stuttering when moving camera in games,GPU Upgrade,,,stuttering when moving camera in games
+Sudden FPS spikes and freezes,GPU Upgrade,,,sudden fps spikes and freezes
+The system lags badly when opening games.,GPU Upgrade,,,the system lags badly when opening games.
+Blue screen appears after connecting my external hard drive.,Blue Screen (BSOD),,,blue screen appears after connecting my external hard drive.
+blue screen with sad face and stop code,Blue Screen (BSOD),,,blue screen with sad face and stop code
+Error after install,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,error after install
+Error on startup,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,error on startup
+Laptop crash often,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,laptop crash often
+Laptop error message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,laptop error message
+Laptop error screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world,laptop error screen
+Laptop OS error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,laptop os error
+OS error message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,os error message
+PC blue screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world,pc blue screen
+PC blue screen after RAM,Blue Screen (BSOD),Blue Screen (BSOD),real_world,pc blue screen after ram
+PC crash random,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc crash random
+PC error startup,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc error startup
+PC gives a blue screen during boot.,Blue Screen (BSOD),,,pc gives a blue screen during boot.
+PC malfunction error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc malfunction error
+PC need repair,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc need repair
+PC no boot after crash,Blue Screen (BSOD),Blue Screen (BSOD),real_world_solutions,pc no boot after crash
+PC problem unknown,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc problem unknown
+PC software error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc software error
+PC start then blue screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world_solutions,pc start then blue screen
+PC stuck error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc stuck error
+PC system corrupted,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc system corrupted
+PC system fail,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc system fail
+PC system issue,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,pc system issue
+System corrupted message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,system corrupted message
+System not stable,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,system not stable
+Windows crash error,Blue Screen (BSOD),Blue Screen (BSOD),real_world,windows crash error
+Windows crash loop,Blue Screen (BSOD),Blue Screen (BSOD),real_world,windows crash loop
+Windows crash suddenly,Blue Screen (BSOD),Blue Screen (BSOD),real_world,windows crash suddenly
+Windows error screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world,windows error screen
+Windows failure,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,windows failure
+Windows not start,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,windows not start
+Windows problem again,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,windows problem again
+Windows repair loop,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test,windows repair loop
+Computer freeze screen,Slow Performance,Slow Performance,real_world,computer freeze screen
+Computer hang always,Slow Performance,Slow Performance,real_world,computer hang always
+Computer lag on startup,Slow Performance,Slow Performance,comprehensive_test,computer lag on startup
+Computer not smooth,Slow Performance,Slow Performance,real_world,computer not smooth
+computer running very slow,Slow Performance,,,computer running very slow
+Computer slow after long use,Slow Performance,Slow Performance,real_world,computer slow after long use
+Computer slow on battery,Slow Performance,Slow Performance,real_world,computer slow on battery
+Everything freeze suddenly,Slow Performance,Slow Performance,real_world,everything freeze suddenly
+Keyboard delay,Slow Performance,Slow Performance,real_world,keyboard delay
+Laptop freeze after sleep,Slow Performance,Slow Performance,real_world,laptop freeze after sleep
+Laptop freeze sudden,Slow Performance,Slow Performance,real_world,laptop freeze sudden
+Laptop hang random,Slow Performance,Slow Performance,real_world,laptop hang random
+Laptop hang when browser open,Slow Performance,Slow Performance,comprehensive_test,laptop hang when browser open
+Laptop heat and slow,Slow Performance,Slow Performance,comprehensive_test,laptop heat and slow
+Laptop lag battery,Slow Performance,Slow Performance,real_world_solutions,laptop lag battery
+Laptop lag compile,Slow Performance,Slow Performance,real_world_solutions,laptop lag compile
+Laptop lag drivers,Slow Performance,Slow Performance,real_world_solutions,laptop lag drivers
+Laptop lag heavy apps,Slow Performance,Slow Performance,real_world_solutions,laptop lag heavy apps
+Laptop lag resume,Slow Performance,Slow Performance,real_world_solutions,laptop lag resume
+Laptop lag sound,Slow Performance,Slow Performance,real_world_solutions,laptop lag sound
+Laptop lag video,Slow Performance,Slow Performance,real_world_solutions,laptop lag video
+Laptop lag video call,Slow Performance,Slow Performance,real_world_solutions,laptop lag video call
+Laptop lag zoom,Slow Performance,Slow Performance,real_world_solutions,laptop lag zoom
+Laptop slow after update,Slow Performance,Slow Performance,real_world_solutions,laptop slow after update
+Laptop slow boot time,Slow Performance,Slow Performance,comprehensive_test,laptop slow boot time
+Laptop slow charging,Slow Performance,Slow Performance,real_world_solutions,laptop slow charging
+Laptop slow charging mode,Slow Performance,Slow Performance,real_world_solutions,laptop slow charging mode
+Laptop slow even small work,Slow Performance,Slow Performance,real_world,laptop slow even small work
+Laptop slow IDE,Slow Performance,Slow Performance,real_world_solutions,laptop slow ide
+Laptop slow render,Slow Performance,Slow Performance,real_world_solutions,laptop slow render
+Laptop slow wake,Slow Performance,Slow Performance,real_world_solutions,laptop slow wake
+Laptop slow when charging,Slow Performance,Slow Performance,real_world,laptop slow when charging
+Laptop stutter sound,Slow Performance,Slow Performance,real_world,laptop stutter sound
+Mouse move slow,Slow Performance,Slow Performance,real_world,mouse move slow
+My PC very slow,Slow Performance,Slow Performance,real_world,my pc very slow
+PC delay click response,Slow Performance,Slow Performance,real_world,pc delay click response
+PC delay everything,Slow Performance,Slow Performance,real_world,pc delay everything
+PC delay shutdown,Slow Performance,Slow Performance,real_world,pc delay shutdown
+PC freeze after hours,Slow Performance,Slow Performance,real_world_solutions,pc freeze after hours
+PC freeze antivirus scan,Slow Performance,Slow Performance,real_world_solutions,pc freeze antivirus scan
+PC freeze app open,Slow Performance,Slow Performance,real_world_solutions,pc freeze app open
+PC freeze apps,Slow Performance,Slow Performance,real_world_solutions,pc freeze apps
+PC freeze BIOS,Slow Performance,Slow Performance,real_world_solutions,pc freeze bios
+PC freeze browser,Slow Performance,Slow Performance,real_world_solutions,pc freeze browser
+PC freeze copy files,Slow Performance,Slow Performance,real_world_solutions,pc freeze copy files
+PC freeze desktop,Slow Performance,Slow Performance,real_world_solutions,pc freeze desktop
+PC freeze file save,Slow Performance,Slow Performance,real_world_solutions,pc freeze file save
+PC freeze idle,Slow Performance,Slow Performance,real_world_solutions,pc freeze idle
+PC freeze mouse only,Slow Performance,Slow Performance,real_world,pc freeze mouse only
+PC freeze notifications,Slow Performance,Slow Performance,real_world_solutions,pc freeze notifications
+PC freeze often,Slow Performance,Slow Performance,real_world_solutions,pc freeze often
+PC freeze scroll,Slow Performance,Slow Performance,real_world_solutions,pc freeze scroll
+PC freeze system tray,Slow Performance,Slow Performance,real_world_solutions,pc freeze system tray
+PC freeze updates,Slow Performance,Slow Performance,real_world_solutions,pc freeze updates
+PC freeze when idle,Slow Performance,Slow Performance,real_world,pc freeze when idle
+PC hang copy paste,Slow Performance,Slow Performance,real_world_solutions,pc hang copy paste
+PC hang heavy work,Slow Performance,Slow Performance,real_world_solutions,pc hang heavy work
+PC hang often,Slow Performance,Slow Performance,real_world,pc hang often
+PC lag after long use,Slow Performance,Slow Performance,real_world_solutions,pc lag after long use
+PC lag always,Slow Performance,Slow Performance,real_world_solutions,pc lag always
+PC lag animations,Slow Performance,Slow Performance,real_world_solutions,pc lag animations
+PC lag audio,Slow Performance,Slow Performance,real_world_solutions,pc lag audio
+PC lag audio video,Slow Performance,Slow Performance,real_world_solutions,pc lag audio video
+PC lag brightness,Slow Performance,Slow Performance,real_world_solutions,pc lag brightness
+PC lag drag drop,Slow Performance,Slow Performance,real_world_solutions,pc lag drag drop
+PC lag mouse,Slow Performance,Slow Performance,real_world_solutions,pc lag mouse
+PC lag on windows,Slow Performance,Slow Performance,real_world,pc lag on windows
+PC lag opening apps,Slow Performance,Slow Performance,real_world_solutions,pc lag opening apps
+PC lag printing,Slow Performance,Slow Performance,real_world_solutions,pc lag printing
+PC lag scrolling,Slow Performance,Slow Performance,real_world,pc lag scrolling
+PC lag start menu,Slow Performance,Slow Performance,real_world_solutions,pc lag start menu
+PC lag switching apps,Slow Performance,Slow Performance,real_world_solutions,pc lag switching apps
+PC lag too much,Slow Performance,Slow Performance,real_world,pc lag too much
+PC lag typing,Slow Performance,Slow Performance,real_world_solutions,pc lag typing
+PC lag typing delay,Slow Performance,Slow Performance,real_world_solutions,pc lag typing delay
+PC lag updates,Slow Performance,Slow Performance,real_world_solutions,pc lag updates
+PC lag USB,Slow Performance,Slow Performance,real_world_solutions,pc lag usb
+PC lag when hot,Slow Performance,Slow Performance,real_world_solutions,pc lag when hot
+PC lag while typing,Slow Performance,Slow Performance,real_world,pc lag while typing
+PC lag window move,Slow Performance,Slow Performance,real_world_solutions,pc lag window move
+PC lag with USB drive,Slow Performance,Slow Performance,real_world_solutions,pc lag with usb drive
+PC lag zoom calls,Slow Performance,Slow Performance,real_world_solutions,pc lag zoom calls
+PC not responding error,Slow Performance,Slow Performance,real_world,pc not responding error
+PC performance drop,Slow Performance,Slow Performance,real_world,pc performance drop
+PC slow after few minutes,Slow Performance,Slow Performance,real_world,pc slow after few minutes
+PC slow after install,Slow Performance,Slow Performance,real_world_solutions,pc slow after install
+PC slow after software install,Slow Performance,Slow Performance,real_world,pc slow after software install
+PC slow after update,Slow Performance,Slow Performance,real_world,pc slow after update
+PC slow app launch,Slow Performance,Slow Performance,real_world_solutions,pc slow app launch
+PC slow browsing,Slow Performance,Slow Performance,real_world_solutions,pc slow browsing
+PC slow copy files,Slow Performance,Slow Performance,real_world_solutions,pc slow copy files
+PC slow extract files,Slow Performance,Slow Performance,real_world_solutions,pc slow extract files
+PC slow file explorer,Slow Performance,Slow Performance,real_world_solutions,pc slow file explorer
+PC slow file open,Slow Performance,Slow Performance,real_world_solutions,pc slow file open
+PC slow idle,Slow Performance,Slow Performance,real_world_solutions,pc slow idle
+PC slow install apps,Slow Performance,Slow Performance,real_world_solutions,pc slow install apps
+PC slow internet apps,Slow Performance,Slow Performance,real_world_solutions,pc slow internet apps
+PC slow login,Slow Performance,Slow Performance,real_world_solutions,pc slow login
+PC slow network apps,Slow Performance,Slow Performance,real_world_solutions,pc slow network apps
+PC slow opening files,Slow Performance,Slow Performance,comprehensive_test,pc slow opening files
+PC slow performance,Slow Performance,Slow Performance,real_world,pc slow performance
+PC slow refresh,Slow Performance,Slow Performance,real_world_solutions,pc slow refresh
+PC slow refresh rate,Slow Performance,Slow Performance,real_world_solutions,pc slow refresh rate
+PC slow response,Slow Performance,Slow Performance,real_world_solutions,pc slow response
+PC slow search,Slow Performance,Slow Performance,real_world_solutions,pc slow search
+PC slow shutdown,Slow Performance,Slow Performance,real_world_solutions,pc slow shutdown
+PC slow suddenly,Slow Performance,Slow Performance,real_world,pc slow suddenly
+PC slow task manager,Slow Performance,Slow Performance,real_world_solutions,pc slow task manager
+PC slow UI,Slow Performance,Slow Performance,real_world_solutions,pc slow ui
+PC slow when copy files,Slow Performance,Slow Performance,comprehensive_test,pc slow when copy files
+PC slow windows load,Slow Performance,Slow Performance,real_world_solutions,pc slow windows load
+PC slow with antivirus,Slow Performance,Slow Performance,real_world,pc slow with antivirus
+PC slow with internet,Slow Performance,Slow Performance,real_world,pc slow with internet
+PC slow with updates,Slow Performance,Slow Performance,real_world,pc slow with updates
+PC start slow,Slow Performance,Slow Performance,real_world_solutions,pc start slow
+PC start slow then freeze,Slow Performance,Slow Performance,real_world_solutions,pc start slow then freeze
+PC stutter animation,Slow Performance,Slow Performance,real_world_solutions,pc stutter animation
+PC stutter browser,Slow Performance,Slow Performance,real_world_solutions,pc stutter browser
+PC stutter browser video,Slow Performance,Slow Performance,real_world_solutions,pc stutter browser video
+PC stutter idle,Slow Performance,Slow Performance,real_world_solutions,pc stutter idle
+PC stutter mouse,Slow Performance,Slow Performance,real_world_solutions,pc stutter mouse
+PC stutter random,Slow Performance,Slow Performance,real_world_solutions,pc stutter random
+PC stutter randomly,Slow Performance,Slow Performance,real_world,pc stutter randomly
+PC stutter scrolling,Slow Performance,Slow Performance,real_world_solutions,pc stutter scrolling
+PC stutter typing,Slow Performance,Slow Performance,real_world_solutions,pc stutter typing
+PC system slow error,Slow Performance,Slow Performance,real_world,pc system slow error
+PC very slow,Slow Performance,Slow Performance,real_world_solutions,pc very slow
+PC very unresponsive,Slow Performance,Slow Performance,real_world,pc very unresponsive
+System freeze randomly,Slow Performance,Slow Performance,real_world,system freeze randomly
+System hang on login,Slow Performance,Slow Performance,real_world,system hang on login
+System lag spike,Slow Performance,Slow Performance,real_world,system lag spike
+System slow overall,Slow Performance,Slow Performance,real_world,system slow overall
+System slow suddenly,Slow Performance,Slow Performance,real_world,system slow suddenly
+System slow when open apps,Slow Performance,Slow Performance,real_world,system slow when open apps
+System sluggish,Slow Performance,Slow Performance,real_world,system sluggish
+System stutter problem,Slow Performance,Slow Performance,real_world,system stutter problem
+Windows not responding,Slow Performance,Slow Performance,real_world,windows not responding
+Computer refuses to connect to external monitor.,Monitor or GPU Check,,,computer refuses to connect to external monitor.
+Laptop screen flickers when opening the lid.,Monitor or GPU Check,,,laptop screen flickers when opening the lid.
+Laptop screen has dim brightness and won't increase.,Monitor or GPU Check,,,laptop screen has dim brightness and won't increase.
+Monitor has ghosting effect in games.,Monitor or GPU Check,,,monitor has ghosting effect in games.
+Monitor randomly switches refresh rate.,Monitor or GPU Check,,,monitor randomly switches refresh rate.
+Monitor shows static noise sometimes.,Monitor or GPU Check,,,monitor shows static noise sometimes.
+My monitor randomly turns off while the PC runs.,Monitor or GPU Check,,,my monitor randomly turns off while the pc runs.
+PC freezes when connecting HDMI cable.,Monitor or GPU Check,,,pc freezes when connecting hdmi cable.
+PC screen becomes blurry randomly.,Monitor or GPU Check,,,pc screen becomes blurry randomly.
+PC shows random color lines on display.,Monitor or GPU Check,,,pc shows random color lines on display.
+Screen keeps flickering when I move the mouse.,Monitor or GPU Check,,,screen keeps flickering when i move the mouse.
+Cooling problem PC,CPU Overheat,CPU Overheat,real_world,cooling problem pc
+CPU fan error,CPU Overheat,CPU Overheat,real_world,cpu fan error
+CPU heat warning,CPU Overheat,CPU Overheat,real_world,cpu heat warning
+CPU overheat warning,CPU Overheat,CPU Overheat,real_world,cpu overheat warning
+CPU temp high,CPU Overheat,CPU Overheat,real_world,cpu temp high
+CPU temp spikes instantly,CPU Overheat,,,cpu temp spikes instantly
+CPU throttles at 60°C,CPU Overheat,,,cpu throttles at 60°c
+Fan broken maybe,CPU Overheat,CPU Overheat,real_world,fan broken maybe
+Fan dust problem,CPU Overheat,CPU Overheat,real_world,fan dust problem
+Fan noisy always,CPU Overheat,CPU Overheat,real_world,fan noisy always
+Fan not spinning,CPU Overheat,CPU Overheat,real_world,fan not spinning
+Fan speed high,CPU Overheat,CPU Overheat,real_world,fan speed high
+Fan very loud,CPU Overheat,CPU Overheat,real_world,fan very loud
+Fan vibration noise,CPU Overheat,CPU Overheat,real_world,fan vibration noise
+Gaming laptop overheats on performance mode,CPU Overheat,,,gaming laptop overheats on performance mode
+GPU reaches 90°C while gaming,CPU Overheat,,,gpu reaches 90°c while gaming
+GPU thermal throttling while gaming,CPU Overheat,,,gpu thermal throttling while gaming
+Laptop auto off,CPU Overheat,CPU Overheat,real_world_solutions,laptop auto off
+Laptop burn hot,CPU Overheat,CPU Overheat,real_world,laptop burn hot
+Laptop fan makes loud noise after 10 minutes of use.,CPU Overheat,,,laptop fan makes loud noise after 10 minutes of use.
+Laptop fan never spins even when hot.,CPU Overheat,,,laptop fan never spins even when hot.
+Laptop fan not work,CPU Overheat,CPU Overheat,real_world,laptop fan not work
+Laptop gets hot even when idle.,CPU Overheat,,,laptop gets hot even when idle.
+Laptop heat lag,CPU Overheat,CPU Overheat,real_world,laptop heat lag
+Laptop heat problem,CPU Overheat,CPU Overheat,real_world,laptop heat problem
+Laptop heat shutdown,CPU Overheat,CPU Overheat,real_world,laptop heat shutdown
+Laptop heat too much,CPU Overheat,CPU Overheat,real_world,laptop heat too much
+Laptop overheating,CPU Overheat,CPU Overheat,real_world,laptop overheating
+Laptop overheats even with cooling pad.,CPU Overheat,,,laptop overheats even with cooling pad.
+Laptop start then off,CPU Overheat,CPU Overheat,real_world_solutions,laptop start then off
+Laptop thermal issue,CPU Overheat,CPU Overheat,real_world,laptop thermal issue
+Liquid cooler pump not detected,CPU Overheat,,,liquid cooler pump not detected
+PC air flow bad,CPU Overheat,CPU Overheat,real_world,pc air flow bad
+PC auto shutdown,CPU Overheat,CPU Overheat,real_world_solutions,pc auto shutdown
+PC cooling fail,CPU Overheat,CPU Overheat,real_world,pc cooling fail
+PC cooling issue,CPU Overheat,CPU Overheat,real_world,pc cooling issue
+PC extremely loud under small load,CPU Overheat,,,pc extremely loud under small load
+PC fan noise,CPU Overheat,CPU Overheat,real_world,pc fan noise
+PC fan stop,CPU Overheat,CPU Overheat,real_world,pc fan stop
+PC fans spin at 100% for no reason.,CPU Overheat,,,pc fans spin at 100% for no reason.
+PC heat summer,CPU Overheat,CPU Overheat,real_world,pc heat summer
+PC hot shutdown,CPU Overheat,CPU Overheat,real_world,pc hot shutdown
+PC off gaming,CPU Overheat,CPU Overheat,comprehensive_test,pc off gaming
+PC off suddenly,CPU Overheat,CPU Overheat,real_world_solutions,pc off suddenly
+PC overheats only during video calls.,CPU Overheat,,,pc overheats only during video calls.
+"PC shows ""CPU temperature too high"" warning.",CPU Overheat,,,"pc shows ""cpu temperature too high"" warning."
+PC shutdown heat,CPU Overheat,CPU Overheat,real_world,pc shutdown heat
+PC slow when hot,CPU Overheat,CPU Overheat,real_world,pc slow when hot
+PC start fan loud,CPU Overheat,CPU Overheat,real_world_solutions,pc start fan loud
+PC temp abnormal,CPU Overheat,CPU Overheat,real_world,pc temp abnormal
+PC temp spike,CPU Overheat,CPU Overheat,real_world,pc temp spike
+PC very hot,CPU Overheat,CPU Overheat,real_world,pc very hot
+PC warm idle,CPU Overheat,CPU Overheat,real_world,pc warm idle
+System hot slow,CPU Overheat,CPU Overheat,real_world,system hot slow
+System overheat error,CPU Overheat,CPU Overheat,real_world,system overheat error
+System overheating,CPU Overheat,CPU Overheat,real_world,system overheating
+System temp alert,CPU Overheat,CPU Overheat,real_world,system temp alert
+System thermal issue,CPU Overheat,CPU Overheat,real_world,system thermal issue
+Temperature high always,CPU Overheat,CPU Overheat,real_world,temperature high always
+The fan speed increases suddenly without load.,CPU Overheat,,,the fan speed increases suddenly without load.
+Thermal throttling in games,CPU Overheat,,,thermal throttling in games
+Display color wrong,No Display / No Signal,No Display / No Signal,comprehensive_test,display color wrong
+Display error startup,No Display / No Signal,No Display / No Signal,comprehensive_test,display error startup
+Display flickering,No Display / No Signal,No Display / No Signal,comprehensive_test,display flickering
+Display freeze,No Display / No Signal,No Display / No Signal,comprehensive_test,display freeze
+Display scaling issue,No Display / No Signal,No Display / No Signal,comprehensive_test,display scaling issue
+Fan spin no display,No Display / No Signal,No Display / No Signal,real_world_solutions,fan spin no display
+GPU crash gaming,No Display / No Signal,No Display / No Signal,comprehensive_test,gpu crash gaming
+GPU not working,No Display / No Signal,No Display / No Signal,comprehensive_test,gpu not working
+Graphics card not detect,No Display / No Signal,No Display / No Signal,comprehensive_test,graphics card not detect
+Graphics driver fail,No Display / No Signal,No Display / No Signal,comprehensive_test,graphics driver fail
+Graphics lag windows,No Display / No Signal,No Display / No Signal,comprehensive_test,graphics lag windows
+Graphics stutter,No Display / No Signal,No Display / No Signal,comprehensive_test,graphics stutter
+Laptop flicker screen,No Display / No Signal,No Display / No Signal,comprehensive_test,laptop flicker screen
+Laptop graphics slow,No Display / No Signal,No Display / No Signal,comprehensive_test,laptop graphics slow
+Laptop no display but on,No Display / No Signal,No Display / No Signal,real_world_solutions,laptop no display but on
+Laptop screen black,No Display / No Signal,No Display / No Signal,real_world,laptop screen black
+Laptop screen glitch,No Display / No Signal,No Display / No Signal,comprehensive_test,laptop screen glitch
+Monitor display issue,No Display / No Signal,No Display / No Signal,comprehensive_test,monitor display issue
+Monitor no picture,No Display / No Signal,No Display / No Signal,real_world,monitor no picture
+Monitor no signal,No Display / No Signal,No Display / No Signal,real_world,monitor no signal
+Monitor not detected,No Display / No Signal,No Display / No Signal,real_world,monitor not detected
+"Monitor shows ""no signal"" even though the PC is running.",No Display / No Signal,,,"monitor shows ""no signal"" even though the pc is running."
+no signal on monitor but pc is on,No Display / No Signal,,,no signal on monitor but pc is on
+Nothing show on monitor,No Display / No Signal,No Display / No Signal,real_world,nothing show on monitor
+PC black screen boot,No Display / No Signal,No Display / No Signal,real_world,pc black screen boot
+PC crash open game,No Display / No Signal,No Display / No Signal,comprehensive_test,pc crash open game
+PC display cut,No Display / No Signal,No Display / No Signal,comprehensive_test,pc display cut
+PC display glitch,No Display / No Signal,No Display / No Signal,comprehensive_test,pc display glitch
+PC fan spin but no display,No Display / No Signal,No Display / No Signal,real_world,pc fan spin but no display
+PC no display after GPU,No Display / No Signal,No Display / No Signal,real_world_solutions,pc no display after gpu
+PC no display HDMI,No Display / No Signal,No Display / No Signal,real_world,pc no display hdmi
+PC no display VGA,No Display / No Signal,No Display / No Signal,real_world,pc no display vga
+PC no signal display,No Display / No Signal,No Display / No Signal,real_world,pc no signal display
+PC on blank screen,No Display / No Signal,No Display / No Signal,real_world_solutions,pc on blank screen
+PC on then blank,No Display / No Signal,No Display / No Signal,real_world,pc on then blank
+PC restart gaming,No Display / No Signal,No Display / No Signal,comprehensive_test,pc restart gaming
+Screen artifacts,No Display / No Signal,No Display / No Signal,comprehensive_test,screen artifacts
+Screen black PC on,No Display / No Signal,No Display / No Signal,real_world,screen black pc on
+Screen blurry,No Display / No Signal,No Display / No Signal,comprehensive_test,screen blurry
+Screen flash issue,No Display / No Signal,No Display / No Signal,comprehensive_test,screen flash issue
+Screen not full,No Display / No Signal,No Display / No Signal,comprehensive_test,screen not full
+Screen resolution reset,No Display / No Signal,No Display / No Signal,comprehensive_test,screen resolution reset
+Screen resolution wrong,No Display / No Signal,No Display / No Signal,comprehensive_test,screen resolution wrong
+Screen white suddenly,No Display / No Signal,No Display / No Signal,comprehensive_test,screen white suddenly
+Display driver error,Driver Issue,Driver Issue,real_world,display driver error
+Display driver stop,Driver Issue,Driver Issue,real_world,display driver stop
+Display refresh issue,Driver Issue,Driver Issue,real_world,display refresh issue
+Driver problem error,Driver Issue,Driver Issue,real_world,driver problem error
+GPU driver missing,Driver Issue,Driver Issue,real_world,gpu driver missing
+Graphics error windows,Driver Issue,Driver Issue,real_world,graphics error windows
+PC restart on login,Driver Issue,Driver Issue,real_world_solutions,pc restart on login
+Ethernet cable issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,ethernet cable issue
+Ethernet cable not detect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,ethernet cable not detect
+Ethernet connected no net,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,ethernet connected no net
+Ethernet not recognized,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,ethernet not recognized
+Ethernet not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,ethernet not working
+Ethernet slow speed,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,ethernet slow speed
+Internet disconnects when downloading files.,Wi-Fi Adapter Upgrade,,,internet disconnects when downloading files.
+Internet drop randomly,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet drop randomly
+Internet error only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet error only pc
+Internet error windows,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet error windows
+Internet not responding,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet not responding
+Internet page not load,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet page not load
+Internet slow only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet slow only pc
+Internet stop suddenly,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet stop suddenly
+Internet timeout error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet timeout error
+Internet unstable PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet unstable pc
+Internet work phone not PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,internet work phone not pc
+Laptop internet fail,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,laptop internet fail
+Laptop network issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,laptop network issue
+Laptop no WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,laptop no wifi
+Laptop slow network,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,laptop slow network
+Laptop WiFi missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,laptop wifi missing
+Network adapter error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network adapter error
+Network adapter missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network adapter missing
+Network disconnected message,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network disconnected message
+Network driver missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test,network driver missing
+Network driver problem,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test,network driver problem
+Network error message,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network error message
+Network fail startup,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network fail startup
+Network icon missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network icon missing
+Network not available,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network not available
+Network not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network not working
+Network problem after update,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test,network problem after update
+Network problem only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network problem only pc
+Network problem windows,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network problem windows
+Network reset issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,network reset issue
+No internet on PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,no internet on pc
+PC can't browse internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc can't browse internet
+PC can't connect router,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc can't connect router
+PC can't connect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc can't connect wifi
+PC DNS error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc dns error
+PC internet crash,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc internet crash
+PC internet drop,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc internet drop
+PC internet limited,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc internet limited
+PC internet unstable,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc internet unstable
+PC net error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc net error
+PC no internet access,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc no internet access
+PC no IP address,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc no ip address
+PC no network access,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc no network access
+PC not detect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc not detect wifi
+PC offline always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc offline always
+PC slow internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,pc slow internet
+Slow internet only when streaming videos.,Wi-Fi Adapter Upgrade,,,slow internet only when streaming videos.
+The internet speed is extremely slow only on this PC.,Wi-Fi Adapter Upgrade,,,the internet speed is extremely slow only on this pc.
+The PC does not detect the Wi-Fi adapter.,Wi-Fi Adapter Upgrade,,,the pc does not detect the wi-fi adapter.
+The Wi-Fi disconnects only on my desktop.,Wi-Fi Adapter Upgrade,,,the wi-fi disconnects only on my desktop.
+Wi-Fi shows limited connectivity on this PC only.,Wi-Fi Adapter Upgrade,,,wi-fi shows limited connectivity on this pc only.
+WiFi connect disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi connect disconnect
+WiFi connected no internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi connected no internet
+WiFi disconnect always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi disconnect always
+WiFi error PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi error pc
+WiFi keeps disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi keeps disconnect
+wifi keeps disconnecting every few minutes,Wi-Fi Adapter Upgrade,,,wifi keeps disconnecting every few minutes
+WiFi not found,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi not found
+WiFi not turning on,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi not turning on
+WiFi signal weak PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi signal weak pc
+WiFi very slow PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world,wifi very slow pc
+Games keep crashing after a few minutes.,GPU Overheat,,,games keep crashing after a few minutes.
+Games stutter after a few minutes of play.,GPU Overheat,,,games stutter after a few minutes of play.
+GPU fan loud,GPU Overheat,GPU Overheat,real_world,gpu fan loud
+GPU overheating,GPU Overheat,GPU Overheat,real_world,gpu overheating
+Graphics crash error,GPU Overheat,GPU Overheat,real_world,graphics crash error
+Low FPS problem,GPU Overheat,GPU Overheat,comprehensive_test,low fps problem
+overheating my pc while gaming,GPU Overheat,,,overheating my pc while gaming
+PC crash GPU,GPU Overheat,GPU Overheat,real_world,pc crash gpu
+PC crash render,GPU Overheat,GPU Overheat,real_world,pc crash render
+pc gets very hot when playing games,GPU Overheat,,,pc gets very hot when playing games
+PC heat gaming,GPU Overheat,GPU Overheat,real_world,pc heat gaming
+PC restart graphics load,GPU Overheat,GPU Overheat,real_world,pc restart graphics load
+pc restarts when I play games,GPU Overheat,,,pc restarts when i play games
+random shutdowns during gaming,GPU Overheat,,,random shutdowns during gaming
+Screen tearing issue,GPU Overheat,GPU Overheat,comprehensive_test,screen tearing issue
+The PC overheats whenever I play heavy games.,GPU Overheat,,,the pc overheats whenever i play heavy games.
+The screen turns black while gaming.,GPU Overheat,,,the screen turns black while gaming.
+Laptop broken system,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,laptop broken system
+Laptop OS broken,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,laptop os broken
+Laptop OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,laptop os crash
+Laptop OS fail,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,laptop os fail
+Laptop OS issue,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,laptop os issue
+Laptop system broken,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,laptop system broken
+OS error startup,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,os error startup
+OS not working,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,os not working
+PC boot fail error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world_solutions,pc boot fail error
+PC boot only BIOS,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world_solutions,pc boot only bios
+PC OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,pc os crash
+PC start but no OS,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world_solutions,pc start but no os
+Windows OS error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world,windows os error
+Laptop screen dim,Monitor Issue,Monitor Issue,real_world,laptop screen dim
+Lines on screen,Monitor Issue,Monitor Issue,real_world,lines on screen
+Monitor flicker random,Monitor Issue,Monitor Issue,real_world,monitor flicker random
+Screen blink issue,Monitor Issue,Monitor Issue,real_world,screen blink issue
+Screen color issue,Monitor Issue,Monitor Issue,real_world,screen color issue
+Screen ghosting,Monitor Issue,Monitor Issue,real_world,screen ghosting
+Screen pixel issue,Monitor Issue,Monitor Issue,real_world,screen pixel issue
+Mouse disconnects randomly.,USB / Port Issue,,,mouse disconnects randomly.
+My USB ports stop working after a few minutes.,USB / Port Issue,,,my usb ports stop working after a few minutes.
+PC lag with USB,USB / Port Issue,USB / Port Issue,real_world,pc lag with usb
+The computer does not detect my USB drive.,USB / Port Issue,,,the computer does not detect my usb drive.
+usb device not recognized,USB / Port Issue,,,usb device not recognized
+USB headphone mic not detected by PC.,USB / Port Issue,,,usb headphone mic not detected by pc.
+Windows doesn't recognize my printer.,USB / Port Issue,,,windows doesn't recognize my printer.
+Wireless mouse lags randomly.,USB / Port Issue,,,wireless mouse lags randomly.
+PC slow after virus,Virus / Malware,Virus / Malware,comprehensive_test,pc slow after virus

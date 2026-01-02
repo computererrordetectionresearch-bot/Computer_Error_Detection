@@ -1,0 +1,581 @@
+user_text,error_type,component_label,source
+PC not turning on,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer no power,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC dead suddenly,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Power button not working,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC not start after power cut,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start then off,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer restart again and again,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC shutdown suddenly,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+System not starting,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start slow then off,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop dead no charging,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC no response,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Power supply problem maybe,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC restart loop,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start beep sound,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer not wake up,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC on but keyboard light off,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Monitor on but PC not,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC off when press power,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop power light blink,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC not start after update,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer stuck booting,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC no signal,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC stuck loading,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer not boot after clean,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC restart when login,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start but freeze,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+System not responding on start,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC turn on late,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop not power on,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC power on delay,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer start randomly,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC not turn off properly,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC fail to start,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+System not booting,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop not charging,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC on then blank,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC crash on startup,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Boot problem error,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start noise then off,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop auto shutdown,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer power issue,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start only sometimes,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Power issue after rain,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC dead after voltage drop,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC power flicker,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer restart when plug charger,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop power drain fast,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC stuck at BIOS,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+BIOS open only,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC stuck startup repair,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop battery not detect,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC start but nothing works,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+No power at all,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC dead after power cut,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC restart again and again,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC stuck black screen,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Nothing show on monitor,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC fan spin but no display,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Laptop not start,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC light on but screen black,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC not boot,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+Computer stuck at logo,PSU / Power Issue,PSU / Power Issue,comprehensive_test
+PC not boot,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+Computer stuck at logo,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+System not starting,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC stuck loading,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+Computer not boot after clean,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC restart when login,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC start but freeze,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+System not responding on start,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC not turn off properly,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC fail to start,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+System not booting,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC crash on startup,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+Boot problem error,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC stuck startup repair,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC stuck at BIOS,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+BIOS open only,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC start but nothing works,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+Laptop not start,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+PC not boot after update,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+Computer stuck booting,Windows Boot Failure,Windows Boot Failure,comprehensive_test
+My PC very slow,Slow Performance,Slow Performance,comprehensive_test
+Computer hang always,Slow Performance,Slow Performance,comprehensive_test
+PC lag too much,Slow Performance,Slow Performance,comprehensive_test
+Everything freeze suddenly,Slow Performance,Slow Performance,comprehensive_test
+PC slow after update,Slow Performance,Slow Performance,comprehensive_test
+System slow when open apps,Slow Performance,Slow Performance,comprehensive_test
+Laptop slow even small work,Slow Performance,Slow Performance,comprehensive_test
+PC slow boot,Slow Performance,Slow Performance,comprehensive_test
+PC slow after few minutes,Slow Performance,Slow Performance,comprehensive_test
+Computer hang when multitask,Slow Performance,Slow Performance,comprehensive_test
+Mouse move slow,Slow Performance,Slow Performance,comprehensive_test
+Keyboard delay,Slow Performance,Slow Performance,comprehensive_test
+PC slow with internet,Slow Performance,Slow Performance,comprehensive_test
+Laptop slow when charging,Slow Performance,Slow Performance,comprehensive_test
+PC lag while typing,Slow Performance,Slow Performance,comprehensive_test
+System freeze randomly,Slow Performance,Slow Performance,comprehensive_test
+PC slow opening files,Slow Performance,Slow Performance,comprehensive_test
+Computer not smooth,Slow Performance,Slow Performance,comprehensive_test
+PC delay click response,Slow Performance,Slow Performance,comprehensive_test
+Laptop hang when browser open,Slow Performance,Slow Performance,comprehensive_test
+PC slow with games,Slow Performance,Slow Performance,comprehensive_test
+System stutter problem,Slow Performance,Slow Performance,comprehensive_test
+PC lag when start,Slow Performance,Slow Performance,comprehensive_test
+Computer freeze screen,Slow Performance,Slow Performance,comprehensive_test
+PC slow suddenly,Slow Performance,Slow Performance,comprehensive_test
+Laptop heat and slow,Slow Performance,Slow Performance,comprehensive_test
+PC slow with antivirus,Slow Performance,Slow Performance,comprehensive_test
+PC slow after software install,Slow Performance,Slow Performance,comprehensive_test
+Computer lag on startup,Slow Performance,Slow Performance,comprehensive_test
+PC not responding error,Slow Performance,Slow Performance,comprehensive_test
+Laptop freeze after sleep,Slow Performance,Slow Performance,comprehensive_test
+PC lag on windows,Slow Performance,Slow Performance,comprehensive_test
+PC slow loading programs,Slow Performance,Slow Performance,comprehensive_test
+System slow overall,Slow Performance,Slow Performance,comprehensive_test
+PC hang often,Slow Performance,Slow Performance,comprehensive_test
+Laptop slow boot time,Slow Performance,Slow Performance,comprehensive_test
+PC slow performance,Slow Performance,Slow Performance,comprehensive_test
+System lag spike,Slow Performance,Slow Performance,comprehensive_test
+PC stutter randomly,Slow Performance,Slow Performance,comprehensive_test
+PC freeze when idle,Slow Performance,Slow Performance,comprehensive_test
+Laptop lag on video,Slow Performance,Slow Performance,comprehensive_test
+PC slow when copy files,Slow Performance,Slow Performance,comprehensive_test
+PC lag with USB,Slow Performance,Slow Performance,comprehensive_test
+Computer slow on battery,Slow Performance,Slow Performance,comprehensive_test
+PC delay shutdown,Slow Performance,Slow Performance,comprehensive_test
+System hang on login,Slow Performance,Slow Performance,comprehensive_test
+PC lag scrolling,Slow Performance,Slow Performance,comprehensive_test
+Laptop slow browsing,Slow Performance,Slow Performance,comprehensive_test
+PC performance drop,Slow Performance,Slow Performance,comprehensive_test
+Computer slow after long use,Slow Performance,Slow Performance,comprehensive_test
+PC lag background apps,Slow Performance,Slow Performance,comprehensive_test
+PC freeze mouse only,Slow Performance,Slow Performance,comprehensive_test
+Laptop stutter sound,Slow Performance,Slow Performance,comprehensive_test
+PC slow with updates,Slow Performance,Slow Performance,comprehensive_test
+PC lag opening folders,Slow Performance,Slow Performance,comprehensive_test
+System slow suddenly,Slow Performance,Slow Performance,comprehensive_test
+PC delay everything,Slow Performance,Slow Performance,comprehensive_test
+Laptop hang random,Slow Performance,Slow Performance,comprehensive_test
+PC very unresponsive,Slow Performance,Slow Performance,comprehensive_test
+System sluggish,Slow Performance,Slow Performance,comprehensive_test
+PC lag always,Slow Performance,Slow Performance,comprehensive_test
+Laptop slow boot,Slow Performance,Slow Performance,comprehensive_test
+PC freeze often,Slow Performance,Slow Performance,comprehensive_test
+PC lag typing,Slow Performance,Slow Performance,comprehensive_test
+PC slow browsing,Slow Performance,Slow Performance,comprehensive_test
+PC hang multitask,Slow Performance,Slow Performance,comprehensive_test
+PC slow file open,Slow Performance,Slow Performance,comprehensive_test
+PC slow after adding RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM not detected,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC beep sound,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC blue screen after RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+System crash when multitask,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC restart when open apps,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM issue maybe,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC freeze after some time,RAM Upgrade,RAM Upgrade,comprehensive_test
+Computer not boot after RAM change,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC stuck after RAM upgrade,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM slot problem,RAM Upgrade,RAM Upgrade,comprehensive_test
+Memory error message,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC hang after install RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop RAM not showing,RAM Upgrade,RAM Upgrade,comprehensive_test
+System crash heavy use,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC restart randomly,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM mismatch problem,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC boot fail RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+Memory usage high,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC slow memory issue,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM problem after clean,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop lag RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC freeze open browser,RAM Upgrade,RAM Upgrade,comprehensive_test
+Memory error popup,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC restart after RAM touch,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM loose problem,RAM Upgrade,RAM Upgrade,comprehensive_test
+System not stable RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC crash gaming RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM speed issue,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop RAM upgrade fail,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC no display RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+Memory slot not working,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC beep continuous,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC hang after boot,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop RAM heating,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC lag memory leak,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM error on startup,RAM Upgrade,RAM Upgrade,comprehensive_test
+System memory low,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC freeze heavy apps,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop crash RAM issue,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM conflict problem,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC slow after sleep,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM not compatible,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC restart under load,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop boot fail RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+Memory issue windows,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC crash random,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM overuse problem,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC stutter memory,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM error blue screen,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC lag memory,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop freeze multitask,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC memory spike,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM fail boot,RAM Upgrade,RAM Upgrade,comprehensive_test
+System unstable RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC hang open software,RAM Upgrade,RAM Upgrade,comprehensive_test
+Laptop restart RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+RAM slot dead,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC not start RAM,RAM Upgrade,RAM Upgrade,comprehensive_test
+Memory corrupted,RAM Upgrade,RAM Upgrade,comprehensive_test
+PC slow opening files,SSD Upgrade,SSD Upgrade,comprehensive_test
+Windows not loading,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk full always,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC not boot after SSD,SSD Upgrade,SSD Upgrade,comprehensive_test
+Hard disk noise,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC freeze file copy,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage not showing,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk error message,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC stuck loading windows,SSD Upgrade,SSD Upgrade,comprehensive_test
+Boot device not found,SSD Upgrade,SSD Upgrade,comprehensive_test
+HDD making sound,SSD Upgrade,SSD Upgrade,comprehensive_test
+SSD not detected,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC crash disk use,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage disappear suddenly,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC slow disk usage,SSD Upgrade,SSD Upgrade,comprehensive_test
+Laptop not boot SSD,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk read error,SSD Upgrade,SSD Upgrade,comprehensive_test
+Windows stuck loading disk,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC freeze disk access,SSD Upgrade,SSD Upgrade,comprehensive_test
+Hard drive fail maybe,SSD Upgrade,SSD Upgrade,comprehensive_test
+SSD slow issue,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk usage 100%,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage corrupted,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC restart disk error,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk not accessible,SSD Upgrade,SSD Upgrade,comprehensive_test
+Laptop disk slow,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC hang file open,SSD Upgrade,SSD Upgrade,comprehensive_test
+Windows disk error,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk partition missing,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC slow boot disk,SSD Upgrade,SSD Upgrade,comprehensive_test
+HDD click sound,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage fail message,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC freeze while install,SSD Upgrade,SSD Upgrade,comprehensive_test
+SSD boot fail,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk error startup,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC slow with HDD,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage not readable,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC crash file move,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk error blue screen,SSD Upgrade,SSD Upgrade,comprehensive_test
+Laptop disk overheating,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage lag issue,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC disk corrupted,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk not formatted,SSD Upgrade,SSD Upgrade,comprehensive_test
+Windows disk problem,SSD Upgrade,SSD Upgrade,comprehensive_test
+HDD very slow,SSD Upgrade,SSD Upgrade,comprehensive_test
+SSD not boot,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC stuck disk check,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk repair loop,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage error windows,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC disk fail,SSD Upgrade,SSD Upgrade,comprehensive_test
+Laptop freeze disk,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk drive missing,SSD Upgrade,SSD Upgrade,comprehensive_test
+Hard disk error,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC slow copy paste,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk bad sector,SSD Upgrade,SSD Upgrade,comprehensive_test
+Windows storage error,SSD Upgrade,SSD Upgrade,comprehensive_test
+Disk not mounting,SSD Upgrade,SSD Upgrade,comprehensive_test
+SSD not recognized,SSD Upgrade,SSD Upgrade,comprehensive_test
+PC freeze disk scan,SSD Upgrade,SSD Upgrade,comprehensive_test
+Storage failure,SSD Upgrade,SSD Upgrade,comprehensive_test
+No internet on PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi connected no internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet slow only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Ethernet not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network icon missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi disconnect always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet stop suddenly,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC not detect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network error message,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet work phone not PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi very slow PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Ethernet cable not detect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network driver missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC no network access,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet drop randomly,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC can't browse internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi signal weak PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network adapter error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC internet unstable,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Laptop no WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Ethernet connected no net,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network reset issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC internet limited,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi keeps disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network not available,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC slow internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet error windows,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Laptop network issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC no IP address,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network problem after update,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi not turning on,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Ethernet slow speed,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC DNS error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet page not load,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network driver problem,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC internet crash,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Laptop WiFi missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network problem only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi connect disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC offline always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Ethernet not recognized,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet unstable PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network adapter missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC can't connect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet timeout error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Laptop slow network,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC net error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network disconnected message,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC internet drop,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi error PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC no internet access,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Laptop internet fail,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Ethernet cable issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+PC can't connect router,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network problem windows,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet error only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+WiFi not found,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Network fail startup,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Internet not responding,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,comprehensive_test
+Screen black PC on,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display flickering,No Display / No Signal,No Display / No Signal,comprehensive_test
+Lines on screen,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen white suddenly,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC restart gaming,No Display / No Signal,No Display / No Signal,comprehensive_test
+Game lag graphics,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display driver error,No Display / No Signal,No Display / No Signal,comprehensive_test
+Monitor no signal,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC heat gaming,No Display / No Signal,No Display / No Signal,comprehensive_test
+Graphics card not detect,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen resolution wrong,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC crash open game,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display freeze,No Display / No Signal,No Display / No Signal,comprehensive_test
+Laptop screen black,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC display glitch,No Display / No Signal,No Display / No Signal,comprehensive_test
+Graphics error windows,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen tearing issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+Low FPS problem,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC crash GPU,No Display / No Signal,No Display / No Signal,comprehensive_test
+Monitor flicker random,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display color wrong,No Display / No Signal,No Display / No Signal,comprehensive_test
+Laptop screen dim,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC no display HDMI,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen blink issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+Graphics driver fail,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC restart graphics load,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen artifacts,No Display / No Signal,No Display / No Signal,comprehensive_test
+GPU overheating,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display lag problem,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC no display VGA,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen blurry,No Display / No Signal,No Display / No Signal,comprehensive_test
+Laptop graphics slow,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC display cut,No Display / No Signal,No Display / No Signal,comprehensive_test
+Monitor not detected,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen flash issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+Graphics crash error,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC freeze gaming,No Display / No Signal,No Display / No Signal,comprehensive_test
+GPU fan loud,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen not full,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display scaling issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC black screen boot,No Display / No Signal,No Display / No Signal,comprehensive_test
+Laptop flicker screen,No Display / No Signal,No Display / No Signal,comprehensive_test
+GPU not working,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display error startup,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen color issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+Graphics lag windows,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC no signal display,No Display / No Signal,No Display / No Signal,comprehensive_test
+Laptop screen glitch,No Display / No Signal,No Display / No Signal,comprehensive_test
+GPU driver missing,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display refresh issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC crash render,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen resolution reset,No Display / No Signal,No Display / No Signal,comprehensive_test
+Monitor display issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+Graphics stutter,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen ghosting,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC display lag,No Display / No Signal,No Display / No Signal,comprehensive_test
+GPU crash gaming,No Display / No Signal,No Display / No Signal,comprehensive_test
+Screen pixel issue,No Display / No Signal,No Display / No Signal,comprehensive_test
+Display driver stop,No Display / No Signal,No Display / No Signal,comprehensive_test
+Monitor no picture,No Display / No Signal,No Display / No Signal,comprehensive_test
+PC very hot,CPU Overheat,CPU Overheat,comprehensive_test
+Fan very loud,CPU Overheat,CPU Overheat,comprehensive_test
+PC shutdown heat,CPU Overheat,CPU Overheat,comprehensive_test
+CPU overheat warning,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop heat too much,CPU Overheat,CPU Overheat,comprehensive_test
+Fan not spinning,CPU Overheat,CPU Overheat,comprehensive_test
+PC slow when hot,CPU Overheat,CPU Overheat,comprehensive_test
+Temperature high always,CPU Overheat,CPU Overheat,comprehensive_test
+PC off gaming,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop overheating,CPU Overheat,CPU Overheat,comprehensive_test
+PC fan noise,CPU Overheat,CPU Overheat,comprehensive_test
+System thermal issue,CPU Overheat,CPU Overheat,comprehensive_test
+CPU temp high,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop heat shutdown,CPU Overheat,CPU Overheat,comprehensive_test
+Fan speed high,CPU Overheat,CPU Overheat,comprehensive_test
+PC warm idle,CPU Overheat,CPU Overheat,comprehensive_test
+Cooling problem PC,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop fan not work,CPU Overheat,CPU Overheat,comprehensive_test
+PC temp spike,CPU Overheat,CPU Overheat,comprehensive_test
+System overheat error,CPU Overheat,CPU Overheat,comprehensive_test
+PC heat summer,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop burn hot,CPU Overheat,CPU Overheat,comprehensive_test
+Fan broken maybe,CPU Overheat,CPU Overheat,comprehensive_test
+PC air flow bad,CPU Overheat,CPU Overheat,comprehensive_test
+System hot slow,CPU Overheat,CPU Overheat,comprehensive_test
+PC cooling issue,CPU Overheat,CPU Overheat,comprehensive_test
+Fan vibration noise,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop heat lag,CPU Overheat,CPU Overheat,comprehensive_test
+CPU fan error,CPU Overheat,CPU Overheat,comprehensive_test
+PC hot shutdown,CPU Overheat,CPU Overheat,comprehensive_test
+System temp alert,CPU Overheat,CPU Overheat,comprehensive_test
+Fan dust problem,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop thermal issue,CPU Overheat,CPU Overheat,comprehensive_test
+PC fan stop,CPU Overheat,CPU Overheat,comprehensive_test
+CPU heat warning,CPU Overheat,CPU Overheat,comprehensive_test
+System overheating,CPU Overheat,CPU Overheat,comprehensive_test
+PC temp abnormal,CPU Overheat,CPU Overheat,comprehensive_test
+Laptop heat problem,CPU Overheat,CPU Overheat,comprehensive_test
+PC cooling fail,CPU Overheat,CPU Overheat,comprehensive_test
+Fan noisy always,CPU Overheat,CPU Overheat,comprehensive_test
+PC restart gaming,GPU Overheat,GPU Overheat,comprehensive_test
+Game lag graphics,GPU Overheat,GPU Overheat,comprehensive_test
+PC heat gaming,GPU Overheat,GPU Overheat,comprehensive_test
+Graphics card not detect,GPU Overheat,GPU Overheat,comprehensive_test
+PC crash open game,GPU Overheat,GPU Overheat,comprehensive_test
+Display freeze,GPU Overheat,GPU Overheat,comprehensive_test
+Graphics error windows,GPU Overheat,GPU Overheat,comprehensive_test
+Screen tearing issue,GPU Overheat,GPU Overheat,comprehensive_test
+Low FPS problem,GPU Overheat,GPU Overheat,comprehensive_test
+PC crash GPU,GPU Overheat,GPU Overheat,comprehensive_test
+Graphics driver fail,GPU Overheat,GPU Overheat,comprehensive_test
+PC restart graphics load,GPU Overheat,GPU Overheat,comprehensive_test
+Screen artifacts,GPU Overheat,GPU Overheat,comprehensive_test
+GPU overheating,GPU Overheat,GPU Overheat,comprehensive_test
+Display lag problem,GPU Overheat,GPU Overheat,comprehensive_test
+Graphics crash error,GPU Overheat,GPU Overheat,comprehensive_test
+PC freeze gaming,GPU Overheat,GPU Overheat,comprehensive_test
+GPU fan loud,GPU Overheat,GPU Overheat,comprehensive_test
+Graphics lag windows,GPU Overheat,GPU Overheat,comprehensive_test
+GPU driver missing,GPU Overheat,GPU Overheat,comprehensive_test
+PC crash render,GPU Overheat,GPU Overheat,comprehensive_test
+Graphics stutter,GPU Overheat,GPU Overheat,comprehensive_test
+GPU crash gaming,GPU Overheat,GPU Overheat,comprehensive_test
+PC blue screen,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows crash suddenly,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC stuck restart,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Error on startup,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC not shutdown,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows update fail,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Driver problem error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC stuck logo,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+System corrupted message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Something wrong PC,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC error popup,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows not responding,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC crash random,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop freeze sudden,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC problem unknown,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+System error message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC fail update,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows repair loop,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC software error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop crash often,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC system fail,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Error code show,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC malfunction,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows problem detected,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC need repair,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop error message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+System fail boot,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC issue always,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows error screen,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC system issue,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop OS error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC error startup,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+System not stable,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC crash boot,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows problem again,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop OS fail,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC system slow error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Error after install,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC stuck error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows failure,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop system crash,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC problem sudden,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+OS error message,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC malfunction error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows fail load,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop error boot,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC system corrupted,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Error message pop,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows not start,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Laptop OS issue,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC unknown error,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+System error boot,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+PC failure detected,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Windows crash loop,Blue Screen (BSOD),Blue Screen (BSOD),comprehensive_test
+Game lag graphics,GPU Upgrade,GPU Upgrade,comprehensive_test
+Low FPS problem,GPU Upgrade,GPU Upgrade,comprehensive_test
+Graphics card not detect,GPU Upgrade,GPU Upgrade,comprehensive_test
+Screen tearing issue,GPU Upgrade,GPU Upgrade,comprehensive_test
+Graphics lag windows,GPU Upgrade,GPU Upgrade,comprehensive_test
+GPU not working,GPU Upgrade,GPU Upgrade,comprehensive_test
+Graphics stutter,GPU Upgrade,GPU Upgrade,comprehensive_test
+PC display lag,GPU Upgrade,GPU Upgrade,comprehensive_test
+GPU crash gaming,GPU Upgrade,GPU Upgrade,comprehensive_test
+Screen pixel issue,GPU Upgrade,GPU Upgrade,comprehensive_test
+Display driver stop,GPU Upgrade,GPU Upgrade,comprehensive_test
+Monitor no picture,GPU Upgrade,GPU Upgrade,comprehensive_test
+My PC not working properly,General Repair,General Repair,comprehensive_test
+Something wrong PC,General Repair,General Repair,comprehensive_test
+PC problem unknown,General Repair,General Repair,comprehensive_test
+PC malfunction,General Repair,General Repair,comprehensive_test
+PC need repair,General Repair,General Repair,comprehensive_test
+PC issue always,General Repair,General Repair,comprehensive_test
+PC system issue,General Repair,General Repair,comprehensive_test
+PC problem sudden,General Repair,General Repair,comprehensive_test
+PC malfunction error,General Repair,General Repair,comprehensive_test
+PC failure detected,General Repair,General Repair,comprehensive_test
+PC system failure,General Repair,General Repair,comprehensive_test
+PC error detected,General Repair,General Repair,comprehensive_test
+PC fault detected,General Repair,General Repair,comprehensive_test
+PC problem detected,General Repair,General Repair,comprehensive_test
+PC not working,General Repair,General Repair,comprehensive_test
+System broken maybe,General Repair,General Repair,comprehensive_test
+PC always error,General Repair,General Repair,comprehensive_test
+PC need fixing,General Repair,General Repair,comprehensive_test
+PC not normal,General Repair,General Repair,comprehensive_test
+PC broken software,General Repair,General Repair,comprehensive_test
+PC fail system,General Repair,General Repair,comprehensive_test
+PC always crash,General Repair,General Repair,comprehensive_test
+PC problem startup,General Repair,General Repair,comprehensive_test
+PC issue startup,General Repair,General Repair,comprehensive_test
+Display driver error,Driver Issue,Driver Issue,comprehensive_test
+Graphics driver fail,Driver Issue,Driver Issue,comprehensive_test
+Network driver missing,Driver Issue,Driver Issue,comprehensive_test
+Network driver problem,Driver Issue,Driver Issue,comprehensive_test
+Driver problem error,Driver Issue,Driver Issue,comprehensive_test
+GPU driver missing,Driver Issue,Driver Issue,comprehensive_test
+Display driver stop,Driver Issue,Driver Issue,comprehensive_test
+System corrupted message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Laptop OS error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+PC OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Laptop OS fail,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+PC system corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Laptop OS issue,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Laptop OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Laptop OS broken,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Laptop broken system,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+OS not working,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+OS error startup,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+OS error message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,comprehensive_test
+Display flickering,Monitor Issue,Monitor Issue,comprehensive_test
+Lines on screen,Monitor Issue,Monitor Issue,comprehensive_test
+Screen white suddenly,Monitor Issue,Monitor Issue,comprehensive_test
+Monitor flicker random,Monitor Issue,Monitor Issue,comprehensive_test
+Display color wrong,Monitor Issue,Monitor Issue,comprehensive_test
+Laptop screen dim,Monitor Issue,Monitor Issue,comprehensive_test
+Screen blink issue,Monitor Issue,Monitor Issue,comprehensive_test
+Display freeze,Monitor Issue,Monitor Issue,comprehensive_test
+PC display glitch,Monitor Issue,Monitor Issue,comprehensive_test
+Screen flash issue,Monitor Issue,Monitor Issue,comprehensive_test
+Screen color issue,Monitor Issue,Monitor Issue,comprehensive_test
+Laptop screen glitch,Monitor Issue,Monitor Issue,comprehensive_test
+Screen pixel issue,Monitor Issue,Monitor Issue,comprehensive_test
+Monitor display issue,Monitor Issue,Monitor Issue,comprehensive_test
+Screen ghosting,Monitor Issue,Monitor Issue,comprehensive_test
+PC slow browsing,Virus / Malware,Virus / Malware,comprehensive_test
+PC slow with antivirus,Virus / Malware,Virus / Malware,comprehensive_test
+PC slow after virus,Virus / Malware,Virus / Malware,comprehensive_test

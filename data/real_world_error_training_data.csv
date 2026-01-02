@@ -1,0 +1,497 @@
+user_text,error_type,component_label,source
+My PC not turning on,PSU / Power Issue,PSU / Power Issue,real_world
+Computer no power,PSU / Power Issue,PSU / Power Issue,real_world
+PC dead suddenly,PSU / Power Issue,PSU / Power Issue,real_world
+Power button not working,PSU / Power Issue,PSU / Power Issue,real_world
+PC not start after power cut,PSU / Power Issue,PSU / Power Issue,real_world
+PC start then off,PSU / Power Issue,PSU / Power Issue,real_world
+Computer restart again again,PSU / Power Issue,PSU / Power Issue,real_world
+PC stuck black screen,No Display / No Signal,No Display / No Signal,real_world
+Nothing show on monitor,No Display / No Signal,No Display / No Signal,real_world
+PC fan spin but no display,No Display / No Signal,No Display / No Signal,real_world
+Laptop not start,Windows Boot Failure,Windows Boot Failure,real_world
+PC light on but screen black,No Display / No Signal,No Display / No Signal,real_world
+PC not boot,Windows Boot Failure,Windows Boot Failure,real_world
+Computer stuck at logo,Windows Boot Failure,Windows Boot Failure,real_world
+PC shutdown suddenly,PSU / Power Issue,PSU / Power Issue,real_world
+System not starting,Windows Boot Failure,Windows Boot Failure,real_world
+PC start slow then off,PSU / Power Issue,PSU / Power Issue,real_world
+Laptop dead no charging,PSU / Power Issue,PSU / Power Issue,real_world
+PC no response,PSU / Power Issue,PSU / Power Issue,real_world
+Power supply problem maybe,PSU / Power Issue,PSU / Power Issue,real_world
+PC restart loop,Windows Boot Failure,Windows Boot Failure,real_world
+PC start beep sound,RAM Upgrade,RAM Upgrade,real_world
+Computer not wake up,Windows Boot Failure,Windows Boot Failure,real_world
+PC on but keyboard light off,Windows Boot Failure,Windows Boot Failure,real_world
+Monitor on but PC not,PSU / Power Issue,PSU / Power Issue,real_world
+PC off when press power,PSU / Power Issue,PSU / Power Issue,real_world
+Laptop power light blink,PSU / Power Issue,PSU / Power Issue,real_world
+PC not start after update,Windows Boot Failure,Windows Boot Failure,real_world
+Computer stuck booting,Windows Boot Failure,Windows Boot Failure,real_world
+PC no signal,No Display / No Signal,No Display / No Signal,real_world
+PC stuck loading,Windows Boot Failure,Windows Boot Failure,real_world
+Computer not boot after clean,Windows Boot Failure,Windows Boot Failure,real_world
+PC restart when login,Windows Boot Failure,Windows Boot Failure,real_world
+PC start but freeze,Windows Boot Failure,Windows Boot Failure,real_world
+System not responding on start,Windows Boot Failure,Windows Boot Failure,real_world
+PC turn on late,PSU / Power Issue,PSU / Power Issue,real_world
+Laptop not power on,PSU / Power Issue,PSU / Power Issue,real_world
+PC power on delay,PSU / Power Issue,PSU / Power Issue,real_world
+Computer start randomly,PSU / Power Issue,PSU / Power Issue,real_world
+PC not turn off properly,Windows Boot Failure,Windows Boot Failure,real_world
+PC fail to start,Windows Boot Failure,Windows Boot Failure,real_world
+System not booting,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop not charging,PSU / Power Issue,PSU / Power Issue,real_world
+PC on then blank,No Display / No Signal,No Display / No Signal,real_world
+PC crash on startup,Windows Boot Failure,Windows Boot Failure,real_world
+Boot problem error,Windows Boot Failure,Windows Boot Failure,real_world
+PC start noise then off,PSU / Power Issue,PSU / Power Issue,real_world
+Laptop auto shutdown,PSU / Power Issue,PSU / Power Issue,real_world
+Computer power issue,PSU / Power Issue,PSU / Power Issue,real_world
+PC start only sometimes,PSU / Power Issue,PSU / Power Issue,real_world
+Power issue after rain,PSU / Power Issue,PSU / Power Issue,real_world
+PC dead after voltage drop,PSU / Power Issue,PSU / Power Issue,real_world
+PC power flicker,PSU / Power Issue,PSU / Power Issue,real_world
+Computer restart when plug charger,PSU / Power Issue,PSU / Power Issue,real_world
+Laptop power drain fast,PSU / Power Issue,PSU / Power Issue,real_world
+PC stuck at BIOS,Windows Boot Failure,Windows Boot Failure,real_world
+BIOS open only,Windows Boot Failure,Windows Boot Failure,real_world
+PC stuck startup repair,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop battery not detect,PSU / Power Issue,PSU / Power Issue,real_world
+PC start but nothing works,Windows Boot Failure,Windows Boot Failure,real_world
+My PC very slow,Slow Performance,Slow Performance,real_world
+Computer hang always,Slow Performance,Slow Performance,real_world
+PC lag too much,Slow Performance,Slow Performance,real_world
+Everything freeze suddenly,Slow Performance,Slow Performance,real_world
+PC slow after update,Slow Performance,Slow Performance,real_world
+System slow when open apps,Slow Performance,Slow Performance,real_world
+Laptop slow even small work,Slow Performance,Slow Performance,real_world
+PC slow boot,SSD Upgrade,SSD Upgrade,real_world
+PC slow after few minutes,Slow Performance,Slow Performance,real_world
+Computer hang when multitask,RAM Upgrade,RAM Upgrade,real_world
+Mouse move slow,Slow Performance,Slow Performance,real_world
+Keyboard delay,Slow Performance,Slow Performance,real_world
+PC slow with internet,Slow Performance,Slow Performance,real_world
+Laptop slow when charging,Slow Performance,Slow Performance,real_world
+PC lag while typing,Slow Performance,Slow Performance,real_world
+System freeze randomly,Slow Performance,Slow Performance,real_world
+PC slow opening files,SSD Upgrade,SSD Upgrade,real_world
+Computer not smooth,Slow Performance,Slow Performance,real_world
+PC delay click response,Slow Performance,Slow Performance,real_world
+Laptop hang when browser open,RAM Upgrade,RAM Upgrade,real_world
+PC slow with games,GPU Upgrade,GPU Upgrade,real_world
+System stutter problem,Slow Performance,Slow Performance,real_world
+PC lag when start,SSD Upgrade,SSD Upgrade,real_world
+Computer freeze screen,Slow Performance,Slow Performance,real_world
+PC slow suddenly,Slow Performance,Slow Performance,real_world
+Laptop heat and slow,CPU Overheat,CPU Overheat,real_world
+PC slow with antivirus,Slow Performance,Slow Performance,real_world
+PC slow after software install,Slow Performance,Slow Performance,real_world
+Computer lag on startup,SSD Upgrade,SSD Upgrade,real_world
+PC not responding error,Slow Performance,Slow Performance,real_world
+Laptop freeze after sleep,Slow Performance,Slow Performance,real_world
+PC lag on windows,Slow Performance,Slow Performance,real_world
+PC slow loading programs,SSD Upgrade,SSD Upgrade,real_world
+System slow overall,Slow Performance,Slow Performance,real_world
+PC hang often,Slow Performance,Slow Performance,real_world
+Laptop slow boot time,SSD Upgrade,SSD Upgrade,real_world
+PC slow performance,Slow Performance,Slow Performance,real_world
+System lag spike,Slow Performance,Slow Performance,real_world
+PC stutter randomly,Slow Performance,Slow Performance,real_world
+PC freeze when idle,Slow Performance,Slow Performance,real_world
+Laptop lag on video,GPU Upgrade,GPU Upgrade,real_world
+PC slow when copy files,SSD Upgrade,SSD Upgrade,real_world
+PC lag with USB,USB / Port Issue,USB / Port Issue,real_world
+Computer slow on battery,Slow Performance,Slow Performance,real_world
+PC delay shutdown,Slow Performance,Slow Performance,real_world
+System hang on login,Slow Performance,Slow Performance,real_world
+PC lag scrolling,Slow Performance,Slow Performance,real_world
+Laptop slow browsing,RAM Upgrade,RAM Upgrade,real_world
+PC performance drop,Slow Performance,Slow Performance,real_world
+Computer slow after long use,Slow Performance,Slow Performance,real_world
+PC lag background apps,RAM Upgrade,RAM Upgrade,real_world
+PC freeze mouse only,Slow Performance,Slow Performance,real_world
+Laptop stutter sound,Slow Performance,Slow Performance,real_world
+PC slow with updates,Slow Performance,Slow Performance,real_world
+PC lag opening folders,SSD Upgrade,SSD Upgrade,real_world
+System slow suddenly,Slow Performance,Slow Performance,real_world
+PC delay everything,Slow Performance,Slow Performance,real_world
+Laptop hang random,Slow Performance,Slow Performance,real_world
+PC very unresponsive,Slow Performance,Slow Performance,real_world
+System sluggish,Slow Performance,Slow Performance,real_world
+PC slow after adding RAM,RAM Upgrade,RAM Upgrade,real_world
+RAM not detected,RAM Upgrade,RAM Upgrade,real_world
+PC beep sound,RAM Upgrade,RAM Upgrade,real_world
+PC blue screen after RAM,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+System crash when multitask,RAM Upgrade,RAM Upgrade,real_world
+PC restart when open apps,RAM Upgrade,RAM Upgrade,real_world
+RAM issue maybe,RAM Upgrade,RAM Upgrade,real_world
+PC freeze after some time,RAM Upgrade,RAM Upgrade,real_world
+Computer not boot after RAM change,RAM Upgrade,RAM Upgrade,real_world
+PC stuck after RAM upgrade,RAM Upgrade,RAM Upgrade,real_world
+RAM slot problem,RAM Upgrade,RAM Upgrade,real_world
+Memory error message,RAM Upgrade,RAM Upgrade,real_world
+PC hang after install RAM,RAM Upgrade,RAM Upgrade,real_world
+Laptop RAM not showing,RAM Upgrade,RAM Upgrade,real_world
+System crash heavy use,RAM Upgrade,RAM Upgrade,real_world
+PC restart randomly,RAM Upgrade,RAM Upgrade,real_world
+RAM mismatch problem,RAM Upgrade,RAM Upgrade,real_world
+PC boot fail RAM,RAM Upgrade,RAM Upgrade,real_world
+Memory usage high,RAM Upgrade,RAM Upgrade,real_world
+PC slow memory issue,RAM Upgrade,RAM Upgrade,real_world
+RAM problem after clean,RAM Upgrade,RAM Upgrade,real_world
+Laptop lag RAM,RAM Upgrade,RAM Upgrade,real_world
+PC freeze open browser,RAM Upgrade,RAM Upgrade,real_world
+Memory error popup,RAM Upgrade,RAM Upgrade,real_world
+PC restart after RAM touch,RAM Upgrade,RAM Upgrade,real_world
+RAM loose problem,RAM Upgrade,RAM Upgrade,real_world
+System not stable RAM,RAM Upgrade,RAM Upgrade,real_world
+PC crash gaming RAM,RAM Upgrade,RAM Upgrade,real_world
+RAM speed issue,RAM Upgrade,RAM Upgrade,real_world
+Laptop RAM upgrade fail,RAM Upgrade,RAM Upgrade,real_world
+PC no display RAM,RAM Upgrade,RAM Upgrade,real_world
+Memory slot not working,RAM Upgrade,RAM Upgrade,real_world
+PC beep continuous,RAM Upgrade,RAM Upgrade,real_world
+PC hang after boot,RAM Upgrade,RAM Upgrade,real_world
+Laptop RAM heating,RAM Upgrade,RAM Upgrade,real_world
+PC lag memory leak,RAM Upgrade,RAM Upgrade,real_world
+RAM error on startup,RAM Upgrade,RAM Upgrade,real_world
+System memory low,RAM Upgrade,RAM Upgrade,real_world
+PC freeze heavy apps,RAM Upgrade,RAM Upgrade,real_world
+Laptop crash RAM issue,RAM Upgrade,RAM Upgrade,real_world
+RAM conflict problem,RAM Upgrade,RAM Upgrade,real_world
+PC slow after sleep,RAM Upgrade,RAM Upgrade,real_world
+RAM not compatible,RAM Upgrade,RAM Upgrade,real_world
+PC restart under load,RAM Upgrade,RAM Upgrade,real_world
+Laptop boot fail RAM,RAM Upgrade,RAM Upgrade,real_world
+Memory issue windows,RAM Upgrade,RAM Upgrade,real_world
+PC crash random,General Repair,General Repair,real_world
+RAM overuse problem,RAM Upgrade,RAM Upgrade,real_world
+PC stutter memory,RAM Upgrade,RAM Upgrade,real_world
+RAM error blue screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+PC lag memory,RAM Upgrade,RAM Upgrade,real_world
+Laptop freeze multitask,RAM Upgrade,RAM Upgrade,real_world
+PC memory spike,RAM Upgrade,RAM Upgrade,real_world
+RAM fail boot,RAM Upgrade,RAM Upgrade,real_world
+System unstable RAM,RAM Upgrade,RAM Upgrade,real_world
+PC hang open software,RAM Upgrade,RAM Upgrade,real_world
+Laptop restart RAM,RAM Upgrade,RAM Upgrade,real_world
+RAM slot dead,RAM Upgrade,RAM Upgrade,real_world
+PC not start RAM,RAM Upgrade,RAM Upgrade,real_world
+Memory corrupted,RAM Upgrade,RAM Upgrade,real_world
+Windows not loading,Windows Boot Failure,Windows Boot Failure,real_world
+Disk full always,SSD Upgrade,SSD Upgrade,real_world
+PC not boot after SSD,SSD Upgrade,SSD Upgrade,real_world
+Hard disk noise,SSD Upgrade,SSD Upgrade,real_world
+PC freeze file copy,SSD Upgrade,SSD Upgrade,real_world
+Storage not showing,SSD Upgrade,SSD Upgrade,real_world
+Disk error message,SSD Upgrade,SSD Upgrade,real_world
+PC stuck loading windows,SSD Upgrade,SSD Upgrade,real_world
+Boot device not found,Windows Boot Failure,Windows Boot Failure,real_world
+HDD making sound,SSD Upgrade,SSD Upgrade,real_world
+SSD not detected,SSD Upgrade,SSD Upgrade,real_world
+PC crash disk use,SSD Upgrade,SSD Upgrade,real_world
+Storage disappear suddenly,SSD Upgrade,SSD Upgrade,real_world
+PC slow disk usage,SSD Upgrade,SSD Upgrade,real_world
+Laptop not boot SSD,SSD Upgrade,SSD Upgrade,real_world
+Disk read error,SSD Upgrade,SSD Upgrade,real_world
+Windows stuck loading disk,SSD Upgrade,SSD Upgrade,real_world
+PC freeze disk access,SSD Upgrade,SSD Upgrade,real_world
+Hard drive fail maybe,SSD Upgrade,SSD Upgrade,real_world
+SSD slow issue,SSD Upgrade,SSD Upgrade,real_world
+Disk usage 100%,SSD Upgrade,SSD Upgrade,real_world
+Storage corrupted,SSD Upgrade,SSD Upgrade,real_world
+PC restart disk error,SSD Upgrade,SSD Upgrade,real_world
+Disk not accessible,SSD Upgrade,SSD Upgrade,real_world
+Laptop disk slow,SSD Upgrade,SSD Upgrade,real_world
+PC hang file open,SSD Upgrade,SSD Upgrade,real_world
+Windows disk error,SSD Upgrade,SSD Upgrade,real_world
+Disk partition missing,SSD Upgrade,SSD Upgrade,real_world
+PC slow boot disk,SSD Upgrade,SSD Upgrade,real_world
+HDD click sound,SSD Upgrade,SSD Upgrade,real_world
+Storage fail message,SSD Upgrade,SSD Upgrade,real_world
+PC freeze while install,SSD Upgrade,SSD Upgrade,real_world
+SSD boot fail,SSD Upgrade,SSD Upgrade,real_world
+Disk error startup,SSD Upgrade,SSD Upgrade,real_world
+PC slow with HDD,SSD Upgrade,SSD Upgrade,real_world
+Storage not readable,SSD Upgrade,SSD Upgrade,real_world
+PC crash file move,SSD Upgrade,SSD Upgrade,real_world
+Disk error blue screen,SSD Upgrade,SSD Upgrade,real_world
+Laptop disk overheating,SSD Upgrade,SSD Upgrade,real_world
+Storage lag issue,SSD Upgrade,SSD Upgrade,real_world
+PC disk corrupted,SSD Upgrade,SSD Upgrade,real_world
+Disk not formatted,SSD Upgrade,SSD Upgrade,real_world
+Windows disk problem,SSD Upgrade,SSD Upgrade,real_world
+HDD very slow,SSD Upgrade,SSD Upgrade,real_world
+SSD not boot,SSD Upgrade,SSD Upgrade,real_world
+PC stuck disk check,SSD Upgrade,SSD Upgrade,real_world
+Disk repair loop,SSD Upgrade,SSD Upgrade,real_world
+Storage error windows,SSD Upgrade,SSD Upgrade,real_world
+PC disk fail,SSD Upgrade,SSD Upgrade,real_world
+Laptop freeze disk,SSD Upgrade,SSD Upgrade,real_world
+Disk drive missing,SSD Upgrade,SSD Upgrade,real_world
+Hard disk error,SSD Upgrade,SSD Upgrade,real_world
+PC slow copy paste,SSD Upgrade,SSD Upgrade,real_world
+Disk bad sector,SSD Upgrade,SSD Upgrade,real_world
+Windows storage error,SSD Upgrade,SSD Upgrade,real_world
+Disk not mounting,SSD Upgrade,SSD Upgrade,real_world
+SSD not recognized,SSD Upgrade,SSD Upgrade,real_world
+PC freeze disk scan,SSD Upgrade,SSD Upgrade,real_world
+Storage failure,SSD Upgrade,SSD Upgrade,real_world
+No internet on PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi connected no internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet slow only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Ethernet not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network icon missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi disconnect always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet stop suddenly,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC not detect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network error message,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet work phone not PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi very slow PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Ethernet cable not detect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network driver missing,Driver Issue,Driver Issue,real_world
+PC no network access,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet drop randomly,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC can't browse internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi signal weak PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network adapter error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC internet unstable,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Laptop no WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Ethernet connected no net,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network reset issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC internet limited,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi keeps disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network not available,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC slow internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet error windows,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Laptop network issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC no IP address,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network problem after update,Driver Issue,Driver Issue,real_world
+WiFi not turning on,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Ethernet slow speed,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC DNS error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet page not load,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network driver problem,Driver Issue,Driver Issue,real_world
+PC internet crash,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Laptop WiFi missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network problem only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi connect disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC offline always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Ethernet not recognized,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet unstable PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network adapter missing,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC can't connect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet timeout error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Laptop slow network,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC net error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network disconnected message,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC internet drop,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi error PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC no internet access,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Laptop internet fail,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Ethernet cable issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+PC can't connect router,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network problem windows,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet error only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+WiFi not found,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Network fail startup,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Internet not responding,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,real_world
+Screen black PC on,No Display / No Signal,No Display / No Signal,real_world
+Display flickering,Monitor Issue,Monitor Issue,real_world
+Lines on screen,Monitor Issue,Monitor Issue,real_world
+Screen white suddenly,Monitor Issue,Monitor Issue,real_world
+PC restart gaming,GPU Overheat,GPU Overheat,real_world
+Game lag graphics,GPU Upgrade,GPU Upgrade,real_world
+Display driver error,Driver Issue,Driver Issue,real_world
+Monitor no signal,No Display / No Signal,No Display / No Signal,real_world
+PC heat gaming,GPU Overheat,GPU Overheat,real_world
+Graphics card not detect,GPU Upgrade,GPU Upgrade,real_world
+Screen resolution wrong,Driver Issue,Driver Issue,real_world
+PC crash open game,GPU Overheat,GPU Overheat,real_world
+Display freeze,Monitor Issue,Monitor Issue,real_world
+Laptop screen black,No Display / No Signal,No Display / No Signal,real_world
+PC display glitch,Monitor Issue,Monitor Issue,real_world
+Graphics error windows,Driver Issue,Driver Issue,real_world
+Screen tearing issue,GPU Upgrade,GPU Upgrade,real_world
+Low FPS problem,GPU Upgrade,GPU Upgrade,real_world
+PC crash GPU,GPU Overheat,GPU Overheat,real_world
+Monitor flicker random,Monitor Issue,Monitor Issue,real_world
+Display color wrong,Monitor Issue,Monitor Issue,real_world
+Laptop screen dim,Monitor Issue,Monitor Issue,real_world
+PC no display HDMI,No Display / No Signal,No Display / No Signal,real_world
+Screen blink issue,Monitor Issue,Monitor Issue,real_world
+Graphics driver fail,Driver Issue,Driver Issue,real_world
+PC restart graphics load,GPU Overheat,GPU Overheat,real_world
+Screen artifacts,GPU Upgrade,GPU Upgrade,real_world
+GPU overheating,GPU Overheat,GPU Overheat,real_world
+Display lag problem,GPU Upgrade,GPU Upgrade,real_world
+PC no display VGA,No Display / No Signal,No Display / No Signal,real_world
+Screen blurry,Monitor Issue,Monitor Issue,real_world
+Laptop graphics slow,GPU Upgrade,GPU Upgrade,real_world
+PC display cut,Monitor Issue,Monitor Issue,real_world
+Monitor not detected,No Display / No Signal,No Display / No Signal,real_world
+Screen flash issue,Monitor Issue,Monitor Issue,real_world
+Graphics crash error,GPU Overheat,GPU Overheat,real_world
+PC freeze gaming,GPU Overheat,GPU Overheat,real_world
+GPU fan loud,GPU Overheat,GPU Overheat,real_world
+Screen not full,Driver Issue,Driver Issue,real_world
+Display scaling issue,Driver Issue,Driver Issue,real_world
+PC black screen boot,No Display / No Signal,No Display / No Signal,real_world
+Laptop flicker screen,Monitor Issue,Monitor Issue,real_world
+GPU not working,GPU Upgrade,GPU Upgrade,real_world
+Display error startup,Driver Issue,Driver Issue,real_world
+Screen color issue,Monitor Issue,Monitor Issue,real_world
+Graphics lag windows,GPU Upgrade,GPU Upgrade,real_world
+PC no signal display,No Display / No Signal,No Display / No Signal,real_world
+Laptop screen glitch,Monitor Issue,Monitor Issue,real_world
+GPU driver missing,Driver Issue,Driver Issue,real_world
+Display refresh issue,Driver Issue,Driver Issue,real_world
+PC crash render,GPU Overheat,GPU Overheat,real_world
+Screen resolution reset,Driver Issue,Driver Issue,real_world
+Monitor display issue,Monitor Issue,Monitor Issue,real_world
+Graphics stutter,GPU Upgrade,GPU Upgrade,real_world
+Screen ghosting,Monitor Issue,Monitor Issue,real_world
+PC display lag,GPU Upgrade,GPU Upgrade,real_world
+GPU crash gaming,GPU Overheat,GPU Overheat,real_world
+Screen pixel issue,Monitor Issue,Monitor Issue,real_world
+Display driver stop,Driver Issue,Driver Issue,real_world
+Monitor no picture,No Display / No Signal,No Display / No Signal,real_world
+PC very hot,CPU Overheat,CPU Overheat,real_world
+Fan very loud,CPU Overheat,CPU Overheat,real_world
+PC shutdown heat,CPU Overheat,CPU Overheat,real_world
+CPU overheat warning,CPU Overheat,CPU Overheat,real_world
+Laptop heat too much,CPU Overheat,CPU Overheat,real_world
+Fan not spinning,CPU Overheat,CPU Overheat,real_world
+PC slow when hot,CPU Overheat,CPU Overheat,real_world
+Temperature high always,CPU Overheat,CPU Overheat,real_world
+PC off gaming,GPU Overheat,GPU Overheat,real_world
+Laptop overheating,CPU Overheat,CPU Overheat,real_world
+PC fan noise,CPU Overheat,CPU Overheat,real_world
+System thermal issue,CPU Overheat,CPU Overheat,real_world
+CPU temp high,CPU Overheat,CPU Overheat,real_world
+Laptop heat shutdown,CPU Overheat,CPU Overheat,real_world
+Fan speed high,CPU Overheat,CPU Overheat,real_world
+PC warm idle,CPU Overheat,CPU Overheat,real_world
+Cooling problem PC,CPU Overheat,CPU Overheat,real_world
+Laptop fan not work,CPU Overheat,CPU Overheat,real_world
+PC temp spike,CPU Overheat,CPU Overheat,real_world
+System overheat error,CPU Overheat,CPU Overheat,real_world
+PC heat summer,CPU Overheat,CPU Overheat,real_world
+Laptop burn hot,CPU Overheat,CPU Overheat,real_world
+Fan broken maybe,CPU Overheat,CPU Overheat,real_world
+PC air flow bad,CPU Overheat,CPU Overheat,real_world
+System hot slow,CPU Overheat,CPU Overheat,real_world
+PC cooling issue,CPU Overheat,CPU Overheat,real_world
+Fan vibration noise,CPU Overheat,CPU Overheat,real_world
+Laptop heat lag,CPU Overheat,CPU Overheat,real_world
+CPU fan error,CPU Overheat,CPU Overheat,real_world
+PC hot shutdown,CPU Overheat,CPU Overheat,real_world
+System temp alert,CPU Overheat,CPU Overheat,real_world
+Fan dust problem,CPU Overheat,CPU Overheat,real_world
+Laptop thermal issue,CPU Overheat,CPU Overheat,real_world
+PC fan stop,CPU Overheat,CPU Overheat,real_world
+CPU heat warning,CPU Overheat,CPU Overheat,real_world
+System overheating,CPU Overheat,CPU Overheat,real_world
+PC temp abnormal,CPU Overheat,CPU Overheat,real_world
+Laptop heat problem,CPU Overheat,CPU Overheat,real_world
+PC cooling fail,CPU Overheat,CPU Overheat,real_world
+Fan noisy always,CPU Overheat,CPU Overheat,real_world
+PC blue screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+Windows crash suddenly,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+PC stuck restart,Windows Boot Failure,Windows Boot Failure,real_world
+Error on startup,Windows Boot Failure,Windows Boot Failure,real_world
+PC not shutdown,Windows Boot Failure,Windows Boot Failure,real_world
+Windows update fail,Windows Boot Failure,Windows Boot Failure,real_world
+Driver problem error,Driver Issue,Driver Issue,real_world
+PC stuck logo,Windows Boot Failure,Windows Boot Failure,real_world
+System corrupted message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+Something wrong PC,General Repair,General Repair,real_world
+PC error popup,General Repair,General Repair,real_world
+Windows not responding,Slow Performance,Slow Performance,real_world
+Laptop freeze sudden,Slow Performance,Slow Performance,real_world
+PC problem unknown,General Repair,General Repair,real_world
+System error message,General Repair,General Repair,real_world
+PC fail update,Windows Boot Failure,Windows Boot Failure,real_world
+Windows repair loop,Windows Boot Failure,Windows Boot Failure,real_world
+PC software error,General Repair,General Repair,real_world
+Laptop crash often,General Repair,General Repair,real_world
+PC system fail,General Repair,General Repair,real_world
+Error code show,General Repair,General Repair,real_world
+PC malfunction,General Repair,General Repair,real_world
+Windows problem detected,General Repair,General Repair,real_world
+PC need repair,General Repair,General Repair,real_world
+Laptop error message,General Repair,General Repair,real_world
+System fail boot,Windows Boot Failure,Windows Boot Failure,real_world
+PC issue always,General Repair,General Repair,real_world
+Windows error screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+PC system issue,General Repair,General Repair,real_world
+Laptop OS error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC error startup,Windows Boot Failure,Windows Boot Failure,real_world
+System not stable,General Repair,General Repair,real_world
+PC crash boot,Windows Boot Failure,Windows Boot Failure,real_world
+Windows problem again,General Repair,General Repair,real_world
+Laptop OS fail,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC system slow error,Slow Performance,Slow Performance,real_world
+Error after install,General Repair,General Repair,real_world
+PC stuck error,Windows Boot Failure,Windows Boot Failure,real_world
+Windows failure,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop system crash,General Repair,General Repair,real_world
+PC problem sudden,General Repair,General Repair,real_world
+OS error message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC malfunction error,General Repair,General Repair,real_world
+Windows fail load,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop error boot,Windows Boot Failure,Windows Boot Failure,real_world
+PC system corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+Error message pop,General Repair,General Repair,real_world
+Windows not start,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop OS issue,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC unknown error,General Repair,General Repair,real_world
+System error boot,Windows Boot Failure,Windows Boot Failure,real_world
+PC failure detected,General Repair,General Repair,real_world
+Windows crash loop,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+Laptop startup error,Windows Boot Failure,Windows Boot Failure,real_world
+PC system failure,General Repair,General Repair,real_world
+Error when start,Windows Boot Failure,Windows Boot Failure,real_world
+PC OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+Windows error popup,General Repair,General Repair,real_world
+Laptop system issue,General Repair,General Repair,real_world
+PC boot error,Windows Boot Failure,Windows Boot Failure,real_world
+System error detected,General Repair,General Repair,real_world
+PC error loop,Windows Boot Failure,Windows Boot Failure,real_world
+Windows system fail,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop error screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+PC not working,General Repair,General Repair,real_world
+System broken maybe,General Repair,General Repair,real_world
+PC always error,General Repair,General Repair,real_world
+Windows stuck problem,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC need fixing,General Repair,General Repair,real_world
+System issue message,General Repair,General Repair,real_world
+PC not normal,General Repair,General Repair,real_world
+Laptop fail boot,Windows Boot Failure,Windows Boot Failure,real_world
+PC crash error,General Repair,General Repair,real_world
+System error always,General Repair,General Repair,real_world
+PC issue startup,Windows Boot Failure,Windows Boot Failure,real_world
+Windows fail again,Windows Boot Failure,Windows Boot Failure,real_world
+Laptop broken system,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC error detected,General Repair,General Repair,real_world
+OS not working,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC stuck error screen,Windows Boot Failure,Windows Boot Failure,real_world
+System fault message,General Repair,General Repair,real_world
+Laptop system fail,General Repair,General Repair,real_world
+PC problem startup,Windows Boot Failure,Windows Boot Failure,real_world
+Windows OS error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC broken software,General Repair,General Repair,real_world
+System error occur,General Repair,General Repair,real_world
+Laptop OS broken,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC fail system,General Repair,General Repair,real_world
+Windows crash error,Blue Screen (BSOD),Blue Screen (BSOD),real_world
+PC always crash,General Repair,General Repair,real_world
+Laptop system broken,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC problem detected,General Repair,General Repair,real_world
+OS error startup,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world
+PC fault detected,General Repair,General Repair,real_world
+Windows fail system,Windows Boot Failure,Windows Boot Failure,real_world
+My PC not working properly,General Repair,General Repair,real_world

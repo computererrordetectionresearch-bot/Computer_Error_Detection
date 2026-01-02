@@ -1,0 +1,1001 @@
+user_text,error_type,component_label,source
+Programs not working together,Software Conflict,Software Conflict,test_dataset
+HDD not enough space,HDD Upgrade,HDD Upgrade,test_dataset
+System corrupted message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Mouse freeze,Mouse Issue,Mouse Issue,test_dataset
+the bsod error,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Laptop not charging,PSU / Power Issue,PSU / Power Issue,test_dataset
+system check,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,test_dataset
+Lines on screen,Monitor Issue,Monitor Issue,test_dataset
+USB device not recognized,USB / Port Issue,USB / Port Issue,test_dataset
+cpu performance issue problem,CPU Upgrade,CPU Upgrade,test_dataset
+the software conflict,Software Conflict,Software Conflict,test_dataset
+PC freeze desktop,System Freeze,System Freeze,test_dataset
+RAM outdated,RAM Upgrade,RAM Upgrade,test_dataset
+sound problem problem,Audio Issue,Audio Issue,test_dataset
+OS not working,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Mobo failure,Motherboard Issue,Motherboard Issue,test_dataset
+the cable loose,Network Cable Issue,Network Cable Issue,test_dataset
+component check issue,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+PC slow after virus,Virus / Malware,Virus / Malware,test_dataset
+Display flicker random,Monitor Issue,Monitor Issue,test_dataset
+my printer problem,Printer Issue,Printer Issue,test_dataset
+Touchpad not moving,Touchpad Issue,Touchpad Issue,test_dataset
+my hard drive upgrade needed,HDD Upgrade,HDD Upgrade,test_dataset
+Programs conflict,Software Conflict,Software Conflict,test_dataset
+windows update broken problem,Windows Update Issue,Windows Update Issue,test_dataset
+CPU cooling fan,CPU Overheat,CPU Overheat,test_dataset
+GPU upgrade required,GPU Upgrade,GPU Upgrade,test_dataset
+Speaker broken,Speaker Issue,Speaker Issue,test_dataset
+PC not start after update,Windows Boot Failure,Windows Boot Failure,test_dataset
+Keyboard not working,Keyboard Issue,Keyboard Issue,test_dataset
+the printer not working,Printer Issue,Printer Issue,test_dataset
+CPU temp high,CPU Overheat,CPU Overheat,test_dataset
+Speaker not producing sound,Speaker Issue,Speaker Issue,test_dataset
+charging port damaged,Charging Port Issue,Charging Port Issue,test_dataset
+the mouse not moving,Mouse Issue,Mouse Issue,test_dataset
+Low FPS problem,GPU Upgrade,GPU Upgrade,test_dataset
+the printer not printing,Printer Issue,Printer Issue,test_dataset
+Audio driver issue,Driver Issue,Driver Issue,test_dataset
+HDD full,HDD Upgrade,HDD Upgrade,test_dataset
+Network cable broken,Network Cable Issue,Network Cable Issue,test_dataset
+my battery swollen,Battery Replacement,Battery Replacement,test_dataset
+printer not working,Printer Issue,Printer Issue,test_dataset
+System check,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+deleted files recovery,Data Recovery,Data Recovery,test_dataset
+the phone not connecting,Phone Connection Issue,Phone Connection Issue,test_dataset
+PC power noise,PSU / Power Issue,PSU / Power Issue,test_dataset
+webcam not working issue,Webcam Issue,Webcam Issue,test_dataset
+BSOD error,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Ethernet connected no net,Ethernet Issue,Ethernet Issue,test_dataset
+programs not working together,Software Conflict,Software Conflict,test_dataset
+PC power unstable,PSU / Power Issue,PSU / Power Issue,test_dataset
+USB port broken,USB / Port Issue,USB / Port Issue,test_dataset
+Display problem,Monitor Issue,Monitor Issue,test_dataset
+Need bigger HDD,HDD Upgrade,HDD Upgrade,test_dataset
+corrupted files,File Corruption,File Corruption,test_dataset
+Ethernet cable issue,Ethernet Issue,Ethernet Issue,test_dataset
+Ethernet cable problem,Network Cable Issue,Network Cable Issue,test_dataset
+Speaker not detected,Speaker Issue,Speaker Issue,test_dataset
+WiFi not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+Screen black PC on,No Display / No Signal,No Display / No Signal,test_dataset
+Laptop screen issue,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+Performance optimization,System Optimization,System Optimization,test_dataset
+the app conflict,Software Conflict,Software Conflict,test_dataset
+Bluetooth not connecting,Bluetooth Issue,Bluetooth Issue,test_dataset
+System broken maybe,General Repair,General Repair,test_dataset
+the battery not holding charge,Battery Replacement,Battery Replacement,test_dataset
+OS reinstall required,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+File error,File Corruption,File Corruption,test_dataset
+Laptop error screen,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+my game lag graphics,GPU Upgrade,GPU Upgrade,test_dataset
+Laptop charging port broken,Charging Port Issue,Charging Port Issue,test_dataset
+Keyboard not working,Keyboard Issue,Keyboard Issue,test_dataset
+PC slow shutdown,Slow Performance,Slow Performance,test_dataset
+PC stuck BIOS logo,BIOS Issue,BIOS Issue,test_dataset
+my graphics card outdated,GPU Upgrade,GPU Upgrade,test_dataset
+Laptop OS broken,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+System diagnostic,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Memory upgrade needed,RAM Upgrade,RAM Upgrade,test_dataset
+PC freeze boot logo,System Freeze,System Freeze,test_dataset
+printer not printing issue,Printer Issue,Printer Issue,test_dataset
+Disk partition missing,Partition Issue,Partition Issue,test_dataset
+program not responding issue,Application Crash,Application Crash,test_dataset
+the ethernet not working,Ethernet Issue,Ethernet Issue,test_dataset
+Apps crashing,Application Crash,Application Crash,test_dataset
+Laptop display damaged,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+Screen white suddenly,Monitor Issue,Monitor Issue,test_dataset
+phone not detected problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+gpu hot when gaming problem,GPU Overheat,GPU Overheat,test_dataset
+USB not working,USB / Port Issue,USB / Port Issue,test_dataset
+USB not detected,USB / Port Issue,USB / Port Issue,test_dataset
+programs conflict,Software Conflict,Software Conflict,test_dataset
+files deleted issue,Data Recovery,Data Recovery,test_dataset
+Windows update broken,Windows Update Issue,Windows Update Issue,test_dataset
+Computer problem,General Repair,General Repair,test_dataset
+disk partition missing,Partition Issue,Partition Issue,test_dataset
+the partition not found,Partition Issue,Partition Issue,test_dataset
+my phone not detected,Phone Connection Issue,Phone Connection Issue,test_dataset
+the screen not working,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+my no bootable device,Boot Device Error,Boot Device Error,test_dataset
+program not responding problem,Application Crash,Application Crash,test_dataset
+GPU thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Pc on blank screen,No Display / No Signal,No Display / No Signal,test_dataset
+Windows corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+the pc stuck bios,BIOS Issue,BIOS Issue,test_dataset
+file access error,File Corruption,File Corruption,test_dataset
+PC cooling fail,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+my motherboard short circuit,Motherboard Issue,Motherboard Issue,test_dataset
+GPU cooling fan,GPU Overheat,GPU Overheat,test_dataset
+network adapter error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+PC not working,General Repair,General Repair,test_dataset
+Cpu thermal paste,CPU Overheat,CPU Overheat,test_dataset
+WiFi keeps disconnect,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+motherboard error,Motherboard Issue,Motherboard Issue,test_dataset
+Motherboard not working,Motherboard Issue,Motherboard Issue,test_dataset
+Mic not detected,Microphone Issue,Microphone Issue,test_dataset
+PC freeze randomly,System Freeze,System Freeze,test_dataset
+Screen blink issue,Monitor Issue,Monitor Issue,test_dataset
+no audio output issue,Audio Issue,Audio Issue,test_dataset
+USB connection issue,USB / Port Issue,USB / Port Issue,test_dataset
+Corrupted files,File Corruption,File Corruption,test_dataset
+microphone not picking up sound issue,Microphone Issue,Microphone Issue,test_dataset
+usb port broken,USB / Port Issue,USB / Port Issue,test_dataset
+PC power flicker,PSU / Power Issue,PSU / Power Issue,test_dataset
+GPU thermal issue,GPU Overheat,GPU Overheat,test_dataset
+PC not start cold,PSU / Power Issue,PSU / Power Issue,test_dataset
+Graphics driver fail,Driver Issue,Driver Issue,test_dataset
+PC slow with antivirus,Slow Performance,Slow Performance,test_dataset
+CPU overheating,CPU Overheat,CPU Overheat,test_dataset
+mouse buttons not working problem,Mouse Issue,Mouse Issue,test_dataset
+PC freeze after hours,System Freeze,System Freeze,test_dataset
+the display repair,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC cleanup,System Optimization,System Optimization,test_dataset
+my usb driver problem,Driver Issue,Driver Issue,test_dataset
+Bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,test_dataset
+my memory error message,RAM Upgrade,RAM Upgrade,test_dataset
+PC restart after update,Windows Update Issue,Windows Update Issue,test_dataset
+PC slow after software install,Slow Performance,Slow Performance,test_dataset
+pc slow opening files problem,SSD Upgrade,SSD Upgrade,test_dataset
+GPU overheat crash,GPU Overheat,GPU Overheat,test_dataset
+cpu upgrade required issue,CPU Upgrade,CPU Upgrade,test_dataset
+fan broken,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Lost files,Data Recovery,Data Recovery,test_dataset
+CPU thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+PC no signal display,No Display / No Signal,No Display / No Signal,test_dataset
+USB port damaged,USB / Port Issue,USB / Port Issue,test_dataset
+HDMI cable not working,Display Cable Issue,Display Cable Issue,test_dataset
+the thermal paste replacement,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Fan making noise,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Laptop display problem,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC slow with updates,Slow Performance,Slow Performance,test_dataset
+USB driver problem,Driver Issue,Driver Issue,test_dataset
+bios update needed,BIOS Issue,BIOS Issue,test_dataset
+thermal paste issue problem,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+No audio output,Audio Issue,Audio Issue,test_dataset
+the device not showing,Device Not Recognized,Device Not Recognized,test_dataset
+VGA cable issue,Display Cable Issue,Display Cable Issue,test_dataset
+Driver not working,Driver Issue,Driver Issue,test_dataset
+Cable not working,Network Cable Issue,Network Cable Issue,test_dataset
+PC not detect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+PC auto shutdown,PSU / Power Issue,PSU / Power Issue,test_dataset
+Pc beep sound,RAM Upgrade,RAM Upgrade,test_dataset
+Files damaged,File Corruption,File Corruption,test_dataset
+Laptop screen issue,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+performance optimization,System Optimization,System Optimization,test_dataset
+Graphics card upgrade needed,GPU Upgrade,GPU Upgrade,test_dataset
+Graphics card fan loud,GPU Overheat,GPU Overheat,test_dataset
+microphone not working,Microphone Issue,Microphone Issue,test_dataset
+Graphics card overheating,GPU Overheat,GPU Overheat,test_dataset
+Motherboard short circuit,Motherboard Issue,Motherboard Issue,test_dataset
+Keyboard keys stuck,Keyboard Issue,Keyboard Issue,test_dataset
+Laptop battery not charging,Battery Replacement,Battery Replacement,test_dataset
+my processor upgrade needed,CPU Upgrade,CPU Upgrade,test_dataset
+Touchpad cursor jumping,Touchpad Issue,Touchpad Issue,test_dataset
+Software incompatible,Software Conflict,Software Conflict,test_dataset
+OS corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+hardware test issue,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+display cable broken issue,Display Cable Issue,Display Cable Issue,test_dataset
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,test_dataset
+Partition not accessible,Partition Issue,Partition Issue,test_dataset
+PC beep sound,RAM Upgrade,RAM Upgrade,test_dataset
+Webcam not working,Webcam Issue,Webcam Issue,test_dataset
+Software crash,Application Crash,Application Crash,test_dataset
+App crash startup,Application Crash,Application Crash,test_dataset
+Storage full,HDD Upgrade,HDD Upgrade,test_dataset
+Screen not working,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+processor outdated issue,CPU Upgrade,CPU Upgrade,test_dataset
+the laptop os error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Malware problem,Virus / Malware,Virus / Malware,test_dataset
+Mouse not responding,Mouse Issue,Mouse Issue,test_dataset
+PC restart again and again,PSU / Power Issue,PSU / Power Issue,test_dataset
+Windows crash loop,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+partition corrupted,Partition Issue,Partition Issue,test_dataset
+pc freeze often issue,System Freeze,System Freeze,test_dataset
+my cpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Laptop auto shutdown,PSU / Power Issue,PSU / Power Issue,test_dataset
+my ethernet slow speed,Ethernet Issue,Ethernet Issue,test_dataset
+touchpad not moving issue,Touchpad Issue,Touchpad Issue,test_dataset
+Phone not showing,Phone Connection Issue,Phone Connection Issue,test_dataset
+Network cable damaged,Network Cable Issue,Network Cable Issue,test_dataset
+Ethernet cable not detect,Ethernet Issue,Ethernet Issue,test_dataset
+PC slow performance,Slow Performance,Slow Performance,test_dataset
+Software clash,Software Conflict,Software Conflict,test_dataset
+GPU hot when gaming,GPU Overheat,GPU Overheat,test_dataset
+screen repair needed,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC slow with internet,Slow Performance,Slow Performance,test_dataset
+CPU shutdown due to heat,CPU Overheat,CPU Overheat,test_dataset
+CPU thermal paste,CPU Overheat,CPU Overheat,test_dataset
+Camera not detected,Webcam Issue,Webcam Issue,test_dataset
+PC optimization,System Optimization,System Optimization,test_dataset
+display cable broken problem,Display Cable Issue,Display Cable Issue,test_dataset
+Files deleted,Data Recovery,Data Recovery,test_dataset
+pc stuck bios logo issue,BIOS Issue,BIOS Issue,test_dataset
+Hard drive upgrade needed,HDD Upgrade,HDD Upgrade,test_dataset
+Cooling problem PC,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+gpu fan not working issue,GPU Overheat,GPU Overheat,test_dataset
+Microphone error,Microphone Issue,Microphone Issue,test_dataset
+Driver error,Driver Issue,Driver Issue,test_dataset
+PC slow idle,Slow Performance,Slow Performance,test_dataset
+Laptop battery issue,Battery Replacement,Battery Replacement,test_dataset
+Bluetooth not working,Bluetooth Issue,Bluetooth Issue,test_dataset
+Performance optimization,System Optimization,System Optimization,test_dataset
+System slow overall,Slow Performance,Slow Performance,test_dataset
+Component check,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+GPU too weak,GPU Upgrade,GPU Upgrade,test_dataset
+Disk partition missing,Partition Issue,Partition Issue,test_dataset
+My PC not working properly,General Repair,General Repair,test_dataset
+System not booting,Windows Boot Failure,Windows Boot Failure,test_dataset
+the printer not connecting,Printer Issue,Printer Issue,test_dataset
+my laptop not detect charger,Charging Port Issue,Charging Port Issue,test_dataset
+Processor upgrade needed,CPU Upgrade,CPU Upgrade,test_dataset
+thermal paste dried,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Program crash random,Application Crash,Application Crash,test_dataset
+BIOS problem,BIOS Issue,BIOS Issue,test_dataset
+ethernet cable issue issue,Ethernet Issue,Ethernet Issue,test_dataset
+Data recovery needed,Data Recovery,Data Recovery,test_dataset
+Driver problem error,Driver Issue,Driver Issue,test_dataset
+Performance optimization,System Optimization,System Optimization,test_dataset
+CPU upgrade required,CPU Upgrade,CPU Upgrade,test_dataset
+Phone connection problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+usb device not recognized problem,USB / Port Issue,USB / Port Issue,test_dataset
+File recovery,Data Recovery,Data Recovery,test_dataset
+File not opening,File Corruption,File Corruption,test_dataset
+Processor fan loud,CPU Overheat,CPU Overheat,test_dataset
+PC very hot,CPU Overheat,CPU Overheat,test_dataset
+driver outdated problem,Driver Issue,Driver Issue,test_dataset
+Memory usage high,RAM Upgrade,RAM Upgrade,test_dataset
+Hardware check needed,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+bluetooth not working issue,Bluetooth Issue,Bluetooth Issue,test_dataset
+Power button not working,PSU / Power Issue,PSU / Power Issue,test_dataset
+Hardware check needed,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+PC problem unknown,General Repair,General Repair,test_dataset
+Webcam not working,Webcam Issue,Webcam Issue,test_dataset
+the touchpad not responding,Touchpad Issue,Touchpad Issue,test_dataset
+Sound card problem,Audio Issue,Audio Issue,test_dataset
+File access error,File Corruption,File Corruption,test_dataset
+windows corrupted problem,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Charging port problem,Charging Port Issue,Charging Port Issue,test_dataset
+display driver error issue,Driver Issue,Driver Issue,test_dataset
+No sound,Audio Issue,Audio Issue,test_dataset
+my pc cleanup,System Optimization,System Optimization,test_dataset
+the app crash startup,Application Crash,Application Crash,test_dataset
+the camera not detected,Webcam Issue,Webcam Issue,test_dataset
+camera error issue,Webcam Issue,Webcam Issue,test_dataset
+PC dead after power cut,PSU / Power Issue,PSU / Power Issue,test_dataset
+Data recovery needed,Data Recovery,Data Recovery,test_dataset
+PC delay everything,Slow Performance,Slow Performance,test_dataset
+Mainboard not detected,Motherboard Issue,Motherboard Issue,test_dataset
+WiFi error PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+Recover lost data,Data Recovery,Data Recovery,test_dataset
+PC blue screen,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Phone USB issue,Phone Connection Issue,Phone Connection Issue,test_dataset
+PC slow file open,SSD Upgrade,SSD Upgrade,test_dataset
+Motherboard error,Motherboard Issue,Motherboard Issue,test_dataset
+the cpu bottleneck,CPU Upgrade,CPU Upgrade,test_dataset
+Vga not working,Display Cable Issue,Display Cable Issue,test_dataset
+device not detected issue,Device Not Recognized,Device Not Recognized,test_dataset
+Screen repair needed,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+pc malfunction problem,General Repair,General Repair,test_dataset
+PC freeze copy files,System Freeze,System Freeze,test_dataset
+my vga cable issue,Display Cable Issue,Display Cable Issue,test_dataset
+PC fail to start,Windows Boot Failure,Windows Boot Failure,test_dataset
+Phone not detected,Phone Connection Issue,Phone Connection Issue,test_dataset
+Monitor flickering,Monitor Issue,Monitor Issue,test_dataset
+Bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,test_dataset
+keyboard typing wrong,Keyboard Issue,Keyboard Issue,test_dataset
+printer not working,Printer Issue,Printer Issue,test_dataset
+Pc slow file open,SSD Upgrade,SSD Upgrade,test_dataset
+pc on but keyboard dead,Keyboard Issue,Keyboard Issue,test_dataset
+Keyboard not detected,Keyboard Issue,Keyboard Issue,test_dataset
+PC on then blank,No Display / No Signal,No Display / No Signal,test_dataset
+my thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+ram not enough,RAM Upgrade,RAM Upgrade,test_dataset
+my no display,No Display / No Signal,No Display / No Signal,test_dataset
+hard drive upgrade required,HDD Upgrade,HDD Upgrade,test_dataset
+PC slow boot disk,SSD Upgrade,SSD Upgrade,test_dataset
+Internet slow only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+hdd not enough space issue,HDD Upgrade,HDD Upgrade,test_dataset
+my hdmi not working,Display Cable Issue,Display Cable Issue,test_dataset
+software incompatible problem,Software Conflict,Software Conflict,test_dataset
+motherboard dead issue,Motherboard Issue,Motherboard Issue,test_dataset
+mouse buttons not working,Mouse Issue,Mouse Issue,test_dataset
+DC jack replacement,Charging Port Issue,Charging Port Issue,test_dataset
+CPU overheat warning,CPU Overheat,CPU Overheat,test_dataset
+PC fault detected,General Repair,General Repair,test_dataset
+system corrupted message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+the phone not showing,Phone Connection Issue,Phone Connection Issue,test_dataset
+Audio not working,Audio Issue,Audio Issue,test_dataset
+microphone not working issue,Microphone Issue,Microphone Issue,test_dataset
+mic not detected,Microphone Issue,Microphone Issue,test_dataset
+laptop no wifi issue,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+my screen black pc on,No Display / No Signal,No Display / No Signal,test_dataset
+bios not working problem,BIOS Issue,BIOS Issue,test_dataset
+Windows OS crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+the pc slow file open,SSD Upgrade,SSD Upgrade,test_dataset
+Processor thermal throttle,CPU Overheat,CPU Overheat,test_dataset
+Driver conflict,Driver Issue,Driver Issue,test_dataset
+speaker broken,Speaker Issue,Speaker Issue,test_dataset
+my mic not responding,Microphone Issue,Microphone Issue,test_dataset
+Thermal paste replacement,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Battery replacement required,Battery Replacement,Battery Replacement,test_dataset
+Printer error,Printer Issue,Printer Issue,test_dataset
+speaker not detected issue,Speaker Issue,Speaker Issue,test_dataset
+PC system corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Network driver missing,Driver Issue,Driver Issue,test_dataset
+Audio error,Audio Issue,Audio Issue,test_dataset
+System optimization,System Optimization,System Optimization,test_dataset
+the bluetooth not working,Bluetooth Issue,Bluetooth Issue,test_dataset
+BIOS corrupted,BIOS Issue,BIOS Issue,test_dataset
+the mouse buttons not working,Mouse Issue,Mouse Issue,test_dataset
+touchpad not responding problem,Touchpad Issue,Touchpad Issue,test_dataset
+Touchpad not moving,Touchpad Issue,Touchpad Issue,test_dataset
+Printer not printing,Printer Issue,Printer Issue,test_dataset
+Fan noisy always,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+the cpu too slow,CPU Upgrade,CPU Upgrade,test_dataset
+Cooling issue,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Phone not detected,Phone Connection Issue,Phone Connection Issue,test_dataset
+Printer error,Printer Issue,Printer Issue,test_dataset
+Processor overheating,CPU Overheat,CPU Overheat,test_dataset
+network cable issue,Network Cable Issue,Network Cable Issue,test_dataset
+network cable issue,Network Cable Issue,Network Cable Issue,test_dataset
+Files corrupted,File Corruption,File Corruption,test_dataset
+display driver error problem,Driver Issue,Driver Issue,test_dataset
+PC problem detected,General Repair,General Repair,test_dataset
+the ethernet connected no net,Ethernet Issue,Ethernet Issue,test_dataset
+Speaker broken,Speaker Issue,Speaker Issue,test_dataset
+Laptop battery not charging,Battery Replacement,Battery Replacement,test_dataset
+PC freeze gaming,System Freeze,System Freeze,test_dataset
+Computer virus,Virus / Malware,Virus / Malware,test_dataset
+Fan vibration noise,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Network driver missing,Driver Issue,Driver Issue,test_dataset
+Computer power issue,PSU / Power Issue,PSU / Power Issue,test_dataset
+Cannot find boot device,Boot Device Error,Boot Device Error,test_dataset
+GPU fan not working,GPU Overheat,GPU Overheat,test_dataset
+Display cable loose,Display Cable Issue,Display Cable Issue,test_dataset
+PC very unresponsive,Slow Performance,Slow Performance,test_dataset
+Update causing issues,Windows Update Issue,Windows Update Issue,test_dataset
+the software conflict,Software Conflict,Software Conflict,test_dataset
+touchpad not detected issue,Touchpad Issue,Touchpad Issue,test_dataset
+my dc jack replacement,Charging Port Issue,Charging Port Issue,test_dataset
+Bluetooth error,Bluetooth Issue,Bluetooth Issue,test_dataset
+my display cable loose,Display Cable Issue,Display Cable Issue,test_dataset
+mainboard issue problem,Motherboard Issue,Motherboard Issue,test_dataset
+PC start noise then off,PSU / Power Issue,PSU / Power Issue,test_dataset
+Virus removal needed,Virus / Malware,Virus / Malware,test_dataset
+PC no display VGA,No Display / No Signal,No Display / No Signal,test_dataset
+speakers not working issue,Speaker Issue,Speaker Issue,test_dataset
+Fan not working,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Bluetooth not working,Bluetooth Issue,Bluetooth Issue,test_dataset
+the fan very loud,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+display cable loose issue,Display Cable Issue,Display Cable Issue,test_dataset
+GPU temp high,GPU Overheat,GPU Overheat,test_dataset
+ethernet cable problem issue,Network Cable Issue,Network Cable Issue,test_dataset
+Hardware test,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+PC boot fail random,Windows Boot Failure,Windows Boot Failure,test_dataset
+Laptop charging port broken,Charging Port Issue,Charging Port Issue,test_dataset
+CPU fan spinning fast,CPU Overheat,CPU Overheat,test_dataset
+partition not found,Partition Issue,Partition Issue,test_dataset
+DC jack replacement,Charging Port Issue,Charging Port Issue,test_dataset
+Fan not spinning,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Driver missing,Driver Issue,Driver Issue,test_dataset
+GPU overheating during games,GPU Overheat,GPU Overheat,test_dataset
+partition corrupted issue,Partition Issue,Partition Issue,test_dataset
+Charging port loose,Charging Port Issue,Charging Port Issue,test_dataset
+phone not detected problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+Blue screen of death,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Touchpad not working,Touchpad Issue,Touchpad Issue,test_dataset
+Speakers not working,Speaker Issue,Speaker Issue,test_dataset
+Memory insufficient,RAM Upgrade,RAM Upgrade,test_dataset
+Printer not printing,Printer Issue,Printer Issue,test_dataset
+the dc jack issue,Charging Port Issue,Charging Port Issue,test_dataset
+Display repair,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+Partition problem,Partition Issue,Partition Issue,test_dataset
+pc not normal,General Repair,General Repair,test_dataset
+Windows update problem,Windows Update Issue,Windows Update Issue,test_dataset
+Bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,test_dataset
+System maintenance,System Optimization,System Optimization,test_dataset
+PC stuck preparing repair,Windows Boot Failure,Windows Boot Failure,test_dataset
+Mainboard issue,Motherboard Issue,Motherboard Issue,test_dataset
+DC jack issue,Charging Port Issue,Charging Port Issue,test_dataset
+Camera not responding,Webcam Issue,Webcam Issue,test_dataset
+PC stuck on logo,Windows Boot Failure,Windows Boot Failure,test_dataset
+System sluggish,Slow Performance,Slow Performance,test_dataset
+Display driver error,Driver Issue,Driver Issue,test_dataset
+ethernet not working problem,Ethernet Issue,Ethernet Issue,test_dataset
+Microphone not working,Microphone Issue,Microphone Issue,test_dataset
+application freeze issue,Application Crash,Application Crash,test_dataset
+Windows update problem,Windows Update Issue,Windows Update Issue,test_dataset
+camera not responding,Webcam Issue,Webcam Issue,test_dataset
+my phone connection problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+no audio output problem,Audio Issue,Audio Issue,test_dataset
+GPU temperature high,GPU Overheat,GPU Overheat,test_dataset
+Storage outdated,SSD Upgrade,SSD Upgrade,test_dataset
+Speaker problem,Speaker Issue,Speaker Issue,test_dataset
+my no bootable device,Boot Device Error,Boot Device Error,test_dataset
+Graphics card temperature,GPU Overheat,GPU Overheat,test_dataset
+Need more ram,RAM Upgrade,RAM Upgrade,test_dataset
+printer not connecting issue,Printer Issue,Printer Issue,test_dataset
+Keyboard broken,Keyboard Issue,Keyboard Issue,test_dataset
+Mainboard problem,Motherboard Issue,Motherboard Issue,test_dataset
+PC boot only BIOS,Windows Boot Failure,Windows Boot Failure,test_dataset
+Ethernet connected no net,Ethernet Issue,Ethernet Issue,test_dataset
+BIOS issue,BIOS Issue,BIOS Issue,test_dataset
+my processor outdated,CPU Upgrade,CPU Upgrade,test_dataset
+my bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,test_dataset
+microphone not picking up sound,Microphone Issue,Microphone Issue,test_dataset
+camera error issue,Webcam Issue,Webcam Issue,test_dataset
+Cooling system problem,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Mouse not working,Mouse Issue,Mouse Issue,test_dataset
+the touchpad problem,Touchpad Issue,Touchpad Issue,test_dataset
+Hdmi not working,Display Cable Issue,Display Cable Issue,test_dataset
+data recovery needed problem,Data Recovery,Data Recovery,test_dataset
+CPU performance issue,CPU Upgrade,CPU Upgrade,test_dataset
+Ram performance issue,RAM Upgrade,RAM Upgrade,test_dataset
+PC boot loop,Windows Boot Failure,Windows Boot Failure,test_dataset
+my partition corrupted,Partition Issue,Partition Issue,test_dataset
+Mouse not detected,Mouse Issue,Mouse Issue,test_dataset
+Phone connection problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+the bios problem,BIOS Issue,BIOS Issue,test_dataset
+Pc optimization,System Optimization,System Optimization,test_dataset
+Laptop battery dead,Battery Replacement,Battery Replacement,test_dataset
+Partition corrupted,Partition Issue,Partition Issue,test_dataset
+Monitor display issue,Monitor Issue,Monitor Issue,test_dataset
+No audio output,Audio Issue,Audio Issue,test_dataset
+driver not working problem,Driver Issue,Driver Issue,test_dataset
+Mouse buttons not working,Mouse Issue,Mouse Issue,test_dataset
+Webcam problem,Webcam Issue,Webcam Issue,test_dataset
+Memory upgrade required,RAM Upgrade,RAM Upgrade,test_dataset
+CPU temperature high,CPU Overheat,CPU Overheat,test_dataset
+Monitor no picture,Monitor Issue,Monitor Issue,test_dataset
+the sound not working,Audio Issue,Audio Issue,test_dataset
+the component check,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,test_dataset
+pc slow file open problem,SSD Upgrade,SSD Upgrade,test_dataset
+Thermal paste dried,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Lost files,Data Recovery,Data Recovery,test_dataset
+GPU heat issue,GPU Overheat,GPU Overheat,test_dataset
+camera error,Webcam Issue,Webcam Issue,test_dataset
+PC error detected,General Repair,General Repair,test_dataset
+Sound problem,Audio Issue,Audio Issue,test_dataset
+PC slow after virus,Virus / Malware,Virus / Malware,test_dataset
+PC start only sometimes,PSU / Power Issue,PSU / Power Issue,test_dataset
+Mic not responding,Microphone Issue,Microphone Issue,test_dataset
+System tune up,System Optimization,System Optimization,test_dataset
+Blue screen crash,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Audio device not found,Audio Issue,Audio Issue,test_dataset
+Corrupted data,File Corruption,File Corruption,test_dataset
+the driver outdated,Driver Issue,Driver Issue,test_dataset
+Corruption issue,File Corruption,File Corruption,test_dataset
+No internet on PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+Cooling issue,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+my fan vibration noise,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+pc no display hdmi issue,No Display / No Signal,No Display / No Signal,test_dataset
+device error problem,Device Not Recognized,Device Not Recognized,test_dataset
+Camera not detected,Webcam Issue,Webcam Issue,test_dataset
+boot device not found problem,Boot Device Error,Boot Device Error,test_dataset
+Monitor flicker screen,Monitor Issue,Monitor Issue,test_dataset
+App conflict,Software Conflict,Software Conflict,test_dataset
+Screen white suddenly,Monitor Issue,Monitor Issue,test_dataset
+storage full issue,HDD Upgrade,HDD Upgrade,test_dataset
+printer error problem,Printer Issue,Printer Issue,test_dataset
+Boot device problem,Boot Device Error,Boot Device Error,test_dataset
+Boot device error,Boot Device Error,Boot Device Error,test_dataset
+Windows error screen,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+WiFi very slow PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+PC slow after few minutes,Slow Performance,Slow Performance,test_dataset
+BIOS error,BIOS Issue,BIOS Issue,test_dataset
+Screen pixel issue,Monitor Issue,Monitor Issue,test_dataset
+mic problem problem,Microphone Issue,Microphone Issue,test_dataset
+GPU bottleneck,GPU Upgrade,GPU Upgrade,test_dataset
+my speaker broken,Speaker Issue,Speaker Issue,test_dataset
+laptop error screen,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+usb port damaged problem,USB / Port Issue,USB / Port Issue,test_dataset
+virus detected,Virus / Malware,Virus / Malware,test_dataset
+the keyboard keys stuck,Keyboard Issue,Keyboard Issue,test_dataset
+Screen pixel issue,Monitor Issue,Monitor Issue,test_dataset
+PC slow with antivirus,Slow Performance,Slow Performance,test_dataset
+PC stuck BIOS,Windows Boot Failure,Windows Boot Failure,test_dataset
+Need more storage,HDD Upgrade,HDD Upgrade,test_dataset
+Graphics not good enough,GPU Upgrade,GPU Upgrade,test_dataset
+Programs crash,Application Crash,Application Crash,test_dataset
+Laptop battery not charging,Battery Replacement,Battery Replacement,test_dataset
+Virus detected,Virus / Malware,Virus / Malware,test_dataset
+Malware infection,Virus / Malware,Virus / Malware,test_dataset
+PC lag always,Slow Performance,Slow Performance,test_dataset
+Files corrupted,File Corruption,File Corruption,test_dataset
+Printer not working,Printer Issue,Printer Issue,test_dataset
+Boot device not found,Boot Device Error,Boot Device Error,test_dataset
+my sound problem,Audio Issue,Audio Issue,test_dataset
+app conflict,Software Conflict,Software Conflict,test_dataset
+RAM full,RAM Upgrade,RAM Upgrade,test_dataset
+Touchpad problem,Touchpad Issue,Touchpad Issue,test_dataset
+Application freeze,Application Crash,Application Crash,test_dataset
+Laptop screen broken,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+Recover deleted files,Data Recovery,Data Recovery,test_dataset
+display repair,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC slow opening files,SSD Upgrade,SSD Upgrade,test_dataset
+Camera error,Webcam Issue,Webcam Issue,test_dataset
+system sluggish problem,Slow Performance,Slow Performance,test_dataset
+display problem issue,Monitor Issue,Monitor Issue,test_dataset
+Audio driver issue,Audio Issue,Audio Issue,test_dataset
+PC slow after update,Slow Performance,Slow Performance,test_dataset
+PC shutdown suddenly,PSU / Power Issue,PSU / Power Issue,test_dataset
+the gpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Device error,Device Not Recognized,Device Not Recognized,test_dataset
+GPU overheat crash,GPU Overheat,GPU Overheat,test_dataset
+the ram performance issue,RAM Upgrade,RAM Upgrade,test_dataset
+PC freeze updates,System Freeze,System Freeze,test_dataset
+pc cooling fail issue,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Data lost,Data Recovery,Data Recovery,test_dataset
+hardware inspection,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Device not showing,Device Not Recognized,Device Not Recognized,test_dataset
+Screen issue,Monitor Issue,Monitor Issue,test_dataset
+Device not showing,Device Not Recognized,Device Not Recognized,test_dataset
+low fps problem,GPU Upgrade,GPU Upgrade,test_dataset
+the pc stuck bios logo,BIOS Issue,BIOS Issue,test_dataset
+Deleted files recovery,Data Recovery,Data Recovery,test_dataset
+Fan broken,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Partition corrupted,Partition Issue,Partition Issue,test_dataset
+mouse not detected,Mouse Issue,Mouse Issue,test_dataset
+screen repair needed problem,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC no power button light,PSU / Power Issue,PSU / Power Issue,test_dataset
+No bootable device,Boot Device Error,Boot Device Error,test_dataset
+BSOD error,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+my screen white suddenly,Monitor Issue,Monitor Issue,test_dataset
+the need more memory,RAM Upgrade,RAM Upgrade,test_dataset
+the ethernet connected no net,Ethernet Issue,Ethernet Issue,test_dataset
+my storage full,HDD Upgrade,HDD Upgrade,test_dataset
+Monitor no signal,No Display / No Signal,No Display / No Signal,test_dataset
+Mouse not moving,Mouse Issue,Mouse Issue,test_dataset
+the network cable damaged,Network Cable Issue,Network Cable Issue,test_dataset
+Software conflict,Software Conflict,Software Conflict,test_dataset
+graphics not good enough,GPU Upgrade,GPU Upgrade,test_dataset
+Need better CPU,CPU Upgrade,CPU Upgrade,test_dataset
+my network cable broken,Network Cable Issue,Network Cable Issue,test_dataset
+RAM performance issue,RAM Upgrade,RAM Upgrade,test_dataset
+partition not found issue,Partition Issue,Partition Issue,test_dataset
+PC no boot device,Windows Boot Failure,Windows Boot Failure,test_dataset
+GPU cooling problem,GPU Overheat,GPU Overheat,test_dataset
+the speakers not working,Speaker Issue,Speaker Issue,test_dataset
+Update failed,Windows Update Issue,Windows Update Issue,test_dataset
+Virus detected,Virus / Malware,Virus / Malware,test_dataset
+System slow,Slow Performance,Slow Performance,test_dataset
+Battery replacement needed,Battery Replacement,Battery Replacement,test_dataset
+USB not detected,USB / Port Issue,USB / Port Issue,test_dataset
+PC stuck startup repair,Windows Boot Failure,Windows Boot Failure,test_dataset
+Camera not responding,Webcam Issue,Webcam Issue,test_dataset
+Windows update broken,Windows Update Issue,Windows Update Issue,test_dataset
+my boot device error,Boot Device Error,Boot Device Error,test_dataset
+the bios corrupted,BIOS Issue,BIOS Issue,test_dataset
+Webcam problem,Webcam Issue,Webcam Issue,test_dataset
+PC not boot,Windows Boot Failure,Windows Boot Failure,test_dataset
+SSD upgrade needed,SSD Upgrade,SSD Upgrade,test_dataset
+the ethernet not recognized,Ethernet Issue,Ethernet Issue,test_dataset
+laptop os error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+System freeze,System Freeze,System Freeze,test_dataset
+Microphone not picking up sound,Microphone Issue,Microphone Issue,test_dataset
+battery replacement required issue,Battery Replacement,Battery Replacement,test_dataset
+Printer not detected,Printer Issue,Printer Issue,test_dataset
+the programs conflict,Software Conflict,Software Conflict,test_dataset
+my mainboard not detected,Motherboard Issue,Motherboard Issue,test_dataset
+the device connection issue,Device Not Recognized,Device Not Recognized,test_dataset
+CPU overheat crash,CPU Overheat,CPU Overheat,test_dataset
+USB port damaged,USB / Port Issue,USB / Port Issue,test_dataset
+Boot device not found,Boot Device Error,Boot Device Error,test_dataset
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,test_dataset
+the mouse cursor jumping,Mouse Issue,Mouse Issue,test_dataset
+Nothing show on monitor,No Display / No Signal,No Display / No Signal,test_dataset
+the os not working,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Touchpad not responding,Touchpad Issue,Touchpad Issue,test_dataset
+my driver not working,Driver Issue,Driver Issue,test_dataset
+pc optimization issue,System Optimization,System Optimization,test_dataset
+WiFi connected no internet,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+PC slow suddenly,Slow Performance,Slow Performance,test_dataset
+File recovery,Data Recovery,Data Recovery,test_dataset
+wifi disconnect always problem,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+BIOS not working,BIOS Issue,BIOS Issue,test_dataset
+battery replacement needed issue,Battery Replacement,Battery Replacement,test_dataset
+Program not responding,Application Crash,Application Crash,test_dataset
+Keys not working,Keyboard Issue,Keyboard Issue,test_dataset
+computer virus problem,Virus / Malware,Virus / Malware,test_dataset
+printer error problem,Printer Issue,Printer Issue,test_dataset
+PC stuck repair loop,Windows Boot Failure,Windows Boot Failure,test_dataset
+my fan not spinning,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+PC cleanup,System Optimization,System Optimization,test_dataset
+windows update broken,Windows Update Issue,Windows Update Issue,test_dataset
+need bigger hdd problem,HDD Upgrade,HDD Upgrade,test_dataset
+Internet not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+gpu thermal paste problem,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Audio driver issue,Driver Issue,Driver Issue,test_dataset
+the laptop no display but on,No Display / No Signal,No Display / No Signal,test_dataset
+HDD not enough space,HDD Upgrade,HDD Upgrade,test_dataset
+Thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+PC need fixing,General Repair,General Repair,test_dataset
+my monitor no picture,Monitor Issue,Monitor Issue,test_dataset
+System temperature high,CPU Overheat,CPU Overheat,test_dataset
+my pc freeze idle,System Freeze,System Freeze,test_dataset
+Keys not responding,Keyboard Issue,Keyboard Issue,test_dataset
+my fan vibration noise,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Device not showing,Device Not Recognized,Device Not Recognized,test_dataset
+Partition error,Partition Issue,Partition Issue,test_dataset
+Graphics card outdated,GPU Upgrade,GPU Upgrade,test_dataset
+microphone not working,Microphone Issue,Microphone Issue,test_dataset
+Device not recognized,Device Not Recognized,Device Not Recognized,test_dataset
+Speaker problem,Speaker Issue,Speaker Issue,test_dataset
+Windows os error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Need more RAM,RAM Upgrade,RAM Upgrade,test_dataset
+my partition not accessible,Partition Issue,Partition Issue,test_dataset
+GPU shutdown due to heat,GPU Overheat,GPU Overheat,test_dataset
+CPU hot always,CPU Overheat,CPU Overheat,test_dataset
+mobo problem,Motherboard Issue,Motherboard Issue,test_dataset
+VGA cable issue,Display Cable Issue,Display Cable Issue,test_dataset
+keyboard not working problem,Keyboard Issue,Keyboard Issue,test_dataset
+Printer not connecting,Printer Issue,Printer Issue,test_dataset
+usb port broken,USB / Port Issue,USB / Port Issue,test_dataset
+the pc freeze after hours,System Freeze,System Freeze,test_dataset
+Mobo failure,Motherboard Issue,Motherboard Issue,test_dataset
+bluetooth device not found problem,Bluetooth Issue,Bluetooth Issue,test_dataset
+Speaker not detected,Speaker Issue,Speaker Issue,test_dataset
+battery replacement needed issue,Battery Replacement,Battery Replacement,test_dataset
+DC jack broken,Charging Port Issue,Charging Port Issue,test_dataset
+WiFi not turning on,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+network cable issue problem,Network Cable Issue,Network Cable Issue,test_dataset
+pc stuck auto repair problem,Windows Boot Failure,Windows Boot Failure,test_dataset
+Computer stuck booting,Windows Boot Failure,Windows Boot Failure,test_dataset
+Windows not starting,Windows Boot Failure,Windows Boot Failure,test_dataset
+PC broken software,General Repair,General Repair,test_dataset
+disk partition missing problem,Partition Issue,Partition Issue,test_dataset
+windows crash suddenly,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Need more memory,RAM Upgrade,RAM Upgrade,test_dataset
+touchpad not moving issue,Touchpad Issue,Touchpad Issue,test_dataset
+Need better graphics card,GPU Upgrade,GPU Upgrade,test_dataset
+the webcam not working,Webcam Issue,Webcam Issue,test_dataset
+bsod error problem,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+programs crash issue,Application Crash,Application Crash,test_dataset
+Software clash,Software Conflict,Software Conflict,test_dataset
+software clash problem,Software Conflict,Software Conflict,test_dataset
+Fan very loud,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+Driver not working,Driver Issue,Driver Issue,test_dataset
+PC not turning on,PSU / Power Issue,PSU / Power Issue,test_dataset
+Phone not recognized,Phone Connection Issue,Phone Connection Issue,test_dataset
+touchpad not moving problem,Touchpad Issue,Touchpad Issue,test_dataset
+Sound card problem,Audio Issue,Audio Issue,test_dataset
+Update not working,Windows Update Issue,Windows Update Issue,test_dataset
+Touchpad not detected,Touchpad Issue,Touchpad Issue,test_dataset
+monitor display issue problem,Monitor Issue,Monitor Issue,test_dataset
+Gpu too weak,GPU Upgrade,GPU Upgrade,test_dataset
+app conflict,Software Conflict,Software Conflict,test_dataset
+no audio output,Audio Issue,Audio Issue,test_dataset
+No audio output,Audio Issue,Audio Issue,test_dataset
+my files damaged,File Corruption,File Corruption,test_dataset
+phone usb issue problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+PC stuck loading,Windows Boot Failure,Windows Boot Failure,test_dataset
+my speaker not detected,Speaker Issue,Speaker Issue,test_dataset
+PC light on but screen black,No Display / No Signal,No Display / No Signal,test_dataset
+my bluetooth device not found,Bluetooth Issue,Bluetooth Issue,test_dataset
+keys not responding,Keyboard Issue,Keyboard Issue,test_dataset
+PC power surge damage,PSU / Power Issue,PSU / Power Issue,test_dataset
+usb port damaged problem,USB / Port Issue,USB / Port Issue,test_dataset
+Mouse delay,Mouse Issue,Mouse Issue,test_dataset
+Data lost,Data Recovery,Data Recovery,test_dataset
+SSD upgrade,SSD Upgrade,SSD Upgrade,test_dataset
+pc blue screen issue,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+need faster processor problem,CPU Upgrade,CPU Upgrade,test_dataset
+device error problem,Device Not Recognized,Device Not Recognized,test_dataset
+Pc slow loading programs,SSD Upgrade,SSD Upgrade,test_dataset
+hdmi cable not working,Display Cable Issue,Display Cable Issue,test_dataset
+Update error,Windows Update Issue,Windows Update Issue,test_dataset
+Printer not working,Printer Issue,Printer Issue,test_dataset
+Windows os crash,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+PC slow boot,SSD Upgrade,SSD Upgrade,test_dataset
+Need new thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Storage upgrade required,SSD Upgrade,SSD Upgrade,test_dataset
+VGA not working,Display Cable Issue,Display Cable Issue,test_dataset
+update stuck problem,Windows Update Issue,Windows Update Issue,test_dataset
+Ethernet cable problem,Network Cable Issue,Network Cable Issue,test_dataset
+my microphone error,Microphone Issue,Microphone Issue,test_dataset
+hardware test issue,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+graphics card upgrade needed,GPU Upgrade,GPU Upgrade,test_dataset
+Something wrong PC,General Repair,General Repair,test_dataset
+my pc not normal,General Repair,General Repair,test_dataset
+Mic problem,Microphone Issue,Microphone Issue,test_dataset
+bluetooth not turning on problem,Bluetooth Issue,Bluetooth Issue,test_dataset
+Battery not detect,Battery Replacement,Battery Replacement,test_dataset
+Windows update problem,Windows Update Issue,Windows Update Issue,test_dataset
+Hardware inspection,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+device not found,Device Not Recognized,Device Not Recognized,test_dataset
+pc need repair problem,General Repair,General Repair,test_dataset
+the pc error detected,General Repair,General Repair,test_dataset
+Laptop screen black,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC need repair,General Repair,General Repair,test_dataset
+HDMI not working,Display Cable Issue,Display Cable Issue,test_dataset
+Webcam not showing,Webcam Issue,Webcam Issue,test_dataset
+partition not found issue,Partition Issue,Partition Issue,test_dataset
+Mouse cursor jumping,Mouse Issue,Mouse Issue,test_dataset
+Mobo not booting,Motherboard Issue,Motherboard Issue,test_dataset
+partition corrupted problem,Partition Issue,Partition Issue,test_dataset
+RAM issue maybe,RAM Upgrade,RAM Upgrade,test_dataset
+Laptop OS error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+graphics driver fail,Driver Issue,Driver Issue,test_dataset
+Ethernet not recognized,Ethernet Issue,Ethernet Issue,test_dataset
+Cable loose,Network Cable Issue,Network Cable Issue,test_dataset
+Boot device missing,Boot Device Error,Boot Device Error,test_dataset
+my virus removal,Virus / Malware,Virus / Malware,test_dataset
+keys not responding issue,Keyboard Issue,Keyboard Issue,test_dataset
+the cannot find boot device,Boot Device Error,Boot Device Error,test_dataset
+my memory usage high,RAM Upgrade,RAM Upgrade,test_dataset
+Files deleted,Data Recovery,Data Recovery,test_dataset
+boot device missing issue,Boot Device Error,Boot Device Error,test_dataset
+the device not showing,Device Not Recognized,Device Not Recognized,test_dataset
+ssd upgrade needed problem,SSD Upgrade,SSD Upgrade,test_dataset
+PC freeze startup,System Freeze,System Freeze,test_dataset
+Pc slow after update,Slow Performance,Slow Performance,test_dataset
+Touchpad problem,Touchpad Issue,Touchpad Issue,test_dataset
+Pc slow after virus,Virus / Malware,Virus / Malware,test_dataset
+keyboard not working problem,Keyboard Issue,Keyboard Issue,test_dataset
+Need more storage,HDD Upgrade,HDD Upgrade,test_dataset
+Mobo damaged,Motherboard Issue,Motherboard Issue,test_dataset
+Charging port problem,Charging Port Issue,Charging Port Issue,test_dataset
+mic not responding issue,Microphone Issue,Microphone Issue,test_dataset
+Application error,Application Crash,Application Crash,test_dataset
+USB connection issue,USB / Port Issue,USB / Port Issue,test_dataset
+Graphics card not detect,GPU Upgrade,GPU Upgrade,test_dataset
+Phone not connecting,Phone Connection Issue,Phone Connection Issue,test_dataset
+malware infection,Virus / Malware,Virus / Malware,test_dataset
+dc jack broken issue,Charging Port Issue,Charging Port Issue,test_dataset
+os corrupted issue,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+my dc jack replacement,Charging Port Issue,Charging Port Issue,test_dataset
+RAM problem,RAM Upgrade,RAM Upgrade,test_dataset
+touchpad not detected issue,Touchpad Issue,Touchpad Issue,test_dataset
+App crash startup,Application Crash,Application Crash,test_dataset
+Keys not responding,Keyboard Issue,Keyboard Issue,test_dataset
+CPU too slow,CPU Upgrade,CPU Upgrade,test_dataset
+Laptop overheating,CPU Overheat,CPU Overheat,test_dataset
+mic not detected problem,Microphone Issue,Microphone Issue,test_dataset
+PC no display HDMI,No Display / No Signal,No Display / No Signal,test_dataset
+the keyboard keys stuck,Keyboard Issue,Keyboard Issue,test_dataset
+Bluetooth problem,Bluetooth Issue,Bluetooth Issue,test_dataset
+BIOS open only,BIOS Issue,BIOS Issue,test_dataset
+PC freeze randomly,System Freeze,System Freeze,test_dataset
+HDD outdated,HDD Upgrade,HDD Upgrade,test_dataset
+my motherboard error,Motherboard Issue,Motherboard Issue,test_dataset
+Port not working,USB / Port Issue,USB / Port Issue,test_dataset
+Screen not working,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+Ethernet cable issue,Ethernet Issue,Ethernet Issue,test_dataset
+Files damaged,File Corruption,File Corruption,test_dataset
+CPU heat issue,CPU Overheat,CPU Overheat,test_dataset
+Keyboard not working,Keyboard Issue,Keyboard Issue,test_dataset
+PC slow file explorer,Slow Performance,Slow Performance,test_dataset
+No sound from speakers,Speaker Issue,Speaker Issue,test_dataset
+gpu heat issue,GPU Overheat,GPU Overheat,test_dataset
+system check issue,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Computer broken,General Repair,General Repair,test_dataset
+Component check,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Program not responding,Application Crash,Application Crash,test_dataset
+the dc jack replacement,Charging Port Issue,Charging Port Issue,test_dataset
+my speaker not detected,Speaker Issue,Speaker Issue,test_dataset
+Update stuck,Windows Update Issue,Windows Update Issue,test_dataset
+PC freeze often,System Freeze,System Freeze,test_dataset
+Mouse not detected,Mouse Issue,Mouse Issue,test_dataset
+PC no signal,No Display / No Signal,No Display / No Signal,test_dataset
+PC slow copy files,SSD Upgrade,SSD Upgrade,test_dataset
+update causing issues problem,Windows Update Issue,Windows Update Issue,test_dataset
+Storage too slow,SSD Upgrade,SSD Upgrade,test_dataset
+Motherboard dead,Motherboard Issue,Motherboard Issue,test_dataset
+bluetooth not working problem,Bluetooth Issue,Bluetooth Issue,test_dataset
+PC not detect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+Device not detected,Device Not Recognized,Device Not Recognized,test_dataset
+Boot device problem,Boot Device Error,Boot Device Error,test_dataset
+Printer problem,Printer Issue,Printer Issue,test_dataset
+Screen cracked,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC power delay,PSU / Power Issue,PSU / Power Issue,test_dataset
+PC issue,General Repair,General Repair,test_dataset
+hardware inspection problem,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+update not working problem,Windows Update Issue,Windows Update Issue,test_dataset
+corrupted data problem,File Corruption,File Corruption,test_dataset
+Mouse lag,Mouse Issue,Mouse Issue,test_dataset
+Cpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+the pc slow boot,SSD Upgrade,SSD Upgrade,test_dataset
+Phone usb issue,Phone Connection Issue,Phone Connection Issue,test_dataset
+the pc cleanup,System Optimization,System Optimization,test_dataset
+PC on but keyboard dead,Keyboard Issue,Keyboard Issue,test_dataset
+device not showing problem,Device Not Recognized,Device Not Recognized,test_dataset
+PC very slow,Slow Performance,Slow Performance,test_dataset
+Processor not fast enough,CPU Upgrade,CPU Upgrade,test_dataset
+the bios problem,BIOS Issue,BIOS Issue,test_dataset
+Boot failure,Windows Boot Failure,Windows Boot Failure,test_dataset
+Windows reinstall needed,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Laptop not detect charger,Charging Port Issue,Charging Port Issue,test_dataset
+the touchpad not moving,Touchpad Issue,Touchpad Issue,test_dataset
+RAM not detected,RAM Upgrade,RAM Upgrade,test_dataset
+CPU cooling problem,CPU Overheat,CPU Overheat,test_dataset
+Pc restart after update,Windows Update Issue,Windows Update Issue,test_dataset
+monitor not detected,No Display / No Signal,No Display / No Signal,test_dataset
+SSD performance,SSD Upgrade,SSD Upgrade,test_dataset
+device not recognized problem,Device Not Recognized,Device Not Recognized,test_dataset
+Touchpad not moving,Touchpad Issue,Touchpad Issue,test_dataset
+Speaker problem,Speaker Issue,Speaker Issue,test_dataset
+the ethernet cable problem,Network Cable Issue,Network Cable Issue,test_dataset
+cable loose problem,Network Cable Issue,Network Cable Issue,test_dataset
+processor outdated problem,CPU Upgrade,CPU Upgrade,test_dataset
+Need faster storage,SSD Upgrade,SSD Upgrade,test_dataset
+CPU thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Everything freeze suddenly,System Freeze,System Freeze,test_dataset
+PC freeze file save,System Freeze,System Freeze,test_dataset
+Monitor not detected,No Display / No Signal,No Display / No Signal,test_dataset
+apps crashing,Application Crash,Application Crash,test_dataset
+need better ssd issue,SSD Upgrade,SSD Upgrade,test_dataset
+SSD not fast enough,SSD Upgrade,SSD Upgrade,test_dataset
+device error problem,Device Not Recognized,Device Not Recognized,test_dataset
+PC freeze app open,System Freeze,System Freeze,test_dataset
+PC power click sound,PSU / Power Issue,PSU / Power Issue,test_dataset
+Need faster processor,CPU Upgrade,CPU Upgrade,test_dataset
+File read error,File Corruption,File Corruption,test_dataset
+Storage upgrade,HDD Upgrade,HDD Upgrade,test_dataset
+my need better ssd,SSD Upgrade,SSD Upgrade,test_dataset
+Something wrong pc,General Repair,General Repair,test_dataset
+my processor not fast enough,CPU Upgrade,CPU Upgrade,test_dataset
+Laptop dead battery,Battery Replacement,Battery Replacement,test_dataset
+PC on blank screen,No Display / No Signal,No Display / No Signal,test_dataset
+the bios not working,BIOS Issue,BIOS Issue,test_dataset
+files damaged,File Corruption,File Corruption,test_dataset
+PC boot fail error,Windows Boot Failure,Windows Boot Failure,test_dataset
+my laptop battery dead,Battery Replacement,Battery Replacement,test_dataset
+Graphics overheating,GPU Overheat,GPU Overheat,test_dataset
+pc no display vga,No Display / No Signal,No Display / No Signal,test_dataset
+Need better SSD,SSD Upgrade,SSD Upgrade,test_dataset
+GPU fan spinning fast,GPU Overheat,GPU Overheat,test_dataset
+Mobo problem,Motherboard Issue,Motherboard Issue,test_dataset
+Thermal paste dried,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+performance optimization issue,System Optimization,System Optimization,test_dataset
+CPU bottleneck,CPU Upgrade,CPU Upgrade,test_dataset
+Software incompatible,Software Conflict,Software Conflict,test_dataset
+Nothing show on monitor,No Display / No Signal,No Display / No Signal,test_dataset
+Computer slow,Slow Performance,Slow Performance,test_dataset
+virus removal issue,Virus / Malware,Virus / Malware,test_dataset
+Gpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+network cable damaged problem,Network Cable Issue,Network Cable Issue,test_dataset
+Virus removal,Virus / Malware,Virus / Malware,test_dataset
+fan vibration noise issue,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+my phone not showing,Phone Connection Issue,Phone Connection Issue,test_dataset
+files deleted,Data Recovery,Data Recovery,test_dataset
+PC slow loading programs,Slow Performance,Slow Performance,test_dataset
+Speaker not producing sound,Speaker Issue,Speaker Issue,test_dataset
+PC can't connect WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+pc boot loop,Windows Boot Failure,Windows Boot Failure,test_dataset
+PC cleanup,System Optimization,System Optimization,test_dataset
+Malware scan needed,Virus / Malware,Virus / Malware,test_dataset
+software incompatible problem,Software Conflict,Software Conflict,test_dataset
+PC hang always,System Freeze,System Freeze,test_dataset
+Charging port damaged,Charging Port Issue,Charging Port Issue,test_dataset
+Program crash random,Application Crash,Application Crash,test_dataset
+USB port not working,USB / Port Issue,USB / Port Issue,test_dataset
+Bluetooth device not found,Bluetooth Issue,Bluetooth Issue,test_dataset
+virus detected issue,Virus / Malware,Virus / Malware,test_dataset
+Device connection issue,Device Not Recognized,Device Not Recognized,test_dataset
+Programs crash,Application Crash,Application Crash,test_dataset
+system maintenance issue,System Optimization,System Optimization,test_dataset
+Boot device not found,Boot Device Error,Boot Device Error,test_dataset
+my laptop battery issue,Battery Replacement,Battery Replacement,test_dataset
+Processor overheating,CPU Overheat,CPU Overheat,test_dataset
+Pc no display vga,No Display / No Signal,No Display / No Signal,test_dataset
+the display flicker random,Monitor Issue,Monitor Issue,test_dataset
+webcam problem,Webcam Issue,Webcam Issue,test_dataset
+system tune up issue,System Optimization,System Optimization,test_dataset
+Display cable broken,Display Cable Issue,Display Cable Issue,test_dataset
+Recover deleted files,Data Recovery,Data Recovery,test_dataset
+GPU thermal paste,GPU Overheat,GPU Overheat,test_dataset
+File access error,File Corruption,File Corruption,test_dataset
+No power at all,PSU / Power Issue,PSU / Power Issue,test_dataset
+my no bootable device,Boot Device Error,Boot Device Error,test_dataset
+my malware scan needed,Virus / Malware,Virus / Malware,test_dataset
+corrupted files issue,File Corruption,File Corruption,test_dataset
+my hardware check needed,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+PC air flow bad,Fan / Cooling Issue,Fan / Cooling Issue,test_dataset
+PC no boot after crash,Windows Boot Failure,Windows Boot Failure,test_dataset
+software crash issue,Application Crash,Application Crash,test_dataset
+sound problem issue,Audio Issue,Audio Issue,test_dataset
+PC not normal,General Repair,General Repair,test_dataset
+camera not responding issue,Webcam Issue,Webcam Issue,test_dataset
+Partition not found,Partition Issue,Partition Issue,test_dataset
+BIOS update needed,BIOS Issue,BIOS Issue,test_dataset
+pc stuck preparing repair issue,Windows Boot Failure,Windows Boot Failure,test_dataset
+BSOD error,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Dc jack replacement,Charging Port Issue,Charging Port Issue,test_dataset
+PC stuck BIOS,BIOS Issue,BIOS Issue,test_dataset
+ram problem problem,RAM Upgrade,RAM Upgrade,test_dataset
+processor not fast enough issue,CPU Upgrade,CPU Upgrade,test_dataset
+Windows OS error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+Monitor no picture,Monitor Issue,Monitor Issue,test_dataset
+my microphone not working,Microphone Issue,Microphone Issue,test_dataset
+PC slow refresh,Slow Performance,Slow Performance,test_dataset
+Cannot find boot device,Boot Device Error,Boot Device Error,test_dataset
+Processor hot,CPU Overheat,CPU Overheat,test_dataset
+Network cable issue,Network Cable Issue,Network Cable Issue,test_dataset
+File error,File Corruption,File Corruption,test_dataset
+pc beep sound,RAM Upgrade,RAM Upgrade,test_dataset
+Laptop no display but on,No Display / No Signal,No Display / No Signal,test_dataset
+my phone not recognized,Phone Connection Issue,Phone Connection Issue,test_dataset
+USB cable issue,USB / Port Issue,USB / Port Issue,test_dataset
+RAM not enough,RAM Upgrade,RAM Upgrade,test_dataset
+WiFi not found,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+pc lag always issue,Slow Performance,Slow Performance,test_dataset
+pc problem detected,General Repair,General Repair,test_dataset
+Laptop charging light blink,PSU / Power Issue,PSU / Power Issue,test_dataset
+the vga cable issue,Display Cable Issue,Display Cable Issue,test_dataset
+PC stuck black screen,No Display / No Signal,No Display / No Signal,test_dataset
+the laptop error screen,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Graphics card hot,GPU Overheat,GPU Overheat,test_dataset
+Printer not connecting,Printer Issue,Printer Issue,test_dataset
+Partition problem,Partition Issue,Partition Issue,test_dataset
+hdmi cable not working issue,Display Cable Issue,Display Cable Issue,test_dataset
+CPU thermal issue,CPU Overheat,CPU Overheat,test_dataset
+Stop code error,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+nothing show on monitor issue,No Display / No Signal,No Display / No Signal,test_dataset
+PC stuck restart,Windows Boot Failure,Windows Boot Failure,test_dataset
+PC start then off,PSU / Power Issue,PSU / Power Issue,test_dataset
+Phone connection problem,Phone Connection Issue,Phone Connection Issue,test_dataset
+system check problem,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Internet not working,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+speaker not detected issue,Speaker Issue,Speaker Issue,test_dataset
+Monitor not working,Monitor Issue,Monitor Issue,test_dataset
+Battery not holding charge,Battery Replacement,Battery Replacement,test_dataset
+Graphics not good enough,GPU Upgrade,GPU Upgrade,test_dataset
+malware infection,Virus / Malware,Virus / Malware,test_dataset
+ethernet not working issue,Ethernet Issue,Ethernet Issue,test_dataset
+Keys not responding,Keyboard Issue,Keyboard Issue,test_dataset
+Windows update fail,Windows Update Issue,Windows Update Issue,test_dataset
+phone not showing,Phone Connection Issue,Phone Connection Issue,test_dataset
+Processor temperature,CPU Overheat,CPU Overheat,test_dataset
+System corruption,OS Reinstall / Corrupted,OS Reinstall / Corrupted,test_dataset
+pc stuck restart problem,Windows Boot Failure,Windows Boot Failure,test_dataset
+PC dead after voltage drop,PSU / Power Issue,PSU / Power Issue,test_dataset
+WiFi disconnect always,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+my touchpad not moving,Touchpad Issue,Touchpad Issue,test_dataset
+the mic problem,Microphone Issue,Microphone Issue,test_dataset
+mouse not working,Mouse Issue,Mouse Issue,test_dataset
+Update error,Windows Update Issue,Windows Update Issue,test_dataset
+Device not found,Device Not Recognized,Device Not Recognized,test_dataset
+GPU overheat warning,GPU Overheat,GPU Overheat,test_dataset
+driver problem issue,Driver Issue,Driver Issue,test_dataset
+Bluetooth not connecting,Bluetooth Issue,Bluetooth Issue,test_dataset
+Thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+Laptop no WiFi,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+Keyboard typing wrong,Keyboard Issue,Keyboard Issue,test_dataset
+Driver outdated,Driver Issue,Driver Issue,test_dataset
+Screen cracked,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+my stop code error,Blue Screen (BSOD),Blue Screen (BSOD),test_dataset
+Ethernet not working,Ethernet Issue,Ethernet Issue,test_dataset
+boot device problem issue,Boot Device Error,Boot Device Error,test_dataset
+bluetooth device not found issue,Bluetooth Issue,Bluetooth Issue,test_dataset
+laptop screen broken problem,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+PC stuck auto repair,Windows Boot Failure,Windows Boot Failure,test_dataset
+the battery replacement required,Battery Replacement,Battery Replacement,test_dataset
+Boot device error,Boot Device Error,Boot Device Error,test_dataset
+speaker broken,Speaker Issue,Speaker Issue,test_dataset
+Network adapter error,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,test_dataset
+Memory error message,RAM Upgrade,RAM Upgrade,test_dataset
+Windows update fail,Windows Update Issue,Windows Update Issue,test_dataset
+Storage full,HDD Upgrade,HDD Upgrade,test_dataset
+Usb cable issue,USB / Port Issue,USB / Port Issue,test_dataset
+the bluetooth error,Bluetooth Issue,Bluetooth Issue,test_dataset
+ethernet cable problem problem,Network Cable Issue,Network Cable Issue,test_dataset
+my usb device not recognized,USB / Port Issue,USB / Port Issue,test_dataset
+touchpad not responding problem,Touchpad Issue,Touchpad Issue,test_dataset
+Ethernet not recognized,Ethernet Issue,Ethernet Issue,test_dataset
+BIOS not working,BIOS Issue,BIOS Issue,test_dataset
+Game lag graphics,GPU Upgrade,GPU Upgrade,test_dataset
+Need better GPU,GPU Upgrade,GPU Upgrade,test_dataset
+device not showing problem,Device Not Recognized,Device Not Recognized,test_dataset
+Charging port not working,Charging Port Issue,Charging Port Issue,test_dataset
+the gpu performance issue,GPU Upgrade,GPU Upgrade,test_dataset
+Hardware test,Hardware Diagnostic,Hardware Diagnostic,test_dataset
+Thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,test_dataset
+software clash problem,Software Conflict,Software Conflict,test_dataset
+PC no power LED,PSU / Power Issue,PSU / Power Issue,test_dataset
+Laptop screen issue,Laptop Screen Repair,Laptop Screen Repair,test_dataset
+App crash error,Application Crash,Application Crash,test_dataset
+No audio output,Audio Issue,Audio Issue,test_dataset
+my webcam not showing,Webcam Issue,Webcam Issue,test_dataset

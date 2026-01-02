@@ -1,0 +1,708 @@
+{
+  "total": 580,
+  "correct": 373,
+  "incorrect": 207,
+  "accuracy": 64.3103448275862,
+  "results": [
+    {
+      "issue": "PC not turning on",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7461473410209649,
+      "correct": true
+    },
+    {
+      "issue": "Computer no power",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8814373507472109,
+      "correct": true
+    },
+    {
+      "issue": "PC dead suddenly",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7608534567044317,
+      "correct": true
+    },
+    {
+      "issue": "Power button not working",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7462590459377698,
+      "correct": true
+    },
+    {
+      "issue": "PC not start after power cut",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7861255515655114,
+      "correct": true
+    },
+    {
+      "issue": "PC start then off",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.5478503112285229,
+      "correct": true
+    },
+    {
+      "issue": "Computer restart again and again",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.713288734079141,
+      "correct": true
+    },
+    {
+      "issue": "PC shutdown suddenly",
+      "expected": "PSU / Power Issue",
+      "predicted": "CPU Overheat",
+      "confidence": 0.3769063795054393,
+      "correct": false
+    },
+    {
+      "issue": "System not starting",
+      "expected": "PSU / Power Issue",
+      "predicted": "General Repair",
+      "confidence": 0.11845445267890363,
+      "correct": false
+    },
+    {
+      "issue": "PC start slow then off",
+      "expected": "PSU / Power Issue",
+      "predicted": "Slow Performance",
+      "confidence": 0.4996262143432306,
+      "correct": false
+    },
+    {
+      "issue": "Laptop dead no charging",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8340791196734766,
+      "correct": true
+    },
+    {
+      "issue": "PC no response",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.3968535532287874,
+      "correct": true
+    },
+    {
+      "issue": "Power supply problem maybe",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7541018060522474,
+      "correct": true
+    },
+    {
+      "issue": "PC restart loop",
+      "expected": "PSU / Power Issue",
+      "predicted": "General Repair",
+      "confidence": 0.30955653769891717,
+      "correct": false
+    },
+    {
+      "issue": "PC start beep sound",
+      "expected": "PSU / Power Issue",
+      "predicted": "RAM Upgrade",
+      "confidence": 0.6797978399018737,
+      "correct": false
+    },
+    {
+      "issue": "Computer not wake up",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5756385078550933,
+      "correct": false
+    },
+    {
+      "issue": "PC on but keyboard light off",
+      "expected": "PSU / Power Issue",
+      "predicted": "General Repair",
+      "confidence": 0.4579441593244713,
+      "correct": false
+    },
+    {
+      "issue": "Monitor on but PC not",
+      "expected": "PSU / Power Issue",
+      "predicted": "No Display / No Signal",
+      "confidence": 0.6026616034016831,
+      "correct": false
+    },
+    {
+      "issue": "PC off when press power",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.41839081925042443,
+      "correct": true
+    },
+    {
+      "issue": "Laptop power light blink",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8167779447459056,
+      "correct": true
+    },
+    {
+      "issue": "PC not start after update",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5698969743195759,
+      "correct": false
+    },
+    {
+      "issue": "Computer stuck booting",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.7263452669139434,
+      "correct": false
+    },
+    {
+      "issue": "PC no signal",
+      "expected": "PSU / Power Issue",
+      "predicted": "No Display / No Signal",
+      "confidence": 0.7323833171039694,
+      "correct": false
+    },
+    {
+      "issue": "PC stuck loading",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.517802542496717,
+      "correct": false
+    },
+    {
+      "issue": "Computer not boot after clean",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6412719290252434,
+      "correct": false
+    },
+    {
+      "issue": "PC restart when login",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.3861391495277737,
+      "correct": false
+    },
+    {
+      "issue": "PC start but freeze",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.47703763214711337,
+      "correct": false
+    },
+    {
+      "issue": "System not responding on start",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5413707968836539,
+      "correct": false
+    },
+    {
+      "issue": "PC turn on late",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.6470977436872328,
+      "correct": true
+    },
+    {
+      "issue": "Laptop not power on",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8517495034546835,
+      "correct": true
+    },
+    {
+      "issue": "PC power on delay",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8310458889312774,
+      "correct": true
+    },
+    {
+      "issue": "Computer start randomly",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.6762381112888215,
+      "correct": true
+    },
+    {
+      "issue": "PC not turn off properly",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5337285553782062,
+      "correct": false
+    },
+    {
+      "issue": "PC fail to start",
+      "expected": "PSU / Power Issue",
+      "predicted": "General Repair",
+      "confidence": 0.6589546327062749,
+      "correct": false
+    },
+    {
+      "issue": "System not booting",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6831517382689549,
+      "correct": false
+    },
+    {
+      "issue": "Laptop not charging",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7585435505665452,
+      "correct": true
+    },
+    {
+      "issue": "PC on then blank",
+      "expected": "PSU / Power Issue",
+      "predicted": "No Display / No Signal",
+      "confidence": 0.5628408474769465,
+      "correct": false
+    },
+    {
+      "issue": "PC crash on startup",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.7921135159940698,
+      "correct": false
+    },
+    {
+      "issue": "Boot problem error",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.7090551491737751,
+      "correct": false
+    },
+    {
+      "issue": "PC start noise then off",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.6928862580810826,
+      "correct": true
+    },
+    {
+      "issue": "Laptop auto shutdown",
+      "expected": "PSU / Power Issue",
+      "predicted": "CPU Overheat",
+      "confidence": 0.3947755548423395,
+      "correct": false
+    },
+    {
+      "issue": "Computer power issue",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8732394995969138,
+      "correct": true
+    },
+    {
+      "issue": "PC start only sometimes",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.5478503112285229,
+      "correct": true
+    },
+    {
+      "issue": "Power issue after rain",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7619021278779927,
+      "correct": true
+    },
+    {
+      "issue": "PC dead after voltage drop",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.709384983683278,
+      "correct": true
+    },
+    {
+      "issue": "PC power flicker",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8402921181198035,
+      "correct": true
+    },
+    {
+      "issue": "Computer restart when plug charger",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7786148031491648,
+      "correct": true
+    },
+    {
+      "issue": "Laptop power drain fast",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.7766357618568147,
+      "correct": true
+    },
+    {
+      "issue": "PC stuck at BIOS",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.8184461993644763,
+      "correct": false
+    },
+    {
+      "issue": "BIOS open only",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.45474814608559766,
+      "correct": false
+    },
+    {
+      "issue": "PC stuck startup repair",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.9107342438700681,
+      "correct": false
+    },
+    {
+      "issue": "Laptop battery not detect",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.6485114562743691,
+      "correct": true
+    },
+    {
+      "issue": "PC start but nothing works",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.3560569056863989,
+      "correct": true
+    },
+    {
+      "issue": "No power at all",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8550359196638111,
+      "correct": true
+    },
+    {
+      "issue": "PC dead after power cut",
+      "expected": "PSU / Power Issue",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.8543468903454963,
+      "correct": true
+    },
+    {
+      "issue": "PC restart again and again",
+      "expected": "PSU / Power Issue",
+      "predicted": "General Repair",
+      "confidence": 0.6498880740553094,
+      "correct": false
+    },
+    {
+      "issue": "PC stuck black screen",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.4991050314034573,
+      "correct": false
+    },
+    {
+      "issue": "Nothing show on monitor",
+      "expected": "PSU / Power Issue",
+      "predicted": "No Display / No Signal",
+      "confidence": 0.5924986152218283,
+      "correct": false
+    },
+    {
+      "issue": "PC fan spin but no display",
+      "expected": "PSU / Power Issue",
+      "predicted": "No Display / No Signal",
+      "confidence": 0.41796129025098333,
+      "correct": false
+    },
+    {
+      "issue": "Laptop not start",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.3918421890277064,
+      "correct": false
+    },
+    {
+      "issue": "PC light on but screen black",
+      "expected": "PSU / Power Issue",
+      "predicted": "No Display / No Signal",
+      "confidence": 0.7786086998239236,
+      "correct": false
+    },
+    {
+      "issue": "PC not boot",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5489444197686698,
+      "correct": false
+    },
+    {
+      "issue": "Computer stuck at logo",
+      "expected": "PSU / Power Issue",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6858335995077453,
+      "correct": false
+    },
+    {
+      "issue": "PC not boot",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5489444197686698,
+      "correct": true
+    },
+    {
+      "issue": "Computer stuck at logo",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6858335995077453,
+      "correct": true
+    },
+    {
+      "issue": "System not starting",
+      "expected": "Windows Boot Failure",
+      "predicted": "General Repair",
+      "confidence": 0.11845445267890363,
+      "correct": false
+    },
+    {
+      "issue": "PC stuck loading",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.517802542496717,
+      "correct": true
+    },
+    {
+      "issue": "Computer not boot after clean",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6412719290252434,
+      "correct": true
+    },
+    {
+      "issue": "PC restart when login",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.3861391495277737,
+      "correct": true
+    },
+    {
+      "issue": "PC start but freeze",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.47703763214711337,
+      "correct": true
+    },
+    {
+      "issue": "System not responding on start",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5413707968836539,
+      "correct": true
+    },
+    {
+      "issue": "PC not turn off properly",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.5337285553782062,
+      "correct": true
+    },
+    {
+      "issue": "PC fail to start",
+      "expected": "Windows Boot Failure",
+      "predicted": "General Repair",
+      "confidence": 0.6589546327062749,
+      "correct": false
+    },
+    {
+      "issue": "System not booting",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6831517382689549,
+      "correct": true
+    },
+    {
+      "issue": "PC crash on startup",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.7921135159940698,
+      "correct": true
+    },
+    {
+      "issue": "Boot problem error",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.7090551491737751,
+      "correct": true
+    },
+    {
+      "issue": "PC stuck startup repair",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.9107342438700681,
+      "correct": true
+    },
+    {
+      "issue": "PC stuck at BIOS",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.8184461993644763,
+      "correct": true
+    },
+    {
+      "issue": "BIOS open only",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.45474814608559766,
+      "correct": true
+    },
+    {
+      "issue": "PC start but nothing works",
+      "expected": "Windows Boot Failure",
+      "predicted": "PSU / Power Issue",
+      "confidence": 0.3560569056863989,
+      "correct": false
+    },
+    {
+      "issue": "Laptop not start",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.3918421890277064,
+      "correct": true
+    },
+    {
+      "issue": "PC not boot after update",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.6796784946739824,
+      "correct": true
+    },
+    {
+      "issue": "Computer stuck booting",
+      "expected": "Windows Boot Failure",
+      "predicted": "Windows Boot Failure",
+      "confidence": 0.7263452669139434,
+      "correct": true
+    },
+    {
+      "issue": "My PC very slow",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.9033710256927533,
+      "correct": true
+    },
+    {
+      "issue": "Computer hang always",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.7466220840344839,
+      "correct": true
+    },
+    {
+      "issue": "PC lag too much",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.8973518697953414,
+      "correct": true
+    },
+    {
+      "issue": "Everything freeze suddenly",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.4633471147207648,
+      "correct": true
+    },
+    {
+      "issue": "PC slow after update",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.8386300151910948,
+      "correct": true
+    },
+    {
+      "issue": "System slow when open apps",
+      "expected": "Slow Performance",
+      "predicted": "RAM Upgrade",
+      "confidence": 0.49474815044187154,
+      "correct": false
+    },
+    {
+      "issue": "Laptop slow even small work",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.7754446296000382,
+      "correct": true
+    },
+    {
+      "issue": "PC slow boot",
+      "expected": "Slow Performance",
+      "predicted": "SSD Upgrade",
+      "confidence": 0.7954241690820335,
+      "correct": false
+    },
+    {
+      "issue": "PC slow after few minutes",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.8543986261094499,
+      "correct": true
+    },
+    {
+      "issue": "Computer hang when multitask",
+      "expected": "Slow Performance",
+      "predicted": "RAM Upgrade",
+      "confidence": 0.7277112135556133,
+      "correct": false
+    },
+    {
+      "issue": "Mouse move slow",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.7525231156806612,
+      "correct": true
+    },
+    {
+      "issue": "Keyboard delay",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.5426946081346091,
+      "correct": true
+    },
+    {
+      "issue": "PC slow with internet",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.7689871001786999,
+      "correct": true
+    },
+    {
+      "issue": "Laptop slow when charging",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.8032451014685461,
+      "correct": true
+    },
+    {
+      "issue": "PC lag while typing",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.8163758222844659,
+      "correct": true
+    },
+    {
+      "issue": "System freeze randomly",
+      "expected": "Slow Performance",
+      "predicted": "Slow Performance",
+      "confidence": 0.6296625687523338,
+      "correct": true
+    },
+    {
+      "issue": "PC slow opening files",
+      "expected": "Slow Performance",
+      "predicted": "SSD Upgrade",
+      "confidence": 0.49003167919712076,
+      "correct": false
+    }
+  ]
+}

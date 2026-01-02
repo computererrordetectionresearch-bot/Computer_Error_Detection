@@ -1,0 +1,234 @@
+user_text,error_type,component_label,source
+Programs not working together,Software Conflict,Software Conflict,incorrect_prediction_correction
+HDD not enough space,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+System corrupted message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,incorrect_prediction_correction
+Mouse freeze,Mouse Issue,Mouse Issue,incorrect_prediction_correction
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Lines on screen,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+PC freeze desktop,System Freeze,System Freeze,incorrect_prediction_correction
+PC slow after virus,Virus / Malware,Virus / Malware,incorrect_prediction_correction
+my hard drive upgrade needed,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Programs conflict,Software Conflict,Software Conflict,incorrect_prediction_correction
+GPU upgrade required,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+PC not start after update,Windows Boot Failure,Windows Boot Failure,incorrect_prediction_correction
+Speaker not producing sound,Speaker Issue,Speaker Issue,incorrect_prediction_correction
+charging port damaged,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+Low FPS problem,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+HDD full,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Network cable broken,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+Ethernet connected no net,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+programs not working together,Software Conflict,Software Conflict,incorrect_prediction_correction
+Need bigger HDD,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Ethernet cable issue,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Ethernet cable problem,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+Bluetooth not connecting,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+Laptop charging port broken,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+PC freeze boot logo,System Freeze,System Freeze,incorrect_prediction_correction
+Disk partition missing,Partition Issue,Partition Issue,incorrect_prediction_correction
+program not responding issue,Application Crash,Application Crash,incorrect_prediction_correction
+the ethernet not working,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Screen white suddenly,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+programs conflict,Software Conflict,Software Conflict,incorrect_prediction_correction
+disk partition missing,Partition Issue,Partition Issue,incorrect_prediction_correction
+program not responding problem,Application Crash,Application Crash,incorrect_prediction_correction
+GPU thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Windows corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,incorrect_prediction_correction
+PC cooling fail,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+PC freeze randomly,System Freeze,System Freeze,incorrect_prediction_correction
+Screen blink issue,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+PC freeze after hours,System Freeze,System Freeze,incorrect_prediction_correction
+Bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+PC restart after update,Windows Update Issue,Windows Update Issue,incorrect_prediction_correction
+fan broken,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Lost files,Data Recovery,Data Recovery,incorrect_prediction_correction
+CPU thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+the thermal paste replacement,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Fan making noise,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+thermal paste issue problem,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Laptop battery not charging,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+my processor upgrade needed,CPU Upgrade,CPU Upgrade,incorrect_prediction_correction
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Storage full,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+pc freeze often issue,System Freeze,System Freeze,incorrect_prediction_correction
+my cpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+my ethernet slow speed,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Network cable damaged,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+Ethernet cable not detect,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+CPU shutdown due to heat,CPU Overheat,CPU Overheat,incorrect_prediction_correction
+Hard drive upgrade needed,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Cooling problem PC,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Bluetooth not working,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+Disk partition missing,Partition Issue,Partition Issue,incorrect_prediction_correction
+Processor upgrade needed,CPU Upgrade,CPU Upgrade,incorrect_prediction_correction
+thermal paste dried,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Program crash random,Application Crash,Application Crash,incorrect_prediction_correction
+ethernet cable issue issue,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+File not opening,File Corruption,File Corruption,incorrect_prediction_correction
+Charging port problem,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+PC freeze copy files,System Freeze,System Freeze,incorrect_prediction_correction
+PC fail to start,Windows Boot Failure,Windows Boot Failure,incorrect_prediction_correction
+Bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+keyboard typing wrong,Keyboard Issue,Keyboard Issue,incorrect_prediction_correction
+pc on but keyboard dead,Keyboard Issue,Keyboard Issue,incorrect_prediction_correction
+my thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+hard drive upgrade required,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Internet slow only PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,incorrect_prediction_correction
+hdd not enough space issue,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+motherboard dead issue,Motherboard Issue,Motherboard Issue,incorrect_prediction_correction
+system corrupted message,OS Reinstall / Corrupted,OS Reinstall / Corrupted,incorrect_prediction_correction
+Thermal paste replacement,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+PC system corrupted,OS Reinstall / Corrupted,OS Reinstall / Corrupted,incorrect_prediction_correction
+Network driver missing,Driver Issue,Driver Issue,incorrect_prediction_correction
+the bluetooth not working,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+Fan noisy always,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+the cpu too slow,CPU Upgrade,CPU Upgrade,incorrect_prediction_correction
+Cooling issue,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+network cable issue,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+network cable issue,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+the ethernet connected no net,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Laptop battery not charging,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+PC freeze gaming,System Freeze,System Freeze,incorrect_prediction_correction
+Fan vibration noise,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Network driver missing,Driver Issue,Driver Issue,incorrect_prediction_correction
+touchpad not detected issue,Touchpad Issue,Touchpad Issue,incorrect_prediction_correction
+Fan not working,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Bluetooth not working,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+the fan very loud,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+GPU temp high,GPU Overheat,GPU Overheat,incorrect_prediction_correction
+ethernet cable problem issue,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+Laptop charging port broken,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+Fan not spinning,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Charging port loose,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+Bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+ethernet not working problem,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+application freeze issue,Application Crash,Application Crash,incorrect_prediction_correction
+Graphics card temperature,GPU Overheat,GPU Overheat,incorrect_prediction_correction
+PC boot only BIOS,Windows Boot Failure,Windows Boot Failure,incorrect_prediction_correction
+Ethernet connected no net,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+my bluetooth not turning on,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+Cooling system problem,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Laptop battery dead,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+Monitor display issue,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+Monitor no picture,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Thermal paste dried,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Lost files,Data Recovery,Data Recovery,incorrect_prediction_correction
+PC slow after virus,Virus / Malware,Virus / Malware,incorrect_prediction_correction
+System tune up,System Optimization,System Optimization,incorrect_prediction_correction
+Cooling issue,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+my fan vibration noise,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+device error problem,Device Not Recognized,Device Not Recognized,incorrect_prediction_correction
+Screen white suddenly,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+storage full issue,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+WiFi very slow PC,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,incorrect_prediction_correction
+PC stuck BIOS,Windows Boot Failure,Windows Boot Failure,incorrect_prediction_correction
+Need more storage,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Graphics not good enough,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+Programs crash,Application Crash,Application Crash,incorrect_prediction_correction
+Laptop battery not charging,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+Application freeze,Application Crash,Application Crash,incorrect_prediction_correction
+Audio driver issue,Audio Issue,Audio Issue,incorrect_prediction_correction
+the gpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Device error,Device Not Recognized,Device Not Recognized,incorrect_prediction_correction
+PC freeze updates,System Freeze,System Freeze,incorrect_prediction_correction
+pc cooling fail issue,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+low fps problem,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+Fan broken,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+my screen white suddenly,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+the ethernet connected no net,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+my storage full,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+the network cable damaged,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+graphics not good enough,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+my network cable broken,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+the ethernet not recognized,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+System freeze,System Freeze,System Freeze,incorrect_prediction_correction
+the programs conflict,Software Conflict,Software Conflict,incorrect_prediction_correction
+Ethernet slow speed,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Nothing show on monitor,No Display / No Signal,No Display / No Signal,incorrect_prediction_correction
+Program not responding,Application Crash,Application Crash,incorrect_prediction_correction
+my fan not spinning,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+need bigger hdd problem,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+gpu thermal paste problem,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+HDD not enough space,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+my monitor no picture,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+my pc freeze idle,System Freeze,System Freeze,incorrect_prediction_correction
+my fan vibration noise,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+the pc freeze after hours,System Freeze,System Freeze,incorrect_prediction_correction
+WiFi not turning on,Wi-Fi Adapter Upgrade,Wi-Fi Adapter Upgrade,incorrect_prediction_correction
+network cable issue problem,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+Windows not starting,Windows Boot Failure,Windows Boot Failure,incorrect_prediction_correction
+disk partition missing problem,Partition Issue,Partition Issue,incorrect_prediction_correction
+programs crash issue,Application Crash,Application Crash,incorrect_prediction_correction
+Fan very loud,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+monitor display issue problem,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+Mouse delay,Mouse Issue,Mouse Issue,incorrect_prediction_correction
+device error problem,Device Not Recognized,Device Not Recognized,incorrect_prediction_correction
+Need new thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Ethernet cable problem,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+bluetooth not turning on problem,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+Battery not detect,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+Laptop screen black,Laptop Screen Repair,Laptop Screen Repair,incorrect_prediction_correction
+Mobo not booting,Motherboard Issue,Motherboard Issue,incorrect_prediction_correction
+Ethernet not recognized,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+PC freeze startup,System Freeze,System Freeze,incorrect_prediction_correction
+Pc slow after virus,Virus / Malware,Virus / Malware,incorrect_prediction_correction
+Need more storage,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Charging port problem,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+touchpad not detected issue,Touchpad Issue,Touchpad Issue,incorrect_prediction_correction
+CPU too slow,CPU Upgrade,CPU Upgrade,incorrect_prediction_correction
+BIOS open only,BIOS Issue,BIOS Issue,incorrect_prediction_correction
+PC freeze randomly,System Freeze,System Freeze,incorrect_prediction_correction
+HDD outdated,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Port not working,USB / Port Issue,USB / Port Issue,incorrect_prediction_correction
+Ethernet cable issue,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+CPU heat issue,CPU Overheat,CPU Overheat,incorrect_prediction_correction
+Program not responding,Application Crash,Application Crash,incorrect_prediction_correction
+PC freeze often,System Freeze,System Freeze,incorrect_prediction_correction
+Storage too slow,SSD Upgrade,SSD Upgrade,incorrect_prediction_correction
+Motherboard dead,Motherboard Issue,Motherboard Issue,incorrect_prediction_correction
+Mouse lag,Mouse Issue,Mouse Issue,incorrect_prediction_correction
+Cpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+PC on but keyboard dead,Keyboard Issue,Keyboard Issue,incorrect_prediction_correction
+Pc restart after update,Windows Update Issue,Windows Update Issue,incorrect_prediction_correction
+the ethernet cable problem,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+CPU thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Everything freeze suddenly,System Freeze,System Freeze,incorrect_prediction_correction
+PC freeze file save,System Freeze,System Freeze,incorrect_prediction_correction
+device error problem,Device Not Recognized,Device Not Recognized,incorrect_prediction_correction
+PC freeze app open,System Freeze,System Freeze,incorrect_prediction_correction
+Storage upgrade,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+Laptop dead battery,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+my laptop battery dead,Battery Replacement,Battery Replacement,incorrect_prediction_correction
+Thermal paste dried,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Nothing show on monitor,No Display / No Signal,No Display / No Signal,incorrect_prediction_correction
+Gpu thermal paste,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+network cable damaged problem,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+fan vibration noise issue,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+PC slow loading programs,Slow Performance,Slow Performance,incorrect_prediction_correction
+Speaker not producing sound,Speaker Issue,Speaker Issue,incorrect_prediction_correction
+PC hang always,System Freeze,System Freeze,incorrect_prediction_correction
+Charging port damaged,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+Program crash random,Application Crash,Application Crash,incorrect_prediction_correction
+Programs crash,Application Crash,Application Crash,incorrect_prediction_correction
+PC air flow bad,Fan / Cooling Issue,Fan / Cooling Issue,incorrect_prediction_correction
+Monitor no picture,Monitor Issue,Monitor Issue,incorrect_prediction_correction
+Network cable issue,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+nothing show on monitor issue,No Display / No Signal,No Display / No Signal,incorrect_prediction_correction
+Graphics not good enough,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+ethernet not working issue,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Windows update fail,Windows Update Issue,Windows Update Issue,incorrect_prediction_correction
+Processor temperature,CPU Overheat,CPU Overheat,incorrect_prediction_correction
+System corruption,OS Reinstall / Corrupted,OS Reinstall / Corrupted,incorrect_prediction_correction
+Bluetooth not connecting,Bluetooth Issue,Bluetooth Issue,incorrect_prediction_correction
+Thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+Keyboard typing wrong,Keyboard Issue,Keyboard Issue,incorrect_prediction_correction
+Ethernet not working,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Windows update fail,Windows Update Issue,Windows Update Issue,incorrect_prediction_correction
+Storage full,HDD Upgrade,HDD Upgrade,incorrect_prediction_correction
+ethernet cable problem problem,Network Cable Issue,Network Cable Issue,incorrect_prediction_correction
+Ethernet not recognized,Ethernet Issue,Ethernet Issue,incorrect_prediction_correction
+Charging port not working,Charging Port Issue,Charging Port Issue,incorrect_prediction_correction
+the gpu performance issue,GPU Upgrade,GPU Upgrade,incorrect_prediction_correction
+Thermal paste issue,Thermal Paste Reapply,Thermal Paste Reapply,incorrect_prediction_correction
+App crash error,Application Crash,Application Crash,incorrect_prediction_correction

@@ -1,0 +1,260 @@
+{
+  "overall": {
+    "total": 20,
+    "correct": 20,
+    "incorrect": 233,
+    "accuracy": 76.7
+  },
+  "per_type": {
+    "Software Conflict": {
+      "correct": 15,
+      "total": 20,
+      "accuracy": 75.0
+    },
+    "HDD Upgrade": {
+      "correct": 0,
+      "total": 17,
+      "accuracy": 0.0
+    },
+    "OS Reinstall / Corrupted": {
+      "correct": 15,
+      "total": 20,
+      "accuracy": 75.0
+    },
+    "Mouse Issue": {
+      "correct": 14,
+      "total": 17,
+      "accuracy": 82.35294117647058
+    },
+    "Blue Screen (BSOD)": {
+      "correct": 17,
+      "total": 17,
+      "accuracy": 100.0
+    },
+    "PSU / Power Issue": {
+      "correct": 24,
+      "total": 24,
+      "accuracy": 100.0
+    },
+    "Hardware Diagnostic": {
+      "correct": 19,
+      "total": 19,
+      "accuracy": 100.0
+    },
+    "Ethernet Issue": {
+      "correct": 0,
+      "total": 20,
+      "accuracy": 0.0
+    },
+    "Monitor Issue": {
+      "correct": 10,
+      "total": 20,
+      "accuracy": 50.0
+    },
+    "USB / Port Issue": {
+      "correct": 18,
+      "total": 19,
+      "accuracy": 94.73684210526315
+    },
+    "CPU Upgrade": {
+      "correct": 15,
+      "total": 19,
+      "accuracy": 78.94736842105263
+    },
+    "System Freeze": {
+      "correct": 0,
+      "total": 18,
+      "accuracy": 0.0
+    },
+    "RAM Upgrade": {
+      "correct": 25,
+      "total": 25,
+      "accuracy": 100.0
+    },
+    "Audio Issue": {
+      "correct": 18,
+      "total": 19,
+      "accuracy": 94.73684210526315
+    },
+    "Motherboard Issue": {
+      "correct": 16,
+      "total": 19,
+      "accuracy": 84.21052631578947
+    },
+    "Network Cable Issue": {
+      "correct": 4,
+      "total": 18,
+      "accuracy": 22.22222222222222
+    },
+    "Virus / Malware": {
+      "correct": 16,
+      "total": 19,
+      "accuracy": 84.21052631578947
+    },
+    "Printer Issue": {
+      "correct": 20,
+      "total": 20,
+      "accuracy": 100.0
+    },
+    "Touchpad Issue": {
+      "correct": 18,
+      "total": 20,
+      "accuracy": 90.0
+    },
+    "Windows Update Issue": {
+      "correct": 16,
+      "total": 20,
+      "accuracy": 80.0
+    },
+    "CPU Overheat": {
+      "correct": 20,
+      "total": 23,
+      "accuracy": 86.95652173913044
+    },
+    "GPU Upgrade": {
+      "correct": 12,
+      "total": 19,
+      "accuracy": 63.1578947368421
+    },
+    "Speaker Issue": {
+      "correct": 18,
+      "total": 20,
+      "accuracy": 90.0
+    },
+    "Windows Boot Failure": {
+      "correct": 20,
+      "total": 25,
+      "accuracy": 80.0
+    },
+    "Keyboard Issue": {
+      "correct": 16,
+      "total": 20,
+      "accuracy": 80.0
+    },
+    "Charging Port Issue": {
+      "correct": 12,
+      "total": 20,
+      "accuracy": 60.0
+    },
+    "Driver Issue": {
+      "correct": 21,
+      "total": 23,
+      "accuracy": 91.30434782608695
+    },
+    "Battery Replacement": {
+      "correct": 11,
+      "total": 18,
+      "accuracy": 61.111111111111114
+    },
+    "Data Recovery": {
+      "correct": 16,
+      "total": 18,
+      "accuracy": 88.88888888888889
+    },
+    "Phone Connection Issue": {
+      "correct": 20,
+      "total": 20,
+      "accuracy": 100.0
+    },
+    "Webcam Issue": {
+      "correct": 20,
+      "total": 20,
+      "accuracy": 100.0
+    },
+    "File Corruption": {
+      "correct": 18,
+      "total": 19,
+      "accuracy": 94.73684210526315
+    },
+    "Wi-Fi Adapter Upgrade": {
+      "correct": 17,
+      "total": 20,
+      "accuracy": 85.0
+    },
+    "No Display / No Signal": {
+      "correct": 20,
+      "total": 23,
+      "accuracy": 86.95652173913044
+    },
+    "Laptop Screen Repair": {
+      "correct": 18,
+      "total": 19,
+      "accuracy": 94.73684210526315
+    },
+    "System Optimization": {
+      "correct": 17,
+      "total": 18,
+      "accuracy": 94.44444444444444
+    },
+    "Bluetooth Issue": {
+      "correct": 9,
+      "total": 19,
+      "accuracy": 47.368421052631575
+    },
+    "General Repair": {
+      "correct": 22,
+      "total": 22,
+      "accuracy": 100.0
+    },
+    "Slow Performance": {
+      "correct": 24,
+      "total": 25,
+      "accuracy": 96.0
+    },
+    "BIOS Issue": {
+      "correct": 18,
+      "total": 19,
+      "accuracy": 94.73684210526315
+    },
+    "Partition Issue": {
+      "correct": 16,
+      "total": 20,
+      "accuracy": 80.0
+    },
+    "Application Crash": {
+      "correct": 8,
+      "total": 20,
+      "accuracy": 40.0
+    },
+    "GPU Overheat": {
+      "correct": 21,
+      "total": 23,
+      "accuracy": 91.30434782608695
+    },
+    "Boot Device Error": {
+      "correct": 19,
+      "total": 19,
+      "accuracy": 100.0
+    },
+    "Thermal Paste Reapply": {
+      "correct": 0,
+      "total": 19,
+      "accuracy": 0.0
+    },
+    "Fan / Cooling Issue": {
+      "correct": 0,
+      "total": 20,
+      "accuracy": 0.0
+    },
+    "Microphone Issue": {
+      "correct": 19,
+      "total": 19,
+      "accuracy": 100.0
+    },
+    "SSD Upgrade": {
+      "correct": 22,
+      "total": 23,
+      "accuracy": 95.65217391304348
+    },
+    "Display Cable Issue": {
+      "correct": 18,
+      "total": 18,
+      "accuracy": 100.0
+    },
+    "Device Not Recognized": {
+      "correct": 15,
+      "total": 19,
+      "accuracy": 78.94736842105263
+    }
+  }
+}

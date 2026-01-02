@@ -1,0 +1,7 @@
+timestamp,user_text,predicted_label,confidence,top3,note
+2025-12-22T04:25:20.509304,stuck while gaming,Monitor or GPU Check,0.3321,"[('Monitor or GPU Check', 0.3320599579598717), ('CPU Cooler Upgrade', 0.11313539685529457), ('WiFi Adapter Upgrade', 0.04452163320050813)]",borderline; rule_note=
+2025-12-22T04:27:50.448700,stuck my pc while gaming,Monitor or GPU Check,0.2748,"[('Monitor or GPU Check', 0.27478023876095015), ('CPU Cooler Upgrade', 0.1250166612743726), ('WiFi Adapter Upgrade', 0.04916406685042321)]",borderline; rule_note=
+2025-12-22T04:39:44.779852,i want to color up my pc,PSU Upgrade,0.0983,"[('PSU Upgrade', 0.09826718134247209), ('CPU Cooler Upgrade', 0.0683092017748134), ('RAM Upgrade', 0.04393136625766391)]",low confidence; rule_note=
+2025-12-22T04:39:44.791614,i want to color up my pc,PSU Upgrade,0.0983,"[('PSU Upgrade', 0.09826718134247209), ('CPU Cooler Upgrade', 0.0683092017748134), ('RAM Upgrade', 0.04393136625766391)]",borderline; rule_note=
+2025-12-22T04:39:57.542663,i want to cool my pc,PSU Upgrade,0.0983,"[('PSU Upgrade', 0.09826718134247209), ('CPU Cooler Upgrade', 0.0683092017748134), ('RAM Upgrade', 0.04393136625766391)]",low confidence; rule_note=
+2025-12-22T04:39:57.543209,i want to cool my pc,PSU Upgrade,0.0983,"[('PSU Upgrade', 0.09826718134247209), ('CPU Cooler Upgrade', 0.0683092017748134), ('RAM Upgrade', 0.04393136625766391)]",borderline; rule_note=

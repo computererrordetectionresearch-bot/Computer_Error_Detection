@@ -1,0 +1,201 @@
+user_text,error_type,component_label,source
+PC not turning on,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+No power at all,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+Power button not working,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC dead after power cut,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC start then off,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC restart again and again,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC stuck black screen,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+Fan spin no display,No Display / No Signal,No Display / No Signal,real_world_solutions
+Laptop not start,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck on logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC no signal,No Display / No Signal,No Display / No Signal,real_world_solutions
+PC beep sound,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC start slow then freeze,Slow Performance,Slow Performance,real_world_solutions
+PC off suddenly,CPU Overheat,CPU Overheat,real_world_solutions
+PC start only sometimes,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+Laptop charging light blink,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC not boot,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC boot loop,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC on but keyboard dead,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck loading,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC restart on login,Driver Issue,Driver Issue,real_world_solutions
+PC no response,General Repair,General Repair,real_world_solutions
+PC power flicker,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC dead after rain,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC start noise then off,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck BIOS,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC no display HDMI,No Display / No Signal,No Display / No Signal,real_world_solutions
+Laptop not waking,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC fail start,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC not shutdown,General Repair,General Repair,real_world_solutions
+Laptop battery not charging,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC power delay,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC auto shutdown,CPU Overheat,CPU Overheat,real_world_solutions
+PC no power button light,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC freeze startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC restart after update,General Repair,General Repair,real_world_solutions
+PC no boot device,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC stuck repair loop,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+Laptop dead battery,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC crash startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC off when press power,General Repair,General Repair,real_world_solutions
+PC not start after clean,General Repair,General Repair,real_world_solutions
+PC power noise,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck welcome screen,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC on blank screen,No Display / No Signal,No Display / No Signal,real_world_solutions
+Laptop power drain fast,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC no power after move,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC start but no OS,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world_solutions
+PC freeze BIOS,Slow Performance,Slow Performance,real_world_solutions
+PC no boot beep,RAM Upgrade,RAM Upgrade,real_world_solutions
+Laptop not turn on,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck spinning dots,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC restart while boot,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC not respond startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC dead after voltage drop,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC start slow,Slow Performance,Slow Performance,real_world_solutions
+PC power surge damage,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+Laptop auto off,CPU Overheat,CPU Overheat,real_world_solutions
+PC not boot USB,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC freeze logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC power unstable,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC no boot after upgrade,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC no power LED,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+Laptop blink screen no start,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC start then blank,GPU Upgrade,GPU Upgrade,real_world_solutions
+PC no boot after RAM,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC stuck preparing repair,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC no display VGA,No Display / No Signal,No Display / No Signal,real_world_solutions
+Laptop not start after sleep,General Repair,General Repair,real_world_solutions
+PC power click sound,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC not start cold,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC freeze boot,SSD Upgrade,SSD Upgrade,real_world_solutions
+Laptop no power,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck restart,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC start then blue screen,Blue Screen (BSOD),Blue Screen (BSOD),real_world_solutions
+PC boot fail error,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world_solutions
+Laptop not detect charger,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC no display after GPU,No Display / No Signal,No Display / No Signal,real_world_solutions
+PC start fan loud,CPU Overheat,CPU Overheat,real_world_solutions
+PC fail POST,General Repair,General Repair,real_world_solutions
+PC boot only BIOS,OS Reinstall / Corrupted,OS Reinstall / Corrupted,real_world_solutions
+PC stuck safe mode,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+Laptop no power response,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck loading bar,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC not boot SSD,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC power drain fast,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC no power sometimes,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+Laptop start then off,CPU Overheat,CPU Overheat,real_world_solutions
+PC no startup sound,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC stuck auto repair,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC boot fail random,RAM Upgrade,RAM Upgrade,real_world_solutions
+Laptop boot black,GPU Upgrade,GPU Upgrade,real_world_solutions
+PC start with error,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC power off idle,PSU / Power Issue,PSU / Power Issue,real_world_solutions
+PC stuck BIOS logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC restart pressing power,General Repair,General Repair,real_world_solutions
+Laptop no display but on,No Display / No Signal,No Display / No Signal,real_world_solutions
+PC no boot after crash,Blue Screen (BSOD),Blue Screen (BSOD),real_world_solutions
+PC freeze boot logo,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC not working,General Repair,General Repair,real_world_solutions
+PC very slow,Slow Performance,Slow Performance,real_world_solutions
+PC lag always,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow boot,SSD Upgrade,SSD Upgrade,real_world_solutions
+PC freeze often,Slow Performance,Slow Performance,real_world_solutions
+PC slow after update,Slow Performance,Slow Performance,real_world_solutions
+PC lag typing,Slow Performance,Slow Performance,real_world_solutions
+PC slow browsing,Slow Performance,Slow Performance,real_world_solutions
+PC hang multitask,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC slow file open,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag video,Slow Performance,Slow Performance,real_world_solutions
+PC slow startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+PC freeze idle,Slow Performance,Slow Performance,real_world_solutions
+PC lag mouse,Slow Performance,Slow Performance,real_world_solutions
+PC slow copy files,Slow Performance,Slow Performance,real_world_solutions
+PC delay click,SSD Upgrade,SSD Upgrade,real_world_solutions
+PC slow gaming,GPU Upgrade,GPU Upgrade,real_world_solutions
+Laptop slow charging,Slow Performance,Slow Performance,real_world_solutions
+PC lag audio,Slow Performance,Slow Performance,real_world_solutions
+PC slow internet apps,Slow Performance,Slow Performance,real_world_solutions
+PC freeze scroll,Slow Performance,Slow Performance,real_world_solutions
+PC stutter random,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow multitask,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC lag when hot,Slow Performance,Slow Performance,real_world_solutions
+PC freeze browser,Slow Performance,Slow Performance,real_world_solutions
+PC slow after install,Slow Performance,Slow Performance,real_world_solutions
+PC lag opening apps,Slow Performance,Slow Performance,real_world_solutions
+PC hang heavy work,Slow Performance,Slow Performance,real_world_solutions
+PC slow response,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag battery,Slow Performance,Slow Performance,real_world_solutions
+PC freeze updates,Slow Performance,Slow Performance,real_world_solutions
+PC lag USB,Slow Performance,Slow Performance,real_world_solutions
+PC slow after sleep,Slow Performance,Slow Performance,real_world_solutions
+PC stutter typing,Slow Performance,Slow Performance,real_world_solutions
+PC lag on boot,SSD Upgrade,SSD Upgrade,real_world_solutions
+PC freeze gaming,GPU Upgrade,GPU Upgrade,real_world_solutions
+Laptop lag video call,Slow Performance,Slow Performance,real_world_solutions
+PC slow with antivirus,Slow Performance,Slow Performance,real_world_solutions
+PC lag after long use,Slow Performance,Slow Performance,real_world_solutions
+PC slow file explorer,Slow Performance,Slow Performance,real_world_solutions
+PC stutter animation,Slow Performance,Slow Performance,real_world_solutions
+PC lag window move,Slow Performance,Slow Performance,real_world_solutions
+PC freeze system tray,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow wake,Slow Performance,Slow Performance,real_world_solutions
+PC lag zoom calls,Slow Performance,Slow Performance,real_world_solutions
+PC slow idle,Slow Performance,Slow Performance,real_world_solutions
+PC hang copy paste,Slow Performance,Slow Performance,real_world_solutions
+PC stutter mouse,Slow Performance,Slow Performance,real_world_solutions
+PC slow login,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag sound,Slow Performance,Slow Performance,real_world_solutions
+PC slow install apps,Slow Performance,Slow Performance,real_world_solutions
+PC lag multitask,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC freeze after hours,Slow Performance,Slow Performance,real_world_solutions
+PC slow refresh,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow render,Slow Performance,Slow Performance,real_world_solutions
+PC stutter browser,Slow Performance,Slow Performance,real_world_solutions
+PC lag typing delay,Slow Performance,Slow Performance,real_world_solutions
+PC slow shutdown,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag resume,Slow Performance,Slow Performance,real_world_solutions
+PC freeze antivirus scan,Slow Performance,Slow Performance,real_world_solutions
+PC slow UI,Slow Performance,Slow Performance,real_world_solutions
+PC lag updates,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow charging mode,Slow Performance,Slow Performance,real_world_solutions
+PC freeze app open,Slow Performance,Slow Performance,real_world_solutions
+PC slow windows load,Slow Performance,Slow Performance,real_world_solutions
+PC lag drag drop,Slow Performance,Slow Performance,real_world_solutions
+PC stutter gaming low FPS,GPU Upgrade,GPU Upgrade,real_world_solutions
+Laptop lag zoom,Slow Performance,Slow Performance,real_world_solutions
+PC slow extract files,Slow Performance,Slow Performance,real_world_solutions
+PC lag printing,Slow Performance,Slow Performance,real_world_solutions
+PC freeze multitask,RAM Upgrade,RAM Upgrade,real_world_solutions
+PC slow network apps,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag boot,SSD Upgrade,SSD Upgrade,real_world_solutions
+PC stutter scrolling,Slow Performance,Slow Performance,real_world_solutions
+PC lag with USB drive,Slow Performance,Slow Performance,real_world_solutions
+PC slow after virus,Slow Performance,Slow Performance,real_world_solutions
+PC freeze file save,Slow Performance,Slow Performance,real_world_solutions
+PC lag brightness,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow IDE,Slow Performance,Slow Performance,real_world_solutions
+PC stutter idle,Slow Performance,Slow Performance,real_world_solutions
+PC lag audio video,Slow Performance,Slow Performance,real_world_solutions
+PC slow boot HDD,SSD Upgrade,SSD Upgrade,real_world_solutions
+PC freeze apps,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag heavy apps,Slow Performance,Slow Performance,real_world_solutions
+PC slow task manager,Slow Performance,Slow Performance,real_world_solutions
+PC lag start menu,Slow Performance,Slow Performance,real_world_solutions
+PC freeze copy files,Slow Performance,Slow Performance,real_world_solutions
+Laptop slow after update,Slow Performance,Slow Performance,real_world_solutions
+PC lag animations,Slow Performance,Slow Performance,real_world_solutions
+PC slow internet apps,Slow Performance,Slow Performance,real_world_solutions
+PC freeze desktop,Slow Performance,Slow Performance,real_world_solutions
+PC stutter startup,Windows Boot Failure,Windows Boot Failure,real_world_solutions
+Laptop lag drivers,Slow Performance,Slow Performance,real_world_solutions
+PC slow search,Slow Performance,Slow Performance,real_world_solutions
+PC lag switching apps,Slow Performance,Slow Performance,real_world_solutions
+PC freeze notifications,Slow Performance,Slow Performance,real_world_solutions
+PC slow refresh rate,Slow Performance,Slow Performance,real_world_solutions
+Laptop lag compile,Slow Performance,Slow Performance,real_world_solutions
+PC stutter browser video,Slow Performance,Slow Performance,real_world_solutions
+PC slow app launch,Slow Performance,Slow Performance,real_world_solutions
+PC very slow,Slow Performance,Slow Performance,real_world_solutions

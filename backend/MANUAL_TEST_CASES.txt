@@ -1,0 +1,651 @@
+================================================================================
+MANUAL TEST CASES FOR ERROR DETECTION MODEL
+================================================================================
+Use these test cases to manually verify the model's accuracy for each error type.
+Copy and paste each test case into your application to test.
+
+================================================================================
+HARDWARE ISSUES
+================================================================================
+
+--- GPU Overheat ---
+1. GPU overheating during games
+2. Graphics card too hot
+3. GPU fan not working
+4. GPU temperature high
+5. Graphics card overheating
+6. GPU thermal issue
+7. GPU hot when gaming
+8. Graphics card fan loud
+9. GPU overheat warning
+10. GPU shutdown due to heat
+
+--- CPU Overheat ---
+1. CPU overheating
+2. Processor too hot
+3. CPU fan not spinning
+4. CPU temperature high
+5. Processor overheating
+6. CPU thermal issue
+7. CPU hot always
+8. Processor fan loud
+9. PC very hot
+10. Laptop overheating
+11. System temperature high
+
+--- PSU / Power Issue ---
+1. PC not turning on
+2. No power at all
+3. Power button not working
+4. PC dead after power cut
+5. PC start then off
+6. PC shutdown suddenly
+7. PC start only sometimes
+8. Laptop charging light blink
+9. PC power flicker
+10. PC dead after rain
+11. PC start noise then off
+12. Laptop auto shutdown
+13. Computer power issue
+14. PC power delay
+15. PC auto shutdown
+16. PC no power button light
+17. PC power noise
+18. PC power surge damage
+19. Laptop not charging
+20. PC dead after voltage drop
+21. PC power unstable
+22. PC no power LED
+23. PC power click sound
+24. PC not start cold
+25. Laptop no power
+26. PC no power sometimes
+27. PC power off idle
+28. PC restart pressing power
+29. Laptop not detect charger
+
+--- Motherboard Issue ---
+1. Motherboard not working
+2. Mobo problem
+3. Mainboard issue
+4. Motherboard dead
+5. Mobo failure
+6. Mainboard not detected
+7. Motherboard error
+8. Mobo damaged
+9. Mainboard problem
+10. Motherboard short circuit
+
+--- CPU Upgrade ---
+1. Need faster processor
+2. CPU too slow
+3. Processor upgrade needed
+4. CPU bottleneck
+5. Processor not fast enough
+6. CPU performance issue
+7. Need better CPU
+8. Processor outdated
+9. CPU upgrade required
+
+--- GPU Upgrade ---
+1. Need better graphics card
+2. GPU too weak
+3. Graphics card upgrade needed
+4. GPU bottleneck
+5. Graphics not good enough
+6. GPU performance issue
+7. Need better GPU
+8. Graphics card outdated
+9. GPU upgrade required
+10. Low FPS problem
+11. Game lag graphics
+12. Graphics card not detect
+
+--- RAM Upgrade ---
+1. Need more RAM
+2. RAM not enough
+3. Memory upgrade needed
+4. RAM full
+5. Memory insufficient
+6. RAM performance issue
+7. Need more memory
+8. RAM outdated
+9. Memory upgrade required
+10. RAM not detected
+11. PC beep sound
+12. Memory error message
+13. RAM issue maybe
+14. Memory usage high
+15. RAM problem
+
+--- SSD Upgrade ---
+1. Need faster storage
+2. SSD upgrade needed
+3. Storage too slow
+4. SSD performance
+5. Storage upgrade required
+6. SSD not fast enough
+7. Need better SSD
+8. Storage outdated
+9. SSD upgrade
+10. PC slow boot
+11. PC slow opening files
+12. PC slow loading programs
+13. PC slow file open
+14. PC slow copy files
+15. PC slow boot disk
+
+--- HDD Upgrade ---
+1. Need more storage
+2. HDD full
+3. Hard drive upgrade needed
+4. HDD not enough space
+5. Storage full
+6. Hard drive upgrade required
+7. Need bigger HDD
+8. HDD outdated
+9. Storage upgrade
+
+--- Fan / Cooling Issue ---
+1. Fan not working
+2. Cooling system problem
+3. Fan not spinning
+4. Fan broken
+5. Cooling issue
+6. Fan making noise
+7. Fan very loud
+8. Cooling problem PC
+9. Fan vibration noise
+10. Fan noisy always
+11. PC air flow bad
+12. PC cooling fail
+
+--- Thermal Paste Reapply ---
+1. Thermal paste dried
+2. Need new thermal paste
+3. Thermal paste replacement
+4. CPU thermal paste
+5. GPU thermal paste
+6. Thermal paste issue
+
+--- Battery Replacement ---
+1. Laptop battery dead
+2. Battery not holding charge
+3. Battery replacement needed
+4. Laptop battery not charging
+5. Battery swollen
+6. Battery replacement required
+7. Laptop dead battery
+8. Battery not detect
+9. Laptop battery issue
+
+--- Charging Port Issue ---
+1. Laptop charging port broken
+2. Charging port not working
+3. DC jack issue
+4. Charging port loose
+5. DC jack broken
+6. Charging port damaged
+7. Laptop not detect charger
+8. Charging port problem
+9. DC jack replacement
+
+================================================================================
+DISPLAY ISSUES
+================================================================================
+
+--- Monitor Issue ---
+1. Monitor not working
+2. Display problem
+3. Screen issue
+4. Monitor flickering
+5. Lines on screen
+6. Screen white suddenly
+7. Display flicker random
+8. Monitor flicker screen
+9. Screen blink issue
+10. Monitor display issue
+11. Screen pixel issue
+12. Monitor no picture
+
+--- No Display / No Signal ---
+1. Screen black PC on
+2. No display
+3. Monitor no signal
+4. PC no signal
+5. PC on blank screen
+6. PC no display HDMI
+7. PC no display VGA
+8. PC no signal display
+9. Monitor not detected
+10. PC stuck black screen
+11. Nothing show on monitor
+12. PC fan spin but no display
+13. PC light on but screen black
+14. PC on then blank
+15. Laptop no display but on
+
+--- Laptop Screen Repair ---
+1. Laptop screen broken
+2. Screen cracked
+3. Laptop display damaged
+4. Screen repair needed
+5. Laptop screen issue
+6. Display repair
+7. Laptop screen black
+8. Screen not working
+9. Laptop display problem
+
+--- Display Cable Issue ---
+1. HDMI cable not working
+2. Display cable broken
+3. VGA cable issue
+4. Display cable loose
+5. HDMI not working
+6. VGA not working
+
+================================================================================
+SYSTEM ISSUES
+================================================================================
+
+--- Blue Screen (BSOD) ---
+1. PC blue screen
+2. Windows crash suddenly
+3. BSOD error
+4. Blue screen of death
+5. Stop code error
+6. Blue screen crash
+7. Windows error screen
+8. Windows crash loop
+9. Laptop error screen
+
+--- Windows Boot Failure ---
+1. PC not boot
+2. Windows not starting
+3. Boot failure
+4. PC stuck on logo
+5. PC stuck loading
+6. Computer stuck booting
+7. PC not start after update
+8. PC stuck startup repair
+9. PC stuck BIOS
+10. PC boot loop
+11. PC fail to start
+12. System not booting
+13. PC stuck restart
+14. PC boot fail error
+15. PC boot fail random
+16. PC no boot device
+17. PC stuck repair loop
+18. PC stuck preparing repair
+19. PC stuck auto repair
+20. PC no boot after crash
+21. PC boot only BIOS
+
+--- OS Reinstall / Corrupted ---
+1. Windows corrupted
+2. OS corrupted
+3. System corrupted message
+4. Windows reinstall needed
+5. OS reinstall required
+6. System corruption
+7. PC system corrupted
+8. Windows OS error
+9. Laptop OS error
+10. OS not working
+11. Windows OS crash
+12. Laptop OS broken
+
+--- BIOS Issue ---
+1. BIOS problem
+2. BIOS error
+3. BIOS not working
+4. BIOS corrupted
+5. BIOS update needed
+6. BIOS issue
+7. PC stuck BIOS
+8. BIOS open only
+9. PC stuck BIOS logo
+
+--- Boot Device Error ---
+1. Boot device not found
+2. No bootable device
+3. Boot device error
+4. Cannot find boot device
+5. Boot device missing
+6. Boot device problem
+
+================================================================================
+PERFORMANCE ISSUES
+================================================================================
+
+--- Slow Performance ---
+1. PC very slow
+2. Computer slow
+3. System slow
+4. PC lag always
+5. PC slow after update
+6. PC slow performance
+7. System slow overall
+8. PC very unresponsive
+9. System sluggish
+10. PC delay everything
+11. PC slow suddenly
+12. PC slow after few minutes
+13. PC slow with internet
+14. PC slow with antivirus
+15. PC slow after software install
+16. PC slow with updates
+17. PC slow loading programs
+18. PC slow file explorer
+19. PC slow idle
+20. PC slow refresh
+21. PC slow shutdown
+
+--- System Freeze ---
+1. PC freeze often
+2. System freeze
+3. PC hang always
+4. Everything freeze suddenly
+5. PC freeze randomly
+6. PC freeze idle
+7. PC freeze after hours
+8. PC freeze app open
+9. PC freeze copy files
+10. PC freeze desktop
+11. PC freeze startup
+12. PC freeze boot logo
+13. PC freeze gaming
+14. PC freeze updates
+15. PC freeze file save
+
+--- Application Crash ---
+1. Apps crashing
+2. Programs crash
+3. Application error
+4. Software crash
+5. Program not responding
+6. App crash error
+7. Application freeze
+8. Program crash random
+9. App crash startup
+
+================================================================================
+SOFTWARE ISSUES
+================================================================================
+
+--- Virus / Malware ---
+1. PC infected
+2. Virus detected
+3. Malware problem
+4. Computer virus
+5. Malware infection
+6. Virus removal needed
+7. PC slow after virus
+8. Malware scan needed
+9. Virus removal
+
+--- Driver Issue ---
+1. Driver problem
+2. Driver error
+3. Driver not working
+4. Driver missing
+5. Driver outdated
+6. Driver conflict
+7. Display driver error
+8. Graphics driver fail
+9. Driver problem error
+10. Network driver missing
+11. Audio driver issue
+12. USB driver problem
+
+--- Software Conflict ---
+1. Software conflict
+2. Programs conflict
+3. App conflict
+4. Software incompatible
+5. Programs not working together
+6. Software clash
+
+--- Windows Update Issue ---
+1. Windows update fail
+2. Update not working
+3. Update error
+4. Windows update problem
+5. Update stuck
+6. Update failed
+7. PC restart after update
+8. Update causing issues
+9. Windows update broken
+
+================================================================================
+NETWORK ISSUES
+================================================================================
+
+--- Wi-Fi Adapter Upgrade ---
+1. No internet on PC
+2. WiFi not working
+3. Internet not working
+4. WiFi connected no internet
+5. PC not detect WiFi
+6. WiFi disconnect always
+7. Internet slow only PC
+8. WiFi very slow PC
+9. PC can't connect WiFi
+10. WiFi keeps disconnect
+11. WiFi error PC
+12. WiFi not found
+13. Laptop no WiFi
+14. WiFi not turning on
+15. Network adapter error
+
+--- Ethernet Issue ---
+1. Ethernet not working
+2. Ethernet cable not detect
+3. Ethernet connected no net
+4. Ethernet slow speed
+5. Ethernet not recognized
+6. Ethernet cable issue
+
+--- Network Cable Issue ---
+1. Network cable broken
+2. Cable not working
+3. Network cable damaged
+4. Ethernet cable problem
+5. Cable loose
+6. Network cable issue
+
+--- Bluetooth Issue ---
+1. Bluetooth not working
+2. Bluetooth not connecting
+3. Bluetooth device not found
+4. Bluetooth error
+5. Bluetooth problem
+6. Bluetooth not turning on
+
+================================================================================
+PERIPHERAL ISSUES
+================================================================================
+
+--- Keyboard Issue ---
+1. Keyboard not working
+2. Keys not responding
+3. Keyboard broken
+4. Keyboard keys stuck
+5. Keyboard typing wrong
+6. Keyboard not detected
+7. PC on but keyboard dead
+8. Keys not working
+
+--- Mouse Issue ---
+1. Mouse not working
+2. Mouse not moving
+3. Mouse buttons not working
+4. Mouse cursor jumping
+5. Mouse not detected
+6. Mouse lag
+7. Mouse delay
+8. Mouse freeze
+9. Mouse not responding
+
+--- USB / Port Issue ---
+1. USB not working
+2. USB port broken
+3. USB device not recognized
+4. USB port not working
+5. USB not detected
+6. USB cable issue
+7. Port not working
+8. USB port damaged
+9. USB connection issue
+
+--- Audio Issue ---
+1. No sound
+2. Audio not working
+3. Sound problem
+4. Audio error
+5. No audio output
+6. Sound not working
+7. Audio driver issue
+8. Sound card problem
+9. Audio device not found
+
+--- Speaker Issue ---
+1. Speakers not working
+2. No sound from speakers
+3. Speaker broken
+4. Speaker not detected
+5. Speaker problem
+6. Speaker not producing sound
+
+--- Microphone Issue ---
+1. Microphone not working
+2. Mic not detected
+3. Microphone not picking up sound
+4. Mic problem
+5. Microphone error
+6. Mic not responding
+
+--- Webcam Issue ---
+1. Webcam not working
+2. Camera not detected
+3. Webcam not showing
+4. Camera error
+5. Webcam problem
+6. Camera not responding
+
+--- Printer Issue ---
+1. Printer not working
+2. Printer not printing
+3. Printer error
+4. Printer not detected
+5. Printer problem
+6. Printer not connecting
+
+--- Touchpad Issue ---
+1. Touchpad not working
+2. Touchpad not responding
+3. Touchpad cursor jumping
+4. Touchpad not detected
+5. Touchpad problem
+6. Touchpad not moving
+
+================================================================================
+DATA & RECOVERY
+================================================================================
+
+--- Data Recovery ---
+1. Lost files
+2. Deleted files recovery
+3. Data recovery needed
+4. Files deleted
+5. Data lost
+6. Recover deleted files
+7. File recovery
+8. Data recovery service
+9. Recover lost data
+
+--- File Corruption ---
+1. Files corrupted
+2. File not opening
+3. Corrupted files
+4. File error
+5. Corruption issue
+6. Files damaged
+7. File read error
+8. Corrupted data
+9. File access error
+
+--- Partition Issue ---
+1. Partition not found
+2. Partition error
+3. Disk partition missing
+4. Partition corrupted
+5. Partition not accessible
+6. Partition problem
+
+================================================================================
+PHONE/DEVICE ISSUES
+================================================================================
+
+--- Phone Connection Issue ---
+1. Phone not connecting
+2. Phone not detected
+3. Phone connection problem
+4. Phone not recognized
+5. Phone USB issue
+6. Phone not showing
+
+--- Device Not Recognized ---
+1. Device not detected
+2. Device not recognized
+3. Device not showing
+4. Device error
+5. Device not found
+6. Device connection issue
+
+================================================================================
+GENERAL
+================================================================================
+
+--- General Repair ---
+1. PC not working
+2. Computer problem
+3. PC issue
+4. Something wrong PC
+5. PC problem unknown
+6. PC malfunction
+7. PC need repair
+8. Computer broken
+9. PC always error
+10. PC error detected
+11. PC fault detected
+12. PC problem detected
+13. PC not normal
+14. PC broken software
+15. PC fail system
+16. My PC not working properly
+17. PC need fixing
+18. System broken maybe
+
+--- Hardware Diagnostic ---
+1. Hardware check needed
+2. System diagnostic
+3. Hardware test
+4. Component check
+5. Hardware inspection
+6. System check
+
+--- System Optimization ---
+1. System optimization
+2. PC optimization
+3. Performance optimization
+4. System tune up
+5. PC cleanup
+6. System maintenance
+
+================================================================================
+END OF TEST CASES
+================================================================================
+Total: 51 error types with 500+ test cases
+

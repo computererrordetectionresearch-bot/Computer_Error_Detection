@@ -1,0 +1,225 @@
+text,error_type
+pc gets very hot when playing games,GPU Overheat
+overheating my pc while gaming,GPU Overheat
+blue screen with sad face and stop code,Blue Screen (BSOD)
+no bootable device found,Windows Boot Failure
+want to upgrade to 1tb ssd,SSD Upgrade
+need more ram for chrome tabs and multitasking,RAM Upgrade
+wifi keeps disconnecting every few minutes,Wi-Fi Adapter Upgrade
+pc randomly shuts down when I play games,PSU / Power Issue
+monitor is not power on,PSU / Power Issue
+no signal on monitor but pc is on,No Display / No Signal
+pc restarts when I play games,GPU Overheat
+windows takes 5 minutes to start,SSD Upgrade
+computer running very slow,Slow Performance
+browser tabs closing automatically,RAM Upgrade
+random shutdowns during gaming,GPU Overheat
+phone not connecting to pc,Phone Connection Issue
+phone not connecting to computer,Phone Connection Issue
+can not connect phone to pc,Phone Connection Issue
+usb device not recognized,USB / Port Issue
+phone not detected by computer,Phone Connection Issue
+phone is not connecting to to the pc,Phone Connection Issue
+mobile phone not connecting to pc,Phone Connection Issue
+android phone not connecting to computer,Phone Connection Issue
+iphone not connecting to pc,Phone Connection Issue
+phone won't connect to pc,Phone Connection Issue
+device not connecting to pc,Phone Connection Issue
+phone not recognized by pc,Phone Connection Issue
+phone not showing on computer,Phone Connection Issue
+phone doesn't connect to pc,Phone Connection Issue
+My PC shuts down randomly when I open a game.,PSU / Power Issue
+Screen keeps flickering when I move the mouse.,Monitor or GPU Check
+Laptop fan makes loud noise after 10 minutes of use.,CPU Overheat
+The computer does not detect my USB drive.,USB / Port Issue
+My PC freezes when I open multiple Chrome tabs.,RAM Upgrade
+"Monitor shows ""no signal"" even though the PC is running.",No Display / No Signal
+Computer takes too long to start Windows.,SSD Upgrade
+PC keeps restarting without any warning.,PSU / Power Issue
+The Wi-Fi disconnects only on my desktop.,Wi-Fi Adapter Upgrade
+Audio keeps crackling during calls.,General Repair
+Laptop battery drains very quickly.,General Repair
+Games have extremely low FPS even on low graphics.,GPU Upgrade
+The PC overheats whenever I play heavy games.,GPU Overheat
+Blue screen appears after connecting my external hard drive.,Blue Screen (BSOD)
+Clicking noise is coming from inside the computer.,SSD Upgrade
+PC shows random color lines on display.,Monitor or GPU Check
+Laptop keyboard types on its own sometimes.,General Repair
+My PC won't turn on unless I remove and reconnect the cables.,PSU / Power Issue
+The computer shuts down when I plug in my phone.,PSU / Power Issue
+Multiple apps freeze when I try to multitask.,RAM Upgrade
+My PC smells like burning after running for a few minutes.,PSU / Power Issue
+Laptop doesn't charge unless I hold the charger tightly.,General Repair
+The system lags badly when opening games.,GPU Upgrade
+My PC won't detect the graphics card.,GPU Upgrade
+The audio works but microphone does not.,General Repair
+Mouse disconnects randomly.,USB / Port Issue
+My PC is stuck on the manufacturer logo while booting.,Windows Boot Failure
+Windows crashes when installing updates.,Windows Boot Failure
+The internet speed is extremely slow only on this PC.,Wi-Fi Adapter Upgrade
+Laptop gets hot even when idle.,CPU Overheat
+PC fans spin at 100% for no reason.,CPU Overheat
+The screen turns black while gaming.,GPU Overheat
+My PC freezes on the login screen.,Windows Boot Failure
+The computer cannot detect the SSD sometimes.,SSD Upgrade
+File transfers are extremely slow.,SSD Upgrade
+Bluetooth headphones keep disconnecting.,General Repair
+Laptop screen has dim brightness and won't increase.,Monitor or GPU Check
+PC crashes when using video editing software.,GPU Upgrade
+My monitor randomly turns off while the PC runs.,Monitor or GPU Check
+Keyboard stops working after waking from sleep.,General Repair
+GPU fans do not spin.,GPU Upgrade
+The PC vibrates or makes buzzing sounds.,PSU / Power Issue
+Wi-Fi shows limited connectivity on this PC only.,Wi-Fi Adapter Upgrade
+My laptop doesn't boot unless I remove the battery.,PSU / Power Issue
+Windows doesn't recognize my printer.,USB / Port Issue
+The PC won't connect to Bluetooth devices.,General Repair
+Apps open very slowly on startup.,SSD Upgrade
+The system hangs when copying large files.,SSD Upgrade
+Computer restarts when launching a game.,PSU / Power Issue
+PC gives a blue screen during boot.,Blue Screen (BSOD)
+Laptop hinge is very tight and makes noise.,General Repair
+Computer randomly loses power.,PSU / Power Issue
+The SSD disappears from BIOS sometimes.,SSD Upgrade
+Games take forever to load.,SSD Upgrade
+PC cannot detect RAM sticks after cleaning.,RAM Upgrade
+Laptop fan never spins even when hot.,CPU Overheat
+PC freezes when connecting HDMI cable.,Monitor or GPU Check
+Internet disconnects when downloading files.,Wi-Fi Adapter Upgrade
+Keyboard RGB lights stop working.,General Repair
+"PC shows ""CPU temperature too high"" warning.",CPU Overheat
+Laptop touchpad is unresponsive sometimes.,General Repair
+Monitor has ghosting effect in games.,Monitor or GPU Check
+Computer cannot detect secondary hard drive.,SSD Upgrade
+PC shuts down after GPU reaches high usage.,PSU / Power Issue
+Clicking on apps takes too long to respond.,SSD Upgrade
+My USB ports stop working after a few minutes.,USB / Port Issue
+The pc makes a whistling noise when running.,PSU / Power Issue
+Laptop overheats even with cooling pad.,CPU Overheat
+Wireless mouse lags randomly.,USB / Port Issue
+Laptop screen flickers when opening the lid.,Monitor or GPU Check
+Games stutter after a few minutes of play.,GPU Overheat
+PC crashes when GPU driver updates.,GPU Upgrade
+Slow internet only when streaming videos.,Wi-Fi Adapter Upgrade
+The computer cannot connect to any Bluetooth device.,General Repair
+PC does not wake from sleep mode.,Windows Boot Failure
+Laptop makes popping noise from speakers.,General Repair
+Keyboard keys respond with delay.,General Repair
+PC shuts down when plugging in more USB devices.,PSU / Power Issue
+Apps freeze when switching desktops.,RAM Upgrade
+System takes too long to open File Explorer.,SSD Upgrade
+Laptop shuts down at 50% battery.,General Repair
+Computer emits burning smell occasionally.,PSU / Power Issue
+PC screen becomes blurry randomly.,Monitor or GPU Check
+The computer gets stuck on black screen after boot.,Windows Boot Failure
+Monitor randomly switches refresh rate.,Monitor or GPU Check
+USB headphone mic not detected by PC.,USB / Port Issue
+Computer refuses to connect to external monitor.,Monitor or GPU Check
+PC freezes when downloading games.,SSD Upgrade
+The fan speed increases suddenly without load.,CPU Overheat
+PC overheats only during video calls.,CPU Overheat
+Laptop hangs when unplugging charger.,PSU / Power Issue
+Games keep crashing after a few minutes.,GPU Overheat
+The PC does not detect the Wi-Fi adapter.,Wi-Fi Adapter Upgrade
+SSD read/write speeds are very slow.,SSD Upgrade
+Graphics card shows error in Device Manager.,GPU Upgrade
+Laptop restarts when moved slightly.,PSU / Power Issue
+Monitor shows static noise sometimes.,Monitor or GPU Check
+PC shuts down instantly under load.,PSU / Power Issue
+The computer lags heavily after Windows update.,SSD Upgrade
+Computer stuck in boot loop,PSU / Power Issue
+System freezes on Windows logo,SSD Upgrade
+Fans spin but no POST,PSU / Power Issue
+Laptop not charging even when plugged in,PSU / Power Issue
+Motherboard LED glows but PC won't boot,PSU / Power Issue
+GPU reaches 90°C while gaming,CPU Overheat
+Thermal throttling in games,CPU Overheat
+Liquid cooler pump not detected,CPU Overheat
+PC extremely loud under small load,CPU Overheat
+FPS drops after few minutes of gameplay,GPU Upgrade
+Stuttering when moving camera in games,GPU Upgrade
+Sudden FPS spikes and freezes,GPU Upgrade
+Game crashes after loading screen,GPU Upgrade
+Screen tearing during gameplay,GPU Upgrade
+Game closes without error,GPU Upgrade
+Monitor loses signal during gaming,General Repair
+Mouse lag only in games,GPU Upgrade
+GPU thermal throttling while gaming,CPU Overheat
+DirectX error during game startup,GPU Upgrade
+Disk usage stays at 100%,SSD Upgrade
+Files take too long to copy,SSD Upgrade
+Not enough storage to install apps,SSD Upgrade
+Windows update fails due to low disk,SSD Upgrade
+Random file corruption issues,SSD Upgrade
+HDD extremely noisy,SSD Upgrade
+PC freezes when accessing folders,SSD Upgrade
+Storage not recognized after BIOS update,SSD Upgrade
+Partition missing after restart,SSD Upgrade
+Game installed on HDD loads very slowly,SSD Upgrade
+File transfer freezes randomly,SSD Upgrade
+Memory usage reaches 90% on idle,RAM Upgrade
+PC crashes with memory management BSOD,RAM Upgrade
+Random reboots with no error,RAM Upgrade
+Laptop RAM not detected,RAM Upgrade
+Applications stop responding,RAM Upgrade
+RAM slot not working,RAM Upgrade
+System beeps indicating memory error,RAM Upgrade
+Heavy lag when switching apps,RAM Upgrade
+Excel or Photoshop crashes,RAM Upgrade
+Games crash randomly,RAM Upgrade
+Memory leak in background processes,RAM Upgrade
+PC restarts when using too many apps,RAM Upgrade
+Virtual memory warning,RAM Upgrade
+Ethernet not detecting cable,General Repair
+Router works but PC won't connect,General Repair
+Websites take too long to load,General Repair
+Can't connect to 5GHz network,General Repair
+Display turns black during use,General Repair
+Monitor turns off by itself,General Repair
+Lines appearing on the display,General Repair
+Ghosting while scrolling,General Repair
+Monitor stuck at 60hz,General Repair
+Dual monitor not detected,General Repair
+Dead pixels appearing,General Repair
+Backlight bleed visible at corners,General Repair
+Display showing artifacts,General Repair
+Flickering only during games,General Repair
+Screen goes dim on battery,General Repair
+GPU overheating even on idle,GPU Upgrade
+GPU power spikes,GPU Upgrade
+Memory overclock unstable,GPU Upgrade
+Black screen when GPU under load,GPU Upgrade
+Fans spin at 100% at random,GPU Upgrade
+GPU not giving display but fans spin,GPU Upgrade
+GPU overheats after cleaning,GPU Upgrade
+GPU shuts PC down when fan ramps,GPU Upgrade
+CPU temp spikes instantly,CPU Overheat
+BIOS not detecting new CPU,General Repair
+CPU throttles at 60°C,CPU Overheat
+System unstable after overclock,General Repair
+PC cannot encode videos smoothly,General Repair
+PC beeps continuously and won't boot,PSU / Power Issue
+BIOS screen keeps appearing every startup,Windows Boot Failure
+PC requires multiple attempts to turn on,PSU / Power Issue
+PC powers on only when cables are adjusted,PSU / Power Issue
+Gaming laptop overheats on performance mode,CPU Overheat
+High ping in online games,General Repair
+Boot failure due to faulty RAM,RAM Upgrade
+Only half RAM usable,RAM Upgrade
+Blue screen when RAM reaches max usage,RAM Upgrade
+Limited connectivity error,General Repair
+Wi-Fi not showing any networks,General Repair
+High ping despite fast internet,General Repair
+Wi-Fi adapter missing from device manager,General Repair
+Hotspot not working,General Repair
+Random internet dropouts,General Repair
+GPU artifacts on screen,GPU Upgrade
+Heavy stuttering when CPU boosts,General Repair
+Laptop CPU underclocked permanently,General Repair
+CPU fails stress test,General Repair
+Network drops during video call,General Repair
+Bluetooth no working,General Repair
+Bluetooth not working,General Repair
+Bluetooth doesn't work,General Repair
+Bluetooth not connecting,General Repair
+Bluetooth won't connect,General Repair

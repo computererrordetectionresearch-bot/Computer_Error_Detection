@@ -1,0 +1,16 @@
+text,product_category
+"low fps in games",GPU
+"frame rate drops while gaming",GPU
+"windows takes too long to load",SSD
+"pc startup is very slow",SSD
+"browser tabs lagging and closing",RAM
+"wifi is unstable and disconnects",Wi-Fi Adapter
+"pc randomly turns off, feels like power issue",PSU
+"low fps when playing games",GPU
+"taking too long to load windows",SSD
+"browser tabs closing / lagging",RAM
+"no Wi-Fi / unstable Wi-Fi",Wi-Fi Adapter
+"random shutdowns",PSU
+"pc is very slow for gaming",GPU
+"windows loads very slowly but internet is fine",SSD
+
