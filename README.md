@@ -1,1 +1,1 @@
-# Computer_Error_Detction
+# Computer_Error_Detection
