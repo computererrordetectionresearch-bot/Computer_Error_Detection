@@ -74,7 +74,7 @@ The **PC Recommendation Engine** is a full-stack intelligent system that provide
 │  └─────────────────────────┼─────────────────────────────┘ │
 │                            │                               │
 │  ┌─────────────────────────┼────────────────────────────┐  │
-│  │    ML Models Layer       │                           │  │
+│  │    ML Models Layer                                   │  │
 │  │  ┌──────────┐ ┌──────────┐ ┌──────────┐              │  │
 │  │  │  Shop    │ │  Error   │ │ Product  │              │  │
 │  │  │ Ranking  │ │  Type    │ │  Need    │              │  │
@@ -83,7 +83,7 @@ The **PC Recommendation Engine** is a full-stack intelligent system that provide
 │  └──────────────────────────────────────────────────────┘  │
 │                            │                               │
 │  ┌─────────────────────────┼────────────────────────────┐  │
-│  │      Data Layer          │                           │  │
+│  │      Data Layer                                      │  │
 │  │  ┌──────────┐ ┌──────────┐ ┌──────────┐              │  │
 │  │  │ Supabase │ │   CSV    │ │  Models  │              │  │
 │  │  │  (DB)    │ │  Files   │ │   (.pkl) │              │  │
