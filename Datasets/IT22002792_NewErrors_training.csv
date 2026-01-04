@@ -4,22 +4,22 @@ Make sure the power cable is firmly plugged into the PC and wall socket
 Try a different wall socket
 If using a power strip / UPS, bypass it and connect directly to the wall
 Look for any loose or damaged power cable
-📌 If there is no power reaching the PC, it will not turn on at all.","🔘 Option 2: Verify Power Supply (PSU) Switch
+📌 If there is no power reaching the PC, it will not turn on at all.","✅ Option 2: Verify Power Supply (PSU) Switch
 Check the switch at the back of the PSU
 It must be set to ON ( | ), not OFF ( O )
-If your PSU has a voltage selector, ensure it matches your region (usually 230V)","💡 Option 3: Look for Any Signs of Power
+If your PSU has a voltage selector, ensure it matches your region (usually 230V)","✅ Option 3: Look for Any Signs of Power
 Do you see any lights on the motherboard or case?
 Do fans spin for even a second?
 Do you hear any click or sound?
 ✔️ No lights / sounds → likely power supply or cable issue
-✔️ Lights but no start → possible motherboard or power button issue","🔧 Option 4: Check the Power Button Connection
+✔️ Lights but no start → possible motherboard or power button issue","✅ Option 4: Check the Power Button Connection
 Turn off power and unplug the PC
 Open the case
 Locate the front panel connectors on the motherboard
 Ensure the POWER SW cable is properly connected
 🔎 Test tip:
 Briefly touch the power switch pins with a screwdriver
-If PC turns on → Power button is faulty","⚡ Option 5: Reseat Main Power Cables
+If PC turns on → Power button is faulty","✅ Option 5: Reseat Main Power Cables
 Remove and reconnect:
 24-pin motherboard power cable
 8-pin CPU power cable
