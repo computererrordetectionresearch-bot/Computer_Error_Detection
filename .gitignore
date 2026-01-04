@@ -82,3 +82,14 @@ build/
 
 # Do NOT ignore Datasets directory (explicitly keep it tracked)
 # Datasets/
+
+# Project docs and helper scripts (requested to ignore)
+HOW_TO_START.md
+NEW_FEATURES.md
+START_HERE.txt
+TECHNICAL_SPECS.md
+TRAINING_UPDATE.md
+VOICE_FEATURE.md
+retrain_model.bat
+start_backend.bat
+start_frontend.bat
