@@ -1,0 +1,881 @@
+id,category,error_name,user_error_text,symptoms,cause,step_1,step_2,step_3,step_4,step_5,verification,risk,os_version,device_type,tag,log_snippet
+NET-001,Network / Internet Error,Wi-Fi connected but no internet,I can't browse the web; Wi-Fi connected but no internet happened after reboot,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,NetAdapter: Wi-Fi connected but no internet - adapter not found
+NET-002,Network / Internet Error,Wi-Fi connected but no internet,Network problem: Wi-Fi connected but no internet and pages won't load,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,VPN: Wi-Fi connected but no internet - authentication failed
+NET-003,Network / Internet Error,Wi-Fi connected but no internet,Troubleshooting shows network errors for Wi-Fi connected but no internet,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,NetAdapter: Wi-Fi connected but no internet - adapter not found
+NET-004,Network / Internet Error,Wi-Fi connected but no internet,"Wi-Fi connected but no internet on my device, others seem to work fine",Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,VPN: Wi-Fi connected but no internet - authentication failed
+NET-005,Network / Internet Error,Wi-Fi connected but no internet,Troubleshooting shows network errors for Wi-Fi connected but no internet,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,Network: Wi-Fi connected but no internet - DNS timeout error
+NET-006,Network / Internet Error,Wi-Fi connected but no internet,Network problem: Wi-Fi connected but no internet and pages won't load,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Desktop,Network,Dhcp: Wi-Fi connected but no internet - DHCP lease failure
+NET-007,Network / Internet Error,Wi-Fi connected but no internet,Network problem: Wi-Fi connected but no internet and pages won't load,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Network: Wi-Fi connected but no internet - DNS timeout error
+NET-008,Network / Internet Error,Wi-Fi connected but no internet,Troubleshooting shows network errors for Wi-Fi connected but no internet,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,VPN: Wi-Fi connected but no internet - authentication failed
+NET-009,Network / Internet Error,Wi-Fi connected but no internet,"After update, Wi-Fi connected but no internet started occurring",Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Router: Wi-Fi connected but no internet - gateway unreachable
+NET-010,Network / Internet Error,Wi-Fi connected but no internet,I can't browse the web; Wi-Fi connected but no internet happened after reboot,Connected to Wi-Fi but web pages won't load; ping fails to external IP,"Router/ISP issue, DNS problem, or corrupted network stack on device",Restart Wi-Fi on your PC and reboot the router (unplug 10s → plug back in).,Run Windows Network Troubleshooter: Settings → Network & Internet → Troubleshoot.,Flush DNS and renew IP: open admin Command Prompt and run ipconfig /flushdns && ipconfig /release && ipconfig /renew.,"Reset network stack: netsh winsock reset && netsh int ip reset, then restart PC.","If other devices also lack internet, contact ISP; if only your device, check adapter drivers or reinstall adapter.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Desktop,Network,VPN: Wi-Fi connected but no internet - authentication failed
+NET-011,Network / Internet Error,DNS resolution failure,"DNS resolution failure on my device, others seem to work fine",Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,NetAdapter: DNS resolution failure - adapter not found
+NET-012,Network / Internet Error,DNS resolution failure,"After update, DNS resolution failure started occurring",Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Router: DNS resolution failure - gateway unreachable
+NET-013,Network / Internet Error,DNS resolution failure,"After update, DNS resolution failure started occurring",Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,Dhcp: DNS resolution failure - DHCP lease failure
+NET-014,Network / Internet Error,DNS resolution failure,DNS resolution failure appears and network icon has a warning,Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,VPN: DNS resolution failure - authentication failed
+NET-015,Network / Internet Error,DNS resolution failure,Network problem: DNS resolution failure and pages won't load,Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,Router: DNS resolution failure - gateway unreachable
+NET-016,Network / Internet Error,DNS resolution failure,Troubleshooting shows network errors for DNS resolution failure,Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Desktop,Network,Network: DNS resolution failure - DNS timeout error
+NET-017,Network / Internet Error,DNS resolution failure,"DNS resolution failure on my device, others seem to work fine",Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,Dhcp: DNS resolution failure - DHCP lease failure
+NET-018,Network / Internet Error,DNS resolution failure,I can't browse the web; DNS resolution failure happened after reboot,Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Router: DNS resolution failure - gateway unreachable
+NET-019,Network / Internet Error,DNS resolution failure,Troubleshooting shows network errors for DNS resolution failure,Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,Dhcp: DNS resolution failure - DHCP lease failure
+NET-020,Network / Internet Error,DNS resolution failure,Network problem: DNS resolution failure and pages won't load,Websites fail to resolve names; ping to domain fails but IP ping works,"Incorrect DNS settings, ISP DNS issues, or cached bad entries","Test by pinging 8.8.8.8; if that works but domain names fail, it's DNS.","Change DNS to public DNS (e.g., 8.8.8.8 and 8.8.4.4) in adapter settings.",Flush DNS cache: ipconfig /flushdns and restart browser.,Check router DNS settings and reboot router if needed.,"If issue persists, try using a different DNS like Cloudflare (1.1.1.1) or contact ISP.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,VPN: DNS resolution failure - authentication failed
+NET-021,Network / Internet Error,Slow internet speed,Troubleshooting shows network errors for Slow internet speed,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,VPN: Slow internet speed - authentication failed
+NET-022,Network / Internet Error,Slow internet speed,Slow internet speed during online meeting and disconnects happen,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,NetAdapter: Slow internet speed - adapter not found
+NET-023,Network / Internet Error,Slow internet speed,Network problem: Slow internet speed and pages won't load,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,Router: Slow internet speed - gateway unreachable
+NET-024,Network / Internet Error,Slow internet speed,Troubleshooting shows network errors for Slow internet speed,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Desktop,Network,VPN: Slow internet speed - authentication failed
+NET-025,Network / Internet Error,Slow internet speed,Slow internet speed — my browser says no internet though Wi-Fi shows connected,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,Dhcp: Slow internet speed - DHCP lease failure
+NET-026,Network / Internet Error,Slow internet speed,I can't browse the web; Slow internet speed happened after reboot,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,Router: Slow internet speed - gateway unreachable
+NET-027,Network / Internet Error,Slow internet speed,Slow internet speed — my browser says no internet though Wi-Fi shows connected,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,VPN: Slow internet speed - authentication failed
+NET-028,Network / Internet Error,Slow internet speed,I can't browse the web; Slow internet speed happened after reboot,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,NetAdapter: Slow internet speed - adapter not found
+NET-029,Network / Internet Error,Slow internet speed,Slow internet speed appears and network icon has a warning,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Desktop,Network,Router: Slow internet speed - gateway unreachable
+NET-030,Network / Internet Error,Slow internet speed,Slow internet speed — my browser says no internet though Wi-Fi shows connected,"Pages load slowly, streaming buffers, high latency in games","ISP congestion, background uploads/updates, weak Wi-Fi signal, or faulty hardware",Run a speed test (speedtest.net) and note download/upload numbers.,Restart router and PC; disconnect other devices using heavy bandwidth.,Move closer to router or use Ethernet for testing to rule out Wi-Fi.,Check for background updates or cloud sync and pause them.,"If speeds remain poor on wired connection, contact ISP for support.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,NetAdapter: Slow internet speed - adapter not found
+NET-031,Network / Internet Error,Network adapter missing,Network adapter missing — my browser says no internet though Wi-Fi shows connected,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Router: Network adapter missing - gateway unreachable
+NET-032,Network / Internet Error,Network adapter missing,I can't browse the web; Network adapter missing happened after reboot,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,Router: Network adapter missing - gateway unreachable
+NET-033,Network / Internet Error,Network adapter missing,Ping fails to external IP; Network adapter missing observed,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,NetAdapter: Network adapter missing - adapter not found
+NET-034,Network / Internet Error,Network adapter missing,Ping fails to external IP; Network adapter missing observed,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,Router: Network adapter missing - gateway unreachable
+NET-035,Network / Internet Error,Network adapter missing,Network adapter missing appears and network icon has a warning,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,NetAdapter: Network adapter missing - adapter not found
+NET-036,Network / Internet Error,Network adapter missing,"Network adapter missing on my device, others seem to work fine",No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,VPN: Network adapter missing - authentication failed
+NET-037,Network / Internet Error,Network adapter missing,Ping fails to external IP; Network adapter missing observed,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Network: Network adapter missing - DNS timeout error
+NET-038,Network / Internet Error,Network adapter missing,Network adapter missing — my browser says no internet though Wi-Fi shows connected,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Dhcp: Network adapter missing - DHCP lease failure
+NET-039,Network / Internet Error,Network adapter missing,I can't browse the web; Network adapter missing happened after reboot,No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,Router: Network adapter missing - gateway unreachable
+NET-040,Network / Internet Error,Network adapter missing,"Network adapter missing on my device, others seem to work fine",No network adapter listed in Device Manager or adapter disappeared after update,"Driver removal, hardware failure, or disabled adapter in BIOS/UEFI",Open Device Manager and show hidden devices to check for adapters.,Scan for hardware changes or click 'Action → Add legacy hardware' to reinstall.,Install or roll back driver: right-click adapter → Update driver → Browse my computer.,Check BIOS/UEFI to ensure onboard NIC is enabled (for desktops/laptops with switchable NICs).,"If hardware missing, use a USB-to-Ethernet adapter or seek repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,NetAdapter: Network adapter missing - adapter not found
+NET-041,Network / Internet Error,Intermittent disconnects,Intermittent disconnects during online meeting and disconnects happen,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,Network: Intermittent disconnects - DNS timeout error
+NET-042,Network / Internet Error,Intermittent disconnects,Troubleshooting shows network errors for Intermittent disconnects,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Desktop,Network,Router: Intermittent disconnects - gateway unreachable
+NET-043,Network / Internet Error,Intermittent disconnects,Intermittent disconnects — my browser says no internet though Wi-Fi shows connected,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,Router: Intermittent disconnects - gateway unreachable
+NET-044,Network / Internet Error,Intermittent disconnects,Intermittent disconnects appears and network icon has a warning,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,NetAdapter: Intermittent disconnects - adapter not found
+NET-045,Network / Internet Error,Intermittent disconnects,Ping fails to external IP; Intermittent disconnects observed,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Desktop,Network,NetAdapter: Intermittent disconnects - adapter not found
+NET-046,Network / Internet Error,Intermittent disconnects,"After update, Intermittent disconnects started occurring","Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,Router: Intermittent disconnects - gateway unreachable
+NET-047,Network / Internet Error,Intermittent disconnects,Ping fails to external IP; Intermittent disconnects observed,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Network: Intermittent disconnects - DNS timeout error
+NET-048,Network / Internet Error,Intermittent disconnects,"Intermittent disconnects on my device, others seem to work fine","Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,Router: Intermittent disconnects - gateway unreachable
+NET-049,Network / Internet Error,Intermittent disconnects,"Intermittent disconnects on my device, others seem to work fine","Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,Router: Intermittent disconnects - gateway unreachable
+NET-050,Network / Internet Error,Intermittent disconnects,Intermittent disconnects — my browser says no internet though Wi-Fi shows connected,"Wi-Fi disconnects randomly, reconnects, or loses packets","Interference, power saving settings, or unstable router firmware",Disable Wi-Fi power saving: Device Manager → adapter → Properties → Power Management → uncheck power save.,"Change Wi-Fi channel on router to a less crowded channel (2.4GHz: 1,6,11).",Update router firmware and PC wireless drivers.,"Test using Ethernet; if stable, Wi-Fi is the problem – consider a better AP or mesh.",Replace faulty adapter or router if hardware is failing.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Desktop,Network,Dhcp: Intermittent disconnects - DHCP lease failure
+NET-051,Network / Internet Error,No Ethernet link / Cable unplugged,Troubleshooting shows network errors for No Ethernet link / Cable unplugged,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,NetAdapter: No Ethernet link / Cable unplugged - adapter not found
+NET-052,Network / Internet Error,No Ethernet link / Cable unplugged,"After update, No Ethernet link / Cable unplugged started occurring",Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Dhcp: No Ethernet link / Cable unplugged - DHCP lease failure
+NET-053,Network / Internet Error,No Ethernet link / Cable unplugged,No Ethernet link / Cable unplugged — my browser says no internet though Wi-Fi shows connected,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Network: No Ethernet link / Cable unplugged - DNS timeout error
+NET-054,Network / Internet Error,No Ethernet link / Cable unplugged,Ping fails to external IP; No Ethernet link / Cable unplugged observed,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,VPN: No Ethernet link / Cable unplugged - authentication failed
+NET-055,Network / Internet Error,No Ethernet link / Cable unplugged,I can't browse the web; No Ethernet link / Cable unplugged happened after reboot,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,Network: No Ethernet link / Cable unplugged - DNS timeout error
+NET-056,Network / Internet Error,No Ethernet link / Cable unplugged,No Ethernet link / Cable unplugged affects my ability to use web apps,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Router: No Ethernet link / Cable unplugged - gateway unreachable
+NET-057,Network / Internet Error,No Ethernet link / Cable unplugged,No Ethernet link / Cable unplugged affects my ability to use web apps,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Desktop,Network,NetAdapter: No Ethernet link / Cable unplugged - adapter not found
+NET-058,Network / Internet Error,No Ethernet link / Cable unplugged,No Ethernet link / Cable unplugged appears and network icon has a warning,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,NetAdapter: No Ethernet link / Cable unplugged - adapter not found
+NET-059,Network / Internet Error,No Ethernet link / Cable unplugged,"After update, No Ethernet link / Cable unplugged started occurring",Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,Network: No Ethernet link / Cable unplugged - DNS timeout error
+NET-060,Network / Internet Error,No Ethernet link / Cable unplugged,No Ethernet link / Cable unplugged during online meeting and disconnects happen,Ethernet shows no link light; no network on wired port,"Broken cable, bad port, or NIC failure",Check Ethernet cable and swap with a known-good cable and port on the router.,"Check link/activity LEDs on NIC and router; if none, reseat connector.",Try a different NIC or use a USB-to-Ethernet adapter to test.,Update NIC driver or roll back recent changes.,"If port on motherboard failed, use an alternate NIC or consult repair.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,VPN: No Ethernet link / Cable unplugged - authentication failed
+NET-061,Network / Internet Error,IP conflict / Duplicate IP,"IP conflict / Duplicate IP on my device, others seem to work fine",Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,Dhcp: IP conflict / Duplicate IP - DHCP lease failure
+NET-062,Network / Internet Error,IP conflict / Duplicate IP,I can't browse the web; IP conflict / Duplicate IP happened after reboot,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,NetAdapter: IP conflict / Duplicate IP - adapter not found
+NET-063,Network / Internet Error,IP conflict / Duplicate IP,IP conflict / Duplicate IP during online meeting and disconnects happen,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,VPN: IP conflict / Duplicate IP - authentication failed
+NET-064,Network / Internet Error,IP conflict / Duplicate IP,"After update, IP conflict / Duplicate IP started occurring",Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,Dhcp: IP conflict / Duplicate IP - DHCP lease failure
+NET-065,Network / Internet Error,IP conflict / Duplicate IP,I can't browse the web; IP conflict / Duplicate IP happened after reboot,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Desktop,Network,Dhcp: IP conflict / Duplicate IP - DHCP lease failure
+NET-066,Network / Internet Error,IP conflict / Duplicate IP,IP conflict / Duplicate IP affects my ability to use web apps,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Dhcp: IP conflict / Duplicate IP - DHCP lease failure
+NET-067,Network / Internet Error,IP conflict / Duplicate IP,Ping fails to external IP; IP conflict / Duplicate IP observed,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,Network: IP conflict / Duplicate IP - DNS timeout error
+NET-068,Network / Internet Error,IP conflict / Duplicate IP,Troubleshooting shows network errors for IP conflict / Duplicate IP,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,Dhcp: IP conflict / Duplicate IP - DHCP lease failure
+NET-069,Network / Internet Error,IP conflict / Duplicate IP,Network problem: IP conflict / Duplicate IP and pages won't load,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,Router: IP conflict / Duplicate IP - gateway unreachable
+NET-070,Network / Internet Error,IP conflict / Duplicate IP,Ping fails to external IP; IP conflict / Duplicate IP observed,Network shows 'IP conflict' or two devices have same IP and lose connectivity,Static IP overlap or DHCP lease issues,Set the adapter to DHCP: Settings → Network → Change adapter options → Properties → IPv4 → Obtain IP automatically.,Restart router to clear DHCP leases.,"If using static IP, choose an unused IP within subnet range.",Release/renew IP on device: ipconfig /release && ipconfig /renew.,Reserve DHCP addresses in router to avoid conflicts for key devices.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,Network: IP conflict / Duplicate IP - DNS timeout error
+NET-071,Network / Internet Error,Cannot reach gateway,I can't browse the web; Cannot reach gateway happened after reboot,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,Dhcp: Cannot reach gateway - DHCP lease failure
+NET-072,Network / Internet Error,Cannot reach gateway,Cannot reach gateway affects my ability to use web apps,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,NetAdapter: Cannot reach gateway - adapter not found
+NET-073,Network / Internet Error,Cannot reach gateway,Cannot reach gateway — my browser says no internet though Wi-Fi shows connected,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,Dhcp: Cannot reach gateway - DHCP lease failure
+NET-074,Network / Internet Error,Cannot reach gateway,"Cannot reach gateway on my device, others seem to work fine",Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Laptop,Network,Dhcp: Cannot reach gateway - DHCP lease failure
+NET-075,Network / Internet Error,Cannot reach gateway,Ping fails to external IP; Cannot reach gateway observed,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,NetAdapter: Cannot reach gateway - adapter not found
+NET-076,Network / Internet Error,Cannot reach gateway,Network problem: Cannot reach gateway and pages won't load,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Laptop,Network,Dhcp: Cannot reach gateway - DHCP lease failure
+NET-077,Network / Internet Error,Cannot reach gateway,Troubleshooting shows network errors for Cannot reach gateway,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,NetAdapter: Cannot reach gateway - adapter not found
+NET-078,Network / Internet Error,Cannot reach gateway,I can't browse the web; Cannot reach gateway happened after reboot,Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Desktop,Network,NetAdapter: Cannot reach gateway - adapter not found
+NET-079,Network / Internet Error,Cannot reach gateway,"Cannot reach gateway on my device, others seem to work fine",Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Desktop,Network,NetAdapter: Cannot reach gateway - adapter not found
+NET-080,Network / Internet Error,Cannot reach gateway,"Cannot reach gateway on my device, others seem to work fine",Cannot ping default gateway; local network not reachable,"Router failure, wrong gateway setting, or cabling issue",Check IP config: ipconfig /all and confirm gateway IP matches router.,"Ping gateway; if no reply, reboot router and PC.",Check cables and switch/router status LEDs.,Reset router to defaults if misconfigured (note this will erase settings).,Contact ISP or network administrator if gateway unreachable.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Desktop,Network,Dhcp: Cannot reach gateway - DHCP lease failure
+NET-081,Network / Internet Error,VPN connection fails,"After update, VPN connection fails started occurring",VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,VPN: VPN connection fails - authentication failed
+NET-082,Network / Internet Error,VPN connection fails,Troubleshooting shows network errors for VPN connection fails,VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,Network: VPN connection fails - DNS timeout error
+NET-083,Network / Internet Error,VPN connection fails,"After update, VPN connection fails started occurring",VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Network: VPN connection fails - DNS timeout error
+NET-084,Network / Internet Error,VPN connection fails,VPN connection fails affects my ability to use web apps,VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Desktop,Network,Router: VPN connection fails - gateway unreachable
+NET-085,Network / Internet Error,VPN connection fails,VPN connection fails affects my ability to use web apps,VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,VPN: VPN connection fails - authentication failed
+NET-086,Network / Internet Error,VPN connection fails,"VPN connection fails on my device, others seem to work fine",VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Desktop,Network,Network: VPN connection fails - DNS timeout error
+NET-087,Network / Internet Error,VPN connection fails,Ping fails to external IP; VPN connection fails observed,VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,Router: VPN connection fails - gateway unreachable
+NET-088,Network / Internet Error,VPN connection fails,I can't browse the web; VPN connection fails happened after reboot,VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Desktop,Network,Network: VPN connection fails - DNS timeout error
+NET-089,Network / Internet Error,VPN connection fails,"After update, VPN connection fails started occurring",VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Desktop,Network,Dhcp: VPN connection fails - DHCP lease failure
+NET-090,Network / Internet Error,VPN connection fails,Troubleshooting shows network errors for VPN connection fails,VPN cannot establish or drops after connecting,"Incorrect VPN credentials, blocked ports, or incompatible client",Verify username/password and server address; try reconnecting.,"Try a different VPN protocol (OpenVPN, IKEv2) in client settings.",Disable local firewall/antivirus temporarily to test if blocking.,Ensure router isn't blocking VPN passthrough or required ports.,Contact VPN provider for server-side issues or use alternative server.,"Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,NetAdapter: VPN connection fails - adapter not found
+NET-091,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Troubleshooting shows network errors for Captive portal / Wi-Fi login page not showing,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 11,Laptop,Network,VPN: Captive portal / Wi-Fi login page not showing - authentication failed
+NET-092,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Captive portal / Wi-Fi login page not showing affects my ability to use web apps,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,Dhcp: Captive portal / Wi-Fi login page not showing - DHCP lease failure
+NET-093,Network / Internet Error,Captive portal / Wi-Fi login page not showing,"After update, Captive portal / Wi-Fi login page not showing started occurring",Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Desktop,Network,Router: Captive portal / Wi-Fi login page not showing - gateway unreachable
+NET-094,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Captive portal / Wi-Fi login page not showing during online meeting and disconnects happen,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 10,Desktop,Network,NetAdapter: Captive portal / Wi-Fi login page not showing - adapter not found
+NET-095,Network / Internet Error,Captive portal / Wi-Fi login page not showing,I can't browse the web; Captive portal / Wi-Fi login page not showing happened after reboot,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",medium,Windows 11,Laptop,Network,NetAdapter: Captive portal / Wi-Fi login page not showing - adapter not found
+NET-096,Network / Internet Error,Captive portal / Wi-Fi login page not showing,"After update, Captive portal / Wi-Fi login page not showing started occurring",Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Network: Captive portal / Wi-Fi login page not showing - DNS timeout error
+NET-097,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Captive portal / Wi-Fi login page not showing — my browser says no internet though Wi-Fi shows connected,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 11,Laptop,Network,Router: Captive portal / Wi-Fi login page not showing - gateway unreachable
+NET-098,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Troubleshooting shows network errors for Captive portal / Wi-Fi login page not showing,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",high,Windows 10,Desktop,Network,Router: Captive portal / Wi-Fi login page not showing - gateway unreachable
+NET-099,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Troubleshooting shows network errors for Captive portal / Wi-Fi login page not showing,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Laptop,Network,Network: Captive portal / Wi-Fi login page not showing - DNS timeout error
+NET-100,Network / Internet Error,Captive portal / Wi-Fi login page not showing,Troubleshooting shows network errors for Captive portal / Wi-Fi login page not showing,Public Wi-Fi requires login but the captive portal page doesn't pop up,"Browser blocking redirects, DNS caching, or captive portal detection failing",Open browser and try navigating to http://neverssl.com to trigger portal.,Disable VPN or proxy which may block captive portal redirection.,Clear browser cache or try incognito/private mode.,Renew IP: ipconfig /release && ipconfig /renew.,"If still blocked, ask venue staff for the login URL or use another device to authenticate.","Network functions normally: webpages load, ping to external IP succeeds, no intermittent drops.",low,Windows 10,Desktop,Network,Network: Captive portal / Wi-Fi login page not showing - DNS timeout error
+NET-101,Network / Internet Error,No valid IP configuration,"My computer shows ""No valid IP configuration""","Computer shows ""No valid IP configuration"" error; cannot connect to internet; network adapter shows limited or no connectivity","DHCP server not assigning IP address, network adapter driver issue, or corrupted network stack","✅ Step 1: Restart Network Devices (VERY IMPORTANT)
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+📌 This fixes most DHCP/IP assignment issues.","🔌 Step 2: Check Ethernet / Wi-Fi Connection
+If using Ethernet:
+Try a different LAN cable
+Try a different router port
+If using Wi-Fi:
+Click Wi-Fi → Disconnect
+Reconnect and re-enter password
+✔️ Loose cables or weak Wi-Fi cause IP failure.","🧪 Step 3: Renew IP Address (MOST EFFECTIVE)
+Press Win + R → type cmd
+Right-click Command Prompt → Run as administrator
+Run: ipconfig /release AND ipconfig /renew
+✔️ Requests a fresh IP from the router.","🛑 Step 4: Disable & Enable Network Adapter
+Press Win + X → Network Connections
+Click Advanced network settings
+Disable your network adapter
+Wait 10 seconds
+Enable it again
+✔️ Restarts the network interface cleanly.","🧰 Step 5: Update or Reinstall Network Driver
+Win + X → Device Manager
+Expand Network adapters
+Right-click your adapter:
+Try Update driver
+If not fixed → Uninstall device
+Restart PC (Windows reinstalls driver)
+📌 Broken drivers are a common cause.",Network adapter shows valid IP address (not 169.254.x.x); internet connection works; ipconfig shows proper gateway and DNS,medium,Windows 10/11,PC/Laptop,Network,
+NET-102,Network / Internet Error,Ethernet connected but no internet,"Ethernet is connected, but there is no internet access",Ethernet shows connected status but cannot access internet; web pages do not load; ping to external IP fails,"Router/ISP issue, DNS problem, proxy/VPN misconfiguration, or network adapter driver issue","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test internet on a phone or another PC using the same router
+Results:
+❌ No device has internet → Router / ISP issue
+✔️ Other devices work → PC-specific issue
+📌 This isolates the problem quickly.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes DHCP and gateway glitches.","🔌 Step 3: Check Ethernet Cable & Port
+Try a different Ethernet cable
+Plug into a different LAN port on the router
+Avoid LAN splitters or hubs
+📌 A bad cable or port can show ""connected"" but pass no data.","⚙️ Step 4: Check IPv4 & DNS Settings
+Settings → Network & Internet → Advanced network settings
+More network adapter options
+Right-click Ethernet → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Ensure:
+✔️ Obtain an IP address automatically
+✔️ Obtain DNS server address automatically","🛑 Step 5: Disable Proxy & VPN
+Settings → Network & Internet → Proxy
+Turn OFF ""Use a proxy server""
+Disble any VPN software
+Restart PC
+📌 Proxy/VPN misconfigurations often block Ethernet traffic.",Internet access restored; web pages load; ping to external IP succeeds; DNS resolution works,medium,Windows 10/11,PC/Laptop,Network,
+NET-103,Network / Internet Error,DNS server not responding,"I keep getting a ""DNS server not responding"" error","Browser shows ""DNS server not responding"" error; websites do not load by name but work with IP addresses","Corrupted DNS cache, ISP DNS server issues, proxy/VPN interference, or security software blocking DNS","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test internet on your phone or another PC using the same network
+Results:
+❌ No device works → Router / ISP DNS issue
+✔️ Other devices work → PC-specific problem
+📌 This helps isolate the cause immediately.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes most DNS and IP cache issues.","🔁 Step 3: Flush & Reset DNS (MOST EFFECTIVE)
+Open Command Prompt (Admin) and run:
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+netsh winsock reset
+Restart your PC.
+📌 Clears corrupted DNS and network cache.","🌍 Step 4: Manually Set Reliable DNS Servers
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click your active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Select Use the following DNS server addresses
+Preferred DNS: 8.8.8.8 | Alternate DNS: 8.8.4.4
+Click OK and restart browser
+✔️ Uses Google's stable public DNS.","🛑 Step 5: Disable Proxy, VPN & Security Software
+Settings → Network & Internet → Proxy → OFF
+Disable any VPN
+Temporarily disable third-party antivirus/firewall
+📌 These often block DNS requests.",DNS resolution works; websites load by name; nslookup commands succeed,medium,Windows 10/11,PC/Laptop,Network,
+NET-104,Network / Internet Error,Wi-Fi limited access,Wi-Fi shows limited access and does not load websites,"Wi-Fi shows ""Limited access"" or ""No internet access""; cannot load websites; network icon shows warning","Router/ISP issue, corrupted Wi-Fi profile, invalid IP configuration, or network stack corruption","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test Wi-Fi on a phone or another laptop
+Results:
+❌ Other devices also fail → Router / ISP issue
+✔️ Other devices work → Your PC issue
+📌 This quickly narrows the cause.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary IP and gateway issues.","🔁 Step 3: Forget & Reconnect Wi-Fi (MOST EFFECTIVE)
+Settings → Network & Internet → Wi-Fi
+Manage known networks
+Select your Wi-Fi → Forget
+Reconnect and re-enter password
+📌 Fixes corrupted Wi-Fi profiles.","🧪 Step 4: Check IP Address
+Press Win + R → type cmd
+Run: ipconfig
+🔎 If IPv4 starts with 169.254.x.x → no IP from router.
+✔️ Continue to next step.","🔄 Step 5: Reset Network Stack
+Open Command Prompt (Admin) and run:
+ipconfig /release
+ipconfig /renew
+netsh winsock reset
+netsh int ip reset
+ipconfig /flushdns
+Restart PC.
+✔️ Repairs corrupted network settings.",Wi-Fi shows full internet access; websites load; network icon shows no warnings,medium,Windows 10/11,PC/Laptop,Network,
+NET-105,Network / Internet Error,ERR_CONNECTION_TIMED_OUT,My browser shows ERR_CONNECTION_TIMED_OUT,"Browser shows ""ERR_CONNECTION_TIMED_OUT"" error; websites do not load; connection times out","Website server down, network routing issues, DNS problems, or browser cache corruption","✅ Step 1: Check if the Website Is Down (VERY IMPORTANT)
+Try opening the same site on:
+Your phone (using mobile data)
+Another PC/network
+If the site doesn't load anywhere → website server issue
+If it loads elsewhere → problem is on your PC or network
+📌 This avoids unnecessary troubleshooting.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary routing and timeout issues.","🧪 Step 3: Test Internet Connectivity
+Open Command Prompt and run: ping 8.8.8.8
+✔️ Replies received → internet is working
+❌ Request timed out → network problem
+If this fails but IP ping works → DNS issue","🌍 Step 4: Change DNS Servers (MOST EFFECTIVE)
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Use: Preferred DNS: 8.8.8.8 | Alternate DNS: 8.8.4.4
+Click OK
+📌 Fixes slow or unreachable ISP DNS servers.","🔧 Step 5: Clear Browser Cache / Try Another Browser
+Clear browser cache & cookies
+Test the site in: Edge | Firefox | Chrome (if not already)
+✔️ Rules out browser-specific problems.",Websites load successfully; no timeout errors; internet connectivity confirmed,low,Windows 10/11,PC/Laptop,Network,
+NET-106,Network / Internet Error,Internet keeps disconnecting,The internet keeps disconnecting frequently,Internet connection drops frequently; intermittent connectivity; network disconnects and reconnects repeatedly,"Router/ISP issue, weak Wi-Fi signal, network adapter power saving, or outdated network drivers","✅ Step 1: Check If the Problem Is Only on Your PC (VERY IMPORTANT)
+Test internet on a phone or another computer on the same network
+Results:
+❌ All devices disconnect → Router / ISP issue
+✔️ Only your PC disconnects → PC-specific issue
+📌 This step decides where to focus.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary drops and IP conflicts.","📶 Step 3: Improve Wi-Fi Signal (If Using Wi-Fi)
+Move closer to the router
+Avoid walls, metal objects, microwaves
+Switch router to 5 GHz (if available)
+Place router in an open, elevated area
+📌 Weak signal = frequent disconnects.","🔌 Step 4: Disable Network Power Saving (MOST EFFECTIVE)
+Win + X → Device Manager
+Expand Network adapters
+Right-click your adapter → Properties
+Go to Power Management
+❌ Uncheck Allow the computer to turn off this device to save power
+Click OK and restart
+✔️ Prevents Windows from cutting your internet.","🔧 Step 5: Update or Reinstall Network Driver
+Device Manager → Network adapters
+Right-click adapter: Update driver | If not fixed → Uninstall device
+Restart PC (driver reinstalls automatically)
+📌 Outdated drivers often cause drops.",Internet connection remains stable; no frequent disconnects; consistent connectivity,medium,Windows 10/11,PC/Laptop,Network,
+NET-107,Network / Internet Error,Proxy server error,I am getting a proxy server error while browsing,Browser shows proxy server error; cannot access websites; proxy authentication failed messages,"Leftover proxy settings, VPN interference, browser proxy configuration, or malware","✅ Step 1: Turn OFF Proxy Settings (MOST EFFECTIVE)
+Go to Settings → Network & Internet → Proxy
+Under Manual proxy setup: ❌ Turn OFF Use a proxy server
+Under Automatic proxy setup: ❌ Turn OFF Automatically detect settings
+Close settings and restart the browser
+📌 Many proxy errors are caused by leftover or auto-detected proxy configs.","🔄 Step 2: Restart Browser & Computer
+Close all browsers
+Restart your PC
+Open the browser and test again
+✔️ Clears stuck proxy sessions.","🌍 Step 3: Check Browser Proxy Settings
+Google Chrome / Edge
+Settings → System
+Open Your computer's proxy settings
+Ensure proxy is disabled
+📌 Browser-level proxy can override Windows settings.
+
+Step 4: Disable VPN & Security Software Temporarily
+Turn OFF any VPN
+Temporarily disable third-party antivirus/firewall
+Test browsing again
+📌 VPNs often force proxy rules that break connections.","🧪 Step 5: Check for Malware (VERY IMPORTANT)
+Open Windows Security
+Run a Full scan
+If possible, run Offline scan
+⚠️ Malware commonly changes proxy settings without permission.",,Websites load without proxy errors; no proxy authentication prompts; browsing works normally,medium,Windows 10/11,PC/Laptop,Network,
+NET-108,Network / Internet Error,IP conflict detected,My PC shows an IP conflict detected error,"Windows shows ""IP conflict detected"" error; network connectivity issues; another device using same IP","Multiple devices with same IP address, static IP conflicts, or router DHCP issues","✅ Step 1: Restart Your PC & Router (VERY IMPORTANT)
+Turn OFF your computer
+Restart the router (wait until internet lights are stable)
+Turn ON your computer
+📌 This forces the router to assign a new unique IP address.","🔄 Step 2: Release & Renew IP Address (MOST EFFECTIVE)
+Press Win + R → type cmd
+Right-click Command Prompt → Run as administrator
+Run: ipconfig /release | ipconfig /renew
+✔️ Requests a fresh IP from the router.","⚙️ Step 3: Ensure DHCP Is Enabled
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click your active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Ensure:
+✔️ Obtain an IP address automatically
+✔️ Obtain DNS server address automatically
+❌ Manual IP settings often cause conflicts.","🛑 Step 4: Check for Duplicate Devices
+
+Look for:
+Another PC using the same IP
+Old devices still connected
+Network printers or cameras with static IPs
+Restart or disconnect unused devices
+📌 Static IP devices are a common cause.
+
+📡 Step 5: Reboot or Reset the Router
+Restart router once more
+If issue keeps happening:
+Log in to router (e.g. 192.168.1.1)
+Ensure DHCP server is enabled
+Reduce DHCP lease conflicts
+✔️ Fixes router-side IP duplication.",,No IP conflict errors; network connectivity restored; unique IP address assigned,low,Windows 10/11,PC/Laptop,Network,
+NET-109,Network / Internet Error,Network adapter missing,The network adapter is missing from my computer,Network adapter not visible in Settings; no Wi-Fi or Ethernet options; Device Manager shows no network adapters,"Network adapter disabled, driver missing, hardware failure, or Windows not detecting adapter","✅ Step 1: Restart & Check Basic Settings (VERY IMPORTANT)
+Restart your PC once
+Go to Settings → Network & Internet
+Check if Wi-Fi / Ethernet appears
+📌 Sometimes the adapter is temporarily not loaded.","🔍 Step 2: Check Device Manager (MOST IMPORTANT)
+Press Win + X → Device Manager
+Expand Network adapters
+Check carefully:
+✔️ Adapter listed → may be disabled
+❌ Nothing listed → driver missing or hardware disabled
+Also check: View → Show hidden devices","🔄 Step 3: Enable the Network Adapter
+Right-click the adapter
+Click Enable device
+Restart PC
+✔️ Disabled adapters disappear from network settings.","💾 Step 4: Install / Reinstall Network Drivers (MOST EFFECTIVE)
+Identify your PC/Laptop model
+Go to the manufacturer's official website
+Download: Wi-Fi driver & Ethernet (LAN) driver
+Install drivers and restart
+📌 Windows often cannot install correct network drivers automatically.","🧪 Step 5: Scan for Hardware Changes
+Open Device Manager
+Click Action → Scan for hardware changes
+✔️ Forces Windows to re-detect missing hardware.",Network adapter appears in Settings and Device Manager; Wi-Fi/Ethernet options available; network connectivity restored,high,Windows 10/11,PC/Laptop,Network,
+NET-110,Network / Internet Error,No valid IP configuration,"My computer shows ""No valid IP configuration""","Computer shows ""No valid IP configuration"" error; cannot connect to internet; network adapter shows limited or no connectivity","DHCP server not assigning IP address, network adapter driver issue, or corrupted network stack","✅ Step 1: Restart Network Devices (VERY IMPORTANT)
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+📌 This fixes most DHCP/IP assignment issues.","🔌 Step 2: Check Ethernet / Wi-Fi Connection
+If using Ethernet:
+Try a different LAN cable
+Try a different router port
+If using Wi-Fi:
+Click Wi-Fi → Disconnect
+Reconnect and re-enter password
+✔️ Loose cables or weak Wi-Fi cause IP failure.","🧪 Step 3: Renew IP Address (MOST EFFECTIVE)
+Press Win + R → type cmd
+Right-click Command Prompt → Run as administrator
+Run: ipconfig /release AND ipconfig /renew
+✔️ Requests a fresh IP from the router.","🛑 Step 4: Disable & Enable Network Adapter
+Press Win + X → Network Connections
+Click Advanced network settings
+Disable your network adapter
+Wait 10 seconds
+Enable it again
+✔️ Restarts the network interface cleanly.","🧰 Step 5: Update or Reinstall Network Driver
+Win + X → Device Manager
+Expand Network adapters
+Right-click your adapter:
+Try Update driver
+If not fixed → Uninstall device
+Restart PC (Windows reinstalls driver)
+📌 Broken drivers are a common cause.",Network adapter shows valid IP address (not 169.254.x.x); internet connection works; ipconfig shows proper gateway and DNS,medium,Windows 10/11,PC/Laptop,Network,
+NET-111,Network / Internet Error,Ethernet connected but no internet,"Ethernet is connected, but there is no internet access",Ethernet shows connected status but cannot access internet; web pages do not load; ping to external IP fails,"Router/ISP issue, DNS problem, proxy/VPN misconfiguration, or network adapter driver issue","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test internet on a phone or another PC using the same router
+Results:
+❌ No device has internet → Router / ISP issue
+✔️ Other devices work → PC-specific issue
+📌 This isolates the problem quickly.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes DHCP and gateway glitches.","🔌 Step 3: Check Ethernet Cable & Port
+Try a different Ethernet cable
+Plug into a different LAN port on the router
+Avoid LAN splitters or hubs
+📌 A bad cable or port can show ""connected"" but pass no data.","⚙️ Step 4: Check IPv4 & DNS Settings
+Settings → Network & Internet → Advanced network settings
+More network adapter options
+Right-click Ethernet → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Ensure:
+✔️ Obtain an IP address automatically
+✔️ Obtain DNS server address automatically","🛑 Step 5: Disable Proxy & VPN
+Settings → Network & Internet → Proxy
+Turn OFF ""Use a proxy server""
+Disble any VPN software
+Restart PC
+📌 Proxy/VPN misconfigurations often block Ethernet traffic.",Internet access restored; web pages load; ping to external IP succeeds; DNS resolution works,medium,Windows 10/11,PC/Laptop,Network,
+NET-112,Network / Internet Error,DNS server not responding,"I keep getting a ""DNS server not responding"" error","Browser shows ""DNS server not responding"" error; websites do not load by name but work with IP addresses","Corrupted DNS cache, ISP DNS server issues, proxy/VPN interference, or security software blocking DNS","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test internet on your phone or another PC using the same network
+Results:
+❌ No device works → Router / ISP DNS issue
+✔️ Other devices work → PC-specific problem
+📌 This helps isolate the cause immediately.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes most DNS and IP cache issues.","🔁 Step 3: Flush & Reset DNS (MOST EFFECTIVE)
+Open Command Prompt (Admin) and run:
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+netsh winsock reset
+Restart your PC.
+📌 Clears corrupted DNS and network cache.","🌍 Step 4: Manually Set Reliable DNS Servers
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click your active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Select Use the following DNS server addresses
+Preferred DNS: 8.8.8.8 | Alternate DNS: 8.8.4.4
+Click OK and restart browser
+✔️ Uses Google's stable public DNS.","🛑 Step 5: Disable Proxy, VPN & Security Software
+Settings → Network & Internet → Proxy → OFF
+Disable any VPN
+Temporarily disable third-party antivirus/firewall
+📌 These often block DNS requests.",DNS resolution works; websites load by name; nslookup commands succeed,medium,Windows 10/11,PC/Laptop,Network,
+NET-113,Network / Internet Error,Wi-Fi limited access,Wi-Fi shows limited access and does not load websites,"Wi-Fi shows ""Limited access"" or ""No internet access""; cannot load websites; network icon shows warning","Router/ISP issue, corrupted Wi-Fi profile, invalid IP configuration, or network stack corruption","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test Wi-Fi on a phone or another laptop
+Results:
+❌ Other devices also fail → Router / ISP issue
+✔️ Other devices work → Your PC issue
+📌 This quickly narrows the cause.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary IP and gateway issues.","🔁 Step 3: Forget & Reconnect Wi-Fi (MOST EFFECTIVE)
+Settings → Network & Internet → Wi-Fi
+Manage known networks
+Select your Wi-Fi → Forget
+Reconnect and re-enter password
+📌 Fixes corrupted Wi-Fi profiles.","🧪 Step 4: Check IP Address
+Press Win + R → type cmd
+Run: ipconfig
+🔎 If IPv4 starts with 169.254.x.x → no IP from router.
+✔️ Continue to next step.","🔄 Step 5: Reset Network Stack
+Open Command Prompt (Admin) and run:
+ipconfig /release
+ipconfig /renew
+netsh winsock reset
+netsh int ip reset
+ipconfig /flushdns
+Restart PC.
+✔️ Repairs corrupted network settings.",Wi-Fi shows full internet access; websites load; network icon shows no warnings,medium,Windows 10/11,PC/Laptop,Network,
+NET-114,Network / Internet Error,ERR_CONNECTION_TIMED_OUT,My browser shows ERR_CONNECTION_TIMED_OUT,"Browser shows ""ERR_CONNECTION_TIMED_OUT"" error; websites do not load; connection times out","Website server down, network routing issues, DNS problems, or browser cache corruption","✅ Step 1: Check if the Website Is Down (VERY IMPORTANT)
+Try opening the same site on:
+Your phone (using mobile data)
+Another PC/network
+If the site doesn't load anywhere → website server issue
+If it loads elsewhere → problem is on your PC or network
+📌 This avoids unnecessary troubleshooting.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary routing and timeout issues.","🧪 Step 3: Test Internet Connectivity
+Open Command Prompt and run: ping 8.8.8.8
+✔️ Replies received → internet is working
+❌ Request timed out → network problem
+If this fails but IP ping works → DNS issue","🌍 Step 4: Change DNS Servers (MOST EFFECTIVE)
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Use: Preferred DNS: 8.8.8.8 | Alternate DNS: 8.8.4.4
+Click OK
+📌 Fixes slow or unreachable ISP DNS servers.","🔧 Step 5: Clear Browser Cache / Try Another Browser
+Clear browser cache & cookies
+Test the site in: Edge | Firefox | Chrome (if not already)
+✔️ Rules out browser-specific problems.",Websites load successfully; no timeout errors; internet connectivity confirmed,low,Windows 10/11,PC/Laptop,Network,
+NET-115,Network / Internet Error,Internet keeps disconnecting,The internet keeps disconnecting frequently,Internet connection drops frequently; intermittent connectivity; network disconnects and reconnects repeatedly,"Router/ISP issue, weak Wi-Fi signal, network adapter power saving, or outdated network drivers","✅ Step 1: Check If the Problem Is Only on Your PC (VERY IMPORTANT)
+Test internet on a phone or another computer on the same network
+Results:
+❌ All devices disconnect → Router / ISP issue
+✔️ Only your PC disconnects → PC-specific issue
+📌 This step decides where to focus.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary drops and IP conflicts.","📶 Step 3: Improve Wi-Fi Signal (If Using Wi-Fi)
+Move closer to the router
+Avoid walls, metal objects, microwaves
+Switch router to 5 GHz (if available)
+Place router in an open, elevated area
+📌 Weak signal = frequent disconnects.","🔌 Step 4: Disable Network Power Saving (MOST EFFECTIVE)
+Win + X → Device Manager
+Expand Network adapters
+Right-click your adapter → Properties
+Go to Power Management
+❌ Uncheck Allow the computer to turn off this device to save power
+Click OK and restart
+✔️ Prevents Windows from cutting your internet.","🔧 Step 5: Update or Reinstall Network Driver
+Device Manager → Network adapters
+Right-click adapter: Update driver | If not fixed → Uninstall device
+Restart PC (driver reinstalls automatically)
+📌 Outdated drivers often cause drops.",Internet connection remains stable; no frequent disconnects; consistent connectivity,medium,Windows 10/11,PC/Laptop,Network,
+NET-116,Network / Internet Error,Proxy server error,I am getting a proxy server error while browsing,Browser shows proxy server error; cannot access websites; proxy authentication failed messages,"Leftover proxy settings, VPN interference, browser proxy configuration, or malware","✅ Step 1: Turn OFF Proxy Settings (MOST EFFECTIVE)
+Go to Settings → Network & Internet → Proxy
+Under Manual proxy setup: ❌ Turn OFF Use a proxy server
+Under Automatic proxy setup: ❌ Turn OFF Automatically detect settings
+Close settings and restart the browser
+📌 Many proxy errors are caused by leftover or auto-detected proxy configs.","🔄 Step 2: Restart Browser & Computer
+Close all browsers
+Restart your PC
+Open the browser and test again
+✔️ Clears stuck proxy sessions.","🌍 Step 3: Check Browser Proxy Settings
+Google Chrome / Edge
+Settings → System
+Open Your computer's proxy settings
+Ensure proxy is disabled
+📌 Browser-level proxy can override Windows settings.
+
+Step 4: Disable VPN & Security Software Temporarily
+Turn OFF any VPN
+Temporarily disable third-party antivirus/firewall
+Test browsing again
+📌 VPNs often force proxy rules that break connections.","🧪 Step 5: Check for Malware (VERY IMPORTANT)
+Open Windows Security
+Run a Full scan
+If possible, run Offline scan
+⚠️ Malware commonly changes proxy settings without permission.",,Websites load without proxy errors; no proxy authentication prompts; browsing works normally,medium,Windows 10/11,PC/Laptop,Network,
+NET-117,Network / Internet Error,IP conflict detected,My PC shows an IP conflict detected error,"Windows shows ""IP conflict detected"" error; network connectivity issues; another device using same IP","Multiple devices with same IP address, static IP conflicts, or router DHCP issues","✅ Step 1: Restart Your PC & Router (VERY IMPORTANT)
+Turn OFF your computer
+Restart the router (wait until internet lights are stable)
+Turn ON your computer
+📌 This forces the router to assign a new unique IP address.","🔄 Step 2: Release & Renew IP Address (MOST EFFECTIVE)
+Press Win + R → type cmd
+Right-click Command Prompt → Run as administrator
+Run: ipconfig /release | ipconfig /renew
+✔️ Requests a fresh IP from the router.","⚙️ Step 3: Ensure DHCP Is Enabled
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click your active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Ensure:
+✔️ Obtain an IP address automatically
+✔️ Obtain DNS server address automatically
+❌ Manual IP settings often cause conflicts.","🛑 Step 4: Check for Duplicate Devices
+
+Look for:
+Another PC using the same IP
+Old devices still connected
+Network printers or cameras with static IPs
+Restart or disconnect unused devices
+📌 Static IP devices are a common cause.
+
+📡 Step 5: Reboot or Reset the Router
+Restart router once more
+If issue keeps happening:
+Log in to router (e.g. 192.168.1.1)
+Ensure DHCP server is enabled
+Reduce DHCP lease conflicts
+✔️ Fixes router-side IP duplication.",,No IP conflict errors; network connectivity restored; unique IP address assigned,low,Windows 10/11,PC/Laptop,Network,
+NET-118,Network / Internet Error,Network adapter missing,The network adapter is missing from my computer,Network adapter not visible in Settings; no Wi-Fi or Ethernet options; Device Manager shows no network adapters,"Network adapter disabled, driver missing, hardware failure, or Windows not detecting adapter","✅ Step 1: Restart & Check Basic Settings (VERY IMPORTANT)
+Restart your PC once
+Go to Settings → Network & Internet
+Check if Wi-Fi / Ethernet appears
+📌 Sometimes the adapter is temporarily not loaded.","🔍 Step 2: Check Device Manager (MOST IMPORTANT)
+Press Win + X → Device Manager
+Expand Network adapters
+Check carefully:
+✔️ Adapter listed → may be disabled
+❌ Nothing listed → driver missing or hardware disabled
+Also check: View → Show hidden devices","🔄 Step 3: Enable the Network Adapter
+Right-click the adapter
+Click Enable device
+Restart PC
+✔️ Disabled adapters disappear from network settings.","💾 Step 4: Install / Reinstall Network Drivers (MOST EFFECTIVE)
+Identify your PC/Laptop model
+Go to the manufacturer's official website
+Download: Wi-Fi driver & Ethernet (LAN) driver
+Install drivers and restart
+📌 Windows often cannot install correct network drivers automatically.","🧪 Step 5: Scan for Hardware Changes
+Open Device Manager
+Click Action → Scan for hardware changes
+✔️ Forces Windows to re-detect missing hardware.",Network adapter appears in Settings and Device Manager; Wi-Fi/Ethernet options available; network connectivity restored,high,Windows 10/11,PC/Laptop,Network,
+NET-119,Network / Internet Error,No valid IP configuration,"My computer shows ""No valid IP configuration""","Network adapter shows ""No valid IP configuration"" error; cannot connect to internet","DHCP server not responding, network adapter driver issue, or corrupted network settings","✅ Step 1: Restart Network Devices (VERY IMPORTANT)
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+📌 This fixes most DHCP/IP assignment issues.","🔌 Step 2: Check Ethernet / Wi-Fi Connection
+If using Ethernet:
+Try a different LAN cable
+Try a different router port
+If using Wi-Fi:
+Click Wi-Fi → Disconnect
+Reconnect and re-enter password
+✔️ Loose cables or weak Wi-Fi cause IP failure.","🧪 Step 3: Renew IP Address (MOST EFFECTIVE)
+Press Win + R → type cmd
+Right-click Command Prompt → Run as administrator
+Run: ipconfig /release AND ipconfig /renew
+✔️ Requests a fresh IP from the router.","🛑 Step 4: Disable & Enable Network Adapter
+Press Win + X → Network Connections
+Click Advanced network settings
+Disable your network adapter
+Wait 10 seconds
+Enable it again
+✔️ Restarts the network interface cleanly.","🧰 Step 5: Update or Reinstall Network Driver
+Win + X → Device Manager
+Expand Network adapters
+Right-click your adapter:
+Try Update driver
+If not fixed → Uninstall device
+Restart PC (Windows reinstalls driver)
+📌 Broken drivers are a common cause.",Network functions normally; internet access restored; no error messages,medium,Windows 10,PC,Network,
+NET-120,Network / Internet Error,Ethernet connected but no internet,"Ethernet is connected, but there is no internet access",Ethernet shows connected but cannot access internet; no web pages load,"Router/ISP issue, DNS problem, proxy/VPN interference, or network adapter misconfiguration","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test internet on a phone or another PC using the same router
+Results:
+❌ No device has internet → Router / ISP issue
+✔️ Other devices work → PC-specific issue
+📌 This isolates the problem quickly.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes DHCP and gateway glitches.","🔌 Step 3: Check Ethernet Cable & Port
+Try a different Ethernet cable
+Plug into a different LAN port on the router
+Avoid LAN splitters or hubs
+📌 A bad cable or port can show ""connected"" but pass no data.","⚙️ Step 4: Check IPv4 & DNS Settings
+Settings → Network & Internet → Advanced network settings
+More network adapter options
+Right-click Ethernet → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Ensure:
+✔️ Obtain an IP address automatically
+✔️ Obtain DNS server address automatically","🛑 Step 5: Disable Proxy & VPN
+Settings → Network & Internet → Proxy
+Turn OFF ""Use a proxy server""
+Disble any VPN software
+Restart PC
+📌 Proxy/VPN misconfigurations often block Ethernet traffic.",Network functions normally; internet access restored; no error messages,medium,Windows 10,PC,Network,
+NET-121,Network / Internet Error,DNS server not responding,"I keep getting a ""DNS server not responding"" error","Browser shows ""DNS server not responding"" error; cannot resolve website addresses","DNS server failure, corrupted DNS cache, proxy/VPN interference, or ISP DNS issues","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test internet on your phone or another PC using the same network
+Results:
+❌ No device works → Router / ISP DNS issue
+✔️ Other devices work → PC-specific problem
+📌 This helps isolate the cause immediately.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes most DNS and IP cache issues.","🔁 Step 3: Flush & Reset DNS (MOST EFFECTIVE)
+Open Command Prompt (Admin) and run:
+ipconfig /flushdns
+ipconfig /release
+ipconfig /renew
+netsh winsock reset
+Restart your PC.
+📌 Clears corrupted DNS and network cache.","🌍 Step 4: Manually Set Reliable DNS Servers
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click your active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Select Use the following DNS server addresses
+Preferred DNS: 8.8.8.8 | Alternate DNS: 8.8.4.4
+Click OK and restart browser
+✔️ Uses Google's stable public DNS.","🛑 Step 5: Disable Proxy, VPN & Security Software
+Settings → Network & Internet → Proxy → OFF
+Disable any VPN
+Temporarily disable third-party antivirus/firewall
+📌 These often block DNS requests.",Network functions normally; internet access restored; no error messages,medium,Windows 10,PC,Network,
+NET-122,Network / Internet Error,Wi-Fi limited access,Wi-Fi shows limited access and does not load websites,"Wi-Fi shows ""Limited access"" or ""No internet access""; websites do not load","Router/ISP issue, corrupted Wi-Fi profile, invalid IP configuration, or network stack corruption","✅ Step 1: Check Internet on Other Devices (VERY IMPORTANT)
+Test Wi-Fi on a phone or another laptop
+Results:
+❌ Other devices also fail → Router / ISP issue
+✔️ Other devices work → Your PC issue
+📌 This quickly narrows the cause.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary IP and gateway issues.","🔁 Step 3: Forget & Reconnect Wi-Fi (MOST EFFECTIVE)
+Settings → Network & Internet → Wi-Fi
+Manage known networks
+Select your Wi-Fi → Forget
+Reconnect and re-enter password
+📌 Fixes corrupted Wi-Fi profiles.","🧪 Step 4: Check IP Address
+Press Win + R → type cmd
+Run: ipconfig
+🔎 If IPv4 starts with 169.254.x.x → no IP from router.
+✔️ Continue to next step.","🔄 Step 5: Reset Network Stack
+Open Command Prompt (Admin) and run:
+ipconfig /release
+ipconfig /renew
+netsh winsock reset
+netsh int ip reset
+ipconfig /flushdns
+Restart PC.
+✔️ Repairs corrupted network settings.",Network functions normally; internet access restored; no error messages,medium,Windows 10,PC,Network,
+NET-123,Network / Internet Error,ERR_CONNECTION_TIMED_OUT,My browser shows ERR_CONNECTION_TIMED_OUT,"Browser shows ""ERR_CONNECTION_TIMED_OUT"" error; websites fail to load","Website server down, network connectivity issue, DNS problem, or browser cache corruption","✅ Step 1: Check if the Website Is Down (VERY IMPORTANT)
+Try opening the same site on:
+Your phone (using mobile data)
+Another PC/network
+If the site doesn't load anywhere → website server issue
+If it loads elsewhere → problem is on your PC or network
+📌 This avoids unnecessary troubleshooting.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary routing and timeout issues.","🧪 Step 3: Test Internet Connectivity
+Open Command Prompt and run: ping 8.8.8.8
+✔️ Replies received → internet is working
+❌ Request timed out → network problem
+If this fails but IP ping works → DNS issue","🌍 Step 4: Change DNS Servers (MOST EFFECTIVE)
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Use: Preferred DNS: 8.8.8.8 | Alternate DNS: 8.8.4.4
+Click OK
+📌 Fixes slow or unreachable ISP DNS servers.","🔧 Step 5: Clear Browser Cache / Try Another Browser
+Clear browser cache & cookies
+Test the site in: Edge | Firefox | Chrome (if not already)
+✔️ Rules out browser-specific problems.",Network functions normally; internet access restored; no error messages,low,Windows 10,PC,Network,
+NET-124,Network / Internet Error,Internet keeps disconnecting,The internet keeps disconnecting frequently,Internet connection drops frequently; requires reconnection multiple times,"Router/ISP instability, weak Wi-Fi signal, network adapter power saving, or outdated drivers","✅ Step 1: Check If the Problem Is Only on Your PC (VERY IMPORTANT)
+Test internet on a phone or another computer on the same network
+Results:
+❌ All devices disconnect → Router / ISP issue
+✔️ Only your PC disconnects → PC-specific issue
+📌 This step decides where to focus.","🔄 Step 2: Restart Modem, Router & PC
+Turn OFF: [Modem | Router | Computer]
+Wait 2 minutes
+Turn ON in this order:
+Modem → wait for stable lights
+Router → wait 1 minute
+Computer
+✔️ Fixes temporary drops and IP conflicts.","📶 Step 3: Improve Wi-Fi Signal (If Using Wi-Fi)
+Move closer to the router
+Avoid walls, metal objects, microwaves
+Switch router to 5 GHz (if available)
+Place router in an open, elevated area
+📌 Weak signal = frequent disconnects.","🔌 Step 4: Disable Network Power Saving (MOST EFFECTIVE)
+Win + X → Device Manager
+Expand Network adapters
+Right-click your adapter → Properties
+Go to Power Management
+❌ Uncheck Allow the computer to turn off this device to save power
+Click OK and restart
+✔️ Prevents Windows from cutting your internet.","🔧 Step 5: Update or Reinstall Network Driver
+Device Manager → Network adapters
+Right-click adapter: Update driver | If not fixed → Uninstall device
+Restart PC (driver reinstalls automatically)
+📌 Outdated drivers often cause drops.",Network functions normally; internet access restored; no error messages,medium,Windows 10,PC,Network,
+NET-125,Network / Internet Error,Proxy server error,I am getting a proxy server error while browsing,Browser shows proxy server errors; cannot access websites,"Proxy settings enabled, VPN interference, malware, or browser proxy misconfiguration","✅ Step 1: Turn OFF Proxy Settings (MOST EFFECTIVE)
+Go to Settings → Network & Internet → Proxy
+Under Manual proxy setup: ❌ Turn OFF Use a proxy server
+Under Automatic proxy setup: ❌ Turn OFF Automatically detect settings
+Close settings and restart the browser
+📌 Many proxy errors are caused by leftover or auto-detected proxy configs.","🔄 Step 2: Restart Browser & Computer
+Close all browsers
+Restart your PC
+Open the browser and test again
+✔️ Clears stuck proxy sessions.","🌍 Step 3: Check Browser Proxy Settings
+Google Chrome / Edge
+Settings → System
+Open Your computer's proxy settings
+Ensure proxy is disabled
+📌 Browser-level proxy can override Windows settings.
+
+Step 4: Disable VPN & Security Software Temporarily
+Turn OFF any VPN
+Temporarily disable third-party antivirus/firewall
+Test browsing again
+📌 VPNs often force proxy rules that break connections.","🧪 Step 5: Check for Malware (VERY IMPORTANT)
+Open Windows Security
+Run a Full scan
+If possible, run Offline scan
+⚠️ Malware commonly changes proxy settings without permission.",,Network functions normally; internet access restored; no error messages,medium,Windows 10,PC,Network,
+NET-126,Network / Internet Error,IP conflict detected,My PC shows an IP conflict detected error,"Windows shows ""IP conflict detected"" error; network connectivity issues","Multiple devices using same IP address, static IP conflicts, or router DHCP issues","✅ Step 1: Restart Your PC & Router (VERY IMPORTANT)
+Turn OFF your computer
+Restart the router (wait until internet lights are stable)
+Turn ON your computer
+📌 This forces the router to assign a new unique IP address.","🔄 Step 2: Release & Renew IP Address (MOST EFFECTIVE)
+Press Win + R → type cmd
+Right-click Command Prompt → Run as administrator
+Run: ipconfig /release | ipconfig /renew
+✔️ Requests a fresh IP from the router.","⚙️ Step 3: Ensure DHCP Is Enabled
+Settings → Network & Internet
+Advanced network settings → More network adapter options
+Right-click your active adapter → Properties
+Select Internet Protocol Version 4 (IPv4) → Properties
+Ensure:
+✔️ Obtain an IP address automatically
+✔️ Obtain DNS server address automatically
+❌ Manual IP settings often cause conflicts.","🛑 Step 4: Check for Duplicate Devices
+
+Look for:
+Another PC using the same IP
+Old devices still connected
+Network printers or cameras with static IPs
+Restart or disconnect unused devices
+📌 Static IP devices are a common cause.
+
+📡 Step 5: Reboot or Reset the Router
+Restart router once more
+If issue keeps happening:
+Log in to router (e.g. 192.168.1.1)
+Ensure DHCP server is enabled
+Reduce DHCP lease conflicts
+✔️ Fixes router-side IP duplication.",,Network functions normally; internet access restored; no error messages,low,Windows 10,PC,Network,
+NET-127,Network / Internet Error,Network adapter missing,The network adapter is missing from my computer,Network adapter not visible in Settings or Device Manager; no network connectivity,"Adapter disabled, driver missing, hardware failure, or Windows not detecting adapter","✅ Step 1: Restart & Check Basic Settings (VERY IMPORTANT)
+Restart your PC once
+Go to Settings → Network & Internet
+Check if Wi-Fi / Ethernet appears
+📌 Sometimes the adapter is temporarily not loaded.","🔍 Step 2: Check Device Manager (MOST IMPORTANT)
+Press Win + X → Device Manager
+Expand Network adapters
+Check carefully:
+✔️ Adapter listed → may be disabled
+❌ Nothing listed → driver missing or hardware disabled
+Also check: View → Show hidden devices","🔄 Step 3: Enable the Network Adapter
+Right-click the adapter
+Click Enable device
+Restart PC
+✔️ Disabled adapters disappear from network settings.","💾 Step 4: Install / Reinstall Network Drivers (MOST EFFECTIVE)
+Identify your PC/Laptop model
+Go to the manufacturer's official website
+Download: Wi-Fi driver & Ethernet (LAN) driver
+Install drivers and restart
+📌 Windows often cannot install correct network drivers automatically.","🧪 Step 5: Scan for Hardware Changes
+Open Device Manager
+Click Action → Scan for hardware changes
+✔️ Forces Windows to re-detect missing hardware.",Network functions normally; internet access restored; no error messages,high,Windows 10,PC,Network,

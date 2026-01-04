@@ -1,0 +1,84 @@
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+venv/
+env/
+ENV/
+venv.bak/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+build/
+dist/
+
+# Virtual environment folders
+.venv/
+env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+
+# Test / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Machine learning / model artifacts
+embeddings.npy
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+transformers_cache/
+cache/
+hf_cache/
+
+# Large model directories
+/ml_backend/models/
+/ml_backend/__pycache__/
+
+# Misc
+*.egg
+*.log
+*.sqlite3
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Do NOT ignore Datasets directory (explicitly keep it tracked)
+# Datasets/
