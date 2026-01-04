@@ -298,26 +298,26 @@ For model training, see `backend/train_improved_models.py`.
 
 ---
 
-## 📝 License
+##  License
 
 This project is part of a research initiative on computer error detection and recommendation systems.
 
 ---
 
-## 👥 Contributors
+##  Contributors
 
 - **Pavindu-Asinsala** - Main developer
 - **computererrordetectionresearch-bot** - Repository maintainer
 
 ---
 
-## 🔄 Version History
+##  Version History
 
 - **v2.0.0** (Current) - Production-ready version with hierarchical ML models
 - **v1.0.0** - Initial release with basic recommendation functionality
 
 ---
 
-**Status**: ✅ Production Ready  
+**Status**:  Production Ready  
 **Last Updated**: 2026-01-02  
 **Maintained by**: Project Team
