@@ -1,0 +1,47 @@
+error_text,category
+application crashed,Application Crash / App Closing
+app is closing,Application Crash / App Closing
+app closes unexpectedly,Application Crash / App Closing
+program stopped working,Application Crash / App Closing
+application not responding,Application Crash / App Closing
+app keeps crashing,Application Crash / App Closing
+software crashes on startup,Application Crash / App Closing
+program closes immediately,Application Crash / App Closing
+installation failed,Installation Failed
+failed to install,Installation Failed
+setup error,Installation Failed
+installer not working,Installation Failed
+installation aborted,Installation Failed
+setup wizard crashed,Installation Failed
+cannot complete installation,Installation Failed
+installation stuck,Installation Failed
+installer freezes,Installation Failed
+missing dll,Missing DLL / Library
+dll not found,Missing DLL / Library
+library missing,Missing DLL / Library
+missing system file,Missing DLL / Library
+dll error,Missing DLL / Library
+required dll missing,Missing DLL / Library
+missing runtime library,Missing DLL / Library
+permission denied,Permission Denied
+access denied,Permission Denied
+insufficient permissions,Permission Denied
+cannot access file,Permission Denied
+permission error,Permission Denied
+access rights denied,Permission Denied
+requires administrator,Permission Denied
+network error,Network / Update Error
+update failed,Network / Update Error
+connection error,Network / Update Error
+cannot connect to server,Network / Update Error
+download failed,Network / Update Error
+network timeout,Network / Update Error
+connection refused,Network / Update Error
+update server unreachable,Network / Update Error
+license error,License / Activation Error
+activation failed,License / Activation Error
+invalid license,License / Activation Error
+license expired,License / Activation Error
+activation key invalid,License / Activation Error
+product key not working,License / Activation Error
+license verification failed,License / Activation Error

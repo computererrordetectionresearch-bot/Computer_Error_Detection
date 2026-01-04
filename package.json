@@ -1,0 +1,35 @@
+{
+  "name": "installation-error-fixer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:frontend": "next dev",
+    "dev:backend": "cd backend && python app.py",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "train": "python models/train_models.py",
+    "train:ts": "tsx scripts/train_models.ts",
+    "evaluate": "python models/evaluate_models.py",
+    "accuracy": "python models/accuracy_report.py"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "csv-parse": "^5.5.3",
+    "csv-stringify": "^6.4.4",
+    "natural": "^6.10.3",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "@types/react-dom": "^18.2.18",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.3"
+  }
+}

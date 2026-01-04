@@ -1,0 +1,30 @@
+[
+  {
+    "model": "Error Detection",
+    "accuracy": 1.0,
+    "correct": 13,
+    "total": 13
+  },
+  {
+    "model": "Error Category Classification",
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "correct": 46,
+    "total": 46
+  },
+  {
+    "model": "Installation Steps Giver",
+    "accuracy": 1.0,
+    "correct": 122,
+    "total": 122
+  },
+  {
+    "model": "Error-Fix Matching",
+    "accuracy": 1.0,
+    "top3_accuracy": 1.0,
+    "correct": 50,
+    "total": 50
+  }
+]

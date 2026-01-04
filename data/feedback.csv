@@ -1,0 +1,7 @@
+feedback_id,error_text,software,os,fix_id,success,timestamp,category
+1,error,Adobe Photoshop,Windows 11,2,True,2025-12-24T13:09:48.732Z,
+2,installation failed,Visual Studio Code,Windows 10,34,True,2025-12-24T20:10:43.987186,
+3,app is closing,WhatsApp,Windows 11,361,False,2025-12-24T20:25:03.985201,
+4,"
+
+app is closing ",WhatsApp,Windows 11,361,false,2025-12-24T20:31:26.445294,Application Crash / App Closing

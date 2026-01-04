@@ -1,0 +1,123 @@
+software,os,installation_steps,source
+Adobe Photoshop,Windows 11,Download installer from Adobe website || Run the installer as administrator || Follow on-screen instructions || Enter license key if required || Complete installation and restart || Launch Photoshop,Official Guide
+Adobe Photoshop,Windows 10,Download installer from Adobe website || Run the installer as administrator || Follow on-screen instructions || Enter license key if required || Complete installation and restart || Launch Photoshop,Official Guide
+Adobe Photoshop,MacOS,Download DMG file from Adobe website || Open DMG and drag to Applications || Enter admin password if prompted || Complete installation || Launch Photoshop from Applications,Official Guide
+Visual Studio Code,Windows 11,Download VS Code installer || Run installer || Select installation path || Choose additional tasks || Complete installation || Launch VS Code,Official Guide
+Visual Studio Code,Windows 10,Download VS Code installer || Run installer || Select installation path || Choose additional tasks || Complete installation || Launch VS Code,Official Guide
+Visual Studio Code,MacOS,Download VS Code for Mac || Open downloaded file || Drag to Applications folder || Launch VS Code,Official Guide
+Node.js,Windows 11,Download Windows installer from nodejs.org || Run installer || Follow installation wizard || Verify installation with node --version || Set up npm if needed,Official Guide
+Node.js,Windows 10,Download Windows installer from nodejs.org || Run installer || Follow installation wizard || Verify installation with node --version || Set up npm if needed,Official Guide
+Node.js,MacOS,Download Mac installer from nodejs.org || Run installer package || Follow installation wizard || Verify with node --version,Official Guide
+Python,Windows 11,Download Python installer from python.org || Run installer || Check Add Python to PATH option || Complete installation || Verify with python --version,Official Guide
+Python,Windows 10,Download Python installer from python.org || Run installer || Check Add Python to PATH option || Complete installation || Verify with python --version,Official Guide
+Python,MacOS,Download Python installer from python.org || Run installer package || Follow installation wizard || Verify with python3 --version || Install pip if needed,Official Guide
+Chrome,Windows 11,Download Chrome installer from google.com || Run installer || Follow setup wizard || Set Chrome as default browser if desired || Complete installation,Official Guide
+Chrome,Windows 10,Download Chrome installer from google.com || Run installer || Follow setup wizard || Set Chrome as default browser if desired || Complete installation,Official Guide
+Chrome,MacOS,Download Chrome DMG from google.com || Open DMG file || Drag Chrome to Applications || Launch Chrome from Applications,Official Guide
+Firefox,Windows 11,Download Firefox installer from mozilla.org || Run installer || Choose installation type || Complete setup || Launch Firefox,Official Guide
+Firefox,Windows 10,Download Firefox installer from mozilla.org || Run installer || Choose installation type || Complete setup || Launch Firefox,Official Guide
+Firefox,MacOS,Download Firefox DMG from mozilla.org || Open DMG and drag to Applications || Launch Firefox from Applications,Official Guide
+Git,Windows 11,Download Git for Windows installer || Run installer || Select components to install || Choose default editor || Configure PATH environment || Complete installation,Official Guide
+Git,Windows 10,Download Git for Windows installer || Run installer || Select components to install || Choose default editor || Configure PATH environment || Complete installation,Official Guide
+Git,MacOS,Install via Homebrew: brew install git || Or download installer from git-scm.com || Verify with git --version,Official Guide
+Docker,Windows 11,Download Docker Desktop for Windows || Enable WSL 2 feature || Run installer as administrator || Restart computer || Launch Docker Desktop,Official Guide
+Docker,Windows 10,Download Docker Desktop for Windows || Enable WSL 2 feature || Run installer as administrator || Restart computer || Launch Docker Desktop,Official Guide
+Docker,MacOS,Download Docker Desktop for Mac || Open DMG and drag to Applications || Launch Docker Desktop || Complete initial setup,Official Guide
+PostgreSQL,Windows 11,Download PostgreSQL installer || Run installer as administrator || Set master password || Choose installation directory || Complete setup || Verify installation,Official Guide
+PostgreSQL,Windows 10,Download PostgreSQL installer || Run installer as administrator || Set master password || Choose installation directory || Complete setup || Verify installation,Official Guide
+PostgreSQL,MacOS,Install via Homebrew: brew install postgresql || Or download installer from postgresql.org || Initialize database with initdb || Start service,Official Guide
+MongoDB,Windows 11,Download MongoDB Community Server || Run installer || Choose Complete installation || Install MongoDB Compass if desired || Configure service || Complete setup,Official Guide
+MongoDB,Windows 10,Download MongoDB Community Server || Run installer || Choose Complete installation || Install MongoDB Compass if desired || Configure service || Complete setup,Official Guide
+MongoDB,MacOS,Install via Homebrew: brew tap mongodb/brew || brew install mongodb-community || Start MongoDB service || Verify installation,Official Guide
+Microsoft Office,Windows 11,Sign in to Microsoft account || Download Office installer || Run installer || Enter product key if required || Complete installation || Activate Office,Official Guide
+Microsoft Office,Windows 10,Sign in to Microsoft account || Download Office installer || Run installer || Enter product key if required || Complete installation || Activate Office,Official Guide
+Microsoft Office,MacOS,Sign in to Microsoft account || Download Office for Mac || Open installer package || Follow installation wizard || Enter product key || Complete setup,Official Guide
+Spotify,Windows 11,Download Spotify installer from spotify.com || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Spotify,Windows 10,Download Spotify installer from spotify.com || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Spotify,MacOS,Download Spotify DMG from spotify.com || Open DMG and drag to Applications || Launch Spotify || Sign in or create account,Official Guide
+Discord,Windows 11,Download Discord installer from discord.com || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Discord,Windows 10,Download Discord installer from discord.com || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Discord,MacOS,Download Discord DMG from discord.com || Open DMG and drag to Applications || Launch Discord || Sign in or create account,Official Guide
+Zoom,Windows 11,Download Zoom installer from zoom.us || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Zoom,Windows 10,Download Zoom installer from zoom.us || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Zoom,MacOS,Download Zoom DMG from zoom.us || Open DMG and run installer || Follow setup wizard || Sign in or create account,Official Guide
+Slack,Windows 11,Download Slack installer from slack.com || Run installer || Follow setup wizard || Sign in or create workspace || Complete installation,Official Guide
+Slack,Windows 10,Download Slack installer from slack.com || Run installer || Follow setup wizard || Sign in or create workspace || Complete installation,Official Guide
+Slack,MacOS,Download Slack DMG from slack.com || Open DMG and drag to Applications || Launch Slack || Sign in or create workspace,Official Guide
+WhatsApp,Windows 11,Download WhatsApp Desktop from whatsapp.com || Run installer || Follow setup wizard || Scan QR code with mobile app || Complete setup,Official Guide
+WhatsApp,Windows 10,Download WhatsApp Desktop from whatsapp.com || Run installer || Follow setup wizard || Scan QR code with mobile app || Complete setup,Official Guide
+WhatsApp,MacOS,Download WhatsApp DMG from whatsapp.com || Open DMG and drag to Applications || Launch WhatsApp || Scan QR code with mobile app,Official Guide
+Telegram,Windows 11,Download Telegram Desktop from telegram.org || Run installer || Follow setup wizard || Enter phone number || Complete verification,Official Guide
+Telegram,Windows 10,Download Telegram Desktop from telegram.org || Run installer || Follow setup wizard || Enter phone number || Complete verification,Official Guide
+Telegram,MacOS,Download Telegram DMG from telegram.org || Open DMG and drag to Applications || Launch Telegram || Enter phone number || Complete verification,Official Guide
+VLC Media Player,Windows 11,Download VLC installer from videolan.org || Run installer || Follow setup wizard || Choose file associations || Complete installation,Official Guide
+VLC Media Player,Windows 10,Download VLC installer from videolan.org || Run installer || Follow setup wizard || Choose file associations || Complete installation,Official Guide
+VLC Media Player,MacOS,Download VLC DMG from videolan.org || Open DMG and drag to Applications || Launch VLC || Configure preferences,Official Guide
+WinRAR,Windows 11,Download WinRAR installer from rarlab.com || Run installer || Choose installation directory || Select file associations || Complete installation,Official Guide
+WinRAR,Windows 10,Download WinRAR installer from rarlab.com || Run installer || Choose installation directory || Select file associations || Complete installation,Official Guide
+WinRAR,MacOS,Download RAR Extractor from App Store || Or use The Unarchiver || Install from Mac App Store || Configure file associations,Official Guide
+7-Zip,Windows 11,Download 7-Zip installer from 7-zip.org || Run installer || Choose installation directory || Select file associations || Complete installation,Official Guide
+7-Zip,Windows 10,Download 7-Zip installer from 7-zip.org || Run installer || Choose installation directory || Select file associations || Complete installation,Official Guide
+7-Zip,MacOS,Download Keka from App Store || Or use The Unarchiver || Install from Mac App Store || Configure file associations,Official Guide
+Notepad++,Windows 11,Download Notepad++ installer from notepad-plus-plus.org || Run installer || Choose installation directory || Select file associations || Complete installation,Official Guide
+Notepad++,Windows 10,Download Notepad++ installer from notepad-plus-plus.org || Run installer || Choose installation directory || Select file associations || Complete installation,Official Guide
+Notepad++,MacOS,Use TextEdit (built-in) || Or download Sublime Text || Or use VS Code || Configure as default text editor,Official Guide
+Sublime Text,Windows 11,Download Sublime Text installer from sublimetext.com || Run installer || Follow setup wizard || Enter license key if purchased || Complete installation,Official Guide
+Sublime Text,Windows 10,Download Sublime Text installer from sublimetext.com || Run installer || Follow setup wizard || Enter license key if purchased || Complete installation,Official Guide
+Sublime Text,MacOS,Download Sublime Text DMG from sublimetext.com || Open DMG and drag to Applications || Launch Sublime Text || Enter license key if purchased,Official Guide
+IntelliJ IDEA,Windows 11,Download IntelliJ IDEA installer from jetbrains.com || Run installer || Choose installation directory || Select JVM || Complete installation || Activate license,Official Guide
+IntelliJ IDEA,Windows 10,Download IntelliJ IDEA installer from jetbrains.com || Run installer || Choose installation directory || Select JVM || Complete installation || Activate license,Official Guide
+IntelliJ IDEA,MacOS,Download IntelliJ IDEA DMG from jetbrains.com || Open DMG and drag to Applications || Launch IntelliJ || Activate license || Configure JDK,Official Guide
+Eclipse,Windows 11,Download Eclipse installer from eclipse.org || Run installer || Choose Eclipse package || Select installation directory || Complete installation || Launch Eclipse,Official Guide
+Eclipse,Windows 10,Download Eclipse installer from eclipse.org || Run installer || Choose Eclipse package || Select installation directory || Complete installation || Launch Eclipse,Official Guide
+Eclipse,MacOS,Download Eclipse DMG from eclipse.org || Open DMG and drag to Applications || Launch Eclipse || Configure workspace,Official Guide
+Android Studio,Windows 11,Download Android Studio installer from developer.android.com || Run installer || Follow setup wizard || Install Android SDK || Complete installation || Launch Android Studio,Official Guide
+Android Studio,Windows 10,Download Android Studio installer from developer.android.com || Run installer || Follow setup wizard || Install Android SDK || Complete installation || Launch Android Studio,Official Guide
+Android Studio,MacOS,Download Android Studio DMG from developer.android.com || Open DMG and drag to Applications || Launch Android Studio || Install Android SDK || Complete setup,Official Guide
+Xcode,MacOS,Open Mac App Store || Search for Xcode || Click Install || Enter Apple ID password || Wait for download || Launch Xcode,Official Guide
+MySQL,Windows 11,Download MySQL installer from mysql.com || Run installer || Choose setup type || Set root password || Complete installation || Verify installation,Official Guide
+MySQL,Windows 10,Download MySQL installer from mysql.com || Run installer || Choose setup type || Set root password || Complete installation || Verify installation,Official Guide
+MySQL,MacOS,Install via Homebrew: brew install mysql || Or download installer from mysql.com || Start MySQL service || Set root password,Official Guide
+Redis,Windows 11,Download Redis for Windows from github.com || Extract files || Run redis-server.exe || Or use WSL to install Redis || Configure Redis || Start service,Official Guide
+Redis,Windows 10,Download Redis for Windows from github.com || Extract files || Run redis-server.exe || Or use WSL to install Redis || Configure Redis || Start service,Official Guide
+Redis,MacOS,Install via Homebrew: brew install redis || Start Redis service: brew services start redis || Verify with redis-cli ping,Official Guide
+Elasticsearch,Windows 11,Download Elasticsearch ZIP from elastic.co || Extract to directory || Run bin/elasticsearch.bat || Configure heap size || Verify installation,Official Guide
+Elasticsearch,Windows 10,Download Elasticsearch ZIP from elastic.co || Extract to directory || Run bin/elasticsearch.bat || Configure heap size || Verify installation,Official Guide
+Elasticsearch,MacOS,Install via Homebrew: brew install elasticsearch || Start service: brew services start elasticsearch || Verify with curl localhost:9200,Official Guide
+Kubernetes,Windows 11,Install Docker Desktop || Enable Kubernetes in Docker settings || Or use minikube: choco install minikube || Start minikube || Verify with kubectl version,Official Guide
+Kubernetes,Windows 10,Install Docker Desktop || Enable Kubernetes in Docker settings || Or use minikube: choco install minikube || Start minikube || Verify with kubectl version,Official Guide
+Kubernetes,MacOS,Install Docker Desktop || Enable Kubernetes in Docker settings || Or use minikube: brew install minikube || Start minikube || Verify with kubectl version,Official Guide
+Terraform,Windows 11,Download Terraform ZIP from hashicorp.com || Extract to directory || Add to PATH || Verify with terraform version || Initialize workspace,Official Guide
+Terraform,Windows 10,Download Terraform ZIP from hashicorp.com || Extract to directory || Add to PATH || Verify with terraform version || Initialize workspace,Official Guide
+Terraform,MacOS,Install via Homebrew: brew install terraform || Verify with terraform version || Initialize workspace || Configure providers,Official Guide
+Anaconda,Windows 11,Download Anaconda installer from anaconda.com || Run installer || Choose installation directory || Add to PATH || Complete installation || Launch Anaconda Navigator,Official Guide
+Anaconda,Windows 10,Download Anaconda installer from anaconda.com || Run installer || Choose installation directory || Add to PATH || Complete installation || Launch Anaconda Navigator,Official Guide
+Anaconda,MacOS,Download Anaconda installer from anaconda.com || Run installer package || Follow setup wizard || Add to PATH || Launch Anaconda Navigator,Official Guide
+Jupyter Notebook,Windows 11,Install Python first || Run: pip install jupyter || Launch with: jupyter notebook || Or install Anaconda which includes Jupyter,Official Guide
+Jupyter Notebook,Windows 10,Install Python first || Run: pip install jupyter || Launch with: jupyter notebook || Or install Anaconda which includes Jupyter,Official Guide
+Jupyter Notebook,MacOS,Install Python first || Run: pip3 install jupyter || Launch with: jupyter notebook || Or install Anaconda which includes Jupyter,Official Guide
+TensorFlow,Windows 11,Install Python first || Run: pip install tensorflow || Verify installation || Or use Anaconda: conda install tensorflow,Official Guide
+TensorFlow,Windows 10,Install Python first || Run: pip install tensorflow || Verify installation || Or use Anaconda: conda install tensorflow,Official Guide
+TensorFlow,MacOS,Install Python first || Run: pip3 install tensorflow || Verify installation || Or use Anaconda: conda install tensorflow,Official Guide
+PyTorch,Windows 11,Install Python first || Visit pytorch.org for installation command || Run pip install command || Verify installation || Test with import torch,Official Guide
+PyTorch,Windows 10,Install Python first || Visit pytorch.org for installation command || Run pip install command || Verify installation || Test with import torch,Official Guide
+PyTorch,MacOS,Install Python first || Visit pytorch.org for installation command || Run pip3 install command || Verify installation || Test with import torch,Official Guide
+Adobe Premiere Pro,Windows 11,Download installer from Adobe website || Run installer as administrator || Sign in to Adobe account || Enter license key || Complete installation || Launch Premiere Pro,Official Guide
+Adobe Premiere Pro,Windows 10,Download installer from Adobe website || Run installer as administrator || Sign in to Adobe account || Enter license key || Complete installation || Launch Premiere Pro,Official Guide
+Adobe Premiere Pro,MacOS,Download DMG from Adobe website || Open DMG and drag to Applications || Sign in to Adobe account || Enter license key || Launch Premiere Pro,Official Guide
+Adobe Illustrator,Windows 11,Download installer from Adobe website || Run installer as administrator || Sign in to Adobe account || Enter license key || Complete installation || Launch Illustrator,Official Guide
+Adobe Illustrator,Windows 10,Download installer from Adobe website || Run installer as administrator || Sign in to Adobe account || Enter license key || Complete installation || Launch Illustrator,Official Guide
+Adobe Illustrator,MacOS,Download DMG from Adobe website || Open DMG and drag to Applications || Sign in to Adobe account || Enter license key || Launch Illustrator,Official Guide
+Figma,Windows 11,Download Figma Desktop from figma.com || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Figma,Windows 10,Download Figma Desktop from figma.com || Run installer || Follow setup wizard || Sign in or create account || Complete installation,Official Guide
+Figma,MacOS,Download Figma DMG from figma.com || Open DMG and drag to Applications || Launch Figma || Sign in or create account,Official Guide
+Sketch,MacOS,Download Sketch from sketch.com || Open DMG and drag to Applications || Launch Sketch || Sign in or create account || Enter license key,Official Guide
+OBS Studio,Windows 11,Download OBS Studio installer from obsproject.com || Run installer || Follow setup wizard || Configure settings || Complete installation,Official Guide
+OBS Studio,Windows 10,Download OBS Studio installer from obsproject.com || Run installer || Follow setup wizard || Configure settings || Complete installation,Official Guide
+OBS Studio,MacOS,Download OBS Studio DMG from obsproject.com || Open DMG and drag to Applications || Launch OBS || Configure settings,Official Guide
+Steam,Windows 11,Download Steam installer from store.steampowered.com || Run installer || Follow setup wizard || Create or sign in to account || Complete installation,Official Guide
+Steam,Windows 10,Download Steam installer from store.steampowered.com || Run installer || Follow setup wizard || Create or sign in to account || Complete installation,Official Guide
+Steam,MacOS,Download Steam DMG from store.steampowered.com || Open DMG and drag to Applications || Launch Steam || Create or sign in to account,Official Guide
+Epic Games Launcher,Windows 11,Download Epic Games Launcher from epicgames.com || Run installer || Follow setup wizard || Create or sign in to account || Complete installation,Official Guide
+Epic Games Launcher,Windows 10,Download Epic Games Launcher from epicgames.com || Run installer || Follow setup wizard || Create or sign in to account || Complete installation,Official Guide
+Epic Games Launcher,MacOS,Download Epic Games Launcher DMG from epicgames.com || Open DMG and drag to Applications || Launch Epic Games || Create or sign in to account,Official Guide
