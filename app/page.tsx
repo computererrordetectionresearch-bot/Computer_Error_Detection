@@ -222,25 +222,30 @@ export default function Home() {
           'Content-Type': 'application/json',
         },
       });
-      setSolution(response.data);
-      setShowFollowUp(true);
       
       // Also fetch top 3 solutions
+      let multiResponse = null;
       try {
-        const multiResponse = await axios.post('/api/ml/detect-error-multi?limit=3', {
+        multiResponse = await axios.post('/api/ml/detect-error-multi?limit=3', {
           user_error: errorText,
         });
-        if (multiResponse.data.solutions && multiResponse.data.solutions.length > 1) {
-          setMultiSolutions(multiResponse.data.solutions);
-        }
       } catch (e) {
         // Multi-solution is optional, don't fail if it doesn't work
       }
+      
+      // Add 1.5 second delay before showing results
+      setTimeout(() => {
+        setSolution(response.data);
+        setShowFollowUp(true);
+        if (multiResponse && multiResponse.data.solutions && multiResponse.data.solutions.length > 1) {
+          setMultiSolutions(multiResponse.data.solutions);
+        }
+        setLoading(false);
+      }, 1500);
     } catch (err: any) {
       setError(
         err.response?.data?.detail || 'Failed to detect error. Please try again.'
       );
-    } finally {
       setLoading(false);
     }
   };
@@ -584,7 +589,7 @@ export default function Home() {
                           )}
                           
                           {/* Difficulty and Warning badges */}
-                          <div className="flex items-center gap-3 mb-4 flex-wrap">
+                          {/* <div className="flex items-center gap-3 mb-4 flex-wrap">
                             <span className={`px-3 py-1 rounded-lg text-xs font-semibold border-2 ${
                               difficulty === 'easy'
                                 ? 'bg-green-100 text-green-700 border-green-300'
@@ -600,7 +605,7 @@ export default function Home() {
                                 ⚠️ Warning
                               </span>
                             )}
-                          </div>
+                          </div> */}
                           
                           {/* Warning message */}
                           {warning && (
