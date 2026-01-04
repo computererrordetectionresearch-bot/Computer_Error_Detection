@@ -17,7 +17,9 @@ node_modules/
 # Misc
 .DS_Store
 *.pem
-*.md 
+# Ignore all markdown files except README.md
+*.md
+!README.md
 *.bat 
 
 
