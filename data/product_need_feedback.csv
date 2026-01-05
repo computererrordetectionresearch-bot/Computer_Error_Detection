@@ -9550,3 +9550,5 @@ timestamp,user_text,predicted_label,confidence,user_correct_label,source,needs_r
 2026-01-05T10:02:56.832677,btry is crashing,GPU Upgrade,0.0993,,ml,False
 2026-01-05T10:30:11.989063,pc is very slow,SSD Upgrade,0.3013,,ml,False
 2026-01-05T10:49:03.052942,games stutter and lag,GPU Upgrade,0.3336,,ml,False
+2026-01-05T13:21:34.588633,pc is very slow,SSD Upgrade,0.3678,,ml,False
+2026-01-05T13:29:10.111786,restarting lagging and lagging,PSU Upgrade,0.1795,,ml,False

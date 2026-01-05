@@ -218,7 +218,7 @@ def train_error_model():
     dfs = []
     
     # Load error training data
-    for dataset_file in ["error_training_20000.csv", "error_training_data_20000.csv", 
+    for dataset_file in ["error_training_data_combined.csv", "error_training_20000.csv", "error_training_data_20000.csv", 
                         "improved_error_training_data.csv", "real_world_error_training_data.csv",
                         "error_texts.csv", "comprehensive_test_training_data.csv"]:
         dataset_path = DATA_DIR / dataset_file
@@ -413,6 +413,15 @@ def train_product_need_model():
     # Load data
     dfs = []
     
+    # Load combined hardware dataset first (preferred)
+    HARDWARE_CSV = DATA_DIR / "hardware_component_dataset_combined.csv"
+    if HARDWARE_CSV.exists():
+        df = pd.read_csv(HARDWARE_CSV)
+        if 'user_text' in df.columns and 'component_label' in df.columns:
+            dfs.append(df[['user_text', 'component_label']])
+            print(f"[INFO] Loaded {len(df)} samples from hardware_component_dataset_combined.csv")
+    
+    # Fallback to individual files if combined doesn't exist
     HARDWARE_CSV = DATA_DIR / "hardware_component_dataset_merged.csv"
     if HARDWARE_CSV.exists():
         df = pd.read_csv(HARDWARE_CSV)

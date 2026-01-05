@@ -31,6 +31,7 @@ The **PC Recommendation Engine** is a full-stack intelligent system that provide
 -  Modern, responsive web interface
 -  Hierarchical ML models for improved accuracy
 -  Active learning loop with user feedback
+-  Comprehensive model evaluation with confusion matrices and performance metrics
 
 ### Technology Stack
 
@@ -119,6 +120,8 @@ scikit-learn==1.7.2       # Machine learning library
 joblib>=1.3.0             # Model serialization and parallel processing
 python-dotenv>=1.0.0      # Environment variable management
 supabase>=2.0.0           # Supabase client (optional, for database)
+matplotlib>=3.10.0        # Data visualization (for model evaluation)
+seaborn>=0.13.0           # Statistical data visualization (for model evaluation)
 ```
 
 **Install backend dependencies:**
@@ -248,6 +251,7 @@ For more detailed information, refer to:
   - `API_DOCS.md` - API documentation
   - `COMPLETE_UPGRADE_GUIDE.md` - Upgrade guide
   - `ROBUST_MODEL_IMPLEMENTATION.md` - Model implementation details
+  - `model_evaluations/EVALUATION_SUMMARY.md` - Model evaluation results and metrics
 
 ---
 
@@ -269,34 +273,95 @@ For more detailed information, refer to:
 
 ##  ML Models
 
-The system uses 4 trained ML models:
+The system uses 4 trained ML models with comprehensive evaluation metrics:
 
 1. **Shop Ranking Model** (`reco_model.pkl`)
    - Type: Gradient Boosting Classifier
    - Purpose: Ranks repair shops based on multiple features
-   - Accuracy: High (validated on shop data)
+   - Features: Quality metrics (rating, reviews, verified), match indicators (district, shop type, budget), urgency penalty
 
 2. **Error Type NLP Model** (`nlp_error_model_error_type.pkl`)
-   - Type: Multinomial Naive Bayes / SGDClassifier
+   - Type: SGDClassifier with log_loss
    - Purpose: Classifies error type from free-text descriptions
-   - Classes: 15 error types
-   - Accuracy: ~87.5%
+   - Classes: 21 error types
+   - **Performance Metrics:**
+     - Accuracy: 83.70%
+     - Precision: 83.75%
+     - Recall: 83.70%
+     - F1-Score: 83.44%
+     - MAP (Mean Average Precision): 86.00%
+     - Cross-Validation: 82.52% (±0.85%)
 
 3. **Product Category NLP Model** (`nlp_error_model_product.pkl`)
    - Type: SGDClassifier
    - Purpose: Classifies product category from symptoms
-   - Classes: 5 categories
-   - Accuracy: 85.7%
+   - Classes: 3 categories
+   - **Performance Metrics:**
+     - Accuracy: 66.67%
+     - Precision: 66.67%
+     - Recall: 66.67%
+     - F1-Score: 66.67%
+     - MAP (Mean Average Precision): 100.00%
 
 4. **Product Need Model** (`product_need_model.pkl`)
    - Type: SGDClassifier with log_loss
    - Purpose: Recommends specific hardware components
-   - Classes: 48 component types
-   - Accuracy: 99.6%
+   - Classes: 53 component types
+   - **Performance Metrics:**
+     - Accuracy: 97.79%
+     - Precision: 97.43%
+     - Recall: 97.79%
+     - F1-Score: 97.60%
+     - MAP (Mean Average Precision): 71.09%
+
+### Model Training
 
 For model training:
 - **Improved training**: `backend/train_improved_nlp_models.py` - Enhanced NLP models with better preprocessing, cross-validation, and evaluation
 - **Standard training**: `backend/train_error_model_20000.py`, `backend/train_product_category_model.py`, `backend/train_product_need_model.py`
+
+**Training Data:**
+- Error Type Model: Uses `error_training_data_combined.csv` (3,219 samples, 21 error types)
+- Product Need Model: Uses `hardware_component_dataset_combined.csv` (22,443 samples, 53 component types)
+- Product Category Model: Uses `product_texts.csv` (14 samples, 5 categories)
+
+**Latest Training Results (2026-01-02):**
+- Error Type Model: 83.70% accuracy (644 test samples, 2,575 training samples)
+- Product Need Model: 97.79% accuracy (4,502 test samples, 17,954 training samples)
+- Product Category Model: 66.67% accuracy (3 test samples, 11 training samples - limited by small dataset)
+- See `backend/TRAINING_RESULTS.md` for detailed training results and metrics
+
+### Model Evaluation
+
+The project includes a comprehensive model evaluation script that generates detailed performance metrics and visualizations:
+
+**Run Model Evaluation:**
+```bash
+cd backend
+.\venv\Scripts\activate  # Windows
+source venv/bin/activate  # macOS/Linux
+python evaluate_models_with_visualization.py
+```
+
+**Generated Visualizations:**
+- Performance metrics comparison (Accuracy, Precision, Recall, F1-Score, MAP)
+- Individual metric comparisons
+- Radar charts for each model
+- Metrics heatmap
+- **Confusion matrices** for detailed error analysis
+- Summary tables
+
+All visualizations are saved to `backend/model_evaluations/` directory.
+
+**Evaluation Outputs:**
+- `comprehensive_metrics_comparison.png` - Side-by-side comparison of all metrics
+- `individual_metrics_comparison.png` - Separate charts for each metric
+- `radar_chart_comparison.png` - Radar charts showing all metrics
+- `metrics_heatmap.png` - Heatmap visualization
+- `summary_table.png` - Tabular summary
+- `confusion_matrix_*.png` - Confusion matrices for each model (raw counts and normalized)
+
+For detailed evaluation results, see `backend/model_evaluations/EVALUATION_SUMMARY.md`.
 
 ---
 
@@ -322,4 +387,57 @@ This project is part of a research initiative on computer error detection and re
 
 **Status**:  Production Ready  
 **Last Updated**: 2026-01-02  
+**Last Model Training**: 2026-01-02  
 **Maintained by**: Project Team
+
+---
+
+## Model Evaluation
+
+The project includes comprehensive model evaluation capabilities with detailed metrics and visualizations.
+
+### Evaluation Metrics
+
+Each model is evaluated using:
+- **Accuracy**: Overall classification accuracy
+- **Precision**: Ratio of true positives to all predicted positives
+- **Recall**: Ratio of true positives to all actual positives
+- **F1-Score**: Harmonic mean of precision and recall
+- **MAP (Mean Average Precision)**: Average precision across all classes
+
+### Confusion Matrices
+
+Confusion matrices are generated for all classification models to:
+- Identify which classes are commonly confused
+- Understand per-class performance
+- Detect class imbalance issues
+- Guide model improvement efforts
+
+Each confusion matrix is provided in two formats:
+1. **Raw counts**: Actual number of predictions
+2. **Normalized percentages**: Percentage of predictions for easier comparison
+
+### Running Evaluations
+
+To evaluate all models and generate visualizations:
+
+```bash
+cd backend
+.\venv\Scripts\activate  # Windows
+source venv/bin/activate  # macOS/Linux
+python evaluate_models_with_visualization.py
+```
+
+The script will:
+1. Load all trained models
+2. Evaluate on test datasets
+3. Calculate all performance metrics
+4. Generate confusion matrices
+5. Create comprehensive visualizations
+6. Save all outputs to `backend/model_evaluations/`
+
+### Viewing Results
+
+All evaluation results are saved as PNG images in `backend/model_evaluations/`:
+- Open any PNG file to view visualizations
+- Check `EVALUATION_SUMMARY.md` for detailed metrics and analysis

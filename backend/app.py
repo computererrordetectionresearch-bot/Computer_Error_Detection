@@ -275,7 +275,10 @@ COMPONENT_INFO: dict[str, dict[str, str]] = {}
 
 # Load COMPONENT_INFO from CSV if available
 try:
-    data_path = HERE.parent / "data" / "hardware_component_dataset_10000.csv"
+    # Try combined file first, then fallback to individual file
+    data_path = HERE.parent / "data" / "hardware_component_dataset_combined.csv"
+    if not data_path.exists():
+        data_path = HERE.parent / "data" / "hardware_component_dataset_10000.csv"
     if data_path.exists():
         df_info = pd.read_csv(data_path)
         # Build a mapping per label from first occurrence

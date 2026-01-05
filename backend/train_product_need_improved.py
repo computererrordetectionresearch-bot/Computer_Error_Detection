@@ -28,7 +28,15 @@ def load_all_training_data():
     """Load all available product need training data."""
     dfs = []
     
-    # Load 50,000 generated cases
+    # Load combined hardware dataset first (preferred)
+    HARDWARE_CSV = DATA_DIR / "hardware_component_dataset_combined.csv"
+    if HARDWARE_CSV.exists():
+        df = pd.read_csv(HARDWARE_CSV)
+        if 'user_text' in df.columns and 'component_label' in df.columns:
+            dfs.append(df[['user_text', 'component_label']])
+            print(f"[INFO] Loaded {len(df)} samples from hardware_component_dataset_combined.csv")
+    
+    # Fallback to individual files if combined doesn't exist
     LARGE_DATASET = DATA_DIR / "hardware_component_dataset_50000.csv"
     if LARGE_DATASET.exists():
         df = pd.read_csv(LARGE_DATASET)
@@ -36,7 +44,6 @@ def load_all_training_data():
             dfs.append(df[['user_text', 'component_label']])
             print(f"[INFO] Loaded {len(df)} samples from hardware_component_dataset_50000.csv")
     
-    # Load merged hardware component dataset
     HARDWARE_CSV = DATA_DIR / "hardware_component_dataset_merged.csv"
     if HARDWARE_CSV.exists():
         df = pd.read_csv(HARDWARE_CSV)
@@ -44,7 +51,6 @@ def load_all_training_data():
             dfs.append(df[['user_text', 'component_label']])
             print(f"[INFO] Loaded {len(df)} samples from hardware_component_dataset_merged.csv")
     
-    # Try other hardware datasets
     for dataset_file in ["hardware_component_dataset_10000.csv", 
                         "hardware_component_dataset_improved.csv",
                         "hardware_component_dataset_augmented.csv"]:
