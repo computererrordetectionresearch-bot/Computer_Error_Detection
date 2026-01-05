@@ -8527,3 +8527,121 @@ Right-click your audio device → Update driver
 If still delayed: Uninstall device
 Restart PC (Windows reinstalls driver)
 ✔️ Fixes resume-related driver bugs.",Sound should play immediately after waking from sleep without delay,low,Windows 10/11,Desktop/Laptop,"Sound output is delayed after the system resumes from sleep or pause, audio delayed after sleep, sound delay after wake, audio lag after sleep, delayed sound after resume",
+NEW321,Display,Display Shows Incorrect Colors,The display shows incorrect colors or color distortion,"The display shows incorrect colors or color distortion, screen colors wrong, display color distortion, incorrect colors, color profile issue","Graphics driver issues, display cable problems, color filters enabled, wrong color profile, or monitor settings","✅ Option 1: Restart Graphics Driver (Quick Fix)
+Press Win + Ctrl + Shift + B
+Screen may flicker and a beep sound may occur
+✔️ Fixes temporary GPU glitches","✅ Option 2: Check Display Cable & Monitor
+Turn off PC & monitor
+Unplug and reconnect HDMI / DisplayPort / VGA
+Try a different cable
+If using a laptop → test with external monitor
+✔️ If colors are normal on another monitor → your display panel may be faulty","✅ Option 3: Disable Night Light & Color Filters
+Press Win + I → System → Display
+Turn OFF Night light
+Go to Accessibility → Color filters → OFF
+✔️ Incorrect color profiles often cause distortion","✅ Option 4: Update or Reinstall Graphics Driver (MOST IMPORTANT)
+Press Win + X → Device Manager
+Expand Display adapters
+Right-click GPU → Update driver
+🔹Clean Reinstall (Best Fix)
+Boot into Safe Mode
+Use DDU (Display Driver Uninstaller)
+Reboot and install latest stable driver from: NVIDIA /AMD /Intel
+❌ Avoid beta drivers","✅ Option 5: Change Screen Resolution & Refresh Rate
+Right-click Desktop → Display settings
+Set Recommended resolution
+Advanced display → Set correct refresh rate (60Hz / 144Hz)
+✔️ Wrong refresh rate can cause color artifacts",Display colors should appear correctly without distortion,low,Windows 10/11,Desktop/Laptop,"The display shows incorrect colors or color distortion, screen colors wrong, display color distortion, incorrect colors, color profile issue",
+NEW322,Display,Display Flickers at High Resolution,The display flickers only when I set the resolution to a high value,"The display flickers only when I set the resolution to a high value, screen flickers high resolution, display flicker high res, flickering at high resolution, screen flicker resolution","Wrong refresh rate, non-native resolution, inadequate display cable, graphics driver issues, or GPU scaling problems","✅ Option 1: Set Correct Refresh Rate (MOST COMMON)
+Right-click Desktop → Display settings
+Click Advanced display
+Set Refresh rate to: 60Hz (for testing) & Then try higher values (75 / 120 / 144Hz if supported)
+✔️ If flicker stops at 60Hz → cable or GPU bandwidth issue","✅ Option 2: Use the Monitor's Native (Recommended) Resolution
+Display settings → Resolution
+Select (Recommended) resolution
+Avoid custom or stretched resolutions
+✔️ Non-native resolutions often flicker","✅ Option 3: Replace or Upgrade the Display Cable (VERY IMPORTANT)
+Replace old HDMI cable
+Prefer DisplayPort
+If HDMI: 1080p → HDMI 1.4+ & 1440p/4K → HDMI 2.0 / 2.1
+✔️ Cheap cables cause flicker only at high resolution","✅ Option 4: Update or Clean-Reinstall Graphics Driver
+Quick update: Device Manager → Display adapters → Update
+Best fix: Boot into Safe Mode & Use DDU (Display Driver Uninstaller)
+Install latest stable driver from GPU manufacturer
+❌ Avoid beta drivers","✅ Option 5: Disable GPU Scaling
+NVIDIA Control Panel → Display → Adjust desktop size and position
+AMD Adrenalin → Display → GPU Scaling OFF
+Intel Graphics → Display → Scaling OFF
+✔️ Helps especially with external monitors",Display should work smoothly at high resolution without flickering,low,Windows 10/11,Desktop/Laptop,"The display flickers only when I set the resolution to a high value, screen flickers high resolution, display flicker high res, flickering at high resolution, screen flicker resolution",
+NEW323,Display,Laptop Display Works Only With External Monitor,The laptop display works only when connected to an external monitor,"The laptop display works only when connected to an external monitor, laptop screen not working, internal display not working, laptop screen black, internal monitor not detected","Display output mode, display adapter disabled, graphics driver issues, BIOS display settings, or hardware problems","✅ Option 1: Switch Back to Laptop Screen (Very Common)
+Press Win + P
+Select PC screen only
+Wait a few seconds
+✔️ If laptop screen turns on → problem solved","✅ Option 2: Detect Laptop Display Manually
+Right-click Desktop → Display settings
+Scroll down → Click Detect
+If display appears → set Multiple displays → Duplicate / Extend
+✔️ Forces Windows to re-detect internal screen","✅ Option 3: Update or Reinstall Graphics Driver (MOST IMPORTANT)
+🔹 Update
+Press Win + X → Device Manager
+Expand Display adapters
+Right-click GPU → Update driver
+🔹 Clean Reinstall (Best Fix)
+Boot into Safe Mode
+Use DDU (Display Driver Uninstaller)
+Reinstall latest stable driver from laptop manufacturer or GPU site
+❌ Avoid beta drivers","✅ Option 4: Enable Laptop Display Adapter
+Device Manager → Expand Monitors
+Right-click Generic PnP Monitor
+Click Enable device
+✔️ Sometimes the internal panel is disabled","✅ Option 5: Check BIOS / UEFI Display Settings
+Restart laptop
+Press F2 / DEL / ESC / F10 (varies by brand)
+Look for: Primary Display /Internal Display /Hybrid / Switchable Graphics
+✔️ Set to Auto / Internal / Enabled",Laptop internal display should work independently of external monitor,low,Windows 10/11,Laptop,"The laptop display works only when connected to an external monitor, laptop screen not working, internal display not working, laptop screen black, internal monitor not detected",
+NEW324,Display,Screen Turns White During Use,The screen suddenly turns completely white during normal use,"The screen suddenly turns completely white during normal use, white screen, screen turns white, display white screen, white screen error","Graphics driver crash, display cable issues, GPU problems, fast startup issues, or hardware failure","✅ Option 1: Restart Graphics Driver (Instant Test)
+Press Win + Ctrl + Shift + B
+Screen may flicker and you may hear a beep
+✔️ If display returns → temporary GPU driver crash","✅ Option 2: Check If the Issue Appears on an External Monitor
+Connect an external monitor / TV
+Result : 
+External monitor works fine ---- Laptop screen / cable issue
+External monitor also white ---- GPU / driver issue
+✔️ This is the most important test","✅ Option 3: Update or Clean-Reinstall Graphics Driver (VERY IMPORTANT)
+Win + X → Device Manager
+Expand Display adapters
+Right-click GPU → Update driver
+Best Fix : Boot into Safe Mode & Use DDU (Display Driver Uninstaller)
+Install the latest stable driver from manufacturer
+❌ Avoid beta drivers","✅ Option 4: Check Display Cable (Laptop Users – Very Common)
+Slowly move the laptop lid back and forth
+If screen turns white/normal intermittently → loose or damaged display cable
+🔧 Requires internal cable reseating or replacement","✅ Option 5: Disable Fast Startup
+Control Panel → Power Options
+Choose what the power buttons do
+Change settings currently unavailable
+Uncheck Turn on fast startup
+Restart",Screen should display normally without turning white,medium,Windows 10/11,Desktop/Laptop,"The screen suddenly turns completely white during normal use, white screen, screen turns white, display white screen, white screen error",
+NEW325,Display,Graphics Lag When Moving Windows,Graphics lag occurs when I move windows or switch between applications,"Graphics lag occurs when I move windows or switch between applications, window lag, graphics stutter, dragging windows lag, window movement lag","Graphics driver issues, visual effects enabled, wrong GPU selected, refresh rate problems, or low-end hardware","✅ Option 1: Restart Graphics Driver (Quick Test)
+Press Win + Ctrl + Shift + B
+Screen may blink briefly
+✔️ Fixes temporary GPU hangs","✅ Option 2: Update or Clean-Reinstall Graphics Driver (MOST IMPORTANT)
+Win + X → Device Manager
+Expand Display adapters
+Right-click GPU → Update driver
+Best Method (Recommended): Boot into Safe Mode & Use DDU (Display Driver Uninstaller)
+Install latest stable driver from NVIDIA / AMD / Intel official site
+❌ Avoid beta drivers","✅ Option 3: Disable Visual Effects (Very Effective on Low-End PCs)
+Press Win + R → type sysdm.cpl → Enter
+Advanced tab → Performance → Settings
+Select Adjust for best performance
+Apply & restart
+✔️ Removes laggy animations","✅ Option 4: Set Graphics to High Performance
+Settings → System → Display → Graphics
+Add lagging apps
+Set High performance (Dedicated GPU)
+✔️ Prevents Windows from using weak integrated GPU","✅ Option 5: Check Refresh Rate & Resolution
+Display settings → Advanced display
+Set correct refresh rate (60Hz / 120Hz / 144Hz)
+Use Recommended resolution
+✔️ Wrong refresh rate causes stutter when dragging windows",Windows should move smoothly without lag or stutter,low,Windows 10/11,Desktop/Laptop,"Graphics lag occurs when I move windows or switch between applications, window lag, graphics stutter, dragging windows lag, window movement lag",
