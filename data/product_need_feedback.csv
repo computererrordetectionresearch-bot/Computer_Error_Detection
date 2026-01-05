@@ -9513,3 +9513,33 @@ timestamp,user_text,predicted_label,confidence,user_correct_label,source,needs_r
 2026-01-02T06:32:53.216605,i want more cooling,Case Fan Upgrade,0.1932,,ml,False
 2026-01-02T06:36:56.884455,need more cooling to my pc,CPU Overheat,0.1977,,ml,False
 2026-01-02T06:38:19.248580,pc is very slow,Slow Performance,0.4284,,ml,False
+2026-01-04T18:46:18.980532,not power on my pc,PSU / Power Issue,0.3909,,ml,False
+2026-01-05T05:27:34.772057,"My computer is running very slowly, what should I do?",Slow Performance,0.2096,,ml,False
+2026-01-05T05:37:18.920499,cpu is heating,CPU Overheat,0.4126,,ml,False
+2026-01-05T05:42:31.177358,monitor is black but pc is working,Monitor or GPU Check,0.2813,,ml,False
+2026-01-05T05:44:46.127781,pc give sound,Audio Issue,0.2615,,ml,False
+2026-01-05T05:53:00.189903,hello my pc is too much slow,Slow Performance,0.2823,,ml,False
+2026-01-05T06:09:50.982510,ello my pc is too much slow,Slow Performance,0.2823,,ml,False
+2026-01-05T06:12:18.074460,ello my pc is too much slow,Slow Performance,0.2823,,ml,False
+2026-01-05T06:12:28.889927,hello my pc is too much slow,Slow Performance,0.2823,,ml,False
+2026-01-05T06:30:36.302463,fan open blue no display,No Display / No Signal,0.4161,,ml,False
+2026-01-05T06:35:13.164558,PC restarts again and again,PSU / Power Issue,0.4539,,ml,False
+2026-01-05T06:41:09.627205,Monitor is black boot PC is running,No Display / No Signal,0.1777,,ml,False
+2026-01-05T06:42:00.046071,Monitor is black blue PC is running,No Display / No Signal,0.2611,,ml,False
+2026-01-05T06:45:19.402453,Monitor is black blue PC is running,No Display / No Signal,0.2611,,ml,False
+2026-01-05T07:14:15.608047,blue screen is my monitor,No Display / No Signal,0.3039,,ml,False
+2026-01-05T07:17:17.289902,blue screen an my monitor,No Display / No Signal,0.3039,,ml,False
+2026-01-05T07:17:59.773861,fan speed are too much,WiFi Adapter Upgrade,0.2110,,ml,False
+2026-01-05T07:22:17.676989,computer games too wrong no start,General Repair,0.1278,,ml,False
+2026-01-05T07:22:31.344628,A want no speed a my pc,No Display / No Signal,0.1437,,ml,False
+2026-01-05T07:22:36.314503,A want no speed a my pc,No Display / No Signal,0.1437,,ml,False
+2026-01-05T07:32:41.161197,virus an my pc,Slow Performance,0.2022,,ml,False
+2026-01-05T07:45:52.946689,is want no speed fps my pc,No Display / No Signal,0.1889,,ml,False
+2026-01-05T07:48:51.795649,is want no speed fps my pc,No Display / No Signal,0.1889,,ml,False
+2026-01-05T08:23:24.922402,computer games too on to start,SSD Upgrade,0.2723,,ml,False
+2026-01-05T08:53:33.755324,no audio,Audio Issue,0.1384,,ml,False
+2026-01-05T08:53:37.655585,no audio,Audio Issue,0.1384,,ml,False
+2026-01-05T08:53:50.719194,monitor has lines,Monitor Replacement,0.1874,,ml,False
+2026-01-05T08:54:11.529162,bluetoot not connection,WiFi Adapter Upgrade,0.3596,,ml,False
+2026-01-05T08:55:21.286972,getting need sound,Audio Issue,0.3652,,ml,False
+2026-01-05T08:55:40.079712,pc shut down while gaming,GPU Upgrade,0.1798,,ml,False

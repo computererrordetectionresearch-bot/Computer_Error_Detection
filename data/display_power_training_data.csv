@@ -1,0 +1,154 @@
+user_text,error_type,source
+Monitor is black but PC is running,No Display / No Signal,display_power_training
+Screen says No Signal,No Display / No Signal,display_power_training
+Screen turns on then goes black,No Display / No Signal,display_power_training
+Screen flickering,Monitor Issue,display_power_training
+Screen has lines,Monitor Issue,display_power_training
+Screen is too dark,Monitor Issue,display_power_training
+Screen is too bright,Monitor Issue,display_power_training
+Screen shows wrong colors,Monitor Issue,display_power_training
+Screen resolution looks bad,Monitor Issue,display_power_training
+Monitor works on another PC but not mine,Monitor or GPU Check,display_power_training
+Monitor black but computer running,No Display / No Signal,display_power_training
+Monitor black screen but PC on,No Display / No Signal,display_power_training
+Screen black but PC is on,No Display / No Signal,display_power_training
+Display black but system running,No Display / No Signal,display_power_training
+No signal on monitor,No Display / No Signal,display_power_training
+Monitor shows no signal,No Display / No Signal,display_power_training
+Screen displays no signal,No Display / No Signal,display_power_training
+Monitor no signal error,No Display / No Signal,display_power_training
+No signal message on screen,No Display / No Signal,display_power_training
+Screen says no signal detected,No Display / No Signal,display_power_training
+Screen turns on then black,No Display / No Signal,display_power_training
+Monitor turns on then goes black,No Display / No Signal,display_power_training
+Display turns on then off,No Display / No Signal,display_power_training
+Screen on then black screen,No Display / No Signal,display_power_training
+Monitor lights up then black,No Display / No Signal,display_power_training
+Screen flashes then black,No Display / No Signal,display_power_training
+Monitor starts then goes black,No Display / No Signal,display_power_training
+Screen flickering problem,Monitor Issue,display_power_training
+Monitor flickering,Monitor Issue,display_power_training
+Display flickering,Monitor Issue,display_power_training
+Screen keeps flickering,Monitor Issue,display_power_training
+Monitor flickers constantly,Monitor Issue,display_power_training
+Screen flickering all the time,Monitor Issue,display_power_training
+Display flickers on and off,Monitor Issue,display_power_training
+Screen has horizontal lines,Monitor Issue,display_power_training
+Monitor showing lines,Monitor Issue,display_power_training
+Display has vertical lines,Monitor Issue,display_power_training
+Screen lines appearing,Monitor Issue,display_power_training
+Monitor lines on screen,Monitor Issue,display_power_training
+Screen showing lines,Monitor Issue,display_power_training
+Display lines problem,Monitor Issue,display_power_training
+Screen too dark to see,Monitor Issue,display_power_training
+Monitor too dark,Monitor Issue,display_power_training
+Display too dark,Monitor Issue,display_power_training
+Screen brightness too low,Monitor Issue,display_power_training
+Monitor screen too dark,Monitor Issue,display_power_training
+Screen is very dark,Monitor Issue,display_power_training
+Display is too dark,Monitor Issue,display_power_training
+Screen too bright hurts eyes,Monitor Issue,display_power_training
+Monitor too bright,Monitor Issue,display_power_training
+Display too bright,Monitor Issue,display_power_training
+Screen brightness too high,Monitor Issue,display_power_training
+Monitor screen too bright,Monitor Issue,display_power_training
+Screen colors wrong,Monitor Issue,display_power_training
+Monitor showing wrong colors,Monitor Issue,display_power_training
+Display colors incorrect,Monitor Issue,display_power_training
+Screen color problem,Monitor Issue,display_power_training
+Monitor colors messed up,Monitor Issue,display_power_training
+Display color issue,Monitor Issue,display_power_training
+Screen resolution bad,Monitor Issue,display_power_training
+Monitor resolution looks bad,Monitor Issue,display_power_training
+Display resolution problem,Monitor Issue,display_power_training
+Screen resolution issue,Monitor Issue,display_power_training
+Monitor resolution low,Monitor Issue,display_power_training
+Display resolution poor,Monitor Issue,display_power_training
+Monitor works on other PC,Monitor or GPU Check,display_power_training
+Monitor fine on another computer,Monitor or GPU Check,display_power_training
+Display works on different PC,Monitor or GPU Check,display_power_training
+Monitor works elsewhere but not here,Monitor or GPU Check,display_power_training
+PC not turning on,PSU / Power Issue,display_power_training
+PC turns on then turns off,PSU / Power Issue,display_power_training
+Fans spin but no display,No Display / No Signal,display_power_training
+Power light is on but nothing happens,PSU / Power Issue,display_power_training
+PC restarts again and again,Windows Boot Failure,display_power_training
+PC shuts down suddenly,PSU / Power Issue,display_power_training
+PC makes beeping sound on start,PSU / Power Issue,display_power_training
+PC only starts after many tries,PSU / Power Issue,display_power_training
+PC starts very slowly,Windows Boot Failure,display_power_training
+PC stuck on boot screen,Windows Boot Failure,display_power_training
+Computer not turning on,PSU / Power Issue,display_power_training
+PC won't turn on,PSU / Power Issue,display_power_training
+Computer won't start,PSU / Power Issue,display_power_training
+PC not starting,PSU / Power Issue,display_power_training
+Computer not starting,PSU / Power Issue,display_power_training
+PC won't power on,PSU / Power Issue,display_power_training
+Computer won't power on,PSU / Power Issue,display_power_training
+PC not powering on,PSU / Power Issue,display_power_training
+Laptop not turning on,PSU / Power Issue,display_power_training
+Laptop won't turn on,PSU / Power Issue,display_power_training
+PC turns on then off,PSU / Power Issue,display_power_training
+Computer turns on then turns off,PSU / Power Issue,display_power_training
+PC starts then shuts down,PSU / Power Issue,display_power_training
+Computer starts then off,PSU / Power Issue,display_power_training
+PC powers on then off,PSU / Power Issue,display_power_training
+Computer powers on then off,PSU / Power Issue,display_power_training
+PC on then immediately off,PSU / Power Issue,display_power_training
+Computer on then off immediately,PSU / Power Issue,display_power_training
+Fans spinning but no display,No Display / No Signal,display_power_training
+Fans running but no screen,No Display / No Signal,display_power_training
+Fans work but no display,No Display / No Signal,display_power_training
+Fans spin but black screen,No Display / No Signal,display_power_training
+Fans running but black screen,No Display / No Signal,display_power_training
+PC fans spin but no picture,No Display / No Signal,display_power_training
+Computer fans on but no display,No Display / No Signal,display_power_training
+Power light on but nothing happens,PSU / Power Issue,display_power_training
+Power LED on but no response,PSU / Power Issue,display_power_training
+Power light on but PC not starting,PSU / Power Issue,display_power_training
+Power indicator on but nothing,PSU / Power Issue,display_power_training
+Power button light on but no boot,PSU / Power Issue,display_power_training
+PC light on but not starting,PSU / Power Issue,display_power_training
+PC restarts repeatedly,Windows Boot Failure,display_power_training
+Computer restarts again and again,Windows Boot Failure,display_power_training
+PC keeps restarting,Windows Boot Failure,display_power_training
+Computer keeps restarting,Windows Boot Failure,display_power_training
+PC restart loop,Windows Boot Failure,display_power_training
+Computer restart loop,Windows Boot Failure,display_power_training
+PC restarting continuously,Windows Boot Failure,display_power_training
+Computer restarting continuously,Windows Boot Failure,display_power_training
+Computer shuts down suddenly,PSU / Power Issue,display_power_training
+PC turns off suddenly,PSU / Power Issue,display_power_training
+Computer turns off suddenly,PSU / Power Issue,display_power_training
+PC shuts down without warning,PSU / Power Issue,display_power_training
+Computer shuts down unexpectedly,PSU / Power Issue,display_power_training
+PC powers off suddenly,PSU / Power Issue,display_power_training
+Computer powers off suddenly,PSU / Power Issue,display_power_training
+PC makes beeping sound,PSU / Power Issue,display_power_training
+Computer beeping on start,PSU / Power Issue,display_power_training
+PC beeps when starting,PSU / Power Issue,display_power_training
+Computer beeps on startup,PSU / Power Issue,display_power_training
+PC beep sound on boot,PSU / Power Issue,display_power_training
+Computer beep error,PSU / Power Issue,display_power_training
+PC makes beep codes,PSU / Power Issue,display_power_training
+Computer only starts after many attempts,PSU / Power Issue,display_power_training
+PC starts after multiple tries,PSU / Power Issue,display_power_training
+Computer starts after many tries,PSU / Power Issue,display_power_training
+PC takes many attempts to start,PSU / Power Issue,display_power_training
+Computer takes many attempts to start,PSU / Power Issue,display_power_training
+Computer starts very slowly,Windows Boot Failure,display_power_training
+PC boots very slowly,Windows Boot Failure,display_power_training
+Computer boots very slowly,Windows Boot Failure,display_power_training
+PC takes long to start,Windows Boot Failure,display_power_training
+Computer takes long to start,Windows Boot Failure,display_power_training
+PC slow to boot,Windows Boot Failure,display_power_training
+Computer slow to boot,Windows Boot Failure,display_power_training
+Computer stuck on boot screen,Windows Boot Failure,display_power_training
+PC stuck at boot screen,Windows Boot Failure,display_power_training
+Computer stuck at boot screen,Windows Boot Failure,display_power_training
+PC hangs on boot screen,Windows Boot Failure,display_power_training
+Computer hangs on boot screen,Windows Boot Failure,display_power_training
+PC frozen on boot screen,Windows Boot Failure,display_power_training
+Computer frozen on boot screen,Windows Boot Failure,display_power_training
+PC stuck on startup screen,Windows Boot Failure,display_power_training
+Computer stuck on startup screen,Windows Boot Failure,display_power_training

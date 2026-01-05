@@ -1,46 +1,67 @@
-# backend/app.py
+"""
+PC Shop Recommendation Engine API
+
+Main FastAPI application providing endpoints for:
+- Repair shop recommendations based on error types
+- Product recommendations based on user needs
+- Hardware component recommendations for PC issues
+- Error type detection using NLP and rule-based systems
+- Product category detection
+
+The application uses:
+- Machine learning models for error/product classification
+- Rule-based patterns for high-confidence matches
+- Supabase (optional) or CSV files for data storage
+- Hierarchical inference for hardware recommendations
+- Spell checking and typo correction for user inputs
+"""
+
+# Standard library imports
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import Optional, List, Tuple, Dict, Any
-import os, json, math, random, re
+import os
+import json
+import math
+import random
+import re
 from pathlib import Path
 import joblib
 import numpy as np
 import csv
 import datetime
-
-
 import pandas as pd
-import joblib
-
 from dotenv import load_dotenv
 
-# Import new hierarchical system
+# Import hierarchical inference system (rule-based + ML)
+# This provides high-confidence rule matching and hierarchical component prediction
 try:
-    from rules import match_rule
-    from hierarchical_inference import predict_hierarchical
-    from feedback_storage import save_feedback, LOW_CONFIDENCE_THRESHOLD
+    from rules import match_rule  # Rule-based pattern matching for hardware components
+    from hierarchical_inference import predict_hierarchical  # Two-stage ML prediction (category → component)
+    from feedback_storage import save_feedback, LOW_CONFIDENCE_THRESHOLD  # Feedback collection for low-confidence predictions
     HIERARCHICAL_AVAILABLE = True
 except ImportError as e:
-    print(f"⚠️ Hierarchical system not available: {e}")
+    print(f"Hierarchical system not available: {e}")
     HIERARCHICAL_AVAILABLE = False
+    # Set fallback values if modules are unavailable
     match_rule = None
     predict_hierarchical = None
     save_feedback = None
     LOW_CONFIDENCE_THRESHOLD = 0.5
 
-# Supabase is optional (we fallback to CSVs if not configured)
+# Supabase is optional - we fallback to CSV files if not configured
+# Supabase provides cloud database storage, CSV files are used as local backup
 try:
     from supabase import create_client, Client
 except Exception:
     create_client = None
     Client = None
 
-
 # ─────────────────────────────────────────────────────────
-# 0) Paths & environment
+# 0) Paths & Environment Configuration
 # ─────────────────────────────────────────────────────────
+# Set up directory paths and load environment variables
 HERE = Path(__file__).parent.resolve()
 DATA_DIR = (HERE.parent / "data").resolve()
 
@@ -60,10 +81,10 @@ SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 # Debug: Print env status (without exposing keys)
-print(f"🔧 Environment check:")
+print(f"Environment check:")
 print(f"   .env file path: {HERE / '.env'}")
-print(f"   SUPABASE_URL: {'✅ Set' if SUPABASE_URL else '❌ Not set'}")
-print(f"   SUPABASE_KEY: {'✅ Set' if SUPABASE_KEY else '❌ Not set'}")
+print(f"   SUPABASE_URL: {'Set' if SUPABASE_URL else 'Not set'}")
+print(f"   SUPABASE_KEY: {'Set' if SUPABASE_KEY else 'Not set'}")
 if SUPABASE_URL:
     print(f"   Supabase URL: {SUPABASE_URL[:30]}...")
 
@@ -79,33 +100,33 @@ if SUPABASE_URL and SUPABASE_KEY and create_client is not None:
         try:
             test_response = supabase.table("shops").select("shop_id").limit(1).execute()
             USE_SUPABASE = True
-            print("✅ Connected to Supabase")
+            print("Connected to Supabase")
             print(f"   URL: {SUPABASE_URL[:50]}...")
             if test_response.data:
                 print(f"   Test query successful - found {len(test_response.data)} shop(s)")
             else:
-                print("   ⚠️ Test query returned no data (table may be empty)")
+                print("   Test query returned no data (table may be empty)")
         except Exception as test_error:
             error_msg = str(test_error)
-            print(f"⚠️ Supabase connection test failed: {error_msg}")
+            print(f"Supabase connection test failed: {error_msg}")
             if "requested path is invalid" in error_msg.lower() or "relation" in error_msg.lower():
-                print(f"   💡 This usually means the 'shops' table doesn't exist in Supabase.")
-                print(f"   💡 Please create the table in your Supabase project or check table name.")
-            print("📁 Will use CSV files as fallback")
+                print(f"   This usually means the 'shops' table doesn't exist in Supabase.")
+                print(f"   Please create the table in your Supabase project or check table name.")
+            print("Will use CSV files as fallback")
             USE_SUPABASE = False
     except Exception as e:
-        print(f"⚠️ Supabase init failed: {e}")
-        print("📁 Falling back to CSV files")
+        print(f"Supabase init failed: {e}")
+        print("Falling back to CSV files")
         import traceback
         traceback.print_exc()
 else:
     if not SUPABASE_URL:
-        print("ℹ️ SUPABASE_URL not set in environment variables")
+        print("SUPABASE_URL not set in environment variables")
     if not SUPABASE_KEY:
-        print("ℹ️ SUPABASE_KEY not set in environment variables")
+        print("SUPABASE_KEY not set in environment variables")
     if create_client is None:
-        print("ℹ️ Supabase Python client library not installed")
-    print("📁 Using CSV files if available.")
+        print("Supabase Python client library not installed")
+    print("Using CSV files if available.")
 
 # ─────────────────────────────────────────────────────────
 # Helper Functions
@@ -191,11 +212,11 @@ if SHOPS_CSV.exists():
             shops_df["verified"] = shops_df["verified"].astype(str).str.lower().isin(
                 ["true", "t", "1", "yes", "y", "maybe"]
             )
-        print(f"✅ Loaded shops CSV ({len(shops_df)} rows)")
+        print(f"Loaded shops CSV ({len(shops_df)} rows)")
     except Exception as e:
-        print(f"⚠️ Failed to load shops CSV: {e}")
+        print(f"Failed to load shops CSV: {e}")
 else:
-    print(f"ℹ️ Shops CSV not found at: {SHOPS_CSV}")
+    print(f"Shops CSV not found at: {SHOPS_CSV}")
 
 # ─────────────────────────────────────────────────────────
 # 3) Load model & features
@@ -217,24 +238,24 @@ error_nlp_model: Optional[Dict[str, Any]] = None
 if ERROR_NLP_MODEL_PATH.exists():
     try:
         error_nlp_model = joblib.load(ERROR_NLP_MODEL_PATH)
-        print(f"✅ Loaded NLP error-type model from {ERROR_NLP_MODEL_PATH}")
+        print(f"Loaded NLP error-type model from {ERROR_NLP_MODEL_PATH}")
     except Exception as e:
-        print(f"⚠️ Failed to load error-type NLP model: {e}")
+        print(f"Failed to load error-type NLP model: {e}")
         error_nlp_model = None
 else:
-    print(f"ℹ️ Error-type NLP model not found at: {ERROR_NLP_MODEL_PATH}. Will use rules only.")
+    print(f"Error-type NLP model not found at: {ERROR_NLP_MODEL_PATH}. Will use rules only.")
 
 # Load Product Category NLP Model
 product_nlp_model: Optional[Dict[str, Any]] = None
 if PRODUCT_NLP_MODEL_PATH.exists():
     try:
         product_nlp_model = joblib.load(PRODUCT_NLP_MODEL_PATH)
-        print(f"✅ Loaded NLP product-category model from {PRODUCT_NLP_MODEL_PATH}")
+        print(f"Loaded NLP product-category model from {PRODUCT_NLP_MODEL_PATH}")
     except Exception as e:
-        print(f"⚠️ Failed to load product-category NLP model: {e}")
+        print(f"Failed to load product-category NLP model: {e}")
         product_nlp_model = None
 else:
-    print(f"ℹ️ Product-category NLP model not found at: {PRODUCT_NLP_MODEL_PATH}. Will use rules only.")
+    print(f"Product-category NLP model not found at: {PRODUCT_NLP_MODEL_PATH}. Will use rules only.")
 
 # Load Product Need Model (for component recommendation)
 PRODUCT_NEED_MODEL_PATH = HERE / "product_need_model.pkl"
@@ -242,12 +263,12 @@ product_need_model = None
 if PRODUCT_NEED_MODEL_PATH.exists():
     try:
         product_need_model = joblib.load(PRODUCT_NEED_MODEL_PATH)
-        print("✅ Loaded product need model")
+        print("Loaded product need model")
     except Exception as e:
-        print(f"⚠️ Failed to load product need model: {e}")
+        print(f"Failed to load product need model: {e}")
         product_need_model = None
 else:
-    print("ℹ️ product_need_model.pkl not found – product need ML disabled")
+    print("product_need_model.pkl not found – product need ML disabled")
 
 # Initialize COMPONENT_INFO dictionary
 COMPONENT_INFO: dict[str, dict[str, str]] = {}
@@ -269,11 +290,11 @@ try:
                 "extra_explanation": str(row.get("extra_explanation", "")).strip() or None,
             }
         COMPONENT_INFO.update(tmp)
-        print(f"✅ Loaded component info for {len(COMPONENT_INFO)} labels from CSV")
+        print(f"Loaded component info for {len(COMPONENT_INFO)} labels from CSV")
     else:
-        print("ℹ️ hardware_component_dataset_10000.csv not found for COMPONENT_INFO")
+        print("hardware_component_dataset_10000.csv not found for COMPONENT_INFO")
 except Exception as e:
-    print(f"⚠️ Failed to load COMPONENT_INFO from CSV: {e}")
+    print(f"Failed to load COMPONENT_INFO from CSV: {e}")
 
 
 
@@ -287,10 +308,10 @@ nlp_model: Optional[Dict[str, Any]] = None
 if NLP_MODEL_PATH.exists() and error_nlp_model is None:
     try:
         nlp_model = joblib.load(NLP_MODEL_PATH)
-        print(f"✅ Loaded legacy NLP model from {NLP_MODEL_PATH}")
+        print(f"Loaded legacy NLP model from {NLP_MODEL_PATH}")
         error_nlp_model = nlp_model  # Use as fallback
     except Exception as e:
-        print(f"⚠️ Failed to load legacy NLP model: {e}")
+        print(f"Failed to load legacy NLP model: {e}")
 
 # ─────────────────────────────────────────────────────────
 # 4) FastAPI app & CORS
@@ -321,9 +342,15 @@ app.add_middleware(
 )
 
 # ─────────────────────────────────────────────────────────
-# 5) Schemas
+# 5) Pydantic Schemas / Data Models
 # ─────────────────────────────────────────────────────────
+# These models define the request/response structures for the API endpoints
+
 class Query(BaseModel):
+    """
+    Query model for shop ranking requests.
+    Used to specify error type, budget, urgency, and location for recommendations.
+    """
     error_type: str
     budget: str = Field(default="medium", description="low | medium | high")
     urgency: str = Field(default="normal", description="normal | high")
@@ -331,6 +358,10 @@ class Query(BaseModel):
     top_k: int = Field(default=10, ge=5, le=10)
 
 class RankRequest(BaseModel):
+    """
+    Request model for automatic shop ranking.
+    Automatically fetches candidates from database/CSV based on error type.
+    """
     error_type: str
     budget: str = "medium"
     urgency: str = "normal"
@@ -339,6 +370,10 @@ class RankRequest(BaseModel):
     mix_results: bool = True
 
 class Candidate(BaseModel):
+    """
+    Shop candidate model for ranking.
+    Represents a shop with its attributes used for ML model scoring.
+    """
     shop_id: str
     shop_type: str
     district: Optional[str] = ""
@@ -354,6 +389,10 @@ class InferenceRequest(BaseModel):
     candidates: List[Candidate]
 
 class ShopRecommendation(BaseModel):
+    """
+    Recommended shop with ranking score and explanation.
+    Includes match factors and reasoning for the recommendation.
+    """
     shop_id: str
     shop_name: str
     score: float
@@ -370,12 +409,20 @@ class ShopRecommendation(BaseModel):
     factors: List[str]
 
 class RecommendationResponse(BaseModel):
+    """
+    Response model for shop recommendations.
+    Includes ranked list of shops, summary text, and counts.
+    """
     recommendations: List[ShopRecommendation]
     summary: str
     total_found: int
     suitable_count: int
 
 class FeedbackRequest(BaseModel):
+    """
+    Request model for user feedback submission.
+    Used to collect user ratings and corrections for model improvement.
+    """
     shop_id: str
     error_type: str
     rating: float = Field(..., ge=1, le=5)
@@ -425,6 +472,10 @@ class DetectErrorResponse(BaseModel):
     similar_errors: List[DetectAlternative] = []  # similar/related errors
     explanation: Optional[str] = None  # explanation of the detected error
     multiple_types: List[DetectAlternative] = []  # multiple primary error types if applicable
+    fixing_steps: Optional[List[str]] = Field(
+        default=None,
+        description="Step-by-step troubleshooting steps to fix the detected error"
+    )
 
 class DetectProductCategoryResponse(BaseModel):
     label: Optional[str]
@@ -433,6 +484,10 @@ class DetectProductCategoryResponse(BaseModel):
     alternatives: List[DetectAlternative]  # top 3 predictions with confidence
 
 class ProductNeedRequest(BaseModel):
+    """
+    Request model for hardware component recommendations.
+    Takes free-form text describing PC problems/needs and recommends hardware upgrades.
+    """
     text: str = Field(..., description="Free text describing the user's problem or goal")
     budget: str = Field(default="medium", description="Budget (not used for model now, reserved for future)")
     district: str = Field(default="", description="User district, reserved for future integration")
@@ -448,13 +503,17 @@ class CategoryRecommendations(BaseModel):
     components: List[ProductNeedAlternative]
 
 class ProductNeedResponse(BaseModel):
-    component: Optional[str]  # Primary recommendation
-    need_label: Optional[str] = None  # can be connected later if needed
-    confidence: float
-    definition: Optional[str]
-    why_useful: Optional[str]
-    extra_explanation: Optional[str]
-    alternatives: List[ProductNeedAlternative]  # Top 5 alternatives
+    """
+    Response model for hardware component recommendations.
+    Includes recommended component, confidence, explanations, fixing tips, and alternatives.
+    """
+    component: Optional[str]  # Primary recommendation (e.g., "RAM Upgrade", "SSD Upgrade")
+    need_label: Optional[str] = None  # Alternative label format (for backward compatibility)
+    confidence: float  # Prediction confidence score (0.0 to 1.0)
+    definition: Optional[str]  # What the component is
+    why_useful: Optional[str]  # Why this component helps solve the problem
+    extra_explanation: Optional[str]  # Detailed explanation of the recommendation
+    alternatives: List[ProductNeedAlternative]  # Top 5 alternative recommendations
     fixing_tips: Optional[List[str]] = Field(
         default=None,
         description="Step-by-step troubleshooting tips before upgrading"
@@ -474,6 +533,10 @@ class ProductNeedResponse(BaseModel):
     grouped_by_category: Optional[List[CategoryRecommendations]] = Field(
         default=None,
         description="Recommendations grouped by category (Performance, Power, Network, etc.)"
+    )
+    spell_correction_suggestion: Optional[str] = Field(
+        default=None,
+        description="Suggested spelling correction if typos detected (e.g., 'Did you mean...')"
     )
 
 # ─────────────────────────────────────────────────────────
@@ -645,12 +708,27 @@ ERR_TO_TYPE = {
 }
 
 def ln1p(x: Any) -> float:
+    """
+    Safe natural logarithm of (1 + x).
+    Returns 0.0 if conversion fails.
+    Used for feature engineering (log transform of review counts).
+    """
     try:
         return math.log1p(float(x))
     except Exception:
         return 0.0
 
 def build_features(q: Query, c: Candidate) -> Dict[str, Any]:
+    """
+    Build feature vector for ML model from query and candidate shop.
+    
+    Features include:
+    - Quality metrics (rating, reviews, verified status)
+    - Match indicators (district, shop type, budget)
+    - Urgency penalty (based on turnaround time)
+    
+    Returns feature dictionary ready for model prediction.
+    """
     avg_rating = c.average_rating if c.average_rating is not None else None
     reviews = c.reviews_count if c.reviews_count is not None else None
     verified = 1 if (c.verified is True) else 0
@@ -1059,7 +1137,7 @@ def rank_auto(req: RankRequest):
             raise HTTPException(status_code=400, detail="user_district is required. Please select a district.")
         
         desired_type = ERR_TO_TYPE.get(req.error_type, "repair_shop")
-        print(f"🔍 Processing request: error_type='{req.error_type}', district='{req.user_district}', desired_type='{desired_type}'")
+        print(f"Processing request: error_type='{req.error_type}', district='{req.user_district}', desired_type='{desired_type}'")
         rows: List[Dict[str, Any]] = []
 
         # Prefer Supabase
@@ -1085,11 +1163,11 @@ def rank_auto(req: RankRequest):
                 rows = (same or []) + (others or [])
             except Exception as e:
                 error_msg = str(e)
-                print(f"⚠️ Supabase query failed: {error_msg}")
+                print(f"Supabase query failed: {error_msg}")
                 if "requested path is invalid" in error_msg.lower() or "relation" in error_msg.lower():
-                    print(f"   💡 This usually means the 'shops' table doesn't exist in Supabase.")
-                    print(f"   💡 Please create the table in your Supabase project or check table name.")
-                print(f"   📁 Falling back to CSV data...")
+                    print(f"   This usually means the 'shops' table doesn't exist in Supabase.")
+                    print(f"   Please create the table in your Supabase project or check table name.")
+                print(f"   Falling back to CSV data...")
                 rows = []
 
         # CSV fallback
@@ -1393,7 +1471,7 @@ def get_shop_details(shop_id: str):
             raise HTTPException(status_code=400, detail="shop_id parameter is required")
         
         shop_id = shop_id.strip()  # Clean the shop_id
-        print(f"🔍 Fetching shop details for shop_id: '{shop_id}'")
+        print(f"Fetching shop details for shop_id: '{shop_id}'")
         
         shop_data: Optional[Dict[str, Any]] = None
         products: List[Dict[str, Any]] = []
@@ -1405,37 +1483,37 @@ def get_shop_details(shop_id: str):
                 sres = supabase.table("shops").select("*").eq("shop_id", shop_id).execute()
                 if sres.data:
                     shop_data = sres.data[0]
-                    print(f"✅ Found shop in Supabase: {shop_data.get('shop_name', 'Unknown')}")
+                    print(f"Found shop in Supabase: {shop_data.get('shop_name', 'Unknown')}")
                 else:
-                    print(f"⚠️ Shop '{shop_id}' not found in Supabase")
+                    print(f"Shop '{shop_id}' not found in Supabase")
                     
                 try:
                     pres = supabase.table("products").select("*").eq("shop_id", shop_id).execute()
                     products = pres.data or []
                     if products:
-                        print(f"📦 Found {len(products)} products in Supabase")
+                        print(f"Found {len(products)} products in Supabase")
                 except Exception as e:
-                    print(f"⚠️ Failed to fetch products from Supabase: {e}")
+                    print(f"Failed to fetch products from Supabase: {e}")
                     
                 try:
                     fres = supabase.table("feedback").select("*").eq("shop_id", shop_id).order("date", desc=True).limit(10).execute()
                     feedback = fres.data or []
                     if feedback:
-                        print(f"💬 Found {len(feedback)} feedback entries in Supabase")
+                        print(f"Found {len(feedback)} feedback entries in Supabase")
                 except Exception as e:
-                    print(f"⚠️ Failed to fetch feedback from Supabase: {e}")
+                    print(f"Failed to fetch feedback from Supabase: {e}")
             except Exception as e:
                 error_msg = str(e)
-                print(f"⚠️ Supabase shop_details failed: {error_msg}")
+                print(f"Supabase shop_details failed: {error_msg}")
                 if "requested path is invalid" in error_msg.lower() or "relation" in error_msg.lower():
-                    print(f"   💡 This usually means the 'shops' table doesn't exist in Supabase.")
-                    print(f"   💡 Please create the table in your Supabase project or check table name.")
+                    print(f"   This usually means the 'shops' table doesn't exist in Supabase.")
+                    print(f"   Please create the table in your Supabase project or check table name.")
                 import traceback
                 traceback.print_exc()
 
         # CSV fallback
         if not shop_data and shops_df is not None and not shops_df.empty:
-            print(f"📁 Searching CSV for shop_id: '{shop_id}'")
+            print(f"Searching CSV for shop_id: '{shop_id}'")
             try:
                 if 'shop_id' in shops_df.columns:
                     print(f"   Available shop_ids in CSV (first 5): {list(shops_df['shop_id'].head(5))}")
@@ -1444,23 +1522,23 @@ def get_shop_details(shop_id: str):
                     row = shops_df[shops_df["shop_id"].astype(str).str.strip() == shop_id]
                     if not row.empty:
                         shop_data = row.iloc[0].to_dict()
-                        print(f"✅ Found shop in CSV: {shop_data.get('shop_name', 'Unknown')}")
+                        print(f"Found shop in CSV: {shop_data.get('shop_name', 'Unknown')}")
                     else:
                         # Try case-insensitive match
                         row = shops_df[shops_df["shop_id"].astype(str).str.strip().str.lower() == shop_id.lower()]
                         if not row.empty:
                             shop_data = row.iloc[0].to_dict()
-                            print(f"✅ Found shop in CSV (case-insensitive): {shop_data.get('shop_name', 'Unknown')}")
+                            print(f"Found shop in CSV (case-insensitive): {shop_data.get('shop_name', 'Unknown')}")
                 else:
-                    print(f"⚠️ CSV loaded but 'shop_id' column not found. Available columns: {list(shops_df.columns)}")
+                    print(f"CSV loaded but 'shop_id' column not found. Available columns: {list(shops_df.columns)}")
             except Exception as csv_error:
-                print(f"⚠️ Error searching CSV: {csv_error}")
+                print(f"Error searching CSV: {csv_error}")
                 import traceback
                 traceback.print_exc()
 
         if not shop_data:
             error_msg = f"Shop with ID '{shop_id}' not found in database"
-            print(f"❌ {error_msg}")
+            print(f"{error_msg}")
             raise HTTPException(status_code=404, detail=error_msg)
 
         # Load products from CSV if not already loaded
@@ -1469,9 +1547,9 @@ def get_shop_details(shop_id: str):
                 pdf = pd.read_csv(PRODUCTS_CSV, dtype=str, keep_default_na=False)
                 products = pdf[pdf["shop_id"].astype(str).str.strip() == shop_id].to_dict(orient="records")
                 if products:
-                    print(f"📦 Found {len(products)} products in CSV")
+                    print(f"Found {len(products)} products in CSV")
             except Exception as e:
-                print(f"⚠️ Failed to load products from CSV: {e}")
+                print(f"Failed to load products from CSV: {e}")
                 import traceback
                 traceback.print_exc()
 
@@ -1495,7 +1573,7 @@ def get_shop_details(shop_id: str):
                     cleaned_shop_data[key] = value
             shop_data = cleaned_shop_data
 
-        print(f"✅ Returning shop details for: {shop_data.get('shop_name', 'Unknown') if shop_data else 'Unknown'}")
+        print(f"Returning shop details for: {shop_data.get('shop_name', 'Unknown') if shop_data else 'Unknown'}")
         return {"shop": shop_data, "products": products, "feedback": feedback}
 
     except HTTPException:
@@ -1503,7 +1581,7 @@ def get_shop_details(shop_id: str):
     except Exception as e:
         import traceback
         error_trace = traceback.format_exc()
-        print(f"❌ Error in get_shop_details: {e}")
+        print(f"Error in get_shop_details: {e}")
         print(f"Traceback:\n{error_trace}")
         raise HTTPException(status_code=500, detail=f"Failed to fetch shop details: {str(e)}")
 
@@ -1532,7 +1610,7 @@ def get_product_details(product_id: str):
                         if sres.data:
                             shop_data = sres.data[0]
             except Exception as e:
-                print(f"⚠️ Supabase product_details failed: {e}")
+                print(f"Supabase product_details failed: {e}")
 
         # CSV fallback
         if not product_data and PRODUCTS_CSV.exists():
@@ -1567,9 +1645,9 @@ def get_product_details(product_id: str):
                                     else:
                                         shop_data[k] = v
                         except Exception as shop_error:
-                            print(f"⚠️ Error fetching shop data for product: {shop_error}")
+                            print(f"Error fetching shop data for product: {shop_error}")
             except Exception as e:
-                print(f"⚠️ CSV product_details failed: {e}")
+                print(f"CSV product_details failed: {e}")
                 import traceback
                 traceback.print_exc()
 
@@ -1615,7 +1693,7 @@ def get_product_details(product_id: str):
                     cleaned_shop_data[key] = value
             shop_data = cleaned_shop_data
 
-        print(f"✅ Returning product details for: {product_data.get('product_id', 'Unknown') if product_data else 'Unknown'}")
+        print(f"Returning product details for: {product_data.get('product_id', 'Unknown') if product_data else 'Unknown'}")
         return {"product": product_data, "shop": shop_data}
 
     except HTTPException:
@@ -1623,7 +1701,7 @@ def get_product_details(product_id: str):
     except Exception as e:
         import traceback
         error_trace = traceback.format_exc()
-        print(f"❌ Error in get_product_details: {e}")
+        print(f"Error in get_product_details: {e}")
         print(f"Traceback:\n{error_trace}")
         raise HTTPException(status_code=500, detail=f"Failed to fetch product details: {str(e)}")
 
@@ -1699,13 +1777,13 @@ def rank_products_auto(q: ProductQuery):
                             "match_reason": f"Available at {shop.get('shop_name', 'Unknown Shop')}",
                         })
             except Exception as e:
-                print(f"⚠️ Supabase products fetch failed: {e}")
+                print(f"Supabase products fetch failed: {e}")
 
         # CSV supplement/fallback
         if (not results) and PRODUCTS_CSV.exists():
             try:
                 pdf = pd.read_csv(PRODUCTS_CSV, dtype=str, keep_default_na=False).replace({"": None})
-                print(f"📁 Loaded products CSV: {len(pdf)} rows, columns: {list(pdf.columns)}")
+                print(f"Loaded products CSV: {len(pdf)} rows, columns: {list(pdf.columns)}")
                 
                 # If products CSV doesn't contain shop meta, try join with shops_df
                 if "shop_type" in pdf.columns:
@@ -1722,10 +1800,10 @@ def rank_products_auto(q: ProductQuery):
                         pdf = pdf[pdf["shop_type"].str.lower() == "product_shop"]
                         print(f"   After merge and shop_type filter: {len(pdf)} rows")
                     else:
-                        print(f"   ⚠️ No shop_id column in products CSV")
+                        print(f"   No shop_id column in products CSV")
                 else:
                     # If no shops_df, continue without filtering by shop_type
-                    print(f"   ℹ️ No shops_df available, using all products")
+                    print(f"   No shops_df available, using all products")
 
                 # Filter by product category (if provided)
                 if product_category and "category" in pdf.columns:
@@ -1787,15 +1865,15 @@ def rank_products_auto(q: ProductQuery):
                         "match_reason": f"Available at {(r.get('shop_name') or 'Unknown Shop')}",
                     })
             except Exception as e:
-                print(f"⚠️ CSV products load failed: {e}")
+                print(f"CSV products load failed: {e}")
                 import traceback
                 traceback.print_exc()
 
         # Debug logging
-        print(f"📦 Product search results: category='{product_category}', search_text='{search_text}', district='{user_district}', found={len(results)} products")
+        print(f"Product search results: category='{product_category}', search_text='{search_text}', district='{user_district}', found={len(results)} products")
         
         if not results:
-            print(f"⚠️ No products found. Check if CSV exists at: {PRODUCTS_CSV}")
+            print(f"No products found. Check if CSV exists at: {PRODUCTS_CSV}")
             print(f"   CSV exists: {PRODUCTS_CSV.exists()}")
             return []
 
@@ -2181,7 +2259,7 @@ def feedback(feedback: FeedbackRequest):
                 if res.data:
                     return {"message": "Feedback submitted", "data": res.data}
             except Exception as e:
-                print(f"⚠️ Failed to write feedback to Supabase: {e}")
+                print(f"Failed to write feedback to Supabase: {e}")
 
         # Fallback: acknowledge only (or you could append to FEEDBACK_CSV)
         return {"message": "Feedback received (local)", "data": payload}
@@ -2212,7 +2290,7 @@ def explain_shop_detailed(
             if res.data and len(res.data) > 0:
                 shop_row = res.data[0]
         except Exception as e:
-            print(f"⚠️ Failed to fetch shop from Supabase: {e}")
+            print(f"Failed to fetch shop from Supabase: {e}")
     
     # Fallback to CSV
     if shop_row is None and shops_df is not None:
@@ -2434,7 +2512,7 @@ def nlp_predict(model: Optional[Any], text: str) -> Tuple[Optional[str], float, 
         return None, 0.0, []
         
     except Exception as e:
-        print(f"⚠️ NLP prediction error: {e}")
+        print(f"NLP prediction error: {e}")
         import traceback
         traceback.print_exc()
         return None, 0.0, []
@@ -2504,6 +2582,17 @@ def rule_based_error_type(text: str) -> Tuple[Optional[str], float]:
     # 🧬 Boot failures
     if re.search(r"no bootable device|boot failure|boot loop|cannot boot|cant boot|won't boot|wont boot|not starting|won't start|stuck on.*logo|manufacturer logo|black screen after boot|stuck on.*screen|freezes on.*login|login screen.*freeze|wake from sleep|does not wake|sleep mode|windows.*crash.*installing.*updates|installing.*updates.*crash", t):
         return "Windows Boot Failure", 0.9
+    
+    # 🐌 General slow performance / speed up requests
+    if re.search(r"speed up|make.*faster|faster.*pc|faster.*computer|slow.*pc|slow.*computer|pc.*slow|computer.*slow|very slow|too slow|running slow|system slow|performance.*slow|slow.*performance|sluggish|lagging|unresponsive|freezing|hanging|not responsive", t):
+        # Check if it's specifically about boot/startup
+        if re.search(r"boot|startup|start.*up|loading|takes.*long.*start", t):
+            return "SSD Upgrade", 0.85
+        # Check if it's about multitasking/memory
+        if re.search(r"tabs|browser|multitask|many.*apps|multiple.*apps|memory|ram", t):
+            return "RAM Upgrade", 0.85
+        # General slow performance
+        return "Slow Performance", 0.85
     
     # 💾 Slow boot / OS slowness → SSD upgrade
     if re.search(r"slow boot|boots slowly|windows takes .* (minutes|long)|startup slow|os load slow|takes too long to start|takes too long to open|file transfers.*slow|file transfer.*slow|slow.*file|ssd.*slow|read.*write.*slow|cannot detect.*ssd|ssd.*disappear|ssd.*not detect|detect.*ssd.*sometimes|apps.*slowly.*startup|open.*slowly|hangs.*copying|copying.*large.*files|games.*forever.*load|take forever.*load|freezes.*downloading|downloading.*games|clicking.*apps.*long|takes.*long.*respond|lags.*after.*update|windows update.*lag|apps.*very.*slowly.*startup", t):
@@ -2670,6 +2759,21 @@ def detect_error_type_rules(text: str) -> Tuple[Optional[str], float, List[Dict[
             {"label": "RAM Upgrade", "confidence": 0.3}
         ]
     
+    # Slow performance / speed up requests
+    if any(kw in text_lower for kw in ["speed up", "make faster", "faster pc", "faster computer", "slow pc", "slow computer", "pc slow", "computer slow", "very slow", "too slow", "running slow", "system slow", "performance slow", "slow performance", "sluggish", "lagging", "unresponsive"]):
+        # Check if it's about boot/startup
+        if any(kw in text_lower for kw in ["boot", "startup", "start up", "loading", "takes long start"]):
+            return "SSD Upgrade", 0.85, [{"label": "SSD Upgrade", "confidence": 0.85}]
+        # Check if it's about multitasking/memory
+        if any(kw in text_lower for kw in ["tabs", "browser", "multitask", "many apps", "multiple apps", "memory", "ram"]):
+            return "RAM Upgrade", 0.85, [{"label": "RAM Upgrade", "confidence": 0.85}]
+        # General slow performance
+        return "Slow Performance", 0.85, [
+            {"label": "Slow Performance", "confidence": 0.85},
+            {"label": "SSD Upgrade", "confidence": 0.6},
+            {"label": "RAM Upgrade", "confidence": 0.5}
+        ]
+    
     # Upgrade phrases
     if any(kw in text_lower for kw in ["upgrade ssd", "add ssd", "bigger ssd", "1tb ssd", "2tb ssd"]):
         return "SSD Upgrade", 0.9, [{"label": "SSD Upgrade", "confidence": 0.9}]
@@ -2767,7 +2871,7 @@ def detect_error_type_hybrid(text: str) -> Dict[str, Any]:
     error_keywords_multi = {
         "CPU Overheat": ["cpu", "processor", "overheat", "overheating", "thermal", "temperature", "hot", "fan"],
         "GPU Overheat": ["gpu", "graphics", "overheat", "overheating", "thermal", "temperature", "hot", "fan"],
-        "Slow Performance": ["slow", "lag", "lagging", "sluggish", "unresponsive", "performance"],
+        "Slow Performance": ["slow", "lag", "lagging", "sluggish", "unresponsive", "performance", "speed up", "faster", "speed", "make faster"],
         "RAM Upgrade": ["ram", "memory", "insufficient", "full", "not enough"],
         "SSD Upgrade": ["ssd", "storage", "slow boot", "slow loading", "hard drive"],
         "PSU / Power Issue": ["power", "psu", "not turning on", "no power", "dead", "charging"],
@@ -2985,6 +3089,15 @@ def detect_error_type_endpoint(req: DetectErrorRequest):
             for mt in result.get('multiple_types', [])
         ]
         
+        # Get fixing steps for the detected error
+        fixing_steps = None
+        if detected_label:
+            try:
+                from error_fixing_steps import get_fixing_steps
+                fixing_steps = get_fixing_steps(detected_label)
+            except ImportError:
+                pass  # Fixing steps optional
+        
         return DetectErrorResponse(
             label=detected_label,
             confidence=detected_confidence,
@@ -2992,7 +3105,8 @@ def detect_error_type_endpoint(req: DetectErrorRequest):
             alternatives=alternatives,
             similar_errors=similar_errors,
             explanation=explanation,
-            multiple_types=multiple_types
+            multiple_types=multiple_types,
+            fixing_steps=fixing_steps
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to detect error type: {str(e)}")
@@ -3033,6 +3147,15 @@ def detect_error_type_endpoint_legacy(req: DetectErrorRequest):
             for mt in result.get('multiple_types', [])
         ]
         
+        # Get fixing steps for the detected error
+        fixing_steps = None
+        if detected_label:
+            try:
+                from error_fixing_steps import get_fixing_steps
+                fixing_steps = get_fixing_steps(detected_label)
+            except ImportError:
+                pass  # Fixing steps optional
+        
         return DetectErrorResponse(
             label=detected_label,
             confidence=detected_confidence,
@@ -3040,7 +3163,8 @@ def detect_error_type_endpoint_legacy(req: DetectErrorRequest):
             alternatives=alternatives,
             similar_errors=similar_errors,
             explanation=explanation,
-            multiple_types=multiple_types
+            multiple_types=multiple_types,
+            fixing_steps=fixing_steps
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to detect error type: {str(e)}")
@@ -3089,6 +3213,24 @@ def product_need_recommend(req: ProductNeedRequest):
     text = req.text.strip()
     if not text:
         raise HTTPException(status_code=400, detail="Text must not be empty")
+    
+    # Spell checking - detect and suggest corrections
+    spell_correction_suggestion = None
+    corrected_text = text  # Default to original text
+    has_typos = False
+    try:
+        from spell_checker import check_and_correct, get_correction_suggestion
+        corrected_text, corrections = check_and_correct(text)
+        if corrections:
+            has_typos = True
+            spell_correction_suggestion = get_correction_suggestion(text, corrected_text, corrections)
+            # Use corrected text for processing if typos detected - improves accuracy
+            text = corrected_text
+    except ImportError:
+        pass  # Spell checker optional
+    except Exception as e:
+        print(f"[WARNING] Spell checker failed: {e}")
+        pass  # Continue without spell checking
 
     # Constants
     HIGH_CONF_THRESHOLD = 0.7
@@ -3224,24 +3366,32 @@ def product_need_recommend(req: ProductNeedRequest):
             print(f"[ERROR] Flat ML prediction failed: {e}")
     
     # ============================================================================
-    # Handle no prediction case
+    # Handle no prediction case or very low confidence (unclear issue)
     # ============================================================================
-    if final_label is None:
+    # Threshold for considering an issue "unclear" - very low confidence
+    # Be more lenient if typos were detected (user tried to describe issue, just had spelling errors)
+    # Lowered threshold to be more accepting of user inputs
+    UNCLEAR_CONFIDENCE_THRESHOLD = 0.05 if has_typos else 0.10
+    
+    if final_label is None or (final_label and final_conf < UNCLEAR_CONFIDENCE_THRESHOLD):
         return ProductNeedResponse(
             component=None,
             need_label=None,
-            confidence=0.0,
+            confidence=final_conf if final_label else 0.0,
             definition=None,
             why_useful=None,
             extra_explanation=(
-                "We couldn't determine a specific recommendation. "
-                "Please describe your issue in more detail (e.g., 'slow performance', 'gaming lag', 'overheating', 'no display')."
+                "Your issue description is not clear enough for us to provide a specific hardware recommendation. "
+                "Please provide more details about your PC problem or need. "
+                "For example: 'PC is very slow', 'Gaming lag with low FPS', 'WiFi keeps disconnecting', "
+                "'PC overheating', 'No display on monitor', 'Need more storage space', etc."
             ),
             alternatives=[],
             fixing_tips=None,
             is_low_confidence=True,
             source="none",
-            ask_feedback=True
+            ask_feedback=True,
+            spell_correction_suggestion=spell_correction_suggestion
         )
     
     # ============================================================================
@@ -3278,12 +3428,18 @@ def product_need_recommend(req: ProductNeedRequest):
     why_useful = info.get("why_useful")
     extra_explanation = info.get("extra_explanation") or explanation
     
-    # Get fixing tips
-    try:
-        from component_fixing_tips import get_fixing_tips
-        fixing_tips = get_fixing_tips(final_label)
-    except ImportError:
-        fixing_tips = []
+    # Get fixing tips - always fetch tips if component is detected
+    # Tips help users troubleshoot before purchasing an upgrade
+    fixing_tips = []
+    if final_label:  # Only fetch tips if we have a component recommendation
+        try:
+            from component_fixing_tips import get_fixing_tips
+            fixing_tips = get_fixing_tips(final_label)
+        except ImportError:
+            fixing_tips = []
+        except Exception as e:
+            print(f"[WARNING] Failed to get fixing tips: {e}")
+            fixing_tips = []
     
     # Generate explanation if not available
     if not extra_explanation:
@@ -3318,11 +3474,12 @@ def product_need_recommend(req: ProductNeedRequest):
         why_useful=why_useful,
         extra_explanation=extra_explanation,
         alternatives=alternatives_list,
-        fixing_tips=fixing_tips if fixing_tips else None,
+        fixing_tips=fixing_tips if fixing_tips else None,  # Always include tips if available
         is_low_confidence=is_low_conf,
         source=source,
         ask_feedback=ask_feedback,
-        grouped_by_category=grouped_by_category_list
+        grouped_by_category=grouped_by_category_list,
+        spell_correction_suggestion=spell_correction_suggestion
     )
 
 # ─────────────────────────────────────────────────────────
@@ -3395,7 +3552,7 @@ def full_recommendation(req: FullRecommendationRequest):
             top_shops = shops_response.recommendations[:req.top_k_shops] if shops_response.recommendations else []
         except HTTPException as e:
             # If rank_auto fails, return empty shops but continue with products and tools
-            print(f"⚠️ rank_auto failed: {e.detail}")
+            print(f"rank_auto failed: {e.detail}")
             top_shops = []
         
         # Get products using rank_products_auto
@@ -3408,7 +3565,7 @@ def full_recommendation(req: FullRecommendationRequest):
             products_list = rank_products_auto(product_query)
             top_products = products_list[:req.top_k_products] if products_list else []
         except Exception as e:
-            print(f"⚠️ rank_products_auto failed: {str(e)}")
+            print(f"rank_products_auto failed: {str(e)}")
             top_products = []
         
         # Get tools using tools_recommend
@@ -3420,7 +3577,7 @@ def full_recommendation(req: FullRecommendationRequest):
             else:
                 top_tools = tools_list[:req.top_k_tools] if isinstance(tools_list, list) else []
         except Exception as e:
-            print(f"⚠️ tools_recommend failed: {str(e)}")
+            print(f"tools_recommend failed: {str(e)}")
             top_tools = []
         
         # Generate summary
@@ -3764,7 +3921,7 @@ def log_product_need_error(
                 note,
             ])
     except Exception as e:
-        print(f"⚠️ Failed to log product need error: {e}")
+        print(f"Failed to log product need error: {e}")
 
 # ─────────────────────────────────────────────────────────
 # Product Need Prediction Helpers

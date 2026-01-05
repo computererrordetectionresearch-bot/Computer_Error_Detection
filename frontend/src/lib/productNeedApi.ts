@@ -14,6 +14,7 @@ export interface ProductNeedResponse {
   extra_explanation: string | null;
   alternatives: ProductNeedAlternative[];
   fixing_tips?: string[] | null;
+  spell_correction_suggestion?: string | null;
 }
 
 const API_BASE_URL =

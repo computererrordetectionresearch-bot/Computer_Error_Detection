@@ -1,0 +1,21 @@
+input,predicted,expected,confidence,correct
+Monitor is black but PC is running,No Display / No Signal,No Display / No Signal,0.7710104080749742,True
+Screen says No Signal,No Display / No Signal,No Display / No Signal,0.8435812829076024,True
+Screen turns on then goes black,No Display / No Signal,No Display / No Signal,0.8038220625991407,True
+Screen flickering,Monitor Issue,Monitor Issue,0.7580313484074318,True
+Screen has lines,Monitor Issue,Monitor Issue,0.6541104454305502,True
+Screen is too dark,Monitor Issue,Monitor Issue,0.8056703662583248,True
+Screen is too bright,Monitor Issue,Monitor Issue,0.7946124161026422,True
+Screen shows wrong colors,Monitor Issue,Monitor Issue,0.7210964997739331,True
+Screen resolution looks bad,Monitor Issue,Monitor Issue,0.7600012835416329,True
+Monitor works on another PC but not mine,Monitor or GPU Check,Monitor or GPU Check,0.8299988327473631,True
+PC not turning on,PSU / Power Issue,PSU / Power Issue,0.7415401605310562,True
+PC turns on then turns off,PSU / Power Issue,PSU / Power Issue,0.638626879843809,True
+Fans spin but no display,No Display / No Signal,No Display / No Signal,0.7201127849946704,True
+Power light is on but nothing happens,PSU / Power Issue,PSU / Power Issue,0.7982379697235207,True
+PC restarts again and again,PSU / Power Issue,Windows Boot Failure,0.5855710572551347,False
+PC shuts down suddenly,PSU / Power Issue,PSU / Power Issue,0.7783613613256318,True
+PC makes beeping sound on start,PSU / Power Issue,PSU / Power Issue,0.8259058532928256,True
+PC only starts after many tries,PSU / Power Issue,PSU / Power Issue,0.7683053295688252,True
+PC starts very slowly,Windows Boot Failure,Windows Boot Failure,0.6486688183694331,True
+PC stuck on boot screen,Windows Boot Failure,Windows Boot Failure,0.8723214083253155,True

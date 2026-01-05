@@ -118,6 +118,7 @@ export interface ErrorDetectionResult {
   similar_errors?: Array<{ label: string; confidence: number }>;
   explanation?: string | null;
   multiple_types?: Array<{ label: string; confidence: number }>;  // Multiple primary error types
+  fixing_steps?: string[] | null;  // Step-by-step troubleshooting steps
 }
 
 export interface ConfirmedErrorType {

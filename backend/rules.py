@@ -55,6 +55,34 @@ RULES = [
         "explanation": "Slow computer usually needs RAM or SSD upgrade.",
         "related_components": ["SSD Upgrade"]
     },
+    {
+        "keywords": "speed up",
+        "component": "RAM Upgrade",
+        "confidence": 0.88,
+        "explanation": "To speed up your PC, consider upgrading RAM for better multitasking, or SSD for faster boot and loading times.",
+        "related_components": ["SSD Upgrade", "CPU Upgrade"]
+    },
+    {
+        "keywords": "make faster",
+        "component": "RAM Upgrade",
+        "confidence": 0.88,
+        "explanation": "To make your PC faster, consider upgrading RAM for better multitasking, or SSD for faster boot and loading times.",
+        "related_components": ["SSD Upgrade", "CPU Upgrade"]
+    },
+    {
+        "keywords": ["want", "speed up"],
+        "component": "RAM Upgrade",
+        "confidence": 0.88,
+        "explanation": "To speed up your PC, consider upgrading RAM for better multitasking, or SSD for faster boot and loading times.",
+        "related_components": ["SSD Upgrade", "CPU Upgrade"]
+    },
+    {
+        "keywords": ["want", "faster"],
+        "component": "RAM Upgrade",
+        "confidence": 0.88,
+        "explanation": "To make your PC faster, consider upgrading RAM for better multitasking, or SSD for faster boot and loading times.",
+        "related_components": ["SSD Upgrade", "CPU Upgrade"]
+    },
     
     # Very short inputs - Network
     {

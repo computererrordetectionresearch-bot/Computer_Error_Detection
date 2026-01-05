@@ -1,3 +1,20 @@
+/**
+ * Main Page Component - PC Shop Recommendation Engine
+ * 
+ * This is the main React component that provides the UI for:
+ * - Repair shop recommendations (Repairs tab)
+ * - Product search and recommendations (Products tab)
+ * - Hardware component recommendations (Hardware Recommender tab)
+ * 
+ * Features:
+ * - Error type detection from user input
+ * - Shop ranking and recommendations
+ * - Product search and filtering
+ * - Hardware upgrade recommendations with fixing tips
+ * - Speech-to-text input support
+ * - Location-based filtering (districts in Sri Lanka)
+ */
+
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
@@ -20,10 +37,10 @@ import CompareShopsModal from '@/components/CompareShopsModal';
 import BestMatch from '@/components/SmartFixPlan';
 import { fetchProductNeedRecommend, ProductNeedResponse } from '@/lib/productNeedApi';
 
-// API Configuration
+// API Configuration - Backend API base URL
 const API_BASE_URL = process.env.NEXT_PUBLIC_RECO_API_URL || "http://localhost:8000";
 
-// Districts in Sri Lanka
+// Districts in Sri Lanka - Used for location-based filtering
 const DISTRICTS = [
   'Colombo', 'Gampaha', 'Kalutara', 'Kandy', 'Matale', 'Nuwara Eliya',
   'Galle', 'Matara', 'Hambantota', 'Jaffna', 'Vanni', 'Batticaloa',
@@ -31,7 +48,8 @@ const DISTRICTS = [
   'Polonnaruwa', 'Badulla', 'Monaragala', 'Ratnapura', 'Kegalle'
 ];
 
-// Error types for detection
+// Error types for detection - Keywords mapping for error type detection
+// Used to help classify user queries into specific error categories
 const ERROR_TYPES = {
   'GPU Overheat': ['gpu', 'graphics', 'overheat', 'overheating', 'thermal', 'temperature', 'hot', 'fan', 'cooling'],
   'Blue Screen (BSOD)': ['blue screen', 'bsod', 'blue screen of death', 'crash', 'freeze', 'hang', 'stopped working'],
@@ -45,7 +63,8 @@ const ERROR_TYPES = {
   'Wi-Fi Adapter Upgrade': ['wifi', 'wi-fi', 'wireless', 'internet', 'network', 'adapter', 'connection', 'signal']
 };
 
-// Product types for detection
+// Product types for detection - Keywords mapping for product category detection
+// Used to identify when user is searching for specific products
 const PRODUCT_TYPES = {
   'Laptop': ['laptop', 'notebook', 'computer', 'pc', 'macbook'],
   'RAM': ['ram', 'memory', 'ddr4', 'ddr5', '8gb', '16gb', '32gb'],
@@ -59,7 +78,9 @@ const PRODUCT_TYPES = {
 
 
 export default function Home() {
-  // State management
+  // ============================================================================
+  // State Management
+  // ============================================================================
   const [activeTab, setActiveTab] = useState<TabType>('repairs');
   const [searchQuery, setSearchQuery] = useState('');
   const [isListening, setIsListening] = useState(false);
@@ -462,13 +483,8 @@ export default function Home() {
           setDetectionResult(detection);
         }
         
-        // Generate suggestions for repairs tab (only for short queries 2-15 chars)
-        if (activeTab === 'repairs') {
-          const suggestions = generateErrorSuggestions(text);
-          setErrorSuggestions(suggestions);
-          // Only show suggestions for short queries (2-15 chars) to avoid distraction
-          setShowSuggestions(suggestions.length > 0 && text.length >= 2 && text.length <= 15);
-        }
+        // Suggestions disabled - no suggestions while typing
+        setShowSuggestions(false);
       } catch (error) {
         console.error('Detection error:', error);
         setDetectionResult(null);
@@ -988,6 +1004,21 @@ export default function Home() {
         budget,
       });
 
+      // Check if the issue is unclear or invalid
+      // Be more lenient if spell correction was suggested (user had typos but tried to describe issue)
+      const confidenceThreshold = res.spell_correction_suggestion ? 0.10 : 0.15;
+      if (!res.component || res.confidence < confidenceThreshold) {
+        setHardwareRecoError(
+          res.extra_explanation || 
+          "Your issue description is not clear enough. Please provide more details about your PC problem or need."
+        );
+        setHardwareReco(null);
+        toast.warning("Issue not clear - Please provide more details about your PC problem.", { 
+          duration: 5000 
+        });
+        return;
+      }
+      
       setHardwareReco(res);
       
       if (res.component) {
@@ -1839,53 +1870,12 @@ export default function Home() {
                       detectIntent(newValue);
                       setAutoSearchTriggered(false);
                       
-                      if (activeTab === 'repairs') {
-                        if (newValue.length > 15) {
-                          setShowSuggestions(false);
-                        } else if (newValue.length >= 2 && newValue.length <= 15) {
-                          const suggestions = generateErrorSuggestions(newValue);
-                          setErrorSuggestions(suggestions);
-                          setShowSuggestions(suggestions.length > 0);
-                        } else if (newValue.length < 2) {
-                          setShowSuggestions(false);
-                          setErrorSuggestions([]);
-                        } else {
-                          setShowSuggestions(false);
-                        }
-                      } else if (activeTab === 'hardware') {
-                        if (newValue.length >= 2) {
-                          const suggestions = generateHardwareSuggestions(newValue);
-                          setShowSuggestions(suggestions.length > 0);
-                        } else {
-                          setShowSuggestions(false);
-                        }
-                      } else if (activeTab === 'products') {
-                        if (newValue.length >= 2 && newValue.length <= 20) {
-                          const suggestions = generateProductSuggestions(newValue);
-                          setShowSuggestions(suggestions.length > 0);
-                        } else {
-                          setShowSuggestions(false);
-                        }
-                      } else {
-                        setShowSuggestions(false);
-                      }
+                      // Suggestions disabled - no suggestions while typing
+                      setShowSuggestions(false);
                     }}
                     onFocus={() => {
-                      if (activeTab === 'repairs' && searchQuery.length >= 2 && searchQuery.length <= 15) {
-                        if (errorSuggestions.length > 0) {
-                          setShowSuggestions(true);
-                        } else {
-                          const suggestions = generateErrorSuggestions(searchQuery);
-                          setErrorSuggestions(suggestions);
-                          setShowSuggestions(suggestions.length > 0);
-                        }
-                      } else if (activeTab === 'hardware' && searchQuery.length >= 2) {
-                        const suggestions = generateHardwareSuggestions(searchQuery);
-                        setShowSuggestions(suggestions.length > 0);
-                      } else if (activeTab === 'products' && searchQuery.length >= 2 && searchQuery.length <= 20) {
-                        const suggestions = generateProductSuggestions(searchQuery);
-                        setShowSuggestions(suggestions.length > 0);
-                      }
+                      // Suggestions disabled - no suggestions while typing
+                      setShowSuggestions(false);
                     }}
                     onBlur={() => {
                       if (suggestionBlurTimeoutRef.current) {
@@ -2182,39 +2172,7 @@ export default function Home() {
                           </div>
                         )}
                         
-                        {/* Similar Errors */}
-                        {errorDetection.similar_errors && errorDetection.similar_errors.length > 0 && (
-                          <div className="mb-4">
-                            <p className="text-sm font-semibold text-gray-700 mb-2">Similar Issues:</p>
-                            <div className="flex flex-wrap gap-2">
-                              {errorDetection.similar_errors.map((similar, idx) => (
-                                <button
-                                  key={idx}
-                                  onClick={() => {
-                                    setConfirmedErrorType({
-                                      errorType: similar.label,
-                                      source: 'user_selected',
-                                      confidence: similar.confidence
-                                    });
-                                    setDetectionResult({
-                                      type: 'error',
-                                      category: similar.label,
-                                      confidence: similar.confidence,
-                                      keywords: []
-                                    });
-                                  }}
-                                  className="px-3 py-1.5 bg-gray-100 hover:bg-gray-200 border border-gray-300 rounded-md text-sm text-gray-700 transition-colors"
-                                  title={`${Math.round(similar.confidence * 100)}% confidence`}
-                                >
-                                  {similar.label}
-                                  <span className="ml-2 text-xs text-gray-500">
-                                    ({Math.round(similar.confidence * 100)}%)
-                                  </span>
-                                </button>
-                              ))}
-                            </div>
-                          </div>
-                        )}
+                        {/* Similar Issues disabled */}
                         
                         {errorDetection.alternatives && errorDetection.alternatives.length > 0 && errorDetection.confidence < 0.8 && (
                           <div className="mb-3">
@@ -2413,18 +2371,12 @@ export default function Home() {
                       setSearchQuery(newValue);
                       detectIntent(newValue);
                       setAutoSearchTriggered(false);
-                      if (newValue.length >= 2 && newValue.length <= 20) {
-                        const suggestions = generateProductSuggestions(newValue);
-                        setShowSuggestions(suggestions.length > 0);
-                      } else {
-                        setShowSuggestions(false);
-                      }
+                      // Suggestions disabled - no suggestions while typing
+                      setShowSuggestions(false);
                     }}
                     onFocus={() => {
-                      if (searchQuery.length >= 2 && searchQuery.length <= 20) {
-                        const suggestions = generateProductSuggestions(searchQuery);
-                        setShowSuggestions(suggestions.length > 0);
-                      }
+                      // Suggestions disabled - no suggestions while typing
+                      setShowSuggestions(false);
                     }}
                     onBlur={() => {
                       if (suggestionBlurTimeoutRef.current) {
@@ -2767,18 +2719,25 @@ export default function Home() {
               </div>
             )}
 
-            {!hardwareRecoLoading && !hardwareRecoError && hardwareReco && (
+            {!hardwareRecoLoading && !hardwareRecoError && hardwareReco && hardwareReco.component && (
               <div className="space-y-4">
+                {/* Spell Correction Suggestion */}
+                {hardwareReco.spell_correction_suggestion && (
+                  <div className="bg-blue-50 border border-blue-200 text-blue-800 px-3 py-2 rounded mb-3">
+                    <p className="text-xs font-medium">💡 Did you mean: <span className="font-semibold">"{hardwareReco.spell_correction_suggestion}"</span>?</p>
+                  </div>
+                )}
+                
                 {/* Main Recommendation */}
-                <div className="bg-purple-50 border-2 border-purple-200 rounded-lg p-6">
-                  <div className="flex items-center gap-3 mb-4">
-                    <span className="text-3xl">🔧</span>
+                <div className="bg-purple-50 border-2 border-purple-200 rounded-lg p-4">
+                  <div className="flex items-center gap-2 mb-3">
+                    <span className="text-2xl">🔧</span>
                     <div>
-                      <h2 className="text-2xl font-bold text-gray-900">
-                        {hardwareReco.component ?? "Not sure yet"}
+                      <h2 className="text-xl font-bold text-gray-900">
+                        {hardwareReco.component}
                       </h2>
                       {hardwareReco.confidence !== undefined && (
-                        <p className="text-sm text-gray-600 mt-1">
+                        <p className="text-xs text-gray-600 mt-0.5">
                           Confidence: {(hardwareReco.confidence * 100).toFixed(0)}%
                         </p>
                       )}
@@ -2796,23 +2755,23 @@ export default function Home() {
                     </div>
                   )}
 
-                  {isTypingComplete && hardwareReco.definition && (
-                    <div className="mb-4 opacity-0" style={{ animation: 'fadeIn 0.5s ease-in-out forwards' }}>
-                      <p className="text-xs font-semibold text-gray-500 mb-1">What is it:</p>
-                      <p className="text-sm text-gray-600 leading-relaxed">{hardwareReco.definition}</p>
+                  {hardwareReco.definition && (
+                    <div className="mb-3">
+                      <p className="text-xs font-semibold text-gray-500 mb-0.5">What is it:</p>
+                      <p className="text-xs text-gray-600 leading-relaxed">{hardwareReco.definition}</p>
                     </div>
                   )}
 
-                  {isTypingComplete && hardwareReco.why_useful && (
-                    <div className="mb-4 opacity-0" style={{ animation: 'fadeIn 0.5s ease-in-out 0.2s forwards' }}>
-                      <p className="text-xs font-semibold text-gray-500 mb-1">Why useful:</p>
-                      <p className="text-sm text-gray-600 leading-relaxed">{hardwareReco.why_useful}</p>
+                  {hardwareReco.why_useful && (
+                    <div className="mb-3">
+                      <p className="text-xs font-semibold text-gray-500 mb-0.5">Why useful:</p>
+                      <p className="text-xs text-gray-600 leading-relaxed">{hardwareReco.why_useful}</p>
                     </div>
                   )}
 
-                  {/* Fixing Tips */}
-                  {isTypingComplete && hardwareReco.fixing_tips && hardwareReco.fixing_tips.length > 0 && (
-                    <div className="mt-6 pt-6 border-t border-purple-200 opacity-0" style={{ animation: 'fadeIn 0.5s ease-in-out 0.4s forwards' }}>
+                  {/* Fixing Tips - Always show if available, regardless of confidence */}
+                  {hardwareReco.fixing_tips && hardwareReco.fixing_tips.length > 0 && (
+                    <div className="mt-4 pt-4 border-t border-purple-200">
                       <div className="flex items-center gap-2 mb-3">
                         <span className="text-xl">🔧</span>
                         <h3 className="text-lg font-bold text-gray-900">Try These Fixes First</h3>
@@ -2846,13 +2805,13 @@ export default function Home() {
 
                 {/* Alternative Recommendations */}
                 {hardwareReco.alternatives && hardwareReco.alternatives.length > 1 && (
-                  <div className="bg-gray-50 rounded-lg p-4">
-                    <h3 className="text-sm font-semibold text-gray-700 mb-3">Other Options:</h3>
-                    <div className="space-y-2">
+                  <div className="bg-gray-50 rounded-lg p-3">
+                    <h3 className="text-xs font-semibold text-gray-700 mb-2">Other Options:</h3>
+                    <div className="space-y-1.5">
                       {hardwareReco.alternatives.slice(1).map((alt) => (
-                        <div key={alt.label} className="bg-white border border-gray-200 rounded p-3">
+                        <div key={alt.label} className="bg-white border border-gray-200 rounded p-2">
                           <div className="flex justify-between items-center">
-                            <span className="font-medium text-gray-900">{alt.label}</span>
+                            <span className="text-sm font-medium text-gray-900">{alt.label}</span>
                             <span className="text-xs text-gray-600">
                               {(alt.confidence * 100).toFixed(0)}%
                             </span>
