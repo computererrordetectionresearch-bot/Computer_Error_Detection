@@ -81,7 +81,8 @@ export function ProductCard({ product, rank, onViewDetails, onFeedback }: Produc
 
           {/* Stock and Warranty */}
           <div className="flex gap-2">
-            {product.stock_status && (
+            {product.stock_status && 
+             !(product.stock_status || '').toLowerCase().includes('out') && (
               <Badge
                 variant="outline"
                 className={`text-xs ${getStockColor(product.stock_status)}`}

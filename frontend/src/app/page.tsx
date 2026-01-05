@@ -101,9 +101,18 @@ export default function Home() {
   // Results state
   const [shops, setShops] = useState<Shop[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
+  const [allProducts, setAllProducts] = useState<Product[]>([]); // Store all products for filtering
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
   const [recommendationSummary, setRecommendationSummary] = useState<string>('');
+  
+  // Product filters state
+  const [productFilters, setProductFilters] = useState({
+    minPrice: 0,
+    maxPrice: 1000000,
+    selectedBrand: '',
+    selectedGB: ''
+  });
   
   // Error detection state
   const [errorDetection, setErrorDetection] = useState<ErrorDetectionResult | null>(null);
@@ -409,8 +418,8 @@ export default function Home() {
 
       setErrorDetection(data);
 
-      // Auto-confirm if high confidence (>= 0.8)
-      if (data.label && typeof data.confidence === 'number' && data.confidence >= 0.8) {
+      // Auto-confirm if high confidence (>= 0.7, lowered from 0.8 for better UX)
+      if (data.label && typeof data.confidence === 'number' && data.confidence >= 0.7) {
         setConfirmedErrorType({
           errorType: data.label,
           source: 'detected',
@@ -423,8 +432,21 @@ export default function Home() {
           confidence: data.confidence,
           keywords: []
         });
+        // Show success toast for high confidence detections
+        if (data.confidence >= 0.8) {
+          toast.success(`✅ Detected: ${data.label} (${Math.round(data.confidence * 100)}% confidence)`, { duration: 3000 });
+        }
+      } else if (data.label && typeof data.confidence === 'number' && data.confidence >= 0.5) {
+        // Medium confidence - show detection but don't auto-confirm
+        setDetectionResult({
+          type: 'error',
+          category: data.label,
+          confidence: data.confidence,
+          keywords: []
+        });
+        setConfirmedErrorType(null);
       } else {
-        // Don't auto-confirm, let user choose
+        // Low confidence - don't auto-confirm, let user choose
         setConfirmedErrorType(null);
       }
     } catch (error: any) {
@@ -462,7 +484,7 @@ export default function Home() {
       return;
     }
 
-    // Debounce detection by 500ms for better performance
+    // Debounce detection by 300ms for faster response (reduced from 500ms)
     detectionTimeoutRef.current = setTimeout(() => {
       try {
         // Use backend API for error detection (repairs tab)
@@ -513,6 +535,7 @@ export default function Home() {
     if (activeTab === 'repairs') {
       // Clear products and hardware results when on repairs tab
       setProducts([]);
+      setAllProducts([]);
       setHardwareReco(null);
       setHardwareRecoError(null);
       setHardwareRecoLoading(false);
@@ -1317,13 +1340,193 @@ export default function Home() {
         setError('');
       }
       
-      setProducts(data || []);
+      const productsData = data || [];
+      setAllProducts(productsData); // Store all products
+      
+      // Calculate max price for filter
+      const maxPrice = productsData.length > 0 
+        ? Math.max(...productsData.map(p => p.price_lkr || 0))
+        : 1000000;
+      
+      setProductFilters(prev => ({
+        ...prev,
+        maxPrice: prev.maxPrice === 1000000 ? maxPrice : prev.maxPrice
+      }));
+      
+      // Filters will be applied automatically by useEffect
     } catch (err: any) {
       console.error('Product search error:', err);
       setError(`Failed to search products: ${err.message}`);
       setProducts([]);
+      setAllProducts([]);
     }
   };
+
+  // Extract GB from product model or specifications
+  const extractGB = (product: Product): string | null => {
+    const text = `${product.model || ''} ${product.specifications ? JSON.stringify(product.specifications) : ''}`.toUpperCase();
+    const gbMatch = text.match(/(\d+)\s*GB/i);
+    return gbMatch ? gbMatch[1] : null;
+  };
+
+  // Generate detailed explanation for why a shop is recommended
+  const generateShopExplanation = (shop: Shop, errorType?: string): { reason: string; factors: string[] } => {
+    const factors: string[] = [];
+    const reasonParts: string[] = [];
+
+    // If backend already provided a reason, use it as base
+    if (shop.reason) {
+      reasonParts.push(shop.reason);
+    }
+
+    // Specialization match
+    if (shop.specialization && shop.specialization.length > 0) {
+      const specializations = Array.isArray(shop.specialization) 
+        ? shop.specialization 
+        : typeof shop.specialization === 'string' 
+          ? shop.specialization.split(',').map(s => s.trim())
+          : [];
+      
+      if (specializations.length > 0) {
+        factors.push(`Specializes in: ${specializations.slice(0, 3).join(', ')}`);
+        if (errorType) {
+          const matchesSpecialization = specializations.some(s => 
+            s.toLowerCase().includes(errorType.toLowerCase()) ||
+            errorType.toLowerCase().includes(s.toLowerCase())
+          );
+          if (matchesSpecialization) {
+            reasonParts.push(`This shop specializes in ${errorType} repairs, making them highly qualified for your issue.`);
+          }
+        }
+      }
+    }
+
+    // Location match
+    if (shop.district_match !== undefined && shop.district_match > 0) {
+      if (shop.district_match >= 0.8) {
+        factors.push('📍 Same district - convenient location');
+        reasonParts.push('Located in your district for easy access and quick service.');
+      } else if (shop.district_match >= 0.5) {
+        factors.push('📍 Nearby district');
+        reasonParts.push('Located in a nearby district, still easily accessible.');
+      }
+    } else if (shop.district) {
+      factors.push(`📍 ${shop.district}`);
+    }
+
+    // Type match (shop type matches error type)
+    if (shop.type_match !== undefined && shop.type_match > 0) {
+      if (shop.type_match >= 0.9) {
+        factors.push('✅ Perfect service match');
+        reasonParts.push('Shop type perfectly matches your repair needs.');
+      } else if (shop.type_match >= 0.7) {
+        factors.push('✅ Good service match');
+        reasonParts.push('Shop offers services that match your repair requirements.');
+      }
+    }
+
+    // Budget fit
+    if (shop.budget_fit !== undefined && shop.budget_fit > 0) {
+      if (shop.budget_fit >= 0.8) {
+        factors.push('💰 Excellent price match');
+        reasonParts.push('Pricing aligns well with your budget preferences.');
+      } else if (shop.budget_fit >= 0.6) {
+        factors.push('💰 Good price range');
+        reasonParts.push('Offers competitive pricing within your budget range.');
+      }
+    }
+
+    // Rating and reviews
+    if (shop.avg_rating && shop.avg_rating >= 4.5) {
+      factors.push(`⭐ Excellent rating (${shop.avg_rating.toFixed(1)}/5)`);
+      reasonParts.push(`Highly rated with ${shop.avg_rating.toFixed(1)} stars, indicating consistent quality service.`);
+    } else if (shop.avg_rating && shop.avg_rating >= 4.0) {
+      factors.push(`⭐ Great rating (${shop.avg_rating.toFixed(1)}/5)`);
+      reasonParts.push(`Well-rated shop with ${shop.avg_rating.toFixed(1)} stars and positive customer feedback.`);
+    } else if (shop.avg_rating) {
+      factors.push(`⭐ Rating: ${shop.avg_rating.toFixed(1)}/5`);
+    }
+
+    if (shop.reviews && shop.reviews >= 50) {
+      factors.push(`📝 ${shop.reviews}+ reviews`);
+      reasonParts.push(`Trusted by ${shop.reviews}+ customers with verified reviews.`);
+    } else if (shop.reviews && shop.reviews >= 20) {
+      factors.push(`📝 ${shop.reviews} reviews`);
+    }
+
+    // Verified status
+    if (shop.verified === true || shop.verified === 1) {
+      factors.push('✅ Verified shop');
+      reasonParts.push('Verified shop with confirmed credentials and business legitimacy.');
+    }
+
+    // Turnaround time
+    if (shop.turnaround_days) {
+      if (shop.turnaround_days <= 2) {
+        factors.push(`⚡ Fast service (${shop.turnaround_days} days)`);
+        reasonParts.push(`Quick turnaround time of ${shop.turnaround_days} days for fast repairs.`);
+      } else if (shop.turnaround_days <= 5) {
+        factors.push(`⏰ ${shop.turnaround_days} days turnaround`);
+        reasonParts.push(`Reasonable turnaround time of ${shop.turnaround_days} days.`);
+      } else {
+        factors.push(`⏰ ${shop.turnaround_days} days turnaround`);
+      }
+    }
+
+    // Overall score
+    if (shop.score !== undefined) {
+      if (shop.score >= 0.9) {
+        reasonParts.push('Top-rated match with excellent overall score for your specific needs.');
+      } else if (shop.score >= 0.8) {
+        reasonParts.push('High-quality match with strong overall score.');
+      }
+    }
+
+    // Combine reason parts
+    let finalReason = reasonParts.length > 0 
+      ? reasonParts.join(' ') 
+      : `This repair shop is recommended based on their specialization, location, ratings, and customer reviews.`;
+
+    // Add error type context if available
+    if (errorType && !finalReason.toLowerCase().includes(errorType.toLowerCase())) {
+      finalReason = `Ideal for ${errorType} repairs. ${finalReason}`;
+    }
+
+    return {
+      reason: finalReason,
+      factors: factors.length > 0 ? factors : ['Quality service', 'Good ratings', 'Reliable shop']
+    };
+  };
+
+  // Apply filters when they change
+  useEffect(() => {
+    if (allProducts.length > 0) {
+      const filtered = allProducts.filter(product => {
+        // Price filter
+        const price = product.price_lkr || 0;
+        if (price < productFilters.minPrice || price > productFilters.maxPrice) {
+          return false;
+        }
+
+        // Brand filter
+        if (productFilters.selectedBrand && product.brand !== productFilters.selectedBrand) {
+          return false;
+        }
+
+        // GB filter
+        if (productFilters.selectedGB) {
+          const productGB = extractGB(product);
+          if (!productGB || productGB !== productFilters.selectedGB) {
+            return false;
+          }
+        }
+
+        return true;
+      });
+
+      setProducts(filtered);
+    }
+  }, [productFilters, allProducts]);
 
 
   // Feedback function
@@ -1849,9 +2052,13 @@ export default function Home() {
               <div className="mb-6 pb-4 border-b-2 border-blue-200">
                 <div className="flex items-center gap-3">
                   <span className="text-3xl">🔧</span>
-                  <div>
+                  <div className="flex-1">
                     <h2 className="text-2xl font-bold text-gray-900">Repair Services</h2>
-                    <p className="text-sm text-gray-600">Find repair shops for your PC issues</p>
+                    <p className="text-sm text-gray-600 mt-1">
+                      Get expert PC repair recommendations tailored to your specific issue. 
+                      Our AI-powered system matches you with the best repair shops based on specialization, 
+                      location, ratings, and customer reviews.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -2101,42 +2308,65 @@ export default function Home() {
             )}
               </div>
 
-            {/* Error Detection Result with Confirmation */}
-            {activeTab === 'repairs' && (errorDetection || detectionLoading) && (
-              <div className="mt-3 animate-in slide-in-from-top-2 duration-300">
+            {/* Error Detection Result with Confirmation - Enhanced */}
+            {activeTab === 'repairs' && (errorDetection || detectionLoading || (searchQuery.trim().length > 3 && !errorDetection)) && (
+              <div className="mt-4 animate-in slide-in-from-top-2 duration-300">
                 {detectionLoading ? (
-                  <div className="bg-blue-50 border-2 border-blue-300 rounded-lg p-4 shadow-md">
+                  <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border-2 border-blue-400 rounded-lg p-5 shadow-lg">
                     <div className="flex items-center gap-3">
-                      <div className="animate-spin rounded-full h-5 w-5 border-b-2 border-blue-600"></div>
-                      <p className="text-sm text-blue-900">Analyzing your issue...</p>
+                      <div className="relative">
+                        <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+                        <div className="absolute inset-0 animate-ping rounded-full h-6 w-6 border border-blue-400 opacity-75"></div>
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold text-blue-900">🔍 Analyzing your issue...</p>
+                        <p className="text-xs text-blue-700 mt-1">Detecting error type and matching repair shops</p>
+                      </div>
                     </div>
                   </div>
-                ) : errorDetection && (
-                  <div className={`rounded-lg p-4 shadow-md ${
-                    errorDetection.label 
-                      ? errorDetection.confidence >= 0.8 
-                        ? 'bg-green-50 border-2 border-green-300' 
-                        : 'bg-yellow-50 border-2 border-yellow-300'
-                      : 'bg-gray-50 border-2 border-gray-300'
+                ) : errorDetection && errorDetection.label ? (
+                  <div className={`rounded-xl p-5 shadow-lg border-2 transition-all duration-300 ${
+                    errorDetection.confidence >= 0.8 
+                      ? 'bg-gradient-to-r from-green-50 to-emerald-50 border-green-400' 
+                      : errorDetection.confidence >= 0.6
+                      ? 'bg-gradient-to-r from-yellow-50 to-amber-50 border-yellow-400'
+                      : 'bg-gradient-to-r from-orange-50 to-red-50 border-orange-400'
                   }`}>
-                    {errorDetection.label ? (
-                      <>
-                        <div className="flex items-center justify-between mb-3">
-                          <div className="flex items-center gap-3">
-                            <div>
-                              <p className="text-sm font-semibold text-gray-900">Detected Issue:</p>
-                              <p className="text-lg font-bold text-gray-900">{errorDetection.label}</p>
-                              <p className="text-xs mt-1 text-gray-600">
-                                {Math.round(errorDetection.confidence * 100)}% confidence ({errorDetection.source === 'rules' ? 'Rule-based' : errorDetection.source === 'ml' ? 'AI Model' : 'Fallback'})
-                              </p>
-                            </div>
+                    <div className="flex items-start justify-between mb-4">
+                      <div className="flex-1">
+                        <div className="flex items-center gap-3 mb-3">
+                          <div className={`p-2.5 rounded-lg shadow-md ${
+                            errorDetection.confidence >= 0.8 ? 'bg-green-100' :
+                            errorDetection.confidence >= 0.6 ? 'bg-yellow-100' : 'bg-orange-100'
+                          }`}>
+                            <span className="text-3xl">🎯</span>
                           </div>
-                          {confirmedErrorType && confirmedErrorType.errorType === errorDetection.label && (
-                            <span className="px-3 py-1 bg-green-200 text-green-800 rounded-full text-xs font-medium">
-                              ✓ Confirmed
-                            </span>
-                          )}
+                          <div className="flex-1">
+                            <p className="text-xs font-semibold text-gray-600 uppercase tracking-wide mb-1">Detected Issue</p>
+                            <p className="text-2xl font-bold text-gray-900">{errorDetection.label}</p>
+                          </div>
                         </div>
+                        <div className="flex items-center gap-3 mt-3">
+                          <div className="flex items-center gap-2">
+                            <div className={`w-4 h-4 rounded-full shadow-lg ${
+                              errorDetection.confidence >= 0.8 ? 'bg-green-500' :
+                              errorDetection.confidence >= 0.6 ? 'bg-yellow-500' : 'bg-orange-500'
+                            } animate-pulse`}></div>
+                            <p className="text-sm font-bold text-gray-800">
+                              {Math.round(errorDetection.confidence * 100)}% confidence
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      {confirmedErrorType && confirmedErrorType.errorType === errorDetection.label && (
+                        <div className="flex flex-col items-center gap-1">
+                          <span className="px-4 py-2 bg-green-500 text-white rounded-lg text-sm font-bold shadow-md animate-pulse">
+                            ✓ Confirmed
+                          </span>
+                          <span className="text-xs text-green-700 font-medium">Ready to search</span>
+                        </div>
+                      )}
+                    </div>
                         
                         {/* Multiple Error Types */}
                         {errorDetection.multiple_types && errorDetection.multiple_types.length > 0 && (
@@ -2175,8 +2405,8 @@ export default function Home() {
                         {/* Similar Issues disabled */}
                         
                         {errorDetection.alternatives && errorDetection.alternatives.length > 0 && errorDetection.confidence < 0.8 && (
-                          <div className="mb-3">
-                            <p className="text-xs font-semibold text-gray-700 mb-2">Other possibilities:</p>
+                          <div className="mb-4 p-3 bg-purple-50 border border-purple-200 rounded-lg">
+                            <p className="text-xs font-semibold text-purple-900 mb-2">💡 Other possibilities:</p>
                             <div className="flex flex-wrap gap-2">
                               {errorDetection.alternatives.slice(0, 3).map((alt, idx) => (
                                 <button
@@ -2193,11 +2423,11 @@ export default function Home() {
                                       confidence: alt.confidence,
                                       keywords: []
                                     });
-                                    toast.success(`Selected: ${alt.label}`);
+                                    toast.success(`✓ Selected: ${alt.label}`, { duration: 2000 });
                                   }}
-                                  className="px-3 py-1 bg-white border border-gray-300 rounded-md text-xs hover:bg-purple-50 hover:border-purple-300 transition-colors"
+                                  className="px-3 py-2 bg-white border-2 border-purple-300 rounded-lg text-xs font-semibold hover:bg-purple-100 hover:border-purple-400 transition-all shadow-sm hover:shadow-md"
                                 >
-                                  {alt.label} ({Math.round(alt.confidence * 100)}%)
+                                  {alt.label} <span className="text-purple-600">({Math.round(alt.confidence * 100)}%)</span>
                                 </button>
                               ))}
                             </div>
@@ -2205,35 +2435,45 @@ export default function Home() {
                         )}
                         
                         {!confirmedErrorType || confirmedErrorType.errorType !== errorDetection.label ? (
-                          <button
-                            onClick={() => {
-                              setConfirmedErrorType({
-                                errorType: errorDetection.label!,
-                                source: 'detected',
-                                confidence: errorDetection.confidence
-                              });
-                              setDetectionResult({
-                                type: 'error',
-                                category: errorDetection.label!,
-                                confidence: errorDetection.confidence,
-                                keywords: []
-                              });
-                              toast.success(`✓ Confirmed: ${errorDetection.label}`);
-                            }}
-                            className="w-full px-4 py-2 bg-green-600 text-white rounded-md text-sm font-medium hover:bg-green-700 transition-colors"
-                          >
-                            ✓ Use This Detection
-                          </button>
+                          <div className="space-y-2">
+                            <button
+                              onClick={() => {
+                                setConfirmedErrorType({
+                                  errorType: errorDetection.label!,
+                                  source: 'user_selected',
+                                  confidence: errorDetection.confidence
+                                });
+                                setDetectionResult({
+                                  type: 'error',
+                                  category: errorDetection.label!,
+                                  confidence: errorDetection.confidence,
+                                  keywords: []
+                                });
+                                toast.success(`✓ Confirmed: ${errorDetection.label}`, { duration: 2000 });
+                              }}
+                              className="w-full bg-gradient-to-r from-green-600 to-emerald-600 text-white px-4 py-3 rounded-lg font-bold hover:from-green-700 hover:to-emerald-700 transition-all shadow-lg hover:shadow-xl transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
+                            >
+                              <span className="text-lg">✓</span>
+                              <span>Confirm: {errorDetection.label}</span>
+                            </button>
+                            <p className="text-xs text-center text-gray-600">
+                              Click to confirm this error type and search for repair shops
+                            </p>
+                          </div>
                         ) : (
-                          <div className="px-4 py-2 bg-green-100 text-green-800 rounded-md text-sm font-medium text-center">
-                            ✓ {errorDetection.label} confirmed - Ready to search
+                          <div className="bg-gradient-to-r from-green-100 to-emerald-100 border-2 border-green-400 rounded-lg px-4 py-3 text-center">
+                            <div className="flex items-center justify-center gap-2 mb-1">
+                              <span className="text-green-600 text-xl">✓</span>
+                              <span className="text-sm font-bold text-green-800">{errorDetection.label} Confirmed</span>
+                            </div>
+                            <p className="text-xs text-green-700">Ready to search for repair shops</p>
                           </div>
                         )}
-                      </>
-                    ) : (
-                      <div>
-                        <p className="text-sm font-semibold text-gray-900 mb-2">Could not detect specific issue</p>
-                        {errorDetection.alternatives && errorDetection.alternatives.length > 0 ? (
+                    </div>
+                ) : (
+                  <div>
+                    <p className="text-sm font-semibold text-gray-900 mb-2">Could not detect specific issue</p>
+                        {errorDetection && errorDetection.alternatives && errorDetection.alternatives.length > 0 ? (
                           <>
                             <p className="text-xs text-gray-700 mb-2">Did you mean:</p>
                             <div className="flex flex-wrap gap-2">
@@ -2264,8 +2504,6 @@ export default function Home() {
                         ) : (
                           <p className="text-xs text-gray-600 italic">Please provide more details about your issue</p>
                         )}
-                      </div>
-                    )}
                   </div>
                 )}
               </div>
@@ -2975,17 +3213,18 @@ export default function Home() {
                     )}
                   </div>
 
-                  {/* Explainable Reason */}
-                  {shop.reason && (
-                    <div className="mb-4 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-r-lg shadow-sm">
-                      <p className="text-sm font-semibold text-blue-900 mb-2 flex items-center">
-                        <span className="mr-2">💡</span>
-                        Why we recommend this:
-                      </p>
-                      <p className="text-sm text-blue-800 leading-relaxed">{shop.reason}</p>
-                      {shop.factors && shop.factors.length > 0 && (
+                  {/* Explainable Reason - Always show */}
+                  {(() => {
+                    const explanation = generateShopExplanation(shop, detectionResult?.category);
+                    return (
+                      <div className="mb-4 p-4 bg-gradient-to-r from-blue-50 to-indigo-50 border-l-4 border-blue-500 rounded-r-lg shadow-sm">
+                        <p className="text-sm font-semibold text-blue-900 mb-2 flex items-center">
+                          <span className="mr-2">💡</span>
+                          Why this shop is recommended for your issue:
+                        </p>
+                        <p className="text-sm text-blue-800 leading-relaxed mb-3">{explanation.reason}</p>
                         <div className="mt-3 flex flex-wrap gap-2">
-                          {shop.factors.map((factor, idx) => (
+                          {explanation.factors.map((factor, idx) => (
                             <span
                               key={idx}
                               className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-semibold bg-blue-100 text-blue-800 border border-blue-200"
@@ -2994,9 +3233,9 @@ export default function Home() {
                             </span>
                           ))}
                         </div>
-                      )}
-                    </div>
-                  )}
+                      </div>
+                    );
+                  })()}
 
                   <div className="flex items-center justify-between mb-4">
                     <div className="flex items-center">
@@ -3063,19 +3302,19 @@ export default function Home() {
         )}
 
         {/* Product Results */}
-        {activeTab === 'products' && products.length > 0 && !loading && (
+        {activeTab === 'products' && allProducts.length > 0 && !loading && (
           <div>
             <div className="flex items-center justify-between mb-6">
               <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
                 Recommended Products
               </h2>
               <div className="flex items-center gap-3">
-                {products[0]?.detected_category && (
+                {allProducts[0]?.detected_category && (
                   <div className="px-4 py-1.5 bg-gradient-to-r from-purple-100 to-blue-100 text-purple-800 rounded-full text-xs font-semibold border border-purple-200">
-                    {products[0].detected_category}
-                    {products[0].detection_confidence && (
+                    {allProducts[0].detected_category}
+                    {allProducts[0].detection_confidence && (
                       <span className="ml-2 text-purple-600">
-                        {Math.round(products[0].detection_confidence * 100)}%
+                        {Math.round(allProducts[0].detection_confidence * 100)}%
                       </span>
                     )}
                   </div>
@@ -3083,6 +3322,111 @@ export default function Home() {
                 <span className="px-4 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
                   {products.length} Products
                 </span>
+              </div>
+            </div>
+            
+            {/* Product Filters */}
+            <div className="bg-white rounded-xl shadow-md p-6 mb-6 border border-gray-200">
+              <h3 className="text-lg font-semibold text-gray-900 mb-4">Filters</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {/* Price Range Filter */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Price Range (LKR)
+                  </label>
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <input
+                        type="number"
+                        min="0"
+                        value={productFilters.minPrice}
+                        onChange={(e) => {
+                          const val = parseInt(e.target.value) || 0;
+                          setProductFilters(prev => ({ ...prev, minPrice: val }));
+                        }}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        placeholder="Min"
+                      />
+                      <span className="text-gray-500">-</span>
+                      <input
+                        type="number"
+                        min="0"
+                        value={productFilters.maxPrice}
+                        onChange={(e) => {
+                          const val = parseInt(e.target.value) || 1000000;
+                          setProductFilters(prev => ({ ...prev, maxPrice: val }));
+                        }}
+                        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                        placeholder="Max"
+                      />
+                    </div>
+                    <div className="flex items-center justify-between text-xs text-gray-500">
+                      <span>LKR {productFilters.minPrice.toLocaleString()}</span>
+                      <span>LKR {productFilters.maxPrice.toLocaleString()}</span>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Brand Filter */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Brand
+                  </label>
+                  <select
+                    value={productFilters.selectedBrand}
+                    onChange={(e) => setProductFilters(prev => ({ ...prev, selectedBrand: e.target.value }))}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  >
+                    <option value="">All Brands</option>
+                    {Array.from(new Set(allProducts.map(p => p.brand).filter(Boolean))).sort().map(brand => (
+                      <option key={brand} value={brand}>{brand}</option>
+                    ))}
+                  </select>
+                </div>
+
+                {/* GB Filter */}
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Storage/Memory (GB)
+                  </label>
+                  <select
+                    value={productFilters.selectedGB}
+                    onChange={(e) => setProductFilters(prev => ({ ...prev, selectedGB: e.target.value }))}
+                    className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                  >
+                    <option value="">All Sizes</option>
+                    {Array.from(new Set(
+                      allProducts
+                        .map(p => {
+                          // Extract GB from model or specifications
+                          const text = `${p.model || ''} ${p.specifications ? JSON.stringify(p.specifications) : ''}`.toUpperCase();
+                          const gbMatch = text.match(/(\d+)\s*GB/i);
+                          return gbMatch ? gbMatch[1] : null;
+                        })
+                        .filter(Boolean)
+                    )).sort((a, b) => parseInt(a || '0') - parseInt(b || '0')).map(gb => (
+                      <option key={gb} value={gb}>{gb} GB</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+              <div className="mt-4 flex justify-end">
+                <button
+                  onClick={() => {
+                    const maxPrice = allProducts.length > 0 
+                      ? Math.max(...allProducts.map(p => p.price_lkr || 0))
+                      : 1000000;
+                    setProductFilters({
+                      minPrice: 0,
+                      maxPrice: maxPrice,
+                      selectedBrand: '',
+                      selectedGB: ''
+                    });
+                  }}
+                  className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors"
+                >
+                  Clear Filters
+                </button>
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -3107,17 +3451,20 @@ export default function Home() {
                         LKR {product.price_lkr ? product.price_lkr.toLocaleString() : 'N/A'}
                       </p>
                     </div>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs text-gray-500 font-medium">Stock</span>
-                      <span className={`px-3 py-1 rounded-full text-xs font-semibold capitalize ${
-                        (product.stock_status || '').toLowerCase().includes('stock') && 
-                        !(product.stock_status || '').toLowerCase().includes('out')
-                          ? 'bg-green-100 text-green-700 border border-green-200' 
-                          : 'bg-red-100 text-red-700 border border-red-200'
-                      }`}>
-                        {(product.stock_status || 'Unknown').replace(/_/g, ' ')}
-                      </span>
-                    </div>
+                    {product.stock_status && 
+                     !(product.stock_status || '').toLowerCase().includes('out') && (
+                      <div className="flex items-center justify-between">
+                        <span className="text-xs text-gray-500 font-medium">Stock</span>
+                        <span className={`px-3 py-1 rounded-full text-xs font-semibold capitalize ${
+                          (product.stock_status || '').toLowerCase().includes('stock') && 
+                          !(product.stock_status || '').toLowerCase().includes('out')
+                            ? 'bg-green-100 text-green-700 border border-green-200' 
+                            : 'bg-yellow-100 text-yellow-700 border border-yellow-200'
+                        }`}>
+                          {(product.stock_status || 'Unknown').replace(/_/g, ' ')}
+                        </span>
+                      </div>
+                    )}
                     {product.warranty && (
                       <div className="flex items-center pt-2">
                         <span className="text-sm text-gray-600">🛡️ <span className="ml-1">{product.warranty}</span></span>
@@ -3407,15 +3754,18 @@ export default function Home() {
                                   <td className="px-4 py-3 text-sm text-gray-900">{product.category || 'N/A'}</td>
                                   <td className="px-4 py-3 text-sm text-gray-900">LKR {product.price_lkr?.toLocaleString() || 'N/A'}</td>
                                   <td className="px-4 py-3 text-sm">
-                                    <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
-                                      product.stock_status === 'in_stock' 
-                                        ? 'bg-green-100 text-green-800'
-                                        : product.stock_status === 'low_stock'
-                                        ? 'bg-yellow-100 text-yellow-800'
-                                        : 'bg-red-100 text-red-800'
-                                    }`}>
-                                      {product.stock_status?.replace('_', ' ') || 'unknown'}
-                                    </span>
+                                    {product.stock_status && 
+                                     !(product.stock_status || '').toLowerCase().includes('out') && (
+                                      <span className={`inline-flex px-2 py-1 text-xs font-semibold rounded-full ${
+                                        product.stock_status === 'in_stock' 
+                                          ? 'bg-green-100 text-green-800'
+                                          : product.stock_status === 'low_stock'
+                                          ? 'bg-yellow-100 text-yellow-800'
+                                          : 'bg-gray-100 text-gray-800'
+                                      }`}>
+                                        {product.stock_status?.replace('_', ' ') || 'unknown'}
+                                      </span>
+                                    )}
                                   </td>
                                 </tr>
                               ))}

@@ -1719,6 +1719,26 @@ class ProductQuery(BaseModel):
 @app.post("/rank_products_auto", tags=["Products"])
 def rank_products_auto(q: ProductQuery):
     try:
+        # Apply spell checking to improve product matching
+        try:
+            from spell_checker import check_and_correct
+            if q.query:
+                corrected_query, corrections = check_and_correct(q.query)
+                if corrections:
+                    print(f"[SPELL_CHECK] Product query corrected: {corrections}")
+                    q.query = corrected_query
+            if q.error_type:
+                corrected_error_type, _ = check_and_correct(q.error_type)
+                if corrected_error_type != q.error_type:
+                    q.error_type = corrected_error_type
+            if q.product_category:
+                corrected_category, _ = check_and_correct(q.product_category)
+                if corrected_category != q.product_category:
+                    q.product_category = corrected_category
+        except Exception as e:
+            print(f"[WARNING] Spell checker failed: {e}")
+            pass  # Continue without spell checking
+        
         search_text = (q.query or q.error_type or q.product_category or "").lower()
         user_district = q.user_district or q.district or ""
 
@@ -2686,6 +2706,18 @@ def detect_error_type_rules(text: str) -> Tuple[Optional[str], float, List[Dict[
     if not text or not text.strip():
         return None, 0.0, []
     
+    # Apply spell checking to improve detection accuracy
+    try:
+        from spell_checker import check_and_correct
+        corrected_text, _ = check_and_correct(text)
+        if corrected_text != text:
+            # Use corrected text for better matching
+            text = corrected_text
+            print(f"[SPELL_CHECK] Corrected: '{text}' -> '{corrected_text}'")
+    except Exception as e:
+        # Continue without spell checking if it fails
+        pass
+    
     text_lower = text.lower().strip()
     
     # HIGH PRIORITY: Overheat + Gaming → GPU Overheat
@@ -3058,6 +3090,18 @@ def detect_error_type_endpoint(req: DetectErrorRequest):
     - explanation: Human-readable explanation of the detected error
     """
     try:
+        # Apply spell checking before error detection
+        original_text = req.text
+        try:
+            from spell_checker import check_and_correct
+            corrected_text, corrections = check_and_correct(req.text)
+            if corrections:
+                print(f"[SPELL_CHECK] Error detection: corrected {corrections}")
+                req.text = corrected_text
+        except Exception as e:
+            print(f"[WARNING] Spell checker failed: {e}")
+            pass  # Continue without spell checking
+        
         from similar_errors import get_similar_errors, get_error_explanation
         
         result = detect_error_type_hybrid(req.text)

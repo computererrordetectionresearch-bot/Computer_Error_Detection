@@ -294,7 +294,9 @@ The system uses 4 trained ML models:
    - Classes: 48 component types
    - Accuracy: 99.6%
 
-For model training, see `backend/train_improved_models.py`.
+For model training:
+- **Improved training**: `backend/train_improved_nlp_models.py` - Enhanced NLP models with better preprocessing, cross-validation, and evaluation
+- **Standard training**: `backend/train_error_model_20000.py`, `backend/train_product_category_model.py`, `backend/train_product_need_model.py`
 
 ---
 

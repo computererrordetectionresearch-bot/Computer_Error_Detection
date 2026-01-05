@@ -46,7 +46,8 @@ export default function ProductDetailsModal({
                   {product.category}
                 </span>
               )}
-              {product.stock_status && (
+              {product.stock_status && 
+               !(product.stock_status || '').toLowerCase().includes('out') && (
                 <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getStockColor(product.stock_status)}`}>
                   {product.stock_status.replace(/_/g, ' ')}
                 </span>
@@ -111,12 +112,15 @@ export default function ProductDetailsModal({
                       LKR {(productDetails.product?.price_lkr || product.price_lkr)?.toLocaleString() || 'N/A'}
                     </p>
                   </div>
-                  <div>
-                    <p className="text-sm text-gray-600 mb-1">Stock Status</p>
-                    <span className={`inline-flex px-3 py-1 text-sm font-semibold rounded-full ${getStockColor(productDetails.product?.stock_status || product.stock_status || 'unknown')}`}>
-                      {(productDetails.product?.stock_status || product.stock_status || 'unknown').replace(/_/g, ' ')}
-                    </span>
-                  </div>
+                  {(productDetails.product?.stock_status || product.stock_status) && 
+                   !((productDetails.product?.stock_status || product.stock_status || '').toLowerCase().includes('out')) && (
+                    <div>
+                      <p className="text-sm text-gray-600 mb-1">Stock Status</p>
+                      <span className={`inline-flex px-3 py-1 text-sm font-semibold rounded-full ${getStockColor(productDetails.product?.stock_status || product.stock_status || 'unknown')}`}>
+                        {(productDetails.product?.stock_status || product.stock_status || 'unknown').replace(/_/g, ' ')}
+                      </span>
+                    </div>
+                  )}
                   {(productDetails.product?.warranty || product.warranty) && (
                     <div>
                       <p className="text-sm text-gray-600 mb-1">Warranty</p>

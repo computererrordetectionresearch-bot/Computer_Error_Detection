@@ -199,14 +199,17 @@ export default function BestMatch({ shops, products, summary, loading = false, o
                           LKR {product.price_lkr?.toLocaleString() || 'N/A'}
                         </p>
                       </div>
-                      <span className={`text-xs px-2 py-1 rounded-full ${
-                        (product.stock_status || '').toLowerCase().includes('stock') && 
-                        !(product.stock_status || '').toLowerCase().includes('out')
-                          ? 'bg-green-100 text-green-700' 
-                          : 'bg-red-100 text-red-700'
-                      }`}>
-                        {product.stock_status?.replace(/_/g, ' ') || 'Unknown'}
-                      </span>
+                      {product.stock_status && 
+                       !(product.stock_status || '').toLowerCase().includes('out') && (
+                        <span className={`text-xs px-2 py-1 rounded-full ${
+                          (product.stock_status || '').toLowerCase().includes('stock') && 
+                          !(product.stock_status || '').toLowerCase().includes('out')
+                            ? 'bg-green-100 text-green-700' 
+                            : 'bg-yellow-100 text-yellow-700'
+                        }`}>
+                          {product.stock_status?.replace(/_/g, ' ') || 'Unknown'}
+                        </span>
+                      )}
                     </div>
                   </li>
                 ))}
