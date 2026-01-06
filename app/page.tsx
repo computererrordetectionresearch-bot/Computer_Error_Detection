@@ -223,23 +223,26 @@ export default function Home() {
         },
       });
       
-      // Also fetch top 3 solutions
-      let multiResponse = null;
-      try {
-        multiResponse = await axios.post('/api/ml/detect-error-multi?limit=3', {
-          user_error: errorText,
-        });
-      } catch (e) {
-        // Multi-solution is optional, don't fail if it doesn't work
-      }
-      
       // Add 1.5 second delay before showing results
       setTimeout(() => {
         setSolution(response.data);
         setShowFollowUp(true);
-        if (multiResponse && multiResponse.data.solutions && multiResponse.data.solutions.length > 1) {
-          setMultiSolutions(multiResponse.data.solutions);
+        
+        // Also fetch top 3 solutions
+        try {
+          const multiResponse = axios.post('/api/ml/detect-error-multi?limit=3', {
+            user_error: errorText,
+          }).then(multiResponse => {
+            if (multiResponse.data.solutions && multiResponse.data.solutions.length > 1) {
+              setMultiSolutions(multiResponse.data.solutions);
+            }
+          }).catch(e => {
+            // Multi-solution is optional, don't fail if it doesn't work
+          });
+        } catch (e) {
+          // Multi-solution is optional, don't fail if it doesn't work
         }
+        
         setLoading(false);
       }, 1500);
     } catch (err: any) {

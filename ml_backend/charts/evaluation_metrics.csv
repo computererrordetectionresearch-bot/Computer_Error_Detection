@@ -1,0 +1,47 @@
+Category,Precision,Recall,F1-Score,Support
+Activation,0.0,0.0,0.0,1
+Application & Software Error Codes,1.0,1.0,1.0,4
+Audio,0.0,0.0,0.0,5
+Audio & Microphone Error Codes,1.0,1.0,1.0,5
+Audio / Microphone,1.0,0.6666666666666666,0.8,3
+Audio / Microphone Error,0.7857142857142857,1.0,0.88,11
+BSOD,0.5,0.3,0.375,10
+BSOD STOP Codes,1.0,1.0,1.0,11
+Boot,0.16666666666666666,0.14285714285714285,0.15384615384615385,7
+Boot & Startup,1.0,1.0,1.0,5
+Boot / Startup Error,0.9,1.0,0.9473684210526315,9
+"Boot, Startup & System Load Errors",1.0,1.0,1.0,7
+Display,0.0,0.0,0.0,3
+Display / GPU Error Codes,1.0,1.0,1.0,8
+Display / Graphics,1.0,1.0,1.0,4
+Display / Graphics Error,1.0,0.2727272727272727,0.42857142857142855,11
+Driver,0.0,0.0,0.0,7
+Driver & Device Error Codes,1.0,1.0,1.0,3
+Driver / Device Error,0.0,0.0,0.0,10
+Drivers & Device Errors,1.0,1.0,1.0,5
+Hardware,0.0,0.0,0.0,6
+Hardware Error,0.47058823529411764,0.47058823529411764,0.47058823529411764,17
+Hardware Failure,1.0,1.0,1.0,7
+Network,0.0,0.0,0.0,9
+Network & Internet,1.0,0.75,0.8571428571428571,8
+Network & Internet Error Codes,1.0,1.0,1.0,11
+Network / Internet Error,0.375,0.3157894736842105,0.34285714285714286,19
+Performance,0.0,0.0,0.0,3
+Performance & Slow PC,0.75,1.0,0.8571428571428571,3
+Performance / Slow PC Issue,0.4166666666666667,0.5,0.45454545454545453,20
+Peripherals & Other,1.0,1.0,1.0,6
+Security,0.0,0.0,0.0,1
+"Security, Virus & Permission Error Codes",0.75,1.0,0.8571428571428571,6
+Storage,0.0,0.0,0.0,4
+Storage & Disk,1.0,1.0,1.0,7
+Storage & Disk Error Codes,1.0,1.0,1.0,5
+Storage / Disk Error,0.3333333333333333,0.3333333333333333,0.3333333333333333,15
+System,0.0,0.0,0.0,3
+Update & Windows OS Error Codes,1.0,1.0,1.0,9
+Web & HTTP Error Codes,1.0,1.0,1.0,12
+Windows General Error Codes (0x),1.0,1.0,1.0,8
+Windows Update,0.0,0.0,0.0,2
+Windows Update / OS,1.0,1.0,1.0,2
+Windows Update / OS Error,0.0,0.0,0.0,1
+Overall (Macro),0.6010902088107971,0.5852718664673351,0.5853986077483827,313
+Overall (Weighted),0.6361592879963487,0.6134185303514377,0.6144541468284532,313
