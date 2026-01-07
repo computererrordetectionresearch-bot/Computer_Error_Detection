@@ -105,14 +105,14 @@ def prepare_data(df):
     return result_df
 
 def train_model():
-    """Train the sentence transformer model"""
+    """Train the transformer model"""
     print("Loading datasets...")
     df = load_datasets()
 
     print("Preparing data...")
     df = prepare_data(df)
 
-    print("Initializing sentence transformer model...")
+    print("Initializing transformer model...")
     # Using a lightweight but effective model for semantic similarity
     # all-MiniLM-L6-v2 is fast and provides good accuracy
     print("  Downloading pre-trained model (first time only, ~80MB)...")
@@ -132,7 +132,7 @@ def train_model():
     os.makedirs('models', exist_ok=True)
 
     # Save the sentence transformer model
-    model.save('models/sentence_transformer')
+    model.save('models/transformer')
 
     # Save the dataframe with embeddings
     df['embedding'] = list(embeddings)
